@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:paddingTop="8dp">
+
+        <View
+            android:id="@+id/viewAccent"
+            android:layout_width="4dp"
+            android:layout_height="0dp"
+            android:background="@color/secondary"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintBottom_toBottomOf="@id/tvNombreRutina"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tvNombreRutina" />
+
+        <TextView
+            android:id="@+id/tvNombreRutina"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="8dp"
+            tools:text="Entrenamiento de Pecho"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/text"
+            app:layout_constraintEnd_toStartOf="@+id/btnCopiarRutina"
+            app:layout_constraintStart_toEndOf="@id/viewAccent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/btnCopiarRutina"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="8dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/copiar_rutina"
+            android:padding="4dp"
+            android:scaleType="centerInside"
+            android:src="@android:drawable/ic_menu_save"
+            app:layout_constraintBottom_toBottomOf="@id/tvNombreRutina"
+            app:layout_constraintEnd_toStartOf="@+id/chipTiempo"
+            app:layout_constraintTop_toTopOf="@id/tvNombreRutina"
+            app:tint="@color/secondary" />
+
+        <LinearLayout
+            android:id="@+id/chipTiempo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tvNombreRutina"
+            app:layout_constraintBottom_toBottomOf="@id/tvNombreRutina">
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:src="@android:drawable/ic_menu_recent_history"
+                app:tint="@color/text"
+                android:layout_marginEnd="4dp"/>
+
+            <TextView
+                android:id="@+id/tvDuracion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="45 min"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@color/text" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvEjerciciosSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="false"
+        tools:listitem="@layout/item_ejercicio_mini"
+        tools:itemCount="2"/>
+
+    <View
+        android:id="@+id/viewSeparator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/separator"/>
+
+</LinearLayout>

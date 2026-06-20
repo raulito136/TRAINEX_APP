@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dias_entrenamiento_array">
+        <item>1 jour</item>
+        <item>2 jours</item>
+        <item>3 jours</item>
+        <item>4 jours</item>
+        <item>5 jours</item>
+        <item>6 jours</item>
+        <item>7 jours</item>
+    </string-array>
+
+    <string-array name="objetivos_array">
+        <item>Hypertrophie (Prise de muscle)</item>
+        <item>Force maximale</item>
+        <item>Endurance</item>
+        <item>Perte de gras</item>
+    </string-array>
+
+    <string-array name="experiencia_array">
+        <item>Débutant (0-6 mois)</item>
+        <item>Intermédiaire (6 mois-2 ans)</item>
+        <item>Avancé (+2 ans)</item>
+    </string-array>
+
+    <string-array name="month_names_short">
+        <item>Janv.</item>
+        <item>Févr.</item>
+        <item>Mars</item>
+        <item>Avr.</item>
+        <item>Mai</item>
+        <item>Juin</item>
+        <item>Juil.</item>
+        <item>Août</item>
+        <item>Sept.</item>
+        <item>Oct.</item>
+        <item>Nov.</item>
+        <item>Déc.</item>
+    </string-array>
+
+    <string-array name="array_estilo_vida">
+        <item>Sélectionnez votre style de vie</item>
+        <item>Sédentaire</item>
+        <item>Léger</item>
+        <item>Modéré</item>
+        <item>Actif</item>
+    </string-array>
+
+    <string-array name="array_objetivos">
+        <item>Sélectionnez votre objectif</item>
+        <item>Maintenir le poids</item>
+        <item>Perdre du poids</item>
+        <item>Gagner du muscle</item>
+    </string-array>
+
+    <string-array name="array_sexo">
+        <item>Sélectionnez votre genre</item>
+        <item>Homme</item>
+        <item>Femme</item>
+    </string-array>
+
+    <string-array name="categorias_alimentos_array">
+        <item>Sélectionnez une catégorie</item>
+        <item>Viandes</item>
+        <item>Poissons et fruits de mer</item>
+        <item>Œufs</item>
+        <item>Produits laitiers et fromages</item>
+        <item>Céréales, pâtes et pain</item>
+        <item>Légumineuses</item>
+        <item>Fruits</item>
+        <item>Légumes</item>
+        <item>Fruits secs</item>
+        <item>Sucreries et desserts</item>
+        <item>Huiles et graisses</item>
+        <item>Boissons</item>
+        <item>Plats préparés</item>
+        <item>Sauces et condiments</item>
+        <item>Épices et herbes</item>
+        <item>Graines</item>
+        <item>Compléments sportifs</item>
+        <item>Viennoiserie et pâtisserie</item>
+        <item>Alcool</item>
+        <item>Végan (Tofu/Seitán)</item>
+        <item>Autres</item>
+    </string-array>
+
+    <string-array name="dias_semana">
+        <item>Lundi</item>
+        <item>Mardi</item>
+        <item>Mercredi</item>
+        <item>Jeudi</item>
+        <item>Vendredi</item>
+        <item>Samedi</item>
+        <item>Dimanche</item>
+    </string-array>
+    <string-array name="dias_semana_short">
+        <item>Lun.</item>
+        <item>Mar.</item>
+        <item>Mer.</item>
+        <item>Jeu.</item>
+        <item>Ven.</item>
+        <item>Sam.</item>
+        <item>Dim.</item>
+    </string-array>
+</resources>

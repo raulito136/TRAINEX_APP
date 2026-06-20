@@ -1,0 +1,1754 @@
+<resources>
+    <string name="app_name">Trainex</string>
+    <string name="entrenamiento">Entrenament</string>
+    <string name="rutinas">Rutines</string>
+    <string name="nueva_rutina">Nova Rutina</string>
+    <string name="mis_rutinas">Les meves Rutines</string>
+    <string name="ejercicios">Exercicis</string>
+    <string name="agregar_ejercicio">Afegir Exercici</string>
+    <string name="cancelar">Cancel·lar</string>
+    <string name="guardar">Desar</string>
+    <string name="crear_rutina">Crear Rutina</string>
+    <string name="titulo_de_la_rutina">Títol de la Rutina</string>
+    <string name="generacion_rutina">Generació de Rutina</string>
+    <string name="introduzca_su_edad">Introdueix la teva edat</string>
+    <string name="d_as_de_entrenamiento">Dies d\'Entrenament</string>
+    <string name="objetivo_principal">Objectiu Principal</string>
+    <string name="experiencia">Experiència</string>
+    <string name="generar_rutina">Generar Rutina</string>
+    <string name="edad">Edat</string>
+    <string name="iniciar_sesion">Iniciar Sessió</string>
+    <string name="correo_electronico">Correu electrònic</string>
+    <string name="contrasena">Contrasenya</string>
+    <string name="no_tienes_cuenta_registrate">No tens compte? Registra\'t</string>
+    <string name="has_olvidado_tu_contrasena">Has oblidat la contrasenya?</string>
+    <string name="ejercicio">Exercici</string>
+    <string name="titulo_del_ejercicio">Títol de l\'Exercici</string>
+    <string name="grupo_muscular">Grup Muscular</string>
+    <string name="menu">Menú</string>
+    <string name="recuperar_contrasena">Recuperar Contrasenya</string>
+    <string name="recuerdas_la_contrasena_inicia_sesion">Recordes la contrasenya? Inicia Sessió</string>
+    <string name="crear_cuenta">Crear Compte</string>
+    <string name="confirmar_contrasena">Confirmar Contrasenya</string>
+    <string name="registrarse">Registrar-se</string>
+    <string name="ya_tienes_cuenta">Ja tens compte? Inicia Sessió</string>
+    <string name="atras">Enrere</string>
+    <string name="iniciar_rutina">Començar rutina</string>
+    <string name="ejercicios_de_rutina">Exercicis de la Rutina</string>
+    <string name="create_routine_title">Crear Rutina</string>
+    <string name="edit_routine_title">Editar Rutina</string>
+    <string name="save_button">Desar</string>
+    <string name="update_button">Actualitzar</string>
+    <string name="validation_title_error">Has d\'introduir un títol</string>
+    <string name="validation_exercise_error">Has d\'afegir almenys un exercici</string>
+    <string name="toast_update_success">Rutina actualitzada correctament</string>
+    <string name="toast_save_success">Rutina desada correctament</string>
+    <string name="busca_un_ejercicio">Cerca un exercici</string>
+    <string name="add_exercise_singular">Afegir 1 exercici</string>
+    <string name="add_exercises_plural">Afegir %d exercicis</string>
+    <string name="validation_age_error">Introdueix la teva edat</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="editar">Editar</string>
+    <string name="iniciar_entrenamiento">Començar Entrenament</string>
+    <string name="finalizar_entrenamiento">Finalitzar Entrenament</string>
+    <string name="introduzca_su_nombre_de_usuario">Introdueix el teu nom d\'usuari</string>
+    <string name="nombre_de_usuario">Nom d\'usuari</string>
+    <string name="objetivo">Objectiu</string>
+    <string name="estilo_de_vida">Estil de vida</string>
+    <string name="error_username_empty">El nom d\'usuari és obligatori</string>
+    <string name="error_username_taken">Aquest nom d\'usuari ja està agafat. Tria\'n un altre.</string>
+    <string name="status_checking">Comprovant...</string>
+    <string name="ejercicios_realizados">Exercicis Realitzats</string>
+    <string name="a_n_no_has_realizado_ejercicios">Encara no has realitzat exercicis</string>
+    <string name="historial_ltimo_a_o">Historial: Últim Any</string>
+    <string name="mes_a_o">Mes Any</string>
+    <string name="cerrar">Tancar</string>
+    <string name="no_hay_entrenamientos_registrados_este_d_a">No hi ha entrenaments registrats aquest dia.</string>
+    <string name="mayor_peso">Pes Màxim</string>
+    <string name="records_personales">Rècords Personals</string>
+    <string name="mejor_volumen_serie">Millor Volum (Sèrie)</string>
+    <string name="mejor_volumen_total">Millor Volum Total</string>
+    <!-- Strings for cardio exercises -->
+    <string name="mayor_distancia">Distància Més Llarga</string>
+    <string name="distancia_total">Distància Total</string>
+    <string name="tiempo_total">Temps Total</string>
+
+    <string name="medida_peso_corporal">Pes Corporal</string>
+    <string name="medida_grasa_corporal">Greix Corporal</string>
+    <string name="medida_cuello">Coll</string>
+    <string name="medida_hombros">Espatlles</string>
+    <string name="medida_pecho">Pit</string>
+    <string name="medida_cintura">Cintura</string>
+    <string name="medida_caderas">Malucs</string>
+
+    <string name="medida_biceps_izq">Bíceps Esquerre</string>
+    <string name="medida_biceps_der">Bíceps Dret</string>
+    <string name="medida_antebrazo_izq">Avantbraç Esquerre</string>
+    <string name="medida_antebrazo_der">Avantbraç Dret</string>
+    <string name="medida_muslo_izq">Cuixa Esquerra</string>
+    <string name="medida_muslo_der">Cuixa Dreta</string>
+    <string name="medida_pantorrilla_izq">Panxell Esquerre</string>
+    <string name="medida_pantorrilla_der">Panxell Dret</string>
+
+    <string name="titulo_medida_default">Mesura</string>
+    <string name="hint_valor_unidad">Valor en %1$s</string>
+    <string name="error_fecha_futura">La data no pot ser futura</string>
+    <string name="error_limite_superado">El màxim per a %1$s és %2$s %3$s</string>
+    <string name="error_valor_positivo">El valor ha de ser positiu</string>
+    <string name="error_numero_invalido">Número invàlid</string>
+    <string name="error_campo_vacio">Introdueix un valor</string>
+    <string name="mensaje_guardado_ok">Desat correctament</string>
+    <string name="error_guardar_formato">Error en desar: %s</string>
+
+    <string name="grafico_progreso_label">Progrés</string>
+    <string name="mensaje_datos_vacio">No hi ha dades disponibles</string>
+    <string name="error_cargar_datos">Error en carregar les dades</string>
+
+    <string name="dialogo_eliminar_medida_titulo">Eliminar mesura</string>
+    <string name="dialogo_eliminar_medida_mensaje">Estàs segur que vols eliminar aquest registre?</string>
+    <string name="toast_eliminado">Eliminat</string>
+    <string name="error_eliminar">Error en eliminar</string>
+
+    <string name="peso_corporal">Pes Corporal</string>
+    <!-- Ajustes Perfil -->
+    <string name="editar_perfil">Editar Perfil</string>
+    <string name="cambiar_foto_perfil">Canviar foto de perfil</string>
+    <string name="datos_perfil">Dades del Perfil</string>
+    <string name="datos_personales">Dades Personals</string>
+    <string name="datos_privados">Dades Privades</string>
+    <string name="sexo">Gènere</string>
+    <string name="cumpleanos">Aniversari</string>
+    <!-- Para Datos Personales -->
+    <string name="titulo_ajustes_datos_personales">Dades Personals</string>
+    <string name="hint_nombre_ajustes_datos_personales">Nom</string>
+    <string name="hint_apellidos_ajustes_datos_personales">Cognom</string>
+    <string name="hint_genero_ajustes_datos_personales">Gènere</string>
+    <string name="hint_edad_ajustes_datos_personales">Edat</string>
+    <string name="hint_peso_ajustes_datos_personales">Pes</string>
+    <string name="hint_altura_ajustes_datos_personales">Alçada</string>
+    <string name="hint_estilo_vida_ajustes_datos_personales">Estil de vida</string>
+    <string name="hint_objetivo_ajustes_datos_personales">Objectiu</string>
+    <string name="boton_guardar_ajustes_datos_personales">Desar</string>
+
+    <!-- Mensajes de error -->
+    <string name="error_nombre_obligatorio_ajustes">El nom és obligatori</string>
+    <string name="error_apellidos_obligatorio_ajustes">El cognom és obligatori</string>
+    <string name="error_edad_invalida_ajustes">Edat invàlida</string>
+    <string name="error_peso_invalido_ajustes">Pes invàlid</string>
+    <string name="error_altura_invalida_ajustes">Alçada invàlida</string>
+    <string name="error_seleccione_genero_ajustes">Selecciona un gènere</string>
+    <string name="error_seleccione_estilo_vida_ajustes">Selecciona un estil de vida</string>
+    <string name="error_seleccione_objetivo_ajustes">Selecciona un objectiu</string>
+
+    <!-- Mensajes de éxito -->
+    <string name="mensaje_datos_actualizados_ajustes">Dades actualitzades correctament</string>
+    <string name="mensaje_error_guardar_ajustes">Error en desar: %s</string>
+
+    <!-- Pantalla Perfil-->
+    <string name="user_name_default">Alberto87</string>
+    <string name="content_description_settings">Configuració del perfil</string>
+
+    <string name="weight_format">Pes: %1$.1f Kg</string>
+    <string name="height_format">Alçada: %1$.2f m</string>
+    <string name="age_format">Edat: %1$d anys</string>
+    <string name="bmi_format">IMC: %1$.2f</string>
+
+    <string name="button_calendar">Calendari</string>
+    <string name="button_measures">Mesures</string>
+    <string name="button_exercises">Exercicis</string>
+
+    <string name="section_weekly_photos">Fotos Setmanals</string>
+    <string name="content_description_weekly_photos">Carrusel de fotos de progrés setmanals</string>
+    <string name="content_description_photo_week">Foto de progrés setmanal</string>
+
+    <string name="section_evolution_2025">Evolució 2025</string>
+    <string name="content_description_weight_chart">Gràfic d\'evolució del pes</string>
+
+    <string name="content_description_weight_icon">Icona de pes</string>
+    <string name="content_description_training_icon">Icona d\'entrenament</string>
+    <string name="content_description_calories_icon">Icona de calories</string>
+
+    <string name="grafico_etiqueta_peso">Pes</string>
+    <string name="grafico_etiqueta_volumen">Volum</string>
+    <string name="grafico_titulo_volumen_carga">Volum de Càrrega (Kg)</string>
+    <string name="grafico_titulo_peso_corporal">Pes Corporal (Kg)</string>
+    <string name="formato_imc">IMC: %.2f</string>
+    <string name="etiqueta_semana">Setmana %d</string>
+
+    <string name="dialogo_titulo_foto">Afegir foto de progrés</string>
+    <string name="opcion_hacer_foto">Fer foto</string>
+    <string name="opcion_galeria">Triar de la galeria</string>
+
+    <string name="dialogo_titulo_eliminar">Eliminar foto</string>
+    <string name="dialogo_mensaje_eliminar">Estàs segur que vols eliminar aquesta foto de progrés?</string>
+    <string name="accion_eliminar">Eliminar</string>
+    <string name="accion_cancelar">Cancel·lar</string>
+
+    <string name="error_iniciar_camara">Error en iniciar la càmera: %s</string>
+    <string name="toast_procesando">Processant foto...</string>
+    <string name="toast_foto_guardada">Foto desada!</string>
+    <string name="error_generico">Error: %s</string>
+    <string name="error_cargar_imagen">Error en carregar la imatge</string>
+    <string name="toast_eliminando">Eliminant...</string>
+    <string name="toast_foto_eliminada">Foto eliminada</string>
+    <string name="error_al_eliminar">Error en eliminar</string>
+    <!-- Para pantalla de ajustes -->
+    <string name="ajustes">Configuració</string>
+    <string name="cuenta">Compte</string>
+    <string name="perfil">Perfil</string>
+    <string name="cuenta_item">Configuració del Compte</string>
+    <string name="notificaciones">Notificacions</string>
+    <string name="preferencias">Preferències</string>
+    <string name="unidades">Unitats</string>
+    <string name="idioma">Idioma</string>
+    <string name="modo">Tema</string>
+    <string name="oscuro">Fosc</string>
+    <string name="claro">Clar</string>
+    <string name="siguenos">Segueix-nos</string>
+    <string name="cerrar_sesion">Tancar Sessió</string>
+
+
+    <!-- Cuenta Activity -->
+    <string name="titulo_cuenta_ajustes">Compte</string>
+    <string name="subtitulo_info_cuenta_ajustes">Informació del Compte</string>
+    <string name="opcion_cambiar_nombre_usuario">Canviar Nom d\'Usuari</string>
+    <string name="opcion_cambiar_email">Canviar Correu electrònic</string>
+    <string name="opcion_cambiar_contrasena">Canviar Contrasenya</string>
+    <string name="boton_eliminar_cuenta">Eliminar Compte</string>
+    <string name="dialogo_titulo_eliminar_cuenta">Eliminar Compte</string>
+    <string name="dialogo_mensaje_eliminar_cuenta">Estàs segur que vols eliminar el teu compte? Aquesta acció no es pot desfer.</string>
+    <string name="mensaje_cuenta_eliminada">Compte eliminat correctament</string>
+    <string name="error_eliminar_cuenta">Error en eliminar el compte: %s</string>
+
+    <!-- Cambiar Nombre de Usuario -->
+    <string name="titulo_cambiar_nombre_usuario">Canviar Nom d\'Usuari</string>
+    <string name="label_nombre_usuario_actual">Nom d\'usuari actual</string>
+    <string name="label_nuevo_nombre_usuario">Nou nom d\'usuari</string>
+    <string name="hint_nombre_usuario_ajustes_cuenta">Introdueix el nou nom d\'usuari</string>
+    <string name="error_nombre_usuario_vacio">El nom d\'usuari no pot estar buit</string>
+    <string name="mensaje_nombre_actualizado">Nom d\'usuari actualitzat correctament</string>
+    <string name="error_nombre_existe">El nom d\'usuari ja existeix</string>
+    <string name="boton_guardar_nombre_usuario">Desar nom d\'usuari</string>
+
+    <!-- Cambiar Email -->
+    <string name="titulo_cambiar_email">Canviar Correu electrònic</string>
+    <string name="label_email_actual">Correu electrònic actual</string>
+    <string name="label_nuevo_email">Nou correu electrònic</string>
+    <string name="hint_nuevo_email">nou@exemple.com</string>
+    <string name="label_contrasena_actual_email">Contrasenya actual</string>
+    <string name="error_email_invalido">Correu electrònic invàlid</string>
+    <string name="mensaje_email_actualizado">Correu electrònic actualitzat correctament</string>
+    <string name="error_email_existe">El correu electrònic ja està en ús</string>
+    <string name="boton_guardar_email">Desar correu electrònic</string>
+
+    <!-- Cambiar Contraseña -->
+    <string name="titulo_cambiar_contrasena">Canviar Contrasenya</string>
+    <string name="label_contrasena_actual">Contrasenya actual</string>
+    <string name="label_nueva_contrasena">Nova contrasenya</string>
+    <string name="label_confirmar_contrasena">Confirma la nova contrasenya</string>
+    <string name="hint_confirmar_contrasena_igual">Confirma la nova contrasenya</string>
+    <string name="hint_contrasena_placeholder">********</string>
+    <string name="error_contrasena_corta">La contrasenya ha de tenir almenys 6 caràcters</string>
+    <string name="error_contrasenas_no_coinciden">Les contrasenyes no coincideixen</string>
+    <string name="mensaje_contrasena_actualizada">Contrasenya actualitzada correctament</string>
+    <string name="boton_guardar_contrasena">Desar contrasenya</string>
+
+    <!-- Mensajes de error generales -->
+    <string name="mensaje_error_actualizar_ajustes_cuenta">Error en actualitzar: %s</string>
+    <string name="error_actualizacion_generica">Error: %s</string>
+    <string name="error_autenticacion">Error d\'autenticació</string>
+    <string name="error_desconocido">Error desconegut</string>
+    <string name="error_contrasena_actual_obligatoria_ajustes_cuenta">La contrasenya actual és obligatòria</string>
+    <string name="error_password_incorrecta">Contrasenya incorrecta</string>
+    <string name="accion_cancelar_ajustes_cuenta">Cancel·lar</string>
+    <string name="accion_confirmar_ajustes_cuenta">Confirmar</string>
+    <!-- Strings adicionales para valores/estados -->
+    <!-- Notifications -->
+    <string name="titulo_notificaciones_notificaciones">Notificacions</string>
+    <string name="notificaciones_generales_notificaciones">Notificacions generals</string>
+    <string name="notificaciones_generales_descripcion_notificaciones">Activa/desactiva totes les notificacions</string>
+    <string name="recordatorio_entrenamiento_notificaciones">Recordatori d\'entrenament</string>
+    <string name="recordatorio_entrenamiento_descripcion_notificaciones">Rep recordatoris per als teus entrenaments</string>
+    <string name="recordatorio_foto_semanal_notificaciones">Recordatori de foto setmanal</string>
+    <string name="recordatorio_foto_semanal_descripcion_notificaciones">Recordatori per fer fotos de progrés setmanals</string>
+    <string name="kg_cm">Kg/cm</string>
+    <string name="lb_in">Lb/in</string>
+    <string name="espanol">Castellà</string>
+    <string name="ingles">Anglès</string>
+    <!-- Unidades -->
+    <string name="titulo_unidades_unidades">Unitats</string>
+    <string name="peso_unidades">Pes</string>
+    <string name="distancia_unidades">Distància</string>
+    <string name="medidas_corporales_unidades">Mesures corporals</string>
+    <string name="kg_unidades">Kg</string>
+    <string name="lbs_unidades">Lliures</string>
+    <string name="km_unidades">Km</string>
+    <string name="millas_unidades">Milles</string>
+    <string name="cm_unidades">Cm</string>
+    <string name="in_unidades">Polzades</string>
+    <string name="titulo_idioma_idioma">Idioma</string>
+    <string name="espanol_idioma">Castellà</string>
+    <string name="ingles_idioma">Anglès</string>
+    <string name="frances_idioma">Francès</string>
+    <string name="idioma_cambiado_idioma">Idioma canviat. Reinicia l\'aplicació per aplicar els canvis.</string>
+    <string name="titulo_modo_modo">Mode</string>
+    <string name="oscuro_modo">Fosc</string>
+    <string name="claro_modo">Clar</string>
+    <!-- Grupos musculaes -->
+    <string name="group_abductores">Abductors</string>
+    <string name="group_cuadriceps">Quàdriceps</string>
+    <string name="group_biceps">Bíceps</string>
+    <string name="group_pecho">Pit</string>
+    <string name="group_adductores">Adductors</string>
+    <string name="group_abdominales">Abdominals</string>
+    <string name="group_cardio">Cardio</string>
+    <string name="group_hombros">Espatlles</string>
+    <string name="group_espalda_baja">Esquena Baixa</string>
+    <string name="group_cuerpo_entero">Cos Sencer</string>
+    <string name="group_ante_brazos">Avantbraços</string>
+    <string name="group_triceps">Tríceps</string>
+    <string name="group_espalda_superior">Esquena Alta</string>
+    <string name="group_gluteos">Glutis</string>
+    <string name="group_gemelos">Bessons</string>
+    <string name="group_dorsales">Dorsals</string>
+    <string name="group_isquiotibiales">Isquiotibials</string>
+    <string name="group_cuello">Coll</string>
+    <string name="group_trapecios">Trapezis</string>
+    <string name="entrenamiento_activity">Entrenament</string>
+    <string name="series">Sèries</string>
+    <string name="anadir_serie">Afegir Sèrie</string>
+    <string name="eliminar_serie">Eliminar Sèrie</string>
+    <string name="kg">KG</string>
+    <string name="repeticiones">Reps</string>
+    <!-- Dificultad -->
+    <string name="difficulty_easy">Fàcil</string>
+    <string name="difficulty_medium">Mitjà</string>
+    <string name="difficulty_difficult">Difícil</string>
+
+    <!-- Ejercicios-->
+    <string name="abduccion_caderas">Abducció de Malucs</string>
+    <string name="abduccion_caderas_desc">Exercici de força o resistència centrat en el desenvolupament dels Abductors.</string>
+
+    <string name="press_piernas_sentado">Premsa de Cames Assegut</string>
+    <string name="press_piernas_sentado_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="curl_biceps_mancuerna">Curl de Bíceps (Mancuerna)</string>
+    <string name="curl_biceps_mancuerna_desc">Exercici d\'aïllament per concentrar el treball en els Bíceps, centrant-se en la flexió del colze.</string>
+
+    <string name="press_banca_barra">Press de Banca (Barra)</string>
+    <string name="press_banca_barra_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="aduccion_caderas">Adducció de Malucs</string>
+    <string name="aduccion_caderas_desc">Exercici de força o resistència centrat en el desenvolupament dels Adductors.</string>
+
+    <string name="curl_biceps_21">Curl de Bíceps 21</string>
+    <string name="curl_biceps_21_desc">Exercici d\'aïllament per concentrar el treball en els Bíceps, centrant-se en la flexió del colze.</string>
+
+    <string name="abdominales_tijera">Tisores Abdominals</string>
+    <string name="abdominales_tijera_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="rueda_abdominal">Roda Abdominal</string>
+    <string name="rueda_abdominal_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="aerobics">Aeròbic</string>
+    <string name="aerobics_desc">Exercici aeròbic que augmenta la freqüència cardíaca i crema calories. Ideal per millorar la resistència cardiovascular.</string>
+
+    <string name="bicleta_aire">Bicicleta d\'Aire</string>
+    <string name="bicleta_aire_desc">Exercici aeròbic que augmenta la freqüència cardíaca i crema calories. Ideal per millorar la resistència cardiovascular.</string>
+
+    <string name="arnold_press_mancuerna">Arnold Press (Mancuerna)</string>
+    <string name="arnold_press_mancuerna_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="alrededor_mundo">Volta al Món</string>
+    <string name="alrededor_mundo_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="sentadilla_pistol_asistida">Sentadilla Pistola Assistida</string>
+    <string name="sentadilla_pistol_asistida_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="extension_espalda_hiperextension">Extensió d\'Esquena (Hiperextensió)</string>
+    <string name="extension_espalda_hiperextension_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Baixa.</string>
+
+    <string name="extension_espalda_maquina">Extensió d\'Esquena (Màquina)</string>
+    <string name="extension_espalda_maquina_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Baixa.</string>
+
+    <string name="extension_espalda_hiperextension_con_peso">Extensió d\'Esquena (Hiperextensió amb Pes)</string>
+    <string name="extension_espalda_hiperextension_con_peso_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Baixa.</string>
+
+    <string name="ball_slams">Ball Slams</string>
+    <string name="ball_slams_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="band_pullaparts">Band Pullaparts</string>
+    <string name="band_pullaparts_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="cuerdas_batalla">Batalla de Cordes</string>
+    <string name="cuerdas_batalla_desc">Exercici aeròbic que augmenta la freqüència cardíaca i crema calories. Ideal per millorar la resistència cardiovascular.</string>
+
+    <string name="curl_biceps_detras_espalda_barra">Curl de Bíceps darrere l\'Esquena (Barra)</string>
+    <string name="curl_biceps_detras_espalda_barra_desc">Exercici de força o resistència centrat en el desenvolupament dels Avantbraços.</string>
+
+    <string name="fondos_banco">Fons en Banc</string>
+    <string name="fondos_banco_desc">Exercici centrat en l\'extensió del braç per treballar els Tríceps.</string>
+
+    <string name="press_banca_agarre_cerrado_barra">Press de Banca - Agafada Estreta (Barra)</string>
+    <string name="press_banca_agarre_cerrado_barra_desc">Exercici centrat en l\'extensió del braç per treballar els Tríceps.</string>
+
+    <string name="press_banca_agarre_abierto_barra">Press de Banca - Agafada Ampla (Barra)</string>
+    <string name="press_banca_agarre_abierto_barra_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="press_banca_cable">Press de Banca (Cable)</string>
+    <string name="press_banca_cable_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="press_banca_mancuerna">Press de Banca (Mancuerna)</string>
+    <string name="press_banca_mancuerna_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="press_banca_maquina_smith">Press de Banca (Màquina Smith)</string>
+    <string name="press_banca_maquina_smith_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="remo_inclinado_banda">Rem Inclinat (Banda)</string>
+    <string name="remo_inclinado_banda_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Alta.</string>
+
+    <string name="remo_inclinado_barra">Rem Inclinat (Barra)</string>
+    <string name="remo_inclinado_barra_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Alta.</string>
+
+    <string name="remo_inclinado_mancuerna">Rem Inclinat (Mancuerna)</string>
+    <string name="remo_inclinado_mancuerna_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Alta.</string>
+
+    <string name="curl_biceps_barra">Curl de Bíceps (Barra)</string>
+    <string name="curl_biceps_barra_desc">Exercici d\'aïllament per concentrar el treball en els Bíceps, centrant-se en la flexió del colze.</string>
+
+    <string name="curl_biceps_cable">Curl de Bíceps (Cable)</string>
+    <string name="curl_biceps_cable_desc">Exercici d\'aïllament per concentrar el treball en els Bíceps, centrant-se en la flexió del colze.</string>
+
+    <string name="curl_biceps_maquina">Curl de Bíceps (Màquina)</string>
+    <string name="curl_biceps_maquina_desc">Exercici d\'aïllament per concentrar el treball en els Bíceps, centrant-se en la flexió del colze.</string>
+
+    <string name="curl_biceps_suspension">Curl de Bíceps (Suspensió)</string>
+    <string name="curl_biceps_suspension_desc">Exercici d\'aïllament per concentrar el treball en els Bíceps, centrant-se en la flexió del colze.</string>
+
+    <string name="abdominal_bicleta">Abdominal Bicicleta</string>
+    <string name="abdominal_bicleta_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="abdominales_bicicleta_piernas_levantadas">Abdominals Bicicleta amb Cames Aixecades</string>
+    <string name="abdominales_bicicleta_piernas_levantadas_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="perro_caza">Gos Caçador</string>
+    <string name="perro_caza_desc">Exercici centrat en l\'activació i enfortiment dels Glutis i malucs, clau per a la potència i l\'estabilitat.</string>
+
+    <string name="salto_cajon">Salt al Caixó</string>
+    <string name="salto_cajon_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="sentadilla_cajon_barra">Sentadilla al Caixó (Barra)</string>
+    <string name="sentadilla_cajon_barra_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="boxeo">Boxa</string>
+    <string name="boxeo_desc">Exercici aeròbic que augmenta la freqüència cardíaca i crema calories. Ideal per millorar la resistència cardiovascular.</string>
+
+    <string name="sentadilla_bulgara">Sentadilla Búlgara</string>
+    <string name="sentadilla_bulgara_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="burpee">Burpee</string>
+    <string name="burpee_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="burpee_sobre_barra">Burpee sobre Barra</string>
+    <string name="burpee_sobre_barra_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="mariposa_pec_deck">Papallona (Pec Deck)</string>
+    <string name="mariposa_pec_deck_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="cable_core_palloff_press">Cable Core Palloff Press</string>
+    <string name="cable_core_palloff_press_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="abdominal_corto_con_cable">Abdominal amb Cable</string>
+    <string name="abdominal_corto_con_cable_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="cables_cruzados">Encreuaments de Cables</string>
+    <string name="cables_cruzados_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="trion_polea_entre_piernas">Trineu amb Politja entre Cames</string>
+    <string name="trion_polea_entre_piernas_desc">Exercici centrat en l\'activació i enfortiment dels Glutis i malucs, clau per a la potència i l\'estabilitat.</string>
+
+    <string name="cable_twist_down_to_up">Gir amb Cable (Avall a Amunt)</string>
+    <string name="cable_twist_down_to_up_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="cable_twist_up_to_down">Gir amb Cable (Amunt a Avall)</string>
+    <string name="cable_twist_up_to_down_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="extension_pantorrilla_maquina">Extensió de Bessons (Màquina)</string>
+    <string name="extension_pantorrilla_maquina_desc">Exercici per aïllar i desenvolupar els Bessons, centrant-se en la flexió plantar.</string>
+
+    <string name="press_pantorrilla_maquina">Press de Bessons (Màquina)</string>
+    <string name="press_pantorrilla_maquina_desc">Exercici per aïllar i desenvolupar els Bessons, centrant-se en la flexió plantar.</string>
+
+    <string name="fondos">Fons</string>
+    <string name="fondos_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="fondos_asistidos">Fons Assistits</string>
+    <string name="fondos_asistidos_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="fondos_con_peso_añadido">Fons amb Pes Afegit</string>
+    <string name="fondos_con_peso_añadido_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="aperturas_banda">Obertures (Banda)</string>
+    <string name="aperturas_banda_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="aperturas_mancuerna">Obertures (Mancuerna)</string>
+    <string name="aperturas_mancuerna_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="aperturas_maquina">Obertures (Màquina)</string>
+    <string name="aperturas_maquina_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="chest_fly_suspension">Obertures (Suspensió)</string>
+    <string name="chest_fly_suspension_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="press_pecho_banda">Press de Pit (Banda)</string>
+    <string name="press_pecho_banda_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="press_pecho_maquina">Press de Pit (Màquina)</string>
+    <string name="press_pecho_maquina_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="remo_inclinado_con_apoyo_pecho_mancuerna">Rem Inclinat amb Suport de Pit (Mancuerna)</string>
+    <string name="remo_inclinado_con_apoyo_pecho_mancuerna_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Alta.</string>
+
+    <string name="vuelos_posteriores_mancuerna">Vols Posteriors (Mancuerna)</string>
+    <string name="vuelos_posteriores_mancuerna_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Alta.</string>
+
+    <string name="elevacion_y_con_soporte_pecho_mancuerna">Elevació Y amb Suport de Pit (Mancuerna)</string>
+    <string name="elevacion_y_con_soporte_pecho_mancuerna_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="dominadas_chin_up">Dominades Chin Up</string>
+    <string name="dominadas_chin_up_desc">Excel·lent moviment de tracció vertical per desenvolupar els Dorsals i l\'esquena alta.</string>
+
+    <string name="dominadas_chin_up_asistida">Dominades Chin Up Assistides</string>
+    <string name="dominadas_chin_up_asistida_desc">Excel·lent moviment de tracció vertical per desenvolupar els Dorsals i l\'esquena alta.</string>
+
+    <string name="dominadas_chin_up_con_peso">Dominades Chin Up amb Pes</string>
+    <string name="dominadas_chin_up_con_peso_desc">Excel·lent moviment de tracció vertical per desenvolupar els Dorsals i l\'esquena alta.</string>
+
+    <string name="almeja">Petxina</string>
+    <string name="almeja_desc">Exercici centrat en l\'activació i enfortiment dels Glutis i malucs, clau per a la potència i l\'estabilitat.</string>
+
+    <string name="flexiones_con_palmada">Flexions amb Palmada</string>
+    <string name="flexiones_con_palmada_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="clean">Clean</string>
+    <string name="clean_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="clean_and_jerk">Clean and Jerk</string>
+    <string name="clean_and_jerk_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="cargada_y_press">Cargada i Press</string>
+    <string name="cargada_y_press_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="cargada_y_tiron">Cargada i Estirada</string>
+    <string name="cargada_y_tiron_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="escalada">Escalada</string>
+    <string name="escalada_desc">Exercici aeròbic que augmenta la freqüència cardíaca i crema calories. Ideal per millorar la resistència cardiovascular.</string>
+
+    <string name="curls_concentracion">Curls de Concentració</string>
+    <string name="curls_concentracion_desc">Exercici d\'aïllament per concentrar el treball en els Bíceps, centrant-se en la flexió del colze.</string>
+
+    <string name="curl_martillo_cruzado">Curl Martell Creuat</string>
+    <string name="curl_martillo_cruzado_desc">Exercici d\'aïllament per concentrar el treball en els Bíceps, centrant-se en la flexió del colze.</string>
+
+    <string name="abdominal_corto">Abdominal Curt</string>
+    <string name="abdominal_corto_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="abdominal_corto_maquina">Abdominal Curt (Màquina)</string>
+    <string name="abdominal_corto_maquina_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="abdominal_corto_con_peso_añadido">Abdominal Curt amb Pes Afegit</string>
+    <string name="abdominal_corto_con_peso_añadido_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="zancada_curtsy_mancuerna">Zancada Curtsy (Mancuerna)</string>
+    <string name="zancada_curtsy_mancuerna_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="bicicleta">Ciclisme</string>
+    <string name="bicicleta_desc">Exercici aeròbic que augmenta la freqüència cardíaca i crema calories. Ideal per millorar la resistència cardiovascular.</string>
+
+    <string name="dead_bug">Dead Bug</string>
+    <string name="dead_bug_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="dead_hang">Dead Hang</string>
+    <string name="dead_hang_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Alta.</string>
+
+    <string name="peso_muerto_banda">Pes Mort (Banda)</string>
+    <string name="peso_muerto_banda_desc">Poderós exercici per enfortir la cadena posterior, incloent Isquiotibials i esquena baixa. Centrat en aixecar una càrrega del terra.</string>
+
+    <string name="peso_muerto_barra">Pes Mort (Barra)</string>
+    <string name="peso_muerto_barra_desc">Poderós exercici per enfortir la cadena posterior, incloent Isquiotibials i esquena baixa. Centrat en aixecar una càrrega del terra.</string>
+
+    <string name="peso_muerto_mancuerna">Pes Mort (Mancuerna)</string>
+    <string name="peso_muerto_mancuerna_desc">Poderós exercici per enfortir la cadena posterior, incloent Isquiotibials i esquena baixa. Centrat en aixecar una càrrega del terra.</string>
+
+    <string name="peso_muerto_maquina_smith">Pes Mort (Màquina Smith)</string>
+    <string name="peso_muerto_maquina_smith_desc">Poderós exercici per enfortir la cadena posterior, incloent Isquiotibials i esquena baixa. Centrat en aixecar una càrrega del terra.</string>
+
+    <string name="peso_muerto_barra_trap">Pes Mort (Barra Trap)</string>
+    <string name="peso_muerto_barra_trap_desc">Poderós exercici per enfortir la cadena posterior, incloent Isquiotibials i esquena baixa. Centrat en aixecar una càrrega del terra.</string>
+
+    <string name="peso_muerto_con_tiron_alto">Pes Mort amb Estirada Alta</string>
+    <string name="peso_muerto_con_tiron_alto_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="press_banca_en_declive_barra">Press de Banca en Declivi (Barra)</string>
+    <string name="press_banca_en_declive_barra_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="press_banca_en_declive_mancuerna">Press de Banca en Declivi (Mancuerna)</string>
+    <string name="press_banca_en_declive_mancuerna_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="press_banca_en_declive_maquina">Press de Banca en Declivi (Màquina)</string>
+    <string name="press_banca_en_declive_maquina_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="press_banca_en_declive_maquina_smith">Press de Banca en Declivi (Màquina Smith)</string>
+    <string name="press_banca_en_declive_maquina_smith_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="apertura_declinada_mancuerna">Obertura Declinada (Mancuerna)</string>
+    <string name="apertura_declinada_mancuerna_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="abdominal_corto_en_banco_inclinado">Abdominal Curt en Banc Inclinat</string>
+    <string name="abdominal_corto_en_banco_inclinado_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="abdominal_corto_en_banco_inclinado_con_peso_añadido">Abdominal Curt en Banc Inclinat amb Pes Afegit</string>
+    <string name="abdominal_corto_en_banco_inclinado_con_peso_añadido_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="flexión_declinada">Flexió Declinada</string>
+    <string name="flexión_declinada_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="flexiones_diamante">Flexions Diamant</string>
+    <string name="flexiones_diamante_desc">Exercici centrat en l\'extensió del braç per treballar els Tríceps.</string>
+
+    <string name="postura_perro_cabeza_abajo">Postura del Gos Cap Avall</string>
+    <string name="postura_perro_cabeza_abajo_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="drag_curl">Drag Curl</string>
+    <string name="drag_curl_desc">Exercici d\'aïllament per concentrar el treball en els Bíceps, centrant-se en la flexió del colze.</string>
+
+    <string name="dragon_flag">Dragon Flag</string>
+    <string name="dragon_flag_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="dragonfly">Dragonfly</string>
+    <string name="dragonfly_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="remo_con_mancuerna">Rem amb Mancuerna</string>
+    <string name="remo_con_mancuerna_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Alta.</string>
+
+    <string name="arrancada_con_mancuerna">Arrencada amb Mancuerna</string>
+    <string name="arrancada_con_mancuerna_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="dumbbell_squeeze_press">Dumbbell Squeeze Press</string>
+    <string name="dumbbell_squeeze_press_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="step_con_mancuerna">Step amb Mancuerna</string>
+    <string name="step_con_mancuerna_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="rodillas_a_codos">Genolls a Colzes</string>
+    <string name="rodillas_a_codos_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="entrenador_eliptico">El·líptica</string>
+    <string name="entrenador_eliptico_desc">Exercici aeròbic que augmenta la freqüència cardíaca i crema calories. Ideal per millorar la resistència cardiovascular.</string>
+
+    <string name="curl_con_barra_ez">Curl amb Barra EZ</string>
+    <string name="curl_con_barra_ez_desc">Exercici d\'aïllament per concentrar el treball en els Bíceps, centrant-se en la flexió del colze.</string>
+
+    <string name="tiron_a_la_cara">Estirada a la Cara</string>
+    <string name="tiron_a_la_cara_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="paseo_del_granjero">Passeig del Granger</string>
+    <string name="paseo_del_granjero_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="patadas_boca_incendio">Puntades de Boca d\'Incendi</string>
+    <string name="patadas_boca_incendio_desc">Exercici centrat en l\'activació i enfortiment dels Glutis i malucs, clau per a la potència i l\'estabilitat.</string>
+
+    <string name="press_suelo_barra">Press a Terra (Barra)</string>
+    <string name="press_suelo_barra_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="press_en_el_suelo_mancuerna">Press a Terra (Mancuerna)</string>
+    <string name="press_en_el_suelo_mancuerna_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="fondos_triceps_en_suelo">Fons de Tríceps a Terra</string>
+    <string name="fondos_triceps_en_suelo_desc">Exercici centrat en l\'extensió del braç per treballar els Tríceps.</string>
+
+    <string name="aleteo_piernas">Aleteig de Cames</string>
+    <string name="aleteo_piernas_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="saltos_rana">Salts de Granota</string>
+    <string name="saltos_rana_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="frog_pumps_mancuerna">Frog Pumps (Mancuerna)</string>
+    <string name="frog_pumps_mancuerna_desc">Exercici centrat en l\'activació i enfortiment dels Glutis i malucs, clau per a la potència i l\'estabilitat.</string>
+
+    <string name="front_lever_sostenida">Front Lever (Mantinguda)</string>
+    <string name="front_lever_sostenida_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="front_lever_elevacion">Front Lever (Elevació)</string>
+    <string name="front_lever_elevacion_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="elevacion_frontal_banda">Elevació Frontal (Banda)</string>
+    <string name="elevacion_frontal_banda_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="elevacion_frontal_barra">Elevació Frontal (Barra)</string>
+    <string name="elevacion_frontal_barra_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="elevacion_frontal_cable">Elevació Frontal (Cable)</string>
+    <string name="elevacion_frontal_cable_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="elevacion_frontal_mancuerna">Elevació Frontal (Mancuerna)</string>
+    <string name="elevacion_frontal_mancuerna_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="elevacion_frontal_suspension">Elevació Frontal (Suspensió)</string>
+    <string name="elevacion_frontal_suspension_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="sentadilla_delantera">Sentadilla Anterior</string>
+    <string name="sentadilla_delantera_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="sentadilla_profunda">Sentadilla Profunda</string>
+    <string name="sentadilla_profunda_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="puente_gluteos">Pont de Glutis</string>
+    <string name="puente_gluteos_desc">Exercici centrat en l\'activació i enfortiment dels Glutis i malucs, clau per a la potència i l\'estabilitat.</string>
+
+    <string name="glute_ham_raise">Glute Ham Raise</string>
+    <string name="glute_ham_raise_desc">Poderós exercici per enfortir la cadena posterior, incloent Isquiotibials i esquena baixa. Centrat en aixecar una càrrega del terra.</string>
+
+    <string name="patada_burro_maquina">Puntada de Ruc (Màquina)</string>
+    <string name="patada_burro_maquina_desc">Exercici centrat en l\'activació i enfortiment dels Glutis i malucs, clau per a la potència i l\'estabilitat.</string>
+
+    <string name="patada_burro">Puntada de Ruc</string>
+    <string name="patada_burro_desc">Exercici centrat en l\'activació i enfortiment dels Glutis i malucs, clau per a la potència i l\'estabilitat.</string>
+
+    <string name="sentadilla_goblet">Sentadilla Goblet</string>
+    <string name="sentadilla_goblet_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="buen_dia_barra">Bon Dia (Barra)</string>
+    <string name="buen_dia_barra_desc">Poderós exercici per enfortir la cadena posterior, incloent Isquiotibials i esquena baixa. Centrat en aixecar una càrrega del terra.</string>
+
+    <string name="remo_gorila_pesa_rusa">Rem Goril·la (Pesa Russa)</string>
+    <string name="remo_gorila_pesa_rusa_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Alta.</string>
+
+    <string name="sentadilla_hack">Sentadilla Hack</string>
+    <string name="sentadilla_hack_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="sentadilla_hack_maquina">Sentadilla Hack (Màquina)</string>
+    <string name="sentadilla_hack_maquina_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="curl_martillo_banda">Curl Martell (Banda)</string>
+    <string name="curl_martillo_banda_desc">Exercici d\'aïllament per concentrar el treball en els Bíceps, centrant-se en la flexió del colze.</string>
+
+    <string name="curl_martillo_cable">Curl Martell (Cable)</string>
+    <string name="curl_martillo_cable_desc">Exercici d\'aïllament per concentrar el treball en els Bíceps, centrant-se en la flexió del colze.</string>
+
+    <string name="curl_martillo_mancuerna">Curl Martell (Mancuerna)</string>
+    <string name="curl_martillo_mancuerna_desc">Exercici d\'aïllament per concentrar el treball en els Bíceps, centrant-se en la flexió del colze.</string>
+
+    <string name="equilibrio_invertido">Equilibri Invertit</string>
+    <string name="equilibrio_invertido_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="flexiones_verticales">Flexions Verticals</string>
+    <string name="flexiones_verticales_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="hang_clean">Hang Clean</string>
+    <string name="hang_clean_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="hang_snatch">Hang Snatch</string>
+    <string name="hang_snatch_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="levantamiento_rodillas_en_barra">Elevació de Genolls penjant</string>
+    <string name="levantamiento_rodillas_en_barra_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="levantamiento_piernas_en_barra">Elevació de Cames penjant</string>
+    <string name="levantamiento_piernas_en_barra_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="abdominales_toque_talon">Toc de Talons</string>
+    <string name="abdominales_toque_talon_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="press_hexagonal_mancuerna">Press Hexagonal (Mancuerna)</string>
+    <string name="press_hexagonal_mancuerna_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="elevacion_rodillas">Elevació de Genolls</string>
+    <string name="elevacion_rodillas_desc">Exercici centrat en l\'activació i enfortiment dels Glutis i malucs, clau per a la potència i l\'estabilitat.</string>
+
+    <string name="hiit">HIIT</string>
+    <string name="hiit_desc">Exercici aeròbic que augmenta la freqüència cardíaca i crema calories. Ideal per millorar la resistència cardiovascular.</string>
+
+    <string name="senderismo">Senderisme</string>
+    <string name="senderismo_desc">Exercici aeròbic que augmenta la freqüència cardíaca i crema calories. Ideal per millorar la resistència cardiovascular.</string>
+
+    <string name="empuje_caderas">Empenta de Malucs</string>
+    <string name="empuje_caderas_desc">Exercici centrat en l\'activació i enfortiment dels Glutis i malucs, clau per a la potència i l\'estabilitat.</string>
+
+    <string name="empuje_caderas_barra">Empenta de Malucs (Barra)</string>
+    <string name="empuje_caderas_barra_desc">Exercici centrat en l\'activació i enfortiment dels Glutis i malucs, clau per a la potència i l\'estabilitat.</string>
+
+    <string name="impulso_cadera_maquina">Impuls de Maluc (Màquina)</string>
+    <string name="impulso_cadera_maquina_desc">Exercici centrat en l\'activació i enfortiment dels Glutis i malucs, clau per a la potència i l\'estabilitat.</string>
+
+    <string name="hollow_rock">Hollow Rock</string>
+    <string name="hollow_rock_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="press_banca_inclinado_barra">Press de Banca Inclinat (Barra)</string>
+    <string name="press_banca_inclinado_barra_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="press_banca_inclinado_mancuerna">Press de Banca Inclinat (Mancuerna)</string>
+    <string name="press_banca_inclinado_mancuerna_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="press_banca_inclinado_maquina_smith">Press de Banca Inclinat (Màquina Smith)</string>
+    <string name="press_banca_inclinado_maquina_smith_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="aperturas_inclinadas_mancuernas">Obertures Inclinades (Mancuerna)</string>
+    <string name="aperturas_inclinadas_mancuernas_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="press_pecho_inclinado_maquina">Press de Pit Inclinat (Màquina)</string>
+    <string name="press_pecho_inclinado_maquina_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="flexiones_inclinadas">Flexions Inclinades</string>
+    <string name="flexiones_inclinadas_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="remo_invertido">Rem Invertit</string>
+    <string name="remo_invertido_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Alta.</string>
+
+    <string name="press_pecho_iso_lateral_maquina">Press de Pit Iso-Lateral (Màquina)</string>
+    <string name="press_pecho_iso_lateral_maquina_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="remo_alto_iso_lateral">Rem Alt Iso-Lateral</string>
+    <string name="remo_alto_iso_lateral_desc">Excel·lent moviment de tracció vertical per desenvolupar els Dorsals i l\'esquena alta.</string>
+
+    <string name="remo_bajo_iso_lateral">Rem Baix Iso-Lateral</string>
+    <string name="remo_bajo_iso_lateral_desc">Excel·lent moviment de tracció vertical per desenvolupar els Dorsals i l\'esquena alta.</string>
+
+    <string name="remo_iso_lateral">Rem Iso-Lateral</string>
+    <string name="remo_iso_lateral_desc">Excel·lent moviment de tracció vertical per desenvolupar els Dorsals i l\'esquena alta.</string>
+
+    <string name="jack_knife_suspension">Jack Knife (Suspensió)</string>
+    <string name="jack_knife_suspension_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="press_jm_barra">JM Press (Barra)</string>
+    <string name="press_jm_barra_desc">Exercici centrat en l\'extensió del braç per treballar els Tríceps.</string>
+
+    <string name="salto_a_la_cuerda">Salt a la corda</string>
+    <string name="salto_a_la_cuerda_desc">Exercici aeròbic que augmenta la freqüència cardíaca i crema calories. Ideal per millorar la resistència cardiovascular.</string>
+
+    <string name="encogimiento_hombros_con_salto">Encardiment d\'Espatlles amb Salt</string>
+    <string name="encogimiento_hombros_con_salto_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="sentadilla_con_salto">Sentadilla amb Salt</string>
+    <string name="sentadilla_con_salto_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="jumping_jack">Jumping Jack</string>
+    <string name="jumping_jack_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="estocada_con_salto">Estocada amb Salt</string>
+    <string name="estocada_con_salto_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="cargada_con_pesa_rusa">Cargada amb Pesa Russa</string>
+    <string name="cargada_con_pesa_rusa_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="curl_con_pesa_rusa">Curl amb Pesa Russa</string>
+    <string name="curl_con_pesa_rusa_desc">Exercici d\'aïllament per concentrar el treball en els Bíceps, centrant-se en la flexió del colze.</string>
+
+    <string name="sentadilla_goblet_con_pesa_rusa">Sentadilla Goblet amb Pesa Russa</string>
+    <string name="sentadilla_goblet_con_pesa_rusa_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="tiron_alto_con_pesa_rusa">Estirada Alta amb Pesa Russa</string>
+    <string name="tiron_alto_con_pesa_rusa_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="press_hombros_con_pesa_rusa">Press d\'Espatlles amb Pesa Russa</string>
+    <string name="press_hombros_con_pesa_rusa_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="arrancada_con_pesa_rusa">Arrencada amb Pesa Russa</string>
+    <string name="arrancada_con_pesa_rusa_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="swing_con_pesa_rusa">Swing amb Pesa Russa</string>
+    <string name="swing_con_pesa_rusa_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="levantamiento_turco_con_pesa_rusa">Levantament Turc amb Pesa Russa</string>
+    <string name="levantamiento_turco_con_pesa_rusa_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="dominadas_con_kipping">Dominades amb Kipping</string>
+    <string name="dominadas_con_kipping_desc">Excel·lent moviment de tracció vertical per desenvolupar els Dorsals i l\'esquena alta.</string>
+
+    <string name="rodillas_al_pecho_en_barras_paralelas">Genolls al Pit en Barres Paral·leles</string>
+    <string name="rodillas_al_pecho_en_barras_paralelas_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="jalon_rodillas_banda">Jaló de Genolls (Banda)</string>
+    <string name="jalon_rodillas_banda_desc">Excel·lent moviment de tracció vertical per desenvolupar els Dorsals i l\'esquena alta.</string>
+
+    <string name="flexiones_rodillas">Flexions de Genolls</string>
+    <string name="flexiones_rodillas_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="l_sit_sostenido">L-Sit (Mantingut)</string>
+    <string name="l_sit_sostenido_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="landmine_180">Landmine 180</string>
+    <string name="landmine_180_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="remo_en_base_rotativa">Rem en Base Rotativa</string>
+    <string name="remo_en_base_rotativa_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Alta.</string>
+
+    <string name="landmine_sentadilla_y_press">Landmine Sentadilla i Press</string>
+    <string name="landmine_sentadilla_y_press_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="jalon_al_pecho_agarre_cerrado_cable">Jaló al Pit - Agafada Estreta (Cable)</string>
+    <string name="jalon_al_pecho_agarre_cerrado_cable_desc">Excel·lent moviment de tracció vertical per desenvolupar els Dorsals i l\'esquena alta.</string>
+
+    <string name="jalon_al_pecho_banda">Jaló al Pit (Banda)</string>
+    <string name="jalon_al_pecho_banda_desc">Excel·lent moviment de tracció vertical per desenvolupar els Dorsals i l\'esquena alta.</string>
+
+    <string name="jalon_al_pecho_cable">Jaló al Pit (Cable)</string>
+    <string name="jalon_al_pecho_cable_desc">Excel·lent moviment de tracció vertical per desenvolupar els Dorsals i l\'esquena alta.</string>
+
+    <string name="jalon_al_pecho_maquina">Jaló al Pit (Màquina)</string>
+    <string name="jalon_al_pecho_maquina_desc">Excel·lent moviment de tracció vertical per desenvolupar els Dorsals i l\'esquena alta.</string>
+
+    <string name="caminata_lateral_con_banda_elastica">Caminada Lateral amb Banda Elàstica</string>
+    <string name="caminata_lateral_con_banda_elastica_desc">Exercici centrat en l\'activació i enfortiment dels Glutis i malucs, clau per a la potència i l\'estabilitat.</string>
+
+    <string name="salto_al_cajon_lateral">Salt Lateral al Caixó</string>
+    <string name="salto_al_cajon_lateral_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="elevaciones_laterales_de_pierna">Elevacions Laterals de Cama</string>
+    <string name="elevaciones_laterales_de_pierna_desc">Exercici centrat en l\'activació i enfortiment dels Glutis i malucs, clau per a la potència i l\'estabilitat.</string>
+
+    <string name="zancada_lateral">Zancada Lateral</string>
+    <string name="zancada_lateral_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="elevaciones_laterales_banda">Elevacions Laterals (Banda)</string>
+    <string name="elevaciones_laterales_banda_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="elevaciones_laterales_cable">Elevacions Laterals (Cable)</string>
+    <string name="elevaciones_laterales_cable_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="elevaciones_laterales_mancuerna">Elevacions Laterals (Mancuerna)</string>
+    <string name="elevaciones_laterales_mancuerna_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="elevaciones_laterales_maquina">Elevacions Laterals (Màquina)</string>
+    <string name="elevaciones_laterales_maquina_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="sentadilla_lateral">Sentadilla Lateral</string>
+    <string name="sentadilla_lateral_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="extension_pierna">Extensió de Cama</string>
+    <string name="extension_pierna_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="press_piernas">Premsa de Cames</string>
+    <string name="press_piernas_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="pies_a_barra">Peus a la Barra</string>
+    <string name="pies_a_barra_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="cables_cruzados_bajos">Encreuaments de Cables Baixos</string>
+    <string name="cables_cruzados_bajos_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="remo_bajo_suspension">Rem Baix (Suspensió)</string>
+    <string name="remo_bajo_suspension_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Alta.</string>
+
+    <string name="zancada">Zancada</string>
+    <string name="zancada_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="zancada_barra">Zancada (Barra)</string>
+    <string name="zancada_barra_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="zancada_mancuerna">Zancada (Mancuerna)</string>
+    <string name="zancada_mancuerna_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="levantamiento_rodillas_tumbado">Elevació de Genolls estirat</string>
+    <string name="levantamiento_rodillas_tumbado_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="curl_piernas_acostado_maquina">Curl de Cames estirat (Màquina)</string>
+    <string name="curl_piernas_acostado_maquina_desc">Poderós exercici per enfortir la cadena posterior, incloent Isquiotibials i esquena baixa. Centrat en aixecar una càrrega del terra.</string>
+
+    <string name="levantamiento_piernas_tumbado">Elevació de Cames estirat</string>
+    <string name="levantamiento_piernas_tumbado_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="flexiones_cuello_acostado">Flexions de Coll estirat</string>
+    <string name="flexiones_cuello_acostado_desc">Exercici de força o resistència centrat en el desenvolupament del Coll.</string>
+
+    <string name="flexiones_cuello_acostado_con_peso">Flexions de Coll estirat amb Pes</string>
+    <string name="flexiones_cuello_acostado_con_peso_desc">Exercici de força o resistència centrat en el desenvolupament del Coll.</string>
+
+    <string name="extension_cuello_acostado">Extensió de Coll estirat</string>
+    <string name="extension_cuello_acostado_desc">Exercici de força o resistència centrat en el Coll.</string>
+
+    <string name="extension_cuello_acostado_con_peso">Extensió de Coll estirat amb Pes</string>
+    <string name="extension_cuello_acostado_con_peso_desc">Exercici de força o resistència centrat en el desenvolupament del Coll.</string>
+
+    <string name="remos_meadows_barra">Rem Meadows (Barra)</string>
+    <string name="remos_meadows_barra_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Alta.</string>
+
+    <string name="escaladores">Escaladors</string>
+    <string name="escaladores_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="muscle_up">Muscle Up</string>
+    <string name="muscle_up_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="dominada_negativa">Dominada Negativa</string>
+    <string name="dominada_negativa_desc">Excel·lent moviment de tracció vertical per desenvolupar els Dorsals i l\'esquena alta.</string>
+
+    <string name="curls_nordicos_isquiotibiales">Curls Nòrdics d\'Isquiotibials</string>
+    <string name="curls_nordicos_isquiotibiales_desc">Poderós exercici per enfortir la cadena posterior, incloent Isquiotibials i esquena baixa. Centrat en aixecar una càrrega del terra.</string>
+
+    <string name="abdominales_cortos_oblicuos">Abdominals Curts Oblics</string>
+    <string name="abdominales_cortos_oblicuos_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="flexión_a_una_mano">Flexió a un Braç</string>
+    <string name="flexión_a_una_mano_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="curl_sobre_cabeza_cable">Curl per sobre del Cap (Cable)</string>
+    <string name="curl_sobre_cabeza_cable_desc">Exercici d\'aïllament per concentrar el treball en els Bíceps, centrant-se en la flexió del colze.</string>
+
+    <string name="extensiones_muñeca_mancuerna">Extensions de Canell (Mancuerna)</string>
+    <string name="extensiones_muñeca_mancuerna_desc">Exercici de força o resistència centrat en el desenvolupament dels Avantbraços.</string>
+
+    <string name="curls_muñeca_mancuerna">Curls de Canell (Mancuerna)</string>
+    <string name="curls_muñeca_mancuerna_desc">Exercici de força o resistència centrat en el desenvolupament dels Avantbraços.</string>
+
+    <string name="curl_inverso_muñeca_barra">Curl Invers de Canell (Barra)</string>
+    <string name="curl_inverso_muñeca_barra_desc">Exercici de força o resistència centrat en el desenvolupament dels Avantbraços.</string>
+
+    <string name="peso_muerto_romano_barra">Pes Mort Romà (Barra)</string>
+    <string name="peso_muerto_romano_barra_desc">Poderós exercici per enfortir la cadena posterior, incloent Isquiotibials i esquena baixa. Centrat en aixecar una càrrega del terra.</string>
+
+    <string name="peso_muerto_romano_mancuerna">Pes Mort Romà (Mancuerna)</string>
+    <string name="peso_muerto_romano_mancuerna_desc">Poderós exercici per enfortir la cadena posterior, incloent Isquiotibials i esquena baixa. Centrat en aixecar una càrrega del terra.</string>
+
+    <string name="rotacion_muñeca_mancuerna">Rotació de Canell (Mancuerna)</string>
+    <string name="rotacion_muñeca_mancuerna_desc">Exercici de força o resistència centrat en el desenvolupament dels Avantbraços.</string>
+
+    <string name="press_hombros_barra">Press d\'Espatlles (Barra)</string>
+    <string name="press_hombros_barra_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="press_hombros_maquina">Press d\'Espatlles (Màquina)</string>
+    <string name="press_hombros_maquina_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="press_hombros_mancuerna">Press d\'Espatlles (Mancuerna)</string>
+    <string name="press_hombros_mancuerna_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="press_hombros_maquina_smith">Press d\'Espatlles (Màquina Smith)</string>
+    <string name="press_hombros_maquina_smith_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="sentadilla_barra">Sentadilla (Barra)</string>
+    <string name="sentadilla_barra_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="sentadilla_cuerpo">Sentadilla (Cos lliure)</string>
+    <string name="sentadilla_cuerpo_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="sentadilla_mancuerna">Sentadilla (Mancuerna)</string>
+    <string name="sentadilla_mancuerna_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="sentadilla_maquina_smith">Sentadilla (Màquina Smith)</string>
+    <string name="sentadilla_maquina_smith_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="paso_lateral_con_polea_baja">Pas Lateral amb Politja Baixa</string>
+    <string name="paso_lateral_con_polea_baja_desc">Exercici centrat en l\'activació i enfortiment dels Glutis i malucs, clau per a la potència i l\'estabilitat.</string>
+
+    <string name="desplantes_con_barra">Desplaçaments (Barra)</string>
+    <string name="desplantes_con_barra_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="desplantes_con_mancuerna">Desplaçaments (Mancuerna)</string>
+    <string name="desplantes_con_mancuerna_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="zancadas_inversas">Zancades Inverses</string>
+    <string name="zancadas_inversas_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="press_militar">Press Militar</string>
+    <string name="press_militar_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="press_push_barra">Push Press (Barra)</string>
+    <string name="press_push_barra_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="flexiones">Flexions</string>
+    <string name="flexiones_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="flexiones_con_apoyo">Flexions amb Suport</string>
+    <string name="flexiones_con_apoyo_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="flexiones_con_las_manos_elevadas">Flexions (Mans Elevades)</string>
+    <string name="flexiones_con_las_manos_elevadas_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="flexiones_con_peso_añadido">Flexions amb Pes Afegit</string>
+    <string name="flexiones_con_peso_añadido_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="flexiones_maquina_smith">Flexions (Màquina Smith)</string>
+    <string name="flexiones_maquina_smith_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="flexiones_pies_elevados">Flexions (Peus Elevats)</string>
+    <string name="flexiones_pies_elevados_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="rotacion_rodillas_tumbado">Rotació de Genolls estirat</string>
+    <string name="rotacion_rodillas_tumbado_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="jalon_invertido_barra">Jaló Invertit (Barra)</string>
+    <string name="jalon_invertido_barra_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Alta.</string>
+
+    <string name="jalon_invertido_maquina_smith">Jaló Invertit (Màquina Smith)</string>
+    <string name="jalon_invertido_maquina_smith_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Alta.</string>
+
+    <string name="jalon_invertido_suspension">Jaló Invertit (Suspensió)</string>
+    <string name="jalon_invertido_suspension_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Alta.</string>
+
+    <string name="remo_con_agarres_a_mano_sentado">Rem amb Agafadors (Assegut)</string>
+    <string name="remo_con_agarres_a_mano_sentado_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Alta.</string>
+
+    <string name="remo_con_agarres_a_mano_tumbado">Rem amb Agafadors (Estirat)</string>
+    <string name="remo_con_agarres_a_mano_tumbado_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Alta.</string>
+
+    <string name="elevacion_gemelos_de_pie">Elevació de Bessons (Dret)</string>
+    <string name="elevacion_gemelos_de_pie_desc">Exercici per aïllar i desenvolupar els Bessons, centrant-se en la flexió plantar.</string>
+
+    <string name="elevacion_gemelos_sentado">Elevació de Bessons (Assegut)</string>
+    <string name="elevacion_gemelos_sentado_desc">Exercici per aïllar i desenvolupar els Bessons, centrant-se en la flexió plantar.</string>
+
+    <string name="remo_sentado_cable">Rem Assegut (Cable)</string>
+    <string name="remo_sentado_cable_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Alta.</string>
+
+    <string name="remo_sentado_maquina">Rem Assegut (Màquina)</string>
+    <string name="remo_sentado_maquina_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Alta.</string>
+
+    <string name="press_sentado_maquina">Press Assegut (Màquina)</string>
+    <string name="press_sentado_maquina_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="press_sentado_maquina_smith">Press Assegut (Màquina Smith)</string>
+    <string name="press_sentado_maquina_smith_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="press_hombros_sentado_barra">Press d\'Espatlles Assegut (Barra)</string>
+    <string name="press_hombros_sentado_barra_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="press_hombros_sentado_mancuerna">Press d\'Espatlles Assegut (Mancuerna)</string>
+    <string name="press_hombros_sentado_mancuerna_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="press_hombros_sentado_maquina">Press d\'Espatlles Assegut (Màquina)</string>
+    <string name="press_hombros_sentado_maquina_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="remo_sentado_con_agarres_a_mano_cable">Rem Assegut amb Agafadors (Cable)</string>
+    <string name="remo_sentado_con_agarres_a_mano_cable_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Alta.</string>
+
+    <string name="curl_piernas_sentado">Curl de Cames Assegut</string>
+    <string name="curl_piernas_sentado_desc">Poderós exercici per enfortir la cadena posterior, incloent Isquiotibials i esquena baixa. Centrat en aixecar una càrrega del terra.</string>
+
+    <string name="encogimiento_hombros_barra">Encardiment d\'Espatlles (Barra)</string>
+    <string name="encogimiento_hombros_barra_desc">Exercici de força o resistència centrat en el desenvolupament dels Trapezis.</string>
+
+    <string name="encogimiento_hombros_cable">Encardiment d\'Espatlles (Cable)</string>
+    <string name="encogimiento_hombros_cable_desc">Exercici de força o resistència centrat en el desenvolupament dels Trapezis.</string>
+
+    <string name="encogimiento_hombros_mancuerna">Encardiment d\'Espatlles (Mancuerna)</string>
+    <string name="encogimiento_hombros_mancuerna_desc">Exercici de força o resistència centrat en el desenvolupament dels Trapezis.</string>
+
+    <string name="sizor_jump">Salt de Tisora</string>
+    <string name="sizor_jump_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="extension_lateral_cuello_con_peso">Extensió Lateral de Coll amb Pes</string>
+    <string name="extension_lateral_cuello_con_peso_desc">Exercici de força o resistència centrat en el desenvolupament del Coll.</string>
+
+    <string name="extension_lateral_cuello_tumbado">Extensió Lateral de Coll estirat</string>
+    <string name="extension_lateral_cuello_tumbado_desc">Exercici de força o resistència centrat en el desenvolupament del Coll.</string>
+
+    <string name="extension_lateral_cuello_tumbado_con_peso">Extensió Lateral de Coll estirat amb Pes</string>
+    <string name="extension_lateral_cuello_tumbado_con_peso_desc">Exercici de força o resistència centrat en el desenvolupament del Coll.</string>
+
+    <string name="press_hombros_con_split_jerk">Split Jerk</string>
+    <string name="press_hombros_con_split_jerk_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="press_push_con_split_jerk">Push Press amb Split Jerk</string>
+    <string name="press_push_con_split_jerk_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="snatch">Snatch</string>
+    <string name="snatch_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="squat_clean">Squat Clean</string>
+    <string name="squat_clean_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="squat_jerk">Squat Jerk</string>
+    <string name="squat_jerk_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="squat_snatch">Squat Snatch</string>
+    <string name="squat_snatch_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="squat_thruster">Squat Thruster</string>
+    <string name="squat_thruster_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="step_up">Step Up</string>
+    <string name="step_up_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="step_up_mancuerna">Step Up (Mancuerna)</string>
+    <string name="step_up_mancuerna_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="stiff_leg_deadlift_barra">Pes Mort amb Cames Rígides (Barra)</string>
+    <string name="stiff_leg_deadlift_barra_desc">Poderós exercici per enfortir la cadena posterior, incloent Isquiotibials i esquena baixa. Centrat en aixecar una càrrega del terra.</string>
+
+    <string name="stiff_leg_deadlift_mancuerna">Pes Mort amb Cames Rígides (Mancuerna)</string>
+    <string name="stiff_leg_deadlift_mancuerna_desc">Poderós exercici per enfortir la cadena posterior, incloent Isquiotibials i esquena baixa. Centrat en aixecar una càrrega del terra.</string>
+
+    <string name="stiff_leg_deadlift_maquina_smith">Pes Mort amb Cames Rígides (Màquina Smith)</string>
+    <string name="stiff_leg_deadlift_maquina_smith_desc">Poderós exercici per enfortir la cadena posterior, incloent Isquiotibials i esquena baixa. Centrat en aixecar una càrrega del terra.</string>
+
+    <string name="estiramiento">Estirament</string>
+    <string name="estiramiento_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="extensiones_triceps_banda">Extensions de Tríceps (Banda)</string>
+    <string name="extensiones_triceps_banda_desc">Exercici centrat en l\'extensió del braç per treballar els Tríceps.</string>
+
+    <string name="extensiones_triceps_cable">Extensions de Tríceps (Cable)</string>
+    <string name="extensiones_triceps_cable_desc">Exercici centrat en l\'extensió del braç per treballar els Tríceps.</string>
+
+    <string name="extensiones_triceps_mancuerna">Extensions de Tríceps (Mancuerna)</string>
+    <string name="extensiones_triceps_mancuerna_desc">Exercici centrat en l\'extensió del braç per treballar els Tríceps.</string>
+
+    <string name="extensiones_triceps_maquina">Extensions de Tríceps (Màquina)</string>
+    <string name="extensiones_triceps_maquina_desc">Exercici centrat en l\'extensió del braç per treballar els Tríceps.</string>
+
+    <string name="extensiones_triceps_suspension">Extensions de Tríceps (Suspensió)</string>
+    <string name="extensiones_triceps_suspension_desc">Exercici centrat en l\'extensió del braç per treballar els Tríceps.</string>
+
+    <string name="caminadora">Cinta de córrer</string>
+    <string name="caminadora_desc">Exercici aeròbic que augmenta la freqüència cardíaca i crema calories. Ideal per millorar la resistència cardiovascular.</string>
+
+    <string name="tirones_barra">Estirades (Barra)</string>
+    <string name="tirones_barra_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="tirones_mancuerna">Estirades (Mancuerna)</string>
+    <string name="tirones_mancuerna_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="press_triceps">Press de Tríceps</string>
+    <string name="press_triceps_desc">Exercici centrat en l\'extensió del braç per treballar els Tríceps.</string>
+
+    <string name="press_triceps_con_rotacion">Press de Tríceps amb Rotació</string>
+    <string name="press_triceps_con_rotacion_desc">Exercici centrat en l\'extensió del braç per treballar els Tríceps.</string>
+
+    <string name="v_up">V-Up</string>
+    <string name="v_up_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="sentadilla_v_up">V-Up Squat</string>
+    <string name="sentadilla_v_up_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="extension_pierna_vertical">Extensió de Cama Vertical</string>
+    <string name="extension_pierna_vertical_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="prensa_piernas_vertical">Premsa de Cames Vertical</string>
+    <string name="prensa_piernas_vertical_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="caminata">Caminar</string>
+    <string name="caminata_desc">Exercici aeròbic que augmenta la freqüència cardíaca i crema calories. Ideal per millorar la resistència cardiovascular.</string>
+
+    <string name="remo_con_mancuerna_tumbado">Rem amb Mancuerna (Estirat)</string>
+    <string name="remo_con_mancuerna_tumbado_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Alta.</string>
+
+    <string name="remo_con_mancuerna_en_inclinacion">Rem amb Mancuerna (Inclinat)</string>
+    <string name="remo_con_mancuerna_en_inclinacion_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Alta.</string>
+
+    <string name="remo_con_mancuerna_sentado">Rem amb Mancuerna (Assegut)</string>
+    <string name="remo_con_mancuerna_sentado_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Alta.</string>
+
+    <string name="v_sit">V-Sit</string>
+    <string name="v_sit_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="plancha_en_pared">Planxa a la Paret</string>
+    <string name="plancha_en_pared_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="elevaciones_laterales_en_pared">Elevacions Laterals a la Paret</string>
+    <string name="elevaciones_laterales_en_pared_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="press_hombros_en_pared">Press d\'Espatlles a la Paret</string>
+    <string name="press_hombros_en_pared_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="jalon_invertido_en_pared">Jaló Invertit a la Paret</string>
+    <string name="jalon_invertido_en_pared_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Alta.</string>
+
+    <string name="rotacion_muñeca_barra">Rotació de Canell (Barra)</string>
+    <string name="rotacion_muñeca_barra_desc">Exercici de força o resistència centrat en el desenvolupament dels Avantbraços.</string>
+
+    <string name="flexiones_muñeca_barra">Flexions de Canell (Barra)</string>
+    <string name="flexiones_muñeca_barra_desc">Exercici de força o resistència centrat en el desenvolupament dels Avantbraços.</string>
+
+    <string name="flexiones_muñeca_mancuerna">Flexions de Canell (Mancuerna)</string>
+    <string name="flexiones_muñeca_mancuerna_desc">Exercici de força o resistència centrat en el desenvolupament dels Avantbraços.</string>
+
+    <string name="zancadas">Zancades</string>
+    <string name="zancadas_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="zancadas_barra">Zancades (Barra)</string>
+    <string name="zancadas_barra_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="zancadas_mancuerna">Zancades (Mancuerna)</string>
+    <string name="zancadas_mancuerna_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="zancadas_maquina_smith">Zancades (Màquina Smith)</string>
+    <string name="zancadas_maquina_smith_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="zancadas_inversas_barra">Zancades Inverses (Barra)</string>
+    <string name="zancadas_inversas_barra_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="zancadas_inversas_mancuerna">Zancades Inverses (Mancuerna)</string>
+    <string name="zancadas_inversas_mancuerna_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="zancadas_laterales_barra">Zancades Laterals (Barra)</string>
+    <string name="zancadas_laterales_barra_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="zancadas_laterales_mancuerna">Zancades Laterals (Mancuerna)</string>
+    <string name="zancadas_laterales_mancuerna_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="zancadas_laterales_maquina_smith">Zancades Laterals (Màquina Smith)</string>
+    <string name="zancadas_laterales_maquina_smith_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="zancadas_laterales_cuerpo">Zancades Laterals (Cos lliure)</string>
+    <string name="zancadas_laterales_cuerpo_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="zancadas_bulgaras_mancuerna">Zancades Búlgares (Mancuerna)</string>
+    <string name="zancadas_bulgaras_mancuerna_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="zancadas_bulgaras_maquina_smith">Zancades Búlgares (Màquina Smith)</string>
+    <string name="zancadas_bulgaras_maquina_smith_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="elevacion_gemelos_de_pie_con_barra">Elevació de Bessons (Dret amb Barra)</string>
+    <string name="elevacion_gemelos_de_pie_con_barra_desc">Exercici per aïllar i desenvolupar els Bessons, centrant-se en la flexió plantar.</string>
+
+    <string name="elevacion_gemelos_de_pie_con_mancuerna">Elevació de Bessons (Dret amb Mancuerna)</string>
+    <string name="elevacion_gemelos_de_pie_con_mancuerna_desc">Exercici per aïllar i desenvolupar els Bessons, centrant-se en la flexió plantar.</string>
+
+    <string name="elevacion_gemelos_de_pie_maquina_smith">Elevació de Bessons (Dret Màquina Smith)</string>
+    <string name="elevacion_gemelos_de_pie_maquina_smith_desc">Exercici per aïllar i desenvolupar els Bessons, centrant-se en la flexió plantar.</string>
+
+    <string name="elevacion_gemelos_prensa_piernas">Elevació de Bessons (Premsa de Cames)</string>
+    <string name="elevacion_gemelos_prensa_piernas_desc">Exercici per aïllar i desenvolupar els Bessons, centrant-se en la flexió plantar.</string>
+
+    <string name="elevacion_gemelos_burro">Elevació de Bessons Ruc</string>
+    <string name="elevacion_gemelos_burro_desc">Exercici per aïllar i desenvolupar els Bessons, centrant-se en la flexió plantar.</string>
+
+    <string name="press_banca_pesa_rusa">Press de Banca (Pesa Russa)</string>
+    <string name="press_banca_pesa_rusa_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="abdominal_corto_con_pesa_rusa">Abdominal Curt (Pesa Russa)</string>
+    <string name="abdominal_corto_con_pesa_rusa_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="elevacion_rodillas_pesa_rusa">Elevació de Genolls (Pesa Russa)</string>
+    <string name="elevacion_rodillas_pesa_rusa_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="extension_triceps_pesa_rusa">Extensió de Tríceps (Pesa Russa)</string>
+    <string name="extension_triceps_pesa_rusa_desc">Exercici centrat en l\'extensió del braç per treballar els Tríceps.</string>
+
+    <string name="peso_muerto_pesa_rusa">Pes Mort (Pesa Russa)</string>
+    <string name="peso_muerto_pesa_rusa_desc">Poderós exercici per enfortir la cadena posterior, incloent Isquiotibials i esquena baixa. Centrat en aixecar una càrrega del terra.</string>
+
+    <string name="remo_con_pesa_rusa_sentado">Rem amb Pesa Russa (Assegut)</string>
+    <string name="remo_con_pesa_rusa_sentado_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Alta.</string>
+
+    <string name="peso_muerto_romano_pesa_rusa">Pes Mort Romà (Pesa Russa)</string>
+    <string name="peso_muerto_romano_pesa_rusa_desc">Poderós exercici per enfortir la cadena posterior, incloent Isquiotibials i esquena baixa. Centrat en aixecar una càrrega del terra.</string>
+
+    <string name="encogimiento_hombros_pesa_rusa">Encardiment d\'Espatlles (Pesa Russa)</string>
+    <string name="encogimiento_hombros_pesa_rusa_desc">Exercici de força o resistència centrat en el desenvolupament dels Trapezis.</string>
+
+    <string name="remo_con_pesa_rusa_tumbado">Rem amb Pesa Russa (Estirat)</string>
+    <string name="remo_con_pesa_rusa_tumbado_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Alta.</string>
+
+    <string name="zancada_pesa_rusa">Zancada (Pesa Russa)</string>
+    <string name="zancada_pesa_rusa_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="zancada_inversa_pesa_rusa">Zancada Inversa (Pesa Russa)</string>
+    <string name="zancada_inversa_pesa_rusa_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="zancada_lateral_pesa_rusa">Zancada Lateral (Pesa Russa)</string>
+    <string name="zancada_lateral_pesa_rusa_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="zancada_bulgara_pesa_rusa">Zancada Búlgara (Pesa Russa)</string>
+    <string name="zancada_bulgara_pesa_rusa_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="step_up_pesa_rusa">Step Up (Pesa Russa)</string>
+    <string name="step_up_pesa_rusa_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="extension_pierna_tumbado">Extensió de Cama (Estirat)</string>
+    <string name="extension_pierna_tumbado_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="sentadilla_sissy_barra">Sentadilla Sissy (Barra)</string>
+    <string name="sentadilla_sissy_barra_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="sentadilla_sissy_mancuerna">Sentadilla Sissy (Mancuerna)</string>
+    <string name="sentadilla_sissy_mancuerna_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="sentadilla_sissy_maquina">Sentadilla Sissy (Màquina)</string>
+    <string name="sentadilla_sissy_maquina_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="abdominal_corto_vertical">Abdominal Curt Vertical</string>
+    <string name="abdominal_corto_vertical_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="abdominales_bicicleta_vertical">Abdominals Bicicleta Vertical</string>
+    <string name="abdominales_bicicleta_vertical_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="curl_biceps_vertical">Curl de Bíceps Vertical</string>
+    <string name="curl_biceps_vertical_desc">Exercici d\'aïllament per concentrar el treball en els Bíceps, centrant-se en la flexió del colze.</string>
+
+    <string name="extension_triceps_vertical">Extensió de Tríceps Vertical</string>
+    <string name="extension_triceps_vertical_desc">Exercici centrat en l\'extensió del braç per treballar els Tríceps.</string>
+
+    <string name="press_banca_vertical">Press de Banca Vertical</string>
+    <string name="press_banca_vertical_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="remo_vertical_cable">Rem Vertical (Cable)</string>
+    <string name="remo_vertical_cable_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="remo_vertical_barra">Rem Vertical (Barra)</string>
+    <string name="remo_vertical_barra_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="remo_vertical_mancuerna">Rem Vertical (Mancuerna)</string>
+    <string name="remo_vertical_mancuerna_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="remo_vertical_pesa_rusa">Rem Vertical (Pesa Russa)</string>
+    <string name="remo_vertical_pesa_rusa_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="press_hombros_vertical_mancuerna">Press d\'Espatlles Vertical (Mancuerna)</string>
+    <string name="press_hombros_vertical_mancuerna_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="elevacion_gemelos_vertical">Elevació de Bessons Vertical</string>
+    <string name="elevacion_gemelos_vertical_desc">Exercici per aïllar i desenvolupar els Bessons, centrant-se en la flexió plantar.</string>
+
+    <string name="zancadas_verticales">Zancades Verticals</string>
+    <string name="zancadas_verticales_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="elevacion_talones_con_banda">Elevació de Talons amb Banda</string>
+    <string name="elevacion_talones_con_banda_desc">Exercici per aïllar i desenvolupar els Bessons, centrant-se en la flexió plantar.</string>
+
+    <string name="elevacion_talones_con_mancuerna">Elevació de Talons amb Mancuerna</string>
+    <string name="elevacion_talones_con_mancuerna_desc">Exercici per aïllar i desenvolupar els Bessons, centrant-se en la flexió plantar.</string>
+
+    <string name="elevacion_talones_sentado">Elevació de Talons Assegut</string>
+    <string name="elevacion_talones_sentado_desc">Exercici per aïllar i desenvolupar els Bessons, centrant-se en la flexió plantar.</string>
+
+    <string name="paseo_del_granjero_pesa_rusa">Passeig del Granger (Pesa Russa)</string>
+    <string name="paseo_del_granjero_pesa_rusa_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="caminata_sentadilla_banda">Caminada de Sentadilla (Banda)</string>
+    <string name="caminata_sentadilla_banda_desc">Exercici centrat en l\'activació i enfortiment dels Glutis i malucs, clau per a la potència i l\'estabilitat.</string>
+
+    <string name="sentadilla_sumo_barra">Sentadilla Sumo (Barra)</string>
+    <string name="sentadilla_sumo_barra_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="sentadilla_sumo_mancuerna">Sentadilla Sumo (Mancuerna)</string>
+    <string name="sentadilla_sumo_mancuerna_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="peso_muerto_sumo_barra">Pes Mort Sumo (Barra)</string>
+    <string name="peso_muerto_sumo_barra_desc">Poderós exercici per enfortir la cadena posterior, incloent Isquiotibials i esquena baixa. Centrat en aixecar una càrrega del terra.</string>
+
+    <string name="peso_muerto_sumo_mancuerna">Pes Mort Sumo (Mancuerna)</string>
+    <string name="peso_muerto_sumo_mancuerna_desc">Poderós exercici per enfortir la cadena posterior, incloent Isquiotibials i esquena baixa. Centrat en aixecar una càrrega del terra.</string>
+
+    <string name="inmersion_en_bicicleta">Spinning</string>
+    <string name="inmersion_en_bicicleta_desc">Exercici aeròbic que augmenta la freqüència cardíaca i crema calories. Ideal per millorar la resistència cardiovascular.</string>
+
+    <string name="rotacion_torso_maquina">Rotació de Tors (Màquina)</string>
+    <string name="rotacion_torso_maquina_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="rotacion_torso_sentado">Rotació de Tors (Assegut)</string>
+    <string name="rotacion_torso_sentado_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="rotacion_torso_tumbado">Rotació de Tors (Estirat)</string>
+    <string name="rotacion_torso_tumbado_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="sentadilla_al_banco_barra">Sentadilla al Banc (Barra)</string>
+    <string name="sentadilla_al_banco_barra_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="sentadilla_al_banco_mancuerna">Sentadilla al Banc (Mancuerna)</string>
+    <string name="sentadilla_al_banco_mancuerna_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="sentadilla_al_banco_maquina_smith">Sentadilla al Banc (Màquina Smith)</string>
+    <string name="sentadilla_al_banco_maquina_smith_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="press_triceps_cable">Press de Tríceps (Cable)</string>
+    <string name="press_triceps_cable_desc">Exercici centrat en l\'extensió del braç per treballar els Tríceps.</string>
+
+    <string name="press_triceps_mancuerna">Press de Tríceps (Mancuerna)</string>
+    <string name="press_triceps_mancuerna_desc">Exercici centrat en l\'extensió del braç per treballar els Tríceps.</string>
+
+    <string name="press_triceps_maquina">Press de Tríceps (Màquina)</string>
+    <string name="press_triceps_maquina_desc">Exercici centrat en l\'extensió del braç per treballar els Tríceps.</string>
+
+    <string name="peso_muerto_a_una_pierna_mancuerna">Pes Mort a una Cama (Mancuerna)</string>
+    <string name="peso_muerto_a_una_pierna_mancuerna_desc">Poderós exercici per enfortir la cadena posterior, incloent Isquiotibials i esquena baixa. Centrat en aixecar una càrrega del terra.</string>
+
+    <string name="peso_muerto_a_una_pierna_pesa_rusa">Pes Mort a una Cama (Pesa Russa)</string>
+    <string name="peso_muerto_a_una_pierna_pesa_rusa_desc">Poderós exercici per enfortir la cadena posterior, incloent Isquiotibials i esquena baixa. Centrat en aixecar una càrrega del terra.</string>
+
+    <string name="press_overhead_barra">Press Overhead (Barra)</string>
+    <string name="press_overhead_barra_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="press_overhead_maquina_smith">Press Overhead (Màquina Smith)</string>
+    <string name="press_overhead_maquina_smith_desc">Exercici d\'empenyiment o elevació per desenvolupar els deltoides, centrant-se en les Espatlles.</string>
+
+    <string name="extensiones_muñeca_barra">Extensions de Canell (Barra)</string>
+    <string name="extensiones_muñeca_barra_desc">Exercici de força o resistència centrat en el desenvolupament dels Avantbraços.</string>
+
+    <string name="extensiones_muñeca_cable">Extensions de Canell (Cable)</string>
+    <string name="extensiones_muñeca_cable_desc">Exercici de força o resistència centrat en el desenvolupament dels Avantbraços.</string>
+
+    <string name="curl_inverso_muñeca_cable">Curl Invers de Canell (Cable)</string>
+    <string name="curl_inverso_muñeca_cable_desc">Exercici de força o resistència centrat en el desenvolupament dels Avantbraços.</string>
+
+    <string name="flexiones_muñeca_cable">Flexions de Canell (Cable)</string>
+    <string name="flexiones_muñeca_cable_desc">Exercici de força o resistència centrat en el desenvolupament dels Avantbraços.</string>
+
+    <string name="press_pecho_cable">Press de Pit (Cable)</string>
+    <string name="press_pecho_cable_desc">Moviment fonamental d\'empenyiment per desenvolupar la força i el volum del Pit, centrant-se en la pressió de càrrega horitzontal.</string>
+
+    <string name="rotacion_torso_cable">Rotació de Tors (Cable)</string>
+    <string name="rotacion_torso_cable_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="rotacion_torso_mancuerna">Rotació de Tors (Mancuerna)</string>
+    <string name="rotacion_torso_mancuerna_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="remo_con_maquina_t">Rem amb Màquina T</string>
+    <string name="remo_con_maquina_t_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Alta.</string>
+
+    <string name="remo_con_maquina_t_sentado">Rem amb Màquina T Assegut</string>
+    <string name="remo_con_maquina_t_sentado_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Alta.</string>
+
+    <string name="remo_con_barra_t">Rem amb Barra T</string>
+    <string name="remo_con_barra_t_desc">Exercici de força o resistència centrat en el desenvolupament de l\'Esquena Alta.</string>
+
+    <string name="extension_triceps_barra_ez">Extensió de Tríceps (Barra EZ)</string>
+    <string name="extension_triceps_barra_ez_desc">Exercici centrat en l\'extensió del braç per treballar els Tríceps.</string>
+
+    <string name="remo_triceps_cable">Rem de Tríceps (Cable)</string>
+    <string name="remo_triceps_cable_desc">Exercici centrat en l\'extensió del braç per treballar els Tríceps.</string>
+
+    <string name="press_frances_barra_ez">Press Francès (Barra EZ)</string>
+    <string name="press_frances_barra_ez_desc">Exercici centrat en l\'extensió del braç per treballar els Tríceps.</string>
+
+    <string name="press_frances_mancuerna">Press Francès (Mancuerna)</string>
+    <string name="press_frances_mancuerna_desc">Exercici centrat en l\'extensió del braç per treballar els Tríceps.</string>
+
+    <string name="rotacion_torso_barra">Rotació de Tors (Barra)</string>
+    <string name="rotacion_torso_barra_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="abdominales">Abdominals</string>
+    <string name="abdominales_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="abdominales_con_peso">Abdominals amb Pes</string>
+    <string name="abdominales_con_peso_desc">Exercici de core per enfortir els Abdominals, centrat en l\'estabilitat i la resistència.</string>
+
+    <string name="curl_zottman_cable">Curl Zottman (Cable)</string>
+    <string name="curl_zottman_cable_desc">Exercici d\'aïllament per concentrar el treball en els Bíceps, centrant-se en la flexió del colze.</string>
+
+    <string name="zancadas_caminando">Zancades Caminant</string>
+    <string name="zancadas_caminando_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="zancadas_caminando_mancuerna">Zancades Caminant (Mancuerna)</string>
+    <string name="zancadas_caminando_mancuerna_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="lanzamientos_balon">Llançaments de Pilota a la Paret</string>
+    <string name="lanzamientos_balon_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="sentadilla_en_pared">Sentadilla a la Paret</string>
+    <string name="sentadilla_en_pared_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="calentamiento">Escalfament</string>
+    <string name="calentamiento_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="dominada_abierta">Dominada Oberta</string>
+    <string name="dominada_abierta_desc">Excel·lent moviment de tracció vertical per desenvolupar els Dorsals i l\'esquena alta.</string>
+
+    <string name="rodillo_antebrazos">Corró d\'Avantbraços</string>
+    <string name="rodillo_antebrazos_desc">Exercici de força o resistència centrat en el desenvolupament dels Avantbraços.</string>
+
+    <string name="yoga">Ioga</string>
+    <string name="yoga_desc">Moviment funcional i dinàmic que recluta múltiples grups musculars simultàniament, millorant la coordinació i la potència.</string>
+
+    <string name="sentadilla_zercher">Sentadilla Zercher</string>
+    <string name="sentadilla_zercher_desc">Moviment compost per treballar principalment els Quàdriceps i glutis. Essencial per a la força del tren inferior.</string>
+
+    <string name="curl_zottman_mancuerna">Curl Zottman (Mancuerna)</string>
+    <string name="curl_zottman_mancuerna_desc">Exercici d\'aïllament per concentrar el treball en els Bíceps, centrant-se en la flexió del colze.</string>
+
+    <!-- Meses del año-->
+    <string name="month_january">Gener</string>
+    <string name="month_february">Febrer</string>
+    <string name="month_march">Març</string>
+    <string name="month_april">Abril</string>
+    <string name="month_may">Maig</string>
+    <string name="month_june">Juny</string>
+    <string name="month_july">Juliol</string>
+    <string name="month_august">Agost</string>
+    <string name="month_september">Setembre</string>
+    <string name="month_october">Octubre</string>
+    <string name="month_november">Novembre</string>
+    <string name="month_december">Desembre</string>
+
+    <string name="no_tienes_medidas_disponibles">No tens mesures disponibles</string>
+    <string name="a_adir_medida">Afegir mesura</string>
+    <string name="historial">Historial</string>
+
+    <string name="titulo_nueva_medida">Nova Mesura</string>
+    <string name="hint_fecha">Data</string>
+    <string name="hint_valor_ejemplo">Valor (ex. 75.5)</string>
+    <string name="accion_guardar">Desar</string>
+
+    <string name="titulo_dietas">Dieta</string>
+
+    <string name="formato_calorias_total">%1$d / %2$d kcal</string>
+    <string name="macro_proteinas">Proteïna</string>
+    <string name="macro_carbohidratos">Carbohidrats</string>
+    <string name="macro_grasas">Greixos</string>
+    <string name="formato_macro_gramos">%1$d / %2$d g</string>
+
+    <string name="seccion_desayuno">Esmorzar</string>
+    <string name="seccion_comida">Dinar</string>
+    <string name="seccion_cena">Sopar</string>
+    <string name="seccion_snacks">Snacks</string>
+
+    <string name="btn_agregar_desayuno">+ Afegir Esmorzar</string>
+    <string name="btn_agregar_comida">+ Afegir Dinar</string>
+    <string name="btn_agregar_cena">+ Afegir Sopar</string>
+    <string name="btn_agregar_snack">+ Afegir Snack</string>
+
+    <string name="formato_resumen_comida">%1$d kcal | %2$d P | %3$d C | %4$d G</string>
+
+    <string name="desc_perfil">Perfil</string>
+    <string name="desc_entrenamiento">Entrenament</string>
+    <string name="desc_calorias">Calories</string>
+
+    <string name="crear_alimento">Crear Aliment</string>
+    <string name="nombre_y_marca">Nom i Marca</string>
+    <string name="marca">Marca</string>
+    <string name="nombre">Nom *</string>
+    <string name="categor_a">Categoria *</string>
+    <string name="informaci_n_nutricional">Informació Nutricional</string>
+    <string name="s_lido_100g">Sòlid (100g)</string>
+    <string name="l_quido_100ml">Líquid (100ml)</string>
+    <string name="valor_energ_tico_por_100g">Valor Energètic (per 100g) *</string>
+    <string name="grasas_por_100g">Greixos (per 100g) *</string>
+    <string name="carbohidratos_por_100g">Carbohidrats (per 100g) *</string>
+    <string name="prote_nas_por_100g">Proteïnes (per 100g) *</string>
+    <string name="imagen_del_alimento">Imatge de l\'Aliment</string>
+    <string name="galer_a">Galeria</string>
+    <string name="c_mara">Càmera</string>
+    <string name="datos_por_100g">Dades per 100g</string>
+    <string name="kcal">kcal</string>
+    <string name="prote_nas">proteïnes</string>
+    <string name="carbs">carbohidrats</string>
+    <string name="grasas">greixos</string>
+    <string name="cantidad">Quantitat</string>
+    <string name="ingresar_a_desayuno">Afegir a l\'Esmorzar</string>
+    <string name="alimentos">Aliments</string>
+    <string name="busca_un_alimento">Cerca un aliment</string>
+    <string name="buscar">Cercar</string>
+    <string name="mis_alimentos">Els meus Aliments</string>
+    <string name="a_adir_alimento_nuevo">Afegir Nou Aliment</string>
+    <string name="dialog_eliminar_titulo">Eliminar Aliment</string>
+    <string name="dialog_eliminar_mensaje">Vols eliminar \'%1$s\' dels teus aliments?</string>
+    <string name="btn_eliminar">Eliminar</string>
+    <string name="msg_eliminado_ok">Eliminat correctament</string>
+    <string name="msg_error_eliminar">Error en eliminar</string>
+    <string name="hint_calorias_dinamico">Valor Energètic (per %1$s) *</string>
+    <string name="hint_grasas_dinamico">Greixos (per %1$s) *</string>
+    <string name="hint_carbohidratos_dinamico">Carbohidrats (per %1$s) *</string>
+    <string name="hint_proteinas_dinamico">Proteïnes (per %1$s) *</string>
+
+    <string name="error_nombre_req">El nom és obligatori</string>
+    <string name="error_categoria_req">Selecciona una categoria vàlida</string>
+    <string name="obligatorio">Obligatori</string>
+    <string name="error_campos_obligatorios">Si us plau, completa tots els camps obligatoris</string>
+
+    <string name="guardando">Desant...</string>
+    <string name="msg_alimento_guardado">Aliment desat correctament</string>
+    <string name="btn_crear_alimento">Crear Aliment</string>
+    <string name="error">Error</string>
+    <string name="btn_ingresar_a">Afegir a %1$s</string>
+    <string name="datos_por_100">Dades per %1$s</string>
+    <string name="msg_anadido_a">Afegit a %1$s</string>
+    <string name="titulo_cerrarsesion">Tancar Sessió</string>
+    <string name="mensaje_confirmacion_cerrarsesion">Estàs segur que vols tancar la sessió?</string>
+    <string name="boton_si_cerrarsesion">Sí</string>
+    <string name="boton_no_cerrarsesion">No</string>
+    <string name="sesion_cerrada_cerrarsesion">Sessió tancada correctament</string>
+    <string name="error_cerrar_sesion_cerrarsesion">Error en tancar la sessió</string>
+
+    <string name="cat_frutos_secos">Fruits Secs i Llavors</string>
+    <string name="cat_snacks">Snacks</string>
+    <string name="cat_dulces">Dolços i Caramels</string>
+    <string name="cat_lacteos">Làctics i Formatges</string>
+    <string name="cat_panaderia">Fleca</string>
+    <string name="cat_carnes">Carns</string>
+    <string name="cat_pescados">Peix i Marisc</string>
+    <string name="cat_cereales">Cereals i Grans</string>
+    <string name="cat_vegetal">Fruites i Verdures</string>
+    <string name="cat_bebidas">Begudes</string>
+    <string name="cat_salsas">Salses i Olis</string>
+
+    <string name="seguidos">%1$d Seguits</string>
+    <string name="seguidores">%1$d Seguidors</string>
+    <string name="seguidoress">Seguidors</string>
+
+    <string name="back">Enrere</string>
+    <string name="followers">Seguidors</string>
+    <string name="following">Seguits</string>
+
+    <string name="titulo_seguidores_notificacion">Activitat de Seguidors</string>
+    <string name="seguidor_nuevo_notificacion">%1$s ha començat a seguir-te</string>
+    <string name="seguidor_perdido_notificacion">%1$s ha deixat de seguir-te</string>
+    <string name="canal_seguidores_nombre_notificacion">Seguidors</string>
+    <string name="nuevos_seguidores_notificaciones">Nous seguidors</string>
+    <string name="nuevos_seguidores_descripcion_notificaciones">Notifica\'m quan algú comenci o deixi de seguir-me.</string>
+
+    <string name="dificultad">Dificultat</string>
+    <string name="dia">Dia %1$d - %2$s</string>
+
+    <string name="copiar_rutina">Copiar rutina</string>
+    <string name="copiada">%1$s (Còpia)</string>
+    <string name="rutina_a_adida_a_tus_entrenamientos">Rutina afegida als teus entrenaments</string>
+    <string name="error_al_copiar_rutina">Error en copiar la rutina</string>
+    <string name="a_adir_serie">Afegir sèrie</string>
+    <string name="serie">Sèrie</string>
+
+    <string name="unidad_peso_kg">kg</string>
+    <string name="unidad_peso_lbs">lbs</string>
+    <string name="hint_peso_con_unidad">Pes (%s)</string>
+
+
+    <string name="error_apellidos_req">El cognom és obligatori</string>
+    <string name="error_edad_valida">Si us plau, introdueix una edat vàlida (1-120)</string>
+    <string name="error_seleccionar_genero">Selecciona un gènere</string>
+
+    <string name="error_seleccionar_estilo">Selecciona un estil de vida</string>
+    <string name="error_seleccionar_objetivo">Selecciona un objectiu</string>
+
+    <string name="enhorabuena">Felicitats! 🎉</string>
+    <string name="mensaje_finalizar">Has finalitzat la teva rutina en:</string>
+    <string name="aceptar">D\'acord</string>
+
+    <string name="empezar_entrenamiento">Començar Entrenament</string>
+    <string name="seleccionar_dias">Selecciona dies</string>
+    <string name="valor_invalido">Valor invàlid</string>
+
+    <string name="formato_grupo_muscular">Grup muscular: %1$s</string>
+    <string name="formato_dificultad">Dificultat: %1$s</string>
+
+    <string name="notificaciones_generales">Notificacions generals</string>
+    <string name="activar_o_desactivar_todas">Activa o desactiva totes</string>
+    <string name="recordatorio_entreno">Recordatori d\'entrenament</string>
+    <string name="toca_para_configurar">Toca per configurar...</string>
+    <string name="resumen_semanal">Resum setmanal</string>
+    <string name="recordatorio_de_foto">Recordatori de foto</string>
+
+    <string name="catalan_idioma">Català</string>
+    <string name="japones_idioma">Japonès</string>
+
+    <string name="error_cargar_datos_formato">Error en carregar dades: %s</string>
+    <string name="formato_fecha_grafico">dd/MM</string>
+    <string name="grafico_etiqueta_peso_con_unidad">Pes (%s)</string>
+    <string name="grafico_etiqueta_volumen_con_unidad">Volum (%s)</string>
+    <string name="etiqueta_semana_con_numero">Set. %d</string>
+    <string name="grafico_titulo_volumen">Volum</string>
+    <string name="grafico_titulo_peso">Pes</string>
+    <string name="toast_subiendo_imagen">Pujant imatge...</string>
+    <string name="toast_error_subida_foto">Error en pujar la foto</string>
+
+    <string name="mensaje_borrar_rutina">Esborrar \'%1$s\'?</string>
+
+    <string name="altura">Alçada</string>
+
+    <string name="formato_resumen_entreno">%1$s a les %2$s</string>
+
+    <string name="notif_entreno_titulo">Hora d\'entrenar!</string>
+    <string name="notif_entreno_mensaje">No trenquis la teva ratxa, avui toca donar-ho tot.</string>
+    <string name="notif_foto_titulo">És l\'hora de la teva foto setmanal!</string>
+    <string name="notif_foto_mensaje">Han passat 7 dies des del teu últim registre. Actualitza el teu progrés!</string>
+    <string name="canal_entreno_nombre">Recordatoris d\'Entrenament</string>
+    <string name="canal_foto_nombre">Recordatoris de Progrés</string>
+</resources>

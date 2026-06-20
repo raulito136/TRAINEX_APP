@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:id="@+id/main">
+
+    <!-- Header -->
+    <LinearLayout
+        android:id="@+id/headerCambiarEmail"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/backgroundHeader"
+        android:gravity="center_vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/atras"
+            android:textColor="@color/link"
+            android:textSize="16sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/tvTituloCambiarEmail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@color/text"
+            android:text="@string/titulo_cambiar_email" />
+
+        <View
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="16dp" />
+
+    </LinearLayout>
+
+    <!-- Línea separadora -->
+    <View
+        android:id="@+id/headerDivider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@color/separator"
+        app:layout_constraintTop_toBottomOf="@id/headerCambiarEmail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- ScrollView para contenido -->
+    <ScrollView
+        android:id="@+id/scrollViewCambiarEmail"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toBottomOf="@id/headerDivider"
+        app:layout_constraintBottom_toTopOf="@id/btnGuardarEmail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Email actual -->
+            <TextView
+                android:id="@+id/tvLabelEmailActual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_email_actual"
+                android:textColor="@color/text"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/tvEmailActual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/bg_ajustes_item"
+                android:padding="16dp"
+                android:textColor="@color/text"
+                android:textSize="16sp" />
+
+            <!-- Nuevo email -->
+            <TextView
+                android:id="@+id/tvLabelNuevoEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_nuevo_email"
+                android:textColor="@color/text"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/etNuevoEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/bg_ajustes_item"
+            android:hint="@string/hint_nuevo_email"
+            android:inputType="textEmailAddress"
+            android:padding="16dp"
+            android:textColor="@color/text"
+            android:textColorHint="@color/light_gray" />
+
+            <!-- Contraseña actual -->
+            <TextView
+                android:id="@+id/tvLabelContrasenaActual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_contrasena_actual_email"
+                android:textColor="@color/text"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/etContrasenaActual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_ajustes_item"
+            android:hint="@string/hint_contrasena_placeholder"
+            android:inputType="textPassword"
+            android:padding="16dp"
+            android:textColor="@color/text"
+            android:textColorHint="@color/light_gray" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Botón de guardar -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnGuardarEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_ajustes_item"
+        android:text="@string/boton_guardar_email"
+        android:textAllCaps="false"
+        android:textColor="@color/text"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

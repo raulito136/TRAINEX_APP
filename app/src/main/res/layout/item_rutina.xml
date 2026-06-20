@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/grey">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvTituloRutina"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/titulo_de_la_rutina"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/white"/>
+
+            <ImageView
+                android:id="@+id/ivMenu"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_tres_puntos"
+                android:contentDescription="@string/menu"
+                android:padding="4dp"
+                app:tint="@color/white" />
+
+        </LinearLayout>
+
+        <!-- Reemplazamos por LinearLayout horizontal -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp"
+            android:gravity="start|center_vertical">
+
+            <TextView
+                android:id="@+id/tvNumeroEjercicios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5 ejercicios"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

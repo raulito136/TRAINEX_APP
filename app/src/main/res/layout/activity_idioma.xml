@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:id="@+id/main"
+    android:fitsSystemWindows="true">
+
+    <!-- Header -->
+    <LinearLayout
+        android:id="@+id/headerIdioma"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/backgroundHeader"
+        android:gravity="center_vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/atras"
+            android:textColor="@color/link"
+            android:textSize="16sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/tvTituloIdioma"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@color/text"
+            android:text="@string/titulo_idioma_idioma" />
+
+        <View
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="16dp" />
+
+    </LinearLayout>
+
+    <!-- Línea separadora -->
+    <View
+        android:id="@+id/headerDivider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@color/separator"
+        app:layout_constraintTop_toBottomOf="@id/headerIdioma"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- ScrollView para contenido -->
+    <ScrollView
+        android:id="@+id/scrollViewIdioma"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toBottomOf="@id/headerDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Inglés (PRIMERO porque es el default) -->
+            <LinearLayout
+                android:id="@+id/lytIngles"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                android:background="@drawable/bg_ajustes_item"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginBottom="0dp">
+
+                <ImageView
+                    android:id="@+id/ivBanderaIngles"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/ic_inglaterra" />
+
+                <TextView
+                    android:id="@+id/tvIngles"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/ingles_idioma"
+                    android:textSize="16sp"
+                    android:textColor="@color/text" />
+
+                <ImageView
+                    android:id="@+id/ivCheckIngles"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_check"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+            <!-- Español -->
+            <LinearLayout
+                android:id="@+id/lytEspanol"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                    android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                android:background="@drawable/bg_ajustes_item"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginBottom="0dp">
+
+                <ImageView
+                    android:id="@+id/ivBanderaEspanol"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/ic_espana" />
+
+                <TextView
+                    android:id="@+id/tvEspanol"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/espanol_idioma"
+                    android:textSize="16sp"
+                    android:textColor="@color/text" />
+
+                <ImageView
+                    android:id="@+id/ivCheckEspanol"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_check"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+            <!-- Frances -->
+            <LinearLayout
+                android:id="@+id/lytFrances"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                android:background="@drawable/bg_ajustes_item"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginBottom="0dp">
+
+                <ImageView
+                    android:id="@+id/ivBanderaFrances"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/ic_francia" />
+
+                <TextView
+                    android:id="@+id/tvFrances"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/frances_idioma"
+                    android:textSize="16sp"
+                    android:textColor="@color/text" />
+
+                <ImageView
+                    android:id="@+id/ivCheckFrances"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_check"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <!-- Japones -->
+            <LinearLayout
+                android:id="@+id/lytJapones"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                android:background="@drawable/bg_ajustes_item"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginBottom="0dp">
+
+                <ImageView
+                    android:id="@+id/ivBanderaJapones"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/ic_japon" />
+
+                <TextView
+                    android:id="@+id/tvJapones"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/japones_idioma"
+                    android:textSize="16sp"
+                    android:textColor="@color/text" />
+
+                <ImageView
+                    android:id="@+id/ivCheckJapones"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_check"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <!-- Catalán -->
+            <LinearLayout
+                android:id="@+id/lytCatalan"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                android:background="@drawable/bg_ajustes_item"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginBottom="0dp">
+
+                <ImageView
+                    android:id="@+id/ivBanderaCatalan"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/ic_cataluna" />
+
+                <TextView
+                    android:id="@+id/tvCatalan"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/catalan_idioma"
+                    android:textSize="16sp"
+                    android:textColor="@color/text" />
+
+                <ImageView
+                    android:id="@+id/ivCheckCatalan"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_check"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

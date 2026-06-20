@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/iniciar_sesion"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"
+            android:textColor="?attr/android:textColor" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/correo_electronico"
+            android:background="@drawable/edittext_dark_background"
+            android:padding="12dp"
+            android:inputType="textEmailAddress"
+            android:textColor="?attr/android:textColor"
+            android:textColorHint="#808080"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/contrasena"
+            android:background="@drawable/edittext_dark_background"
+            android:padding="12dp"
+            android:inputType="textPassword"
+            android:textColor="?attr/android:textColor"
+            android:textColorHint="#808080"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/iniciar_sesion"
+            android:textColor="?attr/textPrimaryButton"
+            android:backgroundTint="?attr/backgroundPrimaryButton"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnGoogle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Acceder con Google"
+            android:textColor="?attr/textSecundaryButton"
+            android:backgroundTint="?attr/selection"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF4444"
+            android:textSize="14sp"
+            android:visibility="gone"
+            android:paddingTop="8dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tvRegistro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_tienes_cuenta_registrate"
+            android:textColor="?attr/link"
+            android:layout_marginTop="8dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvOlvidadoContrasena"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/has_olvidado_tu_contrasena"
+            android:textColor="?attr/link"
+            android:layout_marginTop="12dp"
+            android:textSize="14sp"
+            android:clickable="true"
+            android:focusable="true" />
+    </LinearLayout>
+</ScrollView>

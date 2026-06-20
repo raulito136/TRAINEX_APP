@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dias_entrenamiento_array">
+        <item>1 dia</item>
+        <item>2 dies</item>
+        <item>3 dies</item>
+        <item>4 dies</item>
+        <item>5 dies</item>
+        <item>6 dies</item>
+        <item>7 dies</item>
+    </string-array>
+
+    <string-array name="objetivos_array">
+        <item>Hipertròfia (Augment muscular)</item>
+        <item>Força màxima</item>
+        <item>Resistència</item>
+        <item>Pèrdua de greix</item>
+    </string-array>
+
+    <string-array name="experiencia_array">
+        <item>Principiant (0-6 mesos)</item>
+        <item>Intermedi (6 mesos-2 anys)</item>
+        <item>Avançat (+2 anys)</item>
+    </string-array>
+
+    <string-array name="month_names_short">
+        <item>Gen.</item>
+        <item>Febr.</item>
+        <item>Març</item>
+        <item>Abr.</item>
+        <item>Maig</item>
+        <item>Juny</item>
+        <item>Jul.</item>
+        <item>Ag.</item>
+        <item>Set.</item>
+        <item>Oct.</item>
+        <item>Nov.</item>
+        <item>Des.</item>
+    </string-array>
+
+    <string-array name="array_estilo_vida">
+        <item>Seleccioni el seu estil de vida</item>
+        <item>Sedentari</item>
+        <item>Lleuger</item>
+        <item>Moderat</item>
+        <item>Actiu</item>
+    </string-array>
+
+    <string-array name="array_objetivos">
+        <item>Seleccioni el seu objectiu</item>
+        <item>Mantenir Pes</item>
+        <item>Perdre Pes</item>
+        <item>Guanyar Múscul</item>
+    </string-array>
+
+    <string-array name="array_sexo">
+        <item>Seleccioni el seu gènere</item>
+        <item>Home</item>
+        <item>Dona</item>
+    </string-array>
+
+    <string-array name="categorias_alimentos_array">
+        <item>Seleccioni categoria</item>
+        <item>Carns</item>
+        <item>Peixos i Mariscs</item>
+        <item>Ous</item>
+        <item>Lactis i Formatges</item>
+        <item>Cereals, Pasta i Pa</item>
+        <item>Legums</item>
+        <item>Fruites</item>
+        <item>Verdures i Hortalisses</item>
+        <item>Fruits Secs</item>
+        <item>Dolços i Postres</item>
+        <item>Olis i Greixos</item>
+        <item>Begudes</item>
+        <item>Plats Preparats</item>
+        <item>Salses i Condiments</item>
+        <item>Espècies i Herbes</item>
+        <item>Llavors</item>
+        <item>Suplements Esportius</item>
+        <item>Bolleria i Pastisseria</item>
+        <item>Alcohol</item>
+        <item>Vegà (Tofu/Seitán)</item>
+        <item>Altres</item>
+    </string-array>
+
+    <string-array name="dias_semana">
+        <item>Dilluns</item>
+        <item>Dimarts</item>
+        <item>Dimecres</item>
+        <item>Dijous</item>
+        <item>Divendres</item>
+        <item>Dissabte</item>
+        <item>Diumenge</item>
+    </string-array>
+    <string-array name="dias_semana_short">
+        <item>Dl</item>
+        <item>Dt</item>
+        <item>Dc</item>
+        <item>Dj</item>
+        <item>Dv</item>
+        <item>Ds</item>
+        <item>Dg</item>
+    </string-array>
+</resources>

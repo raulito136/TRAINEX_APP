@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/background"
+    android:paddingVertical="12dp"
+    android:paddingHorizontal="16dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvImageContainer"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:cardBackgroundColor="@color/image_placeholder_bg"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ivAlimentoIcon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher_foreground"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription" />
+    </androidx.cardview.widget.CardView>
+
+    <CheckBox
+        android:id="@+id/cbSeleccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/selector_custom_checkbox"
+        app:buttonTint="@null"
+        android:checked="true"
+        android:focusable="false"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvCategoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:textColor="@color/textSecondary"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cbSeleccion"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="380 g" />
+
+    <TextView
+        android:id="@+id/tvNombreAlimento"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="?attr/android:textColor"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tvMarcaAlimento"
+        app:layout_constraintEnd_toStartOf="@+id/tvCategoria"
+        app:layout_constraintStart_toEndOf="@+id/cvImageContainer"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:text="Nombre Alimento" />
+
+    <TextView
+        android:id="@+id/tvMarcaAlimento"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/textSecondary"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tvNombreAlimento"
+        app:layout_constraintStart_toStartOf="@+id/tvNombreAlimento"
+        app:layout_constraintTop_toBottomOf="@+id/tvNombreAlimento"
+        tools:text="Marca" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

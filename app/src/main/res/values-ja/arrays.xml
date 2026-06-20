@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dias_entrenamiento_array">
+        <item>週1日</item>
+        <item>週2日</item>
+        <item>週3日</item>
+        <item>週4日</item>
+        <item>週5日</item>
+        <item>週6日</item>
+        <item>週7日</item>
+    </string-array>
+
+    <string-array name="objetivos_array">
+        <item>筋肥大（筋肉量の増加）</item>
+        <item>最大筋力</item>
+        <item>持久力</item>
+        <item>脂肪燃焼</item>
+    </string-array>
+
+    <string-array name="experiencia_array">
+        <item>初心者 (0-6ヶ月)</item>
+        <item>中級者 (6ヶ月-2年)</item>
+        <item>上級者 (2年以上)</item>
+    </string-array>
+
+    <string-array name="month_names_short">
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+
+    <string-array name="array_estilo_vida">
+        <item>ライフスタイルを選択してください</item>
+        <item>座りっぱなし</item>
+        <item>軽い活動</item>
+        <item>標準的</item>
+        <item>活発</item>
+    </string-array>
+
+    <string-array name="array_objetivos">
+        <item>目標を選択してください</item>
+        <item>体重維持</item>
+        <item>減量</item>
+        <item>バルクアップ（筋肉増量）</item>
+    </string-array>
+
+    <string-array name="array_sexo">
+        <item>性別を選択してください</item>
+        <item>男性</item>
+        <item>女性</item>
+    </string-array>
+
+    <string-array name="categorias_alimentos_array">
+        <item>カテゴリーを選択</item>
+        <item>肉類</item>
+        <item>魚介類</item>
+        <item>卵</item>
+        <item>乳製品・チーズ</item>
+        <item>穀物・パスタ・パン</item>
+        <item>豆類</item>
+        <item>果物</item>
+        <item>野菜</item>
+        <item>ナッツ・種実類</item>
+        <item>菓子・デザート</item>
+        <item>油・脂質</item>
+        <item>飲料</item>
+        <item>惣菜・レトルト</item>
+        <item>ソース・調味料</item>
+        <item>スパイス・ハーブ</item>
+        <item>種子</item>
+        <item>スポーツサプリメント</item>
+        <item>パン・菓子パン</item>
+        <item>アルコール</item>
+        <item>ヴィーガン（豆腐・セイタン等）</item>
+        <item>その他</item>
+    </string-array>
+
+    <string-array name="dias_semana">
+        <item>月曜日</item>
+        <item>火曜日</item>
+        <item>水曜日</item>
+        <item>木曜日</item>
+        <item>金曜日</item>
+        <item>土曜日</item>
+        <item>日曜日</item>
+    </string-array>
+    <string-array name="dias_semana_short">
+        <item>月</item>
+        <item>火</item>
+        <item>水</item>
+        <item>木</item>
+        <item>金</item>
+        <item>土</item>
+        <item>日</item>
+    </string-array>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <RelativeLayout
+        android:id="@+id/headerSocial"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/background">
+
+        <TextView
+            android:id="@+id/btnBackSocial"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/back"
+            android:textColor="@color/link"
+            android:textSize="17sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/tvTitleSocial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/followers"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="?attr/colorOnSurface"/>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/headerDivider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?attr/separator" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayoutSocial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        app:tabIndicatorColor="?attr/secondary"
+        app:tabSelectedTextColor="?attr/secondary"
+        app:tabTextColor="@android:color/darker_gray" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPagerSocial"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,1753 @@
+<resources>
+    <string name="app_name">Trainex</string>
+    <string name="entrenamiento">トレーニング</string>
+    <string name="rutinas">ルーティン</string>
+    <string name="nueva_rutina">新規ルーティン</string>
+    <string name="mis_rutinas">マイルーティン</string>
+    <string name="ejercicios">エクササイズ</string>
+    <string name="agregar_ejercicio">エクササイズを追加</string>
+    <string name="cancelar">キャンセル</string>
+    <string name="guardar">保存</string>
+    <string name="crear_rutina">ルーティンを作成</string>
+    <string name="titulo_de_la_rutina">ルーティン名</string>
+    <string name="generacion_rutina">ルーティン生成</string>
+    <string name="introduzca_su_edad">年齢を入力してください</string>
+    <string name="d_as_de_entrenamiento">トレーニング日数</string>
+    <string name="objetivo_principal">メイン目標</string>
+    <string name="experiencia">経験</string>
+    <string name="generar_rutina">ルーティンを生成</string>
+    <string name="edad">年齢</string>
+    <string name="iniciar_sesion">ログイン</string>
+    <string name="correo_electronico">メールアドレス</string>
+    <string name="contrasena">パスワード</string>
+    <string name="no_tienes_cuenta_registrate">アカウントをお持ちでないですか？ 新規登録</string>
+    <string name="has_olvidado_tu_contrasena">パスワードをお忘れですか？</string>
+    <string name="ejercicio">エクササイズ</string>
+    <string name="titulo_del_ejercicio">エクササイズ名</string>
+    <string name="grupo_muscular">筋肉グループ</string>
+    <string name="menu">メニュー</string>
+    <string name="recuperar_contrasena">パスワードを再設定</string>
+    <string name="recuerdas_la_contrasena_inicia_sesion">パスワードを覚えていますか？ ログイン</string>
+    <string name="crear_cuenta">アカウント作成</string>
+    <string name="confirmar_contrasena">パスワード（確認）</string>
+    <string name="registrarse">登録</string>
+    <string name="ya_tienes_cuenta">すでにアカウントをお持ちですか？ ログイン</string>
+    <string name="atras">戻る</string>
+    <string name="iniciar_rutina">ルーティンを開始</string>
+    <string name="ejercicios_de_rutina">ルーティンのエクササイズ</string>
+    <string name="create_routine_title">ルーティンを作成</string>
+    <string name="edit_routine_title">ルーティンを編集</string>
+    <string name="save_button">保存</string>
+    <string name="update_button">更新</string>
+    <string name="validation_title_error">タイトルを入力してください</string>
+    <string name="validation_exercise_error">エクササイズを1つ以上追加してください</string>
+    <string name="toast_update_success">ルーティンを更新しました</string>
+    <string name="toast_save_success">ルーティンを保存しました</string>
+    <string name="busca_un_ejercicio">エクササイズを検索</string>
+    <string name="add_exercise_singular">1つのエクササイズを追加</string>
+    <string name="add_exercises_plural">%d 個のエクササイズを追加</string>
+    <string name="validation_age_error">年齢を入力してください</string>
+    <string name="eliminar">削除</string>
+    <string name="editar">編集</string>
+    <string name="iniciar_entrenamiento">トレーニング開始</string>
+    <string name="finalizar_entrenamiento">トレーニング終了</string>
+    <string name="introduzca_su_nombre_de_usuario">ユーザー名を入力してください</string>
+    <string name="nombre_de_usuario">ユーザー名</string>
+    <string name="objetivo">目標</string>
+    <string name="estilo_de_vida">ライフスタイル</string>
+    <string name="error_username_empty">ユーザー名は必須です</string>
+    <string name="error_username_taken">このユーザー名は既に使用されています。別のものを選んでください。</string>
+    <string name="status_checking">確認中...</string>
+    <string name="ejercicios_realizados">完了したエクササイズ</string>
+    <string name="a_n_no_has_realizado_ejercicios">まだ完了したエクササイズはありません</string>
+    <string name="historial_ltimo_a_o">履歴：昨年</string>
+    <string name="mes_a_o">年 月</string>
+    <string name="cerrar">閉じる</string>
+    <string name="no_hay_entrenamientos_registrados_este_d_a">この日の記録はありません。</string>
+    <string name="mayor_peso">最高重量</string>
+    <string name="records_personales">自己ベスト</string>
+    <string name="mejor_volumen_serie">最高セットボリューム</string>
+    <string name="mejor_volumen_total">最高総ボリューム</string>
+    <!-- Strings for cardio exercises -->
+    <string name="mayor_distancia">最長距離</string>
+    <string name="distancia_total">総距離</string>
+    <string name="tiempo_total">総時間</string>
+
+    <string name="medida_peso_corporal">体重</string>
+    <string name="medida_grasa_corporal">体脂肪率</string>
+    <string name="medida_cuello">首周り</string>
+    <string name="medida_hombros">肩幅</string>
+    <string name="medida_pecho">バスト</string>
+    <string name="medida_cintura">ウエスト</string>
+    <string name="medida_caderas">ヒップ</string>
+
+    <string name="medida_biceps_izq">左腕</string>
+    <string name="medida_biceps_der">右腕</string>
+    <string name="medida_antebrazo_izq">左前腕</string>
+    <string name="medida_antebrazo_der">右前腕</string>
+    <string name="medida_muslo_izq">左太もも</string>
+    <string name="medida_muslo_der">右太もも</string>
+    <string name="medida_pantorrilla_izq">左ふくらはぎ</string>
+    <string name="medida_pantorrilla_der">右ふくらはぎ</string>
+
+    <string name="titulo_medida_default">計測</string>
+    <string name="hint_valor_unidad">%1$s での値</string>
+    <string name="error_fecha_futura">日付は未来に設定できません</string>
+    <string name="error_limite_superado">%1$s の最大値は %2$s %3$s です</string>
+    <string name="error_valor_positivo">値は正の数でなければなりません</string>
+    <string name="error_numero_invalido">無効な数値です</string>
+    <string name="error_campo_vacio">値を入力してください</string>
+    <string name="mensaje_guardado_ok">保存しました</string>
+    <string name="error_guardar_formato">保存エラー： %s</string>
+
+    <string name="grafico_progreso_label">進捗</string>
+    <string name="mensaje_datos_vacio">データがありません</string>
+    <string name="error_cargar_datos">データ読み込みエラー</string>
+
+    <string name="dialogo_eliminar_medida_titulo">計測を削除</string>
+    <string name="dialogo_eliminar_medida_mensaje">この記録を削除してもよろしいですか？</string>
+    <string name="toast_eliminado">削除しました</string>
+    <string name="error_eliminar">削除エラー</string>
+
+    <string name="peso_corporal">体重</string>
+    <!-- Ajustes Perfil -->
+    <string name="editar_perfil">プロフィールを編集</string>
+    <string name="cambiar_foto_perfil">プロフィール写真を変更</string>
+    <string name="datos_perfil">プロフィールデータ</string>
+    <string name="datos_personales">個人データ</string>
+    <string name="datos_privados">非公開データ</string>
+    <string name="sexo">性別</string>
+    <string name="cumpleanos">生年月日</string>
+    <!-- Para Datos Personales -->
+    <string name="titulo_ajustes_datos_personales">個人データ</string>
+    <string name="hint_nombre_ajustes_datos_personales">名前</string>
+    <string name="hint_apellidos_ajustes_datos_personales">姓</string>
+    <string name="hint_genero_ajustes_datos_personales">性別</string>
+    <string name="hint_edad_ajustes_datos_personales">年齢</string>
+    <string name="hint_peso_ajustes_datos_personales">体重</string>
+    <string name="hint_altura_ajustes_datos_personales">身長</string>
+    <string name="hint_estilo_vida_ajustes_datos_personales">ライフスタイル</string>
+    <string name="hint_objetivo_ajustes_datos_personales">目標</string>
+    <string name="boton_guardar_ajustes_datos_personales">保存</string>
+
+    <!-- Mensajes de error -->
+    <string name="error_nombre_obligatorio_ajustes">名前は必須です</string>
+    <string name="error_apellidos_obligatorio_ajustes">姓は必須です</string>
+    <string name="error_edad_invalida_ajustes">無効な年齢です</string>
+    <string name="error_peso_invalido_ajustes">無効な体重です</string>
+    <string name="error_altura_invalida_ajustes">無効な身長です</string>
+    <string name="error_seleccione_genero_ajustes">性別を選択してください</string>
+    <string name="error_seleccione_estilo_vida_ajustes">ライフスタイルを選択してください</string>
+    <string name="error_seleccione_objetivo_ajustes">目標を選択してください</string>
+
+    <!-- Mensajes de éxito -->
+    <string name="mensaje_datos_actualizados_ajustes">データを更新しました</string>
+    <string name="mensaje_error_guardar_ajustes">保存エラー： %s</string>
+
+    <!-- Pantalla Perfil-->
+    <string name="user_name_default">ケンジ_87</string>
+    <string name="content_description_settings">プロフィール設定</string>
+
+    <string name="weight_format">体重： %1$.1f kg</string>
+    <string name="height_format">身長： %1$.2f m</string>
+    <string name="age_format">年齢： %1$d 歳</string>
+    <string name="bmi_format">BMI： %1$.2f</string>
+
+    <string name="button_calendar">カレンダー</string>
+    <string name="button_measures">サイズ</string>
+    <string name="button_exercises">エクササイズ</string>
+
+    <string name="section_weekly_photos">週間フォト</string>
+    <string name="content_description_weekly_photos">週間進捗写真のカルーセル</string>
+    <string name="content_description_photo_week">週間進捗写真</string>
+
+    <string name="section_evolution_2025">2025年の変化</string>
+    <string name="content_description_weight_chart">体重変化グラフ</string>
+
+    <string name="content_description_weight_icon">体重アイコン</string>
+    <string name="content_description_training_icon">トレーニングアイコン</string>
+    <string name="content_description_calories_icon">カロリーアイコン</string>
+
+    <string name="grafico_etiqueta_peso">体重</string>
+    <string name="grafico_etiqueta_volumen">ボリューム</string>
+    <string name="grafico_titulo_volumen_carga">重量ボリューム (kg)</string>
+    <string name="grafico_titulo_peso_corporal">体重 (kg)</string>
+    <string name="formato_imc">BMI: %.2f</string>
+    <string name="etiqueta_semana">第 %d 週</string>
+
+    <string name="dialogo_titulo_foto">進捗写真を追加</string>
+    <string name="opcion_hacer_foto">写真を撮る</string>
+    <string name="opcion_galeria">ギャラリーから選ぶ</string>
+
+    <string name="dialogo_titulo_eliminar">写真を削除</string>
+    <string name="dialogo_mensaje_eliminar">この進捗写真を削除してもよろしいですか？</string>
+    <string name="accion_eliminar">削除</string>
+    <string name="accion_cancelar">キャンセル</string>
+
+    <string name="error_iniciar_camara">カメラ起動エラー： %s</string>
+    <string name="toast_procesando">写真を処理中...</string>
+    <string name="toast_foto_guardada">写真を保存しました！</string>
+    <string name="error_generico">エラー： %s</string>
+    <string name="error_cargar_imagen">画像読み込みエラー</string>
+    <string name="toast_eliminando">削除中...</string>
+    <string name="toast_foto_eliminada">写真を削除しました</string>
+    <string name="error_al_eliminar">削除エラー</string>
+    <!-- Para pantalla de ajustes -->
+    <string name="ajustes">設定</string>
+    <string name="cuenta">アカウント</string>
+    <string name="perfil">プロフィール</string>
+    <string name="cuenta_item">アカウント設定</string>
+    <string name="notificaciones">通知</string>
+    <string name="preferencias">一般設定</string>
+    <string name="unidades">単位</string>
+    <string name="idioma">言語</string>
+    <string name="modo">テーマ</string>
+    <string name="oscuro">ダーク</string>
+    <string name="claro">ライト</string>
+    <string name="siguenos">フォローする</string>
+    <string name="cerrar_sesion">ログアウト</string>
+
+
+    <!-- Cuenta Activity -->
+    <string name="titulo_cuenta_ajustes">アカウント</string>
+    <string name="subtitulo_info_cuenta_ajustes">アカウント情報</string>
+    <string name="opcion_cambiar_nombre_usuario">ユーザー名を変更</string>
+    <string name="opcion_cambiar_email">メールアドレスを変更</string>
+    <string name="opcion_cambiar_contrasena">パスワードを変更</string>
+    <string name="boton_eliminar_cuenta">アカウントを削除</string>
+    <string name="dialogo_titulo_eliminar_cuenta">アカウント削除</string>
+    <string name="dialogo_mensaje_eliminar_cuenta">アカウントを削除してもよろしいですか？この操作は元に戻せません。</string>
+    <string name="mensaje_cuenta_eliminada">アカウントを削除しました</string>
+    <string name="error_eliminar_cuenta">アカウント削除エラー： %s</string>
+
+    <!-- Cambiar Nombre de Usuario -->
+    <string name="titulo_cambiar_nombre_usuario">ユーザー名を変更</string>
+    <string name="label_nombre_usuario_actual">現在のユーザー名</string>
+    <string name="label_nuevo_nombre_usuario">新しいユーザー名</string>
+    <string name="hint_nombre_usuario_ajustes_cuenta">新しいユーザー名を入力</string>
+    <string name="error_nombre_usuario_vacio">ユーザー名は必須です</string>
+    <string name="mensaje_nombre_actualizado">ユーザー名を更新しました</string>
+    <string name="error_nombre_existe">ユーザー名は既に存在します</string>
+    <string name="boton_guardar_nombre_usuario">ユーザー名を保存</string>
+
+    <!-- Cambiar Email -->
+    <string name="titulo_cambiar_email">メールアドレスを変更</string>
+    <string name="label_email_actual">現在のメールアドレス</string>
+    <string name="label_nuevo_email">新しいメールアドレス</string>
+    <string name="hint_nuevo_email">new@example.com</string>
+    <string name="label_contrasena_actual_email">現在のパスワード</string>
+    <string name="error_email_invalido">無効なメールアドレスです</string>
+    <string name="mensaje_email_actualizado">メールアドレスを更新しました</string>
+    <string name="error_email_existe">このメールアドレスは既に使用されています</string>
+    <string name="boton_guardar_email">メールアドレスを保存</string>
+
+    <!-- Cambiar Contraseña -->
+    <string name="titulo_cambiar_contrasena">パスワードを変更</string>
+    <string name="label_contrasena_actual">現在のパスワード</string>
+    <string name="label_nueva_contrasena">新しいパスワード</string>
+    <string name="label_confirmar_contrasena">新しいパスワード（確認）</string>
+    <string name="hint_confirmar_contrasena_igual">新しいパスワードを再入力</string>
+    <string name="hint_contrasena_placeholder">********</string>
+    <string name="error_contrasena_corta">パスワードは6文字以上必要です</string>
+    <string name="error_contrasenas_no_coinciden">パスワードが一致しません</string>
+    <string name="mensaje_contrasena_actualizada">パスワードを更新しました</string>
+    <string name="boton_guardar_contrasena">パスワードを保存</string>
+
+    <!-- Mensajes de error generales -->
+    <string name="mensaje_error_actualizar_ajustes_cuenta">更新エラー： %s</string>
+    <string name="error_actualizacion_generica">エラー： %s</string>
+    <string name="error_autenticacion">認証エラー</string>
+    <string name="error_desconocido">不明なエラー</string>
+    <string name="error_contrasena_actual_obligatoria_ajustes_cuenta">現在のパスワードは必須です</string>
+    <string name="error_password_incorrecta">パスワードが正しくありません</string>
+    <string name="accion_cancelar_ajustes_cuenta">キャンセル</string>
+    <string name="accion_confirmar_ajustes_cuenta">確認</string>
+    <!-- Strings adicionales para valores/estados -->
+    <!-- Notifications -->
+    <string name="titulo_notificaciones_notificaciones">通知</string>
+    <string name="notificaciones_generales_notificaciones">一般通知</string>
+    <string name="notificaciones_generales_descripcion_notificaciones">すべての通知を有効/無効にする</string>
+    <string name="recordatorio_entrenamiento_notificaciones">トレーニングリマインダー</string>
+    <string name="recordatorio_entrenamiento_descripcion_notificaciones">ワークアウトのリマインダーを受け取る</string>
+    <string name="recordatorio_foto_semanal_notificaciones">週間写真リマインダー</string>
+    <string name="recordatorio_foto_semanal_descripcion_notificaciones">毎週の進捗写真を促すリマインダー</string>
+    <string name="kg_cm">kg/cm</string>
+    <string name="lb_in">ポンド/インチ</string>
+    <string name="espanol">スペイン語</string>
+    <string name="ingles">英語</string>
+    <!-- Unidades -->
+    <string name="titulo_unidades_unidades">単位</string>
+    <string name="peso_unidades">重量</string>
+    <string name="distancia_unidades">距離</string>
+    <string name="medidas_corporales_unidades">身体サイズ</string>
+    <string name="kg_unidades">kg</string>
+    <string name="lbs_unidades">ポンド</string>
+    <string name="km_unidades">km</string>
+    <string name="millas_unidades">マイル</string>
+    <string name="cm_unidades">cm</string>
+    <string name="in_unidades">インチ</string>
+    <string name="titulo_idioma_idioma">言語</string>
+    <string name="espanol_idioma">スペイン語</string>
+    <string name="ingles_idioma">英語</string>
+    <string name="frances_idioma">フランス語</string>
+    <string name="idioma_cambiado_idioma">言語を変更しました。変更を適用するにはアプリを再起動してください。</string>
+    <string name="titulo_modo_modo">テーマ</string>
+    <string name="oscuro_modo">ダーク</string>
+    <string name="claro_modo">ライト</string>
+    <!-- Grupos musculaes -->
+    <string name="group_abductores">股関節外転筋</string>
+    <string name="group_cuadriceps">大腿四頭筋</string>
+    <string name="group_biceps">上腕二頭筋</string>
+    <string name="group_pecho">大胸筋</string>
+    <string name="group_adductores">股関節内転筋</string>
+    <string name="group_abdominales">腹筋</string>
+    <string name="group_cardio">有酸素運動</string>
+    <string name="group_hombros">三角筋</string>
+    <string name="group_espalda_baja">脊柱起立筋</string>
+    <string name="group_cuerpo_entero">全身</string>
+    <string name="group_ante_brazos">前腕筋</string>
+    <string name="group_triceps">上腕三頭筋</string>
+    <string name="group_espalda_superior">広背筋</string>
+    <string name="group_gluteos">臀筋</string>
+    <string name="group_gemelos">腓腹筋</string>
+    <string name="group_dorsales">広背筋</string>
+    <string name="group_isquiotibiales">ハムストリングス</string>
+    <string name="group_cuello">首の筋肉</string>
+    <string name="group_trapecios">僧帽筋</string>
+    <string name="entrenamiento_activity">トレーニング</string>
+    <string name="series">セット</string>
+    <string name="anadir_serie">セットを追加</string>
+    <string name="eliminar_serie">セットを削除</string>
+    <string name="kg">kg</string>
+    <string name="repeticiones">レップ数</string>
+    <!-- Dificultad -->
+    <string name="difficulty_easy">初級</string>
+    <string name="difficulty_medium">中級</string>
+    <string name="difficulty_difficult">上級</string>
+
+    <!-- Ejercicios-->
+    <string name="abduccion_caderas">ヒップアブダクション</string>
+    <string name="abduccion_caderas_desc">股関節外転筋を鍛える筋力トレーニングです。</string>
+
+    <string name="press_piernas_sentado">シーテッドレッグプレス</string>
+    <string name="press_piernas_sentado_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="curl_biceps_mancuerna">ダンベルカール</string>
+    <string name="curl_biceps_mancuerna_desc">肘の屈曲に焦点を当て、上腕二頭筋に集中的に効かせるアイソレーション種目です。</string>
+
+    <string name="press_banca_barra">ベンチプレス</string>
+    <string name="press_banca_barra_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="aduccion_caderas">ヒップアダクション</string>
+    <string name="aduccion_caderas_desc">股関節内転筋を鍛える筋力トレーニングです。</string>
+
+    <string name="curl_biceps_21">21カール</string>
+    <string name="curl_biceps_21_desc">肘の屈曲に焦点を当て、上腕二頭筋に集中的に効かせるアイソレーション種目です。</string>
+
+    <string name="abdominales_tijera">シザーキック</string>
+    <string name="abdominales_tijera_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="rueda_abdominal">アブローラー</string>
+    <string name="rueda_abdominal_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="aerobics">エアロビクス</string>
+    <string name="aerobics_desc">心拍数を上げ、カロリーを消費する有酸素運動。心肺持久力の向上に最適です。</string>
+
+    <string name="bicleta_aire">エアロバイク</string>
+    <string name="bicleta_aire_desc">心拍数を上げ、カロリーを消費する有酸素運動。心肺持久力の向上に最適です。</string>
+
+    <string name="arnold_press_mancuerna">アーノルドプレス</string>
+    <string name="arnold_press_mancuerna_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="alrededor_mundo">アラウンドザワールド</string>
+    <string name="alrededor_mundo_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="sentadilla_pistol_asistida">アシスティッドピストルスクワット</string>
+    <string name="sentadilla_pistol_asistida_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="extension_espalda_hiperextension">バックエクステンション</string>
+    <string name="extension_espalda_hiperextension_desc">脊柱起立筋を鍛える筋力トレーニングです。</string>
+
+    <string name="extension_espalda_maquina">バックエクステンション（マシン）</string>
+    <string name="extension_espalda_maquina_desc">脊柱起立筋を鍛える筋力トレーニングです。</string>
+
+    <string name="extension_espalda_hiperextension_con_peso">バックエクステンション（加重）</string>
+    <string name="extension_espalda_hiperextension_con_peso_desc">脊柱起立筋を鍛える筋力トレーニングです。</string>
+
+    <string name="ball_slams">ボールスラム</string>
+    <string name="ball_slams_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="band_pullaparts">バンドプルアパート</string>
+    <string name="band_pullaparts_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="cuerdas_batalla">バトルロープ</string>
+    <string name="cuerdas_batalla_desc">心拍数を上げ、カロリーを消費する有酸素運動。心肺持久力の向上に最適です。</string>
+
+    <string name="curl_biceps_detras_espalda_barra">ビハインドザバックカール</string>
+    <string name="curl_biceps_detras_espalda_barra_desc">前腕筋を鍛える筋力トレーニングです。</string>
+
+    <string name="fondos_banco">ベンチディップス</string>
+    <string name="fondos_banco_desc">腕の伸展に焦点を当て、上腕三頭筋を鍛えるエクササイズです。</string>
+
+    <string name="press_banca_agarre_cerrado_barra">クローズグリップベンチプレス</string>
+    <string name="press_banca_agarre_cerrado_barra_desc">腕の伸展に焦点を当て、上腕三頭筋を鍛えるエクササイズです。</string>
+
+    <string name="press_banca_agarre_abierto_barra">ワイドグリップベンチプレス</string>
+    <string name="press_banca_agarre_abierto_barra_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="press_banca_cable">ベンチプレス（ケーブル）</string>
+    <string name="press_banca_cable_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="press_banca_mancuerna">ダンベルベンチプレス</string>
+    <string name="press_banca_mancuerna_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="press_banca_maquina_smith">ベンチプレス（スミスマシン）</string>
+    <string name="press_banca_maquina_smith_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="remo_inclinado_banda">ベントオーバーロー（バンド）</string>
+    <string name="remo_inclinado_banda_desc">広背筋を鍛える筋力トレーニングです。</string>
+
+    <string name="remo_inclinado_barra">ベントオーバーロー</string>
+    <string name="remo_inclinado_barra_desc">広背筋を鍛える筋力トレーニングです。</string>
+
+    <string name="remo_inclinado_mancuerna">ダンベルベントオーバーロー</string>
+    <string name="remo_inclinado_mancuerna_desc">広背筋を鍛える筋力トレーニングです。</string>
+
+    <string name="curl_biceps_barra">バーベルカール</string>
+    <string name="curl_biceps_barra_desc">肘の屈曲に焦点を当て、上腕二頭筋に集中的に効かせるアイソレーション種目です。</string>
+
+    <string name="curl_biceps_cable">ケーブルカール</string>
+    <string name="curl_biceps_cable_desc">肘の屈曲に焦点を当て、上腕二頭筋に集中的に効かせるアイソレーション種目です。</string>
+
+    <string name="curl_biceps_maquina">マシンバイセップスカール</string>
+    <string name="curl_biceps_maquina_desc">肘の屈曲に焦点を当て、上腕二頭筋に集中的に効かせるアイソレーション種目です。</string>
+
+    <string name="curl_biceps_suspension">サスペンションカール</string>
+    <string name="curl_biceps_suspension_desc">肘の屈曲に焦点を当て、上腕二頭筋に集中的に効かせるアイソレーション種目です。</string>
+
+    <string name="abdominal_bicleta">バイシクルクランチ</string>
+    <string name="abdominal_bicleta_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="abdominales_bicicleta_piernas_levantadas">レッグレイズバイシクルクランチ</string>
+    <string name="abdominales_bicicleta_piernas_levantadas_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="perro_caza">バードドッグ</string>
+    <string name="perro_caza_desc">臀筋と股関節の活性化と強化に焦点を当てたエクササイズ。パワーと安定性に重要です。</string>
+
+    <string name="salto_cajon">ボックスジャンプ</string>
+    <string name="salto_cajon_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="sentadilla_cajon_barra">ボックススクワット</string>
+    <string name="sentadilla_cajon_barra_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="boxeo">ボクシング</string>
+    <string name="boxeo_desc">心拍数を上げ、カロリーを消費する有酸素運動。心肺持久力の向上に最適です。</string>
+
+    <string name="sentadilla_bulgara">ブルガリアンスクワット</string>
+    <string name="sentadilla_bulgara_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="burpee">バーピー</string>
+    <string name="burpee_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="burpee_sobre_barra">バーピー（バー越え）</string>
+    <string name="burpee_sobre_barra_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="mariposa_pec_deck">ペックデック</string>
+    <string name="mariposa_pec_deck_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="cable_core_palloff_press">パロフプレス</string>
+    <string name="cable_core_palloff_press_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="abdominal_corto_con_cable">ケーブルクランチ</string>
+    <string name="abdominal_corto_con_cable_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="cables_cruzados">ケーブルクロスオーバー</string>
+    <string name="cables_cruzados_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="trion_polea_entre_piernas">ケーブルグリュートキックバック</string>
+    <string name="trion_polea_entre_piernas_desc">臀筋と股関節の活性化と強化に焦点を当てたエクササイズ。パワーと安定性に重要です。</string>
+
+    <string name="cable_twist_down_to_up">ケーブルツイスト（下から上）</string>
+    <string name="cable_twist_down_to_up_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="cable_twist_up_to_down">ケーブルツイスト（上から下）</string>
+    <string name="cable_twist_up_to_down_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="extension_pantorrilla_maquina">カーフレイズ</string>
+    <string name="extension_pantorrilla_maquina_desc">底屈に焦点を当て、腓腹筋を鍛えるアイソレーション種目です。</string>
+
+    <string name="press_pantorrilla_maquina">カーフプレス</string>
+    <string name="press_pantorrilla_maquina_desc">底屈に焦点を当て、腓腹筋を鍛えるアイソレーション種目です。</string>
+
+    <string name="fondos">ディップス</string>
+    <string name="fondos_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="fondos_asistidos">ディップス（アシスト）</string>
+    <string name="fondos_asistidos_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="fondos_con_peso_añadido">ウェイテッドディップス</string>
+    <string name="fondos_con_peso_añadido_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="aperturas_banda">チェストフライ（バンド）</string>
+    <string name="aperturas_banda_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="aperturas_mancuerna">ダンベルフライ</string>
+    <string name="aperturas_mancuerna_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="aperturas_maquina">チェストフライ（マシン）</string>
+    <string name="aperturas_maquina_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="chest_fly_suspension">サスペンションチェストフライ</string>
+    <string name="chest_fly_suspension_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="press_pecho_banda">チェストプレス（バンド）</string>
+    <string name="press_pecho_banda_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="press_pecho_maquina">チェストプレス（マシン）</string>
+    <string name="press_pecho_maquina_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="remo_inclinado_con_apoyo_pecho_mancuerna">チェストサポーテッドロー</string>
+    <string name="remo_inclinado_con_apoyo_pecho_mancuerna_desc">広背筋を鍛える筋力トレーニングです。</string>
+
+    <string name="vuelos_posteriores_mancuerna">リアデルトフライ</string>
+    <string name="vuelos_posteriores_mancuerna_desc">広背筋を鍛える筋力トレーニングです。</string>
+
+    <string name="elevacion_y_con_soporte_pecho_mancuerna">Yレイズ</string>
+    <string name="elevacion_y_con_soporte_pecho_mancuerna_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="dominadas_chin_up">チンニング</string>
+    <string name="dominadas_chin_up_desc">広背筋を鍛える優れた垂直方向のプル動作です。</string>
+
+    <string name="dominadas_chin_up_asistida">アシスティッドチンニング</string>
+    <string name="dominadas_chin_up_asistida_desc">広背筋を鍛える優れた垂直方向のプル動作です。</string>
+
+    <string name="dominadas_chin_up_con_peso">ウェイテッドチンニング</string>
+    <string name="dominadas_chin_up_con_peso_desc">広背筋を鍛える優れた垂直方向のプル動作です。</string>
+
+    <string name="almeja">クラムシェル</string>
+    <string name="almeja_desc">臀筋と股関節の活性化と強化に焦点を当てたエクササイズ。パワーと安定性に重要です。</string>
+
+    <string name="flexiones_con_palmada">クラッププッシュアップ</string>
+    <string name="flexiones_con_palmada_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="clean">クリーン</string>
+    <string name="clean_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="clean_and_jerk">クリーン＆ジャーク</string>
+    <string name="clean_and_jerk_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="cargada_y_press">クリーン＆プレス</string>
+    <string name="cargada_y_press_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="cargada_y_tiron">クリーン＆ジャーク</string>
+    <string name="cargada_y_tiron_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="escalada">クライミング</string>
+    <string name="escalada_desc">心拍数を上げ、カロリーを消費する有酸素運動。心肺持久力の向上に最適です。</string>
+
+    <string name="curls_concentracion">コンセントレーションカール</string>
+    <string name="curls_concentracion_desc">肘の屈曲に焦点を当て、上腕二頭筋に集中的に効かせるアイソレーション種目です。</string>
+
+    <string name="curl_martillo_cruzado">クロスボディハンマーカール</string>
+    <string name="curl_martillo_cruzado_desc">肘の屈曲に焦点を当て、上腕二頭筋に集中的に効かせるアイソレーション種目です。</string>
+
+    <string name="abdominal_corto">クランチ</string>
+    <string name="abdominal_corto_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="abdominal_corto_maquina">クランチ（マシン）</string>
+    <string name="abdominal_corto_maquina_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="abdominal_corto_con_peso_añadido">クランチ（加重）</string>
+    <string name="abdominal_corto_con_peso_añadido_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="zancada_curtsy_mancuerna">カーテシーランジ</string>
+    <string name="zancada_curtsy_mancuerna_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="bicicleta">サイクリング</string>
+    <string name="bicicleta_desc">心拍数を上げ、カロリーを消費する有酸素運動。心肺持久力の向上に最適です。</string>
+
+    <string name="dead_bug">デッドバグ</string>
+    <string name="dead_bug_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="dead_hang">デッドハング</string>
+    <string name="dead_hang_desc">広背筋を鍛える筋力トレーニングです。</string>
+
+    <string name="peso_muerto_banda">デッドリフト（バンド）</string>
+    <string name="peso_muerto_banda_desc">ハムストリングスや脊柱起立筋を含むパワフルなエクササイズです。</string>
+
+    <string name="peso_muerto_barra">デッドリフト</string>
+    <string name="peso_muerto_barra_desc">ハムストリングスや脊柱起立筋を含むパワフルなエクササイズです。</string>
+
+    <string name="peso_muerto_mancuerna">ダンベルデッドリフト</string>
+    <string name="peso_muerto_mancuerna_desc">ハムストリングスや脊柱起立筋を含むパワフルなエクササイズです。</string>
+
+    <string name="peso_muerto_maquina_smith">デッドリフト（スミスマシン）</string>
+    <string name="peso_muerto_maquina_smith_desc">ハムストリングスや脊柱起立筋を含むパワフルなエクササイズです。</string>
+
+    <string name="peso_muerto_barra_trap">デッドリフト（トラップバー）</string>
+    <string name="peso_muerto_barra_trap_desc">ハムストリングスや脊柱起立筋を含むパワフルなエクササイズです。</string>
+
+    <string name="peso_muerto_con_tiron_alto">デッドリフトハイプル</string>
+    <string name="peso_muerto_con_tiron_alto_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="press_banca_en_declive_barra">インクラインベンチプレス</string>
+    <string name="press_banca_en_declive_barra_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="press_banca_en_declive_mancuerna">ダンベルインクラインプレス</string>
+    <string name="press_banca_en_declive_mancuerna_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="press_banca_en_declive_maquina">インクラインチェストプレス（マシン）</string>
+    <string name="press_banca_en_declive_maquina_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="press_banca_en_declive_maquina_smith">インクラインプレス（スミスマシン）</string>
+    <string name="press_banca_en_declive_maquina_smith_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="apertura_declinada_mancuerna">インクライングフライ</string>
+    <string name="apertura_declinada_mancuerna_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="abdominal_corto_en_banco_inclinado">インクラインクランチ</string>
+    <string name="abdominal_corto_en_banco_inclinado_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="abdominal_corto_en_banco_inclinado_con_peso_añadido">インクラインクランチ（加重）</string>
+    <string name="abdominal_corto_en_banco_inclinado_con_peso_añadido_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="flexión_declinada">インクラインプッシュアップ</string>
+    <string name="flexión_declinada_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="flexiones_diamante">ダイヤモンドプッシュアップ</string>
+    <string name="flexiones_diamante_desc">腕の伸展に焦点を当て、上腕三頭筋を鍛えるエクササイズです。</string>
+
+    <string name="postura_perro_cabeza_abajo">ダウンドッグ</string>
+    <string name="postura_perro_cabeza_abajo_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="drag_curl">ドラッグカール</string>
+    <string name="drag_curl_desc">肘の屈曲に焦点を当て、上腕二頭筋に集中的に効かせるアイソレーション種目です。</string>
+
+    <string name="dragon_flag">ドラゴンフラッグ</string>
+    <string name="dragon_flag_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="dragonfly">ドラゴンフライ</string>
+    <string name="dragonfly_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="remo_con_mancuerna">ダンベルロー</string>
+    <string name="remo_con_mancuerna_desc">広背筋を鍛える筋力トレーニングです。</string>
+
+    <string name="arrancada_con_mancuerna">ダンベルスナッチ</string>
+    <string name="arrancada_con_mancuerna_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="dumbbell_squeeze_press">スクイーズプレス</string>
+    <string name="dumbbell_squeeze_press_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="step_con_mancuerna">ダンベルステップアップ</string>
+    <string name="step_con_mancuerna_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="rodillas_a_codos">エルボートゥニークランチ</string>
+    <string name="rodillas_a_codos_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="entrenador_eliptico">エリプティカル</string>
+    <string name="entrenador_eliptico_desc">心拍数を上げ、カロリーを消費する有酸素運動。心肺持久力の向上に最適です。</string>
+
+    <string name="curl_con_barra_ez">EZバーカール</string>
+    <string name="curl_con_barra_ez_desc">肘の屈曲に焦点を当て、上腕二頭筋に集中的に効かせるアイソレーション種目です。</string>
+
+    <string name="tiron_a_la_cara">フェイスプル</string>
+    <string name="tiron_a_la_cara_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="paseo_del_granjero">ファーマーズウォーク</string>
+    <string name="paseo_del_granjero_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="patadas_boca_incendio">ファイヤーハイドレート</string>
+    <string name="patadas_boca_incendio_desc">臀筋と股関節の活性化と強化に焦点を当てたエクササイズ。パワーと安定性に重要です。</string>
+
+    <string name="press_suelo_barra">フロアプレス</string>
+    <string name="press_suelo_barra_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="press_en_el_suelo_mancuerna">フロアプレス（ダンベル）</string>
+    <string name="press_en_el_suelo_mancuerna_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="fondos_triceps_en_suelo">フロアトライセップスエクステンション</string>
+    <string name="fondos_triceps_en_suelo_desc">腕の伸展に焦点を当て、上腕三頭筋を鍛えるエクササイズです。</string>
+
+    <string name="aleteo_piernas">フラッターキック</string>
+    <string name="aleteo_piernas_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="saltos_rana">フロッグジャンプ</string>
+    <string name="saltos_rana_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="frog_pumps_mancuerna">フロッグポンプ</string>
+    <string name="frog_pumps_mancuerna_desc">臀筋と股関節の活性化と強化に焦点を当てたエクササイズ。パワーと安定性に重要です。</string>
+
+    <string name="front_lever_sostenida">フロントレバーホールド</string>
+    <string name="front_lever_sostenida_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="front_lever_elevacion">フロントレバーレイズ</string>
+    <string name="front_lever_elevacion_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="elevacion_frontal_banda">フロントレイズ（バンド）</string>
+    <string name="elevacion_frontal_banda_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="elevacion_frontal_barra">フロントレイズ</string>
+    <string name="elevacion_frontal_barra_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="elevacion_frontal_cable">フロントレイズ（ケーブル）</string>
+    <string name="elevacion_frontal_cable_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="elevacion_frontal_mancuerna">ダンベルフロントレイズ</string>
+    <string name="elevacion_frontal_mancuerna_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="elevacion_frontal_suspension">フロントレイズ（サスペンション）</string>
+    <string name="elevacion_frontal_suspension_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="sentadilla_delantera">フロントスクワット</string>
+    <string name="sentadilla_delantera_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="sentadilla_profunda">フルスクワット</string>
+    <string name="sentadilla_profunda_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="puente_gluteos">グリュートブリッジ</string>
+    <string name="puente_gluteos_desc">臀筋と股関節の活性化と強化に焦点を当てたエクササイズ。パワーと安定性に重要です。</string>
+
+    <string name="glute_ham_raise">グリュートハムレイズ</string>
+    <string name="glute_ham_raise_desc">ハムストリングスや脊柱起立筋を含むパワフルなエクササイズです。</string>
+
+    <string name="patada_burro_maquina">グリュートキックバック（マシン）</string>
+    <string name="patada_burro_maquina_desc">臀筋と股関節の活性化と強化に焦点を当てたエクササイズ。パワーと安定性に重要です。</string>
+
+    <string name="patada_burro">グリュートキックバック</string>
+    <string name="patada_burro_desc">臀筋と股関節の活性化と強化に焦点を当てたエクササイズ。パワーと安定性に重要です。</string>
+
+    <string name="sentadilla_goblet">ゴブレットスクワット</string>
+    <string name="sentadilla_goblet_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="buen_dia_barra">グッドモーニング</string>
+    <string name="buen_dia_barra_desc">ハムストリングスや脊柱起立筋を含むパワフルなエクササイズです。</string>
+
+    <string name="remo_gorila_pesa_rusa">ゴリラロー</string>
+    <string name="remo_gorila_pesa_rusa_desc">広背筋を鍛える筋力トレーニングです。</string>
+
+    <string name="sentadilla_hack">ハックスクワット</string>
+    <string name="sentadilla_hack_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="sentadilla_hack_maquina">ハックスクワット（マシン）</string>
+    <string name="sentadilla_hack_maquina_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="curl_martillo_banda">ハンマーカール（バンド）</string>
+    <string name="curl_martillo_banda_desc">肘の屈曲に焦点を当て、上腕二頭筋に集中的に効かせるアイソレーション種目です。</string>
+
+    <string name="curl_martillo_cable">ハンマーカール（ケーブル）</string>
+    <string name="curl_martillo_cable_desc">肘の屈曲に焦点を当て、上腕二頭筋に集中的に効かせるアイソレーション種目です。</string>
+
+    <string name="curl_martillo_mancuerna">ハンマーカール</string>
+    <string name="curl_martillo_mancuerna_desc">肘の屈曲に焦点を当て、上腕二頭筋に集中的に効かせるアイソレーション種目です。</string>
+
+    <string name="equilibrio_invertido">ハンドスタンド</string>
+    <string name="equilibrio_invertido_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="flexiones_verticales">ハンドスタンドプッシュアップ</string>
+    <string name="flexiones_verticales_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="hang_clean">ハングクリーン</string>
+    <string name="hang_clean_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="hang_snatch">ハングスナッチ</string>
+    <string name="hang_snatch_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="levantamiento_rodillas_en_barra">ハンギングニーレイズ</string>
+    <string name="levantamiento_rodillas_en_barra_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="levantamiento_piernas_en_barra">ハンギングレッグレイズ</string>
+    <string name="levantamiento_piernas_en_barra_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="abdominales_toque_talon">ヒールタッチ</string>
+    <string name="abdominales_toque_talon_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="press_hexagonal_mancuerna">ヘックスプレス</string>
+    <string name="press_hexagonal_mancuerna_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="elevacion_rodillas">ハイニー</string>
+    <string name="elevacion_rodillas_desc">臀筋と股関節の活性化と強化に焦点を当てたエクササイズ。パワーと安定性に重要です。</string>
+
+    <string name="hiit">HIIT</string>
+    <string name="hiit_desc">心拍数を上げ、カロリーを消費する有酸素運動。心肺持久力の向上に最適です。</string>
+
+    <string name="senderismo">ハイキング</string>
+    <string name="senderismo_desc">心拍数を上げ、カロリーを消費する有酸素運動。心肺持久力の向上に最適です。</string>
+
+    <string name="empuje_caderas">ヒップスラスト</string>
+    <string name="empuje_caderas_desc">臀筋と股関節の活性化と強化に焦点を当てたエクササイズ。パワーと安定性に重要です。</string>
+
+    <string name="empuje_caderas_barra">バーベルヒップスラスト</string>
+    <string name="empuje_caderas_barra_desc">臀筋と股関節の活性化と強化に焦点を当てたエクササイズ。パワーと安定性に重要です。</string>
+
+    <string name="impulso_cadera_maquina">ヒップスラスト（マシン）</string>
+    <string name="impulso_cadera_maquina_desc">臀筋と股関節の活性化と強化に焦点を当てたエクササイズ。パワーと安定性に重要です。</string>
+
+    <string name="hollow_rock">ホローロック</string>
+    <string name="hollow_rock_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="press_banca_inclinado_barra">インクラインベンチプレス</string>
+    <string name="press_banca_inclinado_barra_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="press_banca_inclinado_mancuerna">ダンベルインクライン</string>
+    <string name="press_banca_inclinado_mancuerna_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="press_banca_inclinado_maquina_smith">インクラインプレス（スミスマシン）</string>
+    <string name="press_banca_inclinado_maquina_smith_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="aperturas_inclinadas_mancuernas">インクラインダンベルフライ</string>
+    <string name="aperturas_inclinadas_mancuernas_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="press_pecho_inclinado_maquina">インクラインチェストプレス（マシン）</string>
+    <string name="press_pecho_inclinado_maquina_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="flexiones_inclinadas">インクラインプッシュアップ</string>
+    <string name="flexiones_inclinadas_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="remo_invertido">インクラインフィッシュフライ</string>
+    <string name="remo_invertido_desc">広背筋を鍛える筋力トレーニングです。</string>
+
+    <string name="press_pecho_iso_lateral_maquina">アイソレイテラルチェストプレス</string>
+    <string name="press_pecho_iso_lateral_maquina_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="remo_alto_iso_lateral">アイソレイテラルハイロー</string>
+    <string name="remo_alto_iso_lateral_desc">広背筋を鍛える優れた垂直方向のプル動作です。</string>
+
+    <string name="remo_bajo_iso_lateral">アイソレイテラルローロー</string>
+    <string name="remo_bajo_iso_lateral_desc">広背筋を鍛える優れた垂直方向のプル動作です。</string>
+
+    <string name="remo_iso_lateral">アイソレイテラルロー</string>
+    <string name="remo_iso_lateral_desc">広背筋を鍛える優れた垂直方向のプル動作です。</string>
+
+    <string name="jack_knife_suspension">ジャックナイフ</string>
+    <string name="jack_knife_suspension_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="press_jm_barra">JMプレス</string>
+    <string name="press_jm_barra_desc">腕の伸展に焦点を当て、上腕三頭筋を鍛えるエクササイズです。</string>
+
+    <string name="salto_a_la_cuerda">縄跳び</string>
+    <string name="salto_a_la_cuerda_desc">心拍数を上げ、カロリーを消費する有酸素運動。心肺持久力の向上に最適です。</string>
+
+    <string name="encogimiento_hombros_con_salto">ジャンピングシュラッグ</string>
+    <string name="encogimiento_hombros_con_salto_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="sentadilla_con_salto">ジャンプスクワット</string>
+    <string name="sentadilla_con_salto_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="jumping_jack">ジャンピングジャック</string>
+    <string name="jumping_jack_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="estocada_con_salto">ジャンピングランジ</string>
+    <string name="estocada_con_salto_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="cargada_con_pesa_rusa">ケトルベルクリーン</string>
+    <string name="cargada_con_pesa_rusa_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="curl_con_pesa_rusa">ケトルベルカール</string>
+    <string name="curl_con_pesa_rusa_desc">肘の屈曲に焦点を当て、上腕二頭筋に集中的に効かせるアイソレーション種目です。</string>
+
+    <string name="sentadilla_goblet_con_pesa_rusa">ケトルベルゴブレットスクワット</string>
+    <string name="sentadilla_goblet_con_pesa_rusa_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="tiron_alto_con_pesa_rusa">ケトルベルハイプル</string>
+    <string name="tiron_alto_con_pesa_rusa_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="press_hombros_con_pesa_rusa">ケトルベルショルダープレス</string>
+    <string name="press_hombros_con_pesa_rusa_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="arrancada_con_pesa_rusa">ケトルベルスナッチ</string>
+    <string name="arrancada_con_pesa_rusa_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="swing_con_pesa_rusa">ケトルベルスイング</string>
+    <string name="swing_con_pesa_rusa_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="levantamiento_turco_con_pesa_rusa">ターキッシュゲットアップ</string>
+    <string name="levantamiento_turco_con_pesa_rusa_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="dominadas_con_kipping">キッピングプルアップ</string>
+    <string name="dominadas_con_kipping_desc">広背筋を鍛える優れた垂直方向のプル動作です。</string>
+
+    <string name="rodillas_al_pecho_en_barras_paralelas">ニートゥチェスト</string>
+    <string name="rodillas_al_pecho_en_barras_paralelas_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="jalon_rodillas_banda">ニーリングラットプルダウン</string>
+    <string name="jalon_rodillas_banda_desc">広背筋を鍛える優れた垂直方向のプル動作です。</string>
+
+    <string name="flexiones_rodillas">ニープッシュアップ</string>
+    <string name="flexiones_rodillas_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="l_sit_sostenido">Lシットホールド</string>
+    <string name="l_sit_sostenido_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="landmine_180">ランドマイン180</string>
+    <string name="landmine_180_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="remo_en_base_rotativa">ランドマインロー</string>
+    <string name="remo_en_base_rotativa_desc">広背筋を鍛える筋力トレーニングです。</string>
+
+    <string name="landmine_sentadilla_y_press">ランドマインスクワット＆プレス</string>
+    <string name="landmine_sentadilla_y_press_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="jalon_al_pecho_agarre_cerrado_cable">クローズグリップラットプルダウン</string>
+    <string name="jalon_al_pecho_agarre_cerrado_cable_desc">広背筋を鍛える優れた垂直方向のプル動作です。</string>
+
+    <string name="jalon_al_pecho_banda">ラットプルダウン（バンド）</string>
+    <string name="jalon_al_pecho_banda_desc">広背筋を鍛える優れた垂直方向のプル動作です。</string>
+
+    <string name="jalon_al_pecho_cable">ラットプルダウン</string>
+    <string name="jalon_al_pecho_cable_desc">広背筋を鍛える優れた垂直方向のプル動作です。</string>
+
+    <string name="jalon_al_pecho_maquina">ラットプルダウン（マシン）</string>
+    <string name="jalon_al_pecho_maquina_desc">広背筋を鍛える優れた垂直方向のプル動作です。</string>
+
+    <string name="caminata_lateral_con_banda_elastica">ラテラルウォーク</string>
+    <string name="caminata_lateral_con_banda_elastica_desc">臀筋と股関節の活性化と強化に焦点を当てたエクササイズ。パワーと安定性に重要です。</string>
+
+    <string name="salto_al_cajon_lateral">ラテラルボックスジャンプ</string>
+    <string name="salto_al_cajon_lateral_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="elevaciones_laterales_de_pierna">サイドレッグレイズ</string>
+    <string name="elevaciones_laterales_de_pierna_desc">臀筋と股関節の活性化と強化に焦点を当てたエクササイズ。パワーと安定性に重要です。</string>
+
+    <string name="zancada_lateral">ラテラルランジ</string>
+    <string name="zancada_lateral_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="elevaciones_laterales_banda">サイドレイズ（バンド）</string>
+    <string name="elevaciones_laterales_banda_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="elevaciones_laterales_cable">サイドレイズ（ケーブル）</string>
+    <string name="elevaciones_laterales_cable_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="elevaciones_laterales_mancuerna">サイドレイズ</string>
+    <string name="elevaciones_laterales_mancuerna_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="elevaciones_laterales_maquina">サイドレイズ（マシン）</string>
+    <string name="elevaciones_laterales_maquina_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="sentadilla_lateral">ラテラルスクワット</string>
+    <string name="sentadilla_lateral_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="extension_pierna">レッグエクステンション</string>
+    <string name="extension_pierna_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="press_piernas">レッグプレス</string>
+    <string name="press_piernas_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="pies_a_barra">トゥートゥバー</string>
+    <string name="pies_a_barra_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="cables_cruzados_bajos">ロークロスオーバー</string>
+    <string name="cables_cruzados_bajos_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="remo_bajo_suspension">サスペンションロー</string>
+    <string name="remo_bajo_suspension_desc">広背筋を鍛える筋力トレーニングです。</string>
+
+    <string name="zancada">ランジ</string>
+    <string name="zancada_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="zancada_barra">バーベルランジ</string>
+    <string name="zancada_barra_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="zancada_mancuerna">ダンベルランジ</string>
+    <string name="zancada_mancuerna_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="levantamiento_rodillas_tumbado">ライイングニーレイズ</string>
+    <string name="levantamiento_rodillas_tumbado_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="curl_piernas_acostado_maquina">ライイングレッグカール</string>
+    <string name="curl_piernas_acostado_maquina_desc">ハムストリングスや脊柱起立筋を含むパワフルなエクササイズです。</string>
+
+    <string name="levantamiento_piernas_tumbado">ライイングレッグレイズ</string>
+    <string name="levantamiento_piernas_tumbado_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="flexiones_cuello_acostado">ネックフレクション</string>
+    <string name="flexiones_cuello_acostado_desc">首の筋肉を鍛える筋力トレーニングです。</string>
+
+    <string name="flexiones_cuello_acostado_con_peso">ネックフレクション（加重）</string>
+    <string name="flexiones_cuello_acostado_con_peso_desc">首の筋肉を鍛える筋力トレーニングです。</string>
+
+    <string name="extension_cuello_acostado">ネックエクステンション</string>
+    <string name="extension_cuello_acostado_desc">首の筋肉を鍛える筋力トレーニングです。</string>
+
+    <string name="extension_cuello_acostado_con_peso">ネックエクステンション（加重）</string>
+    <string name="extension_cuello_acostado_con_peso_desc">首の筋肉を鍛える筋力トレーニングです。</string>
+
+    <string name="remos_meadows_barra">メドウズロー</string>
+    <string name="remos_meadows_barra_desc">広背筋を鍛える筋力トレーニングです。</string>
+
+    <string name="escaladores">マウンテンクライマー</string>
+    <string name="escaladores_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="muscle_up">マッスルアップ</string>
+    <string name="muscle_up_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="dominada_negativa">ネガティブプルアップ</string>
+    <string name="dominada_negativa_desc">広背筋を鍛える優れた垂直方向のプル動作です。</string>
+
+    <string name="curls_nordicos_isquiotibiales">ノルディックハムストリングカール</string>
+    <string name="curls_nordicos_isquiotibiales_desc">ハムストリングスや脊柱起立筋を含むパワフルなエクササイズです。</string>
+
+    <string name="abdominales_cortos_oblicuos">オブリーククランチ</string>
+    <string name="abdominales_cortos_oblicuos_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="flexión_a_una_mano">ワンアームプッシュアップ</string>
+    <string name="flexión_a_una_mano_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="curl_sobre_cabeza_cable">オーバーヘッドケーブルカール</string>
+    <string name="curl_sobre_cabeza_cable_desc">肘の屈曲に焦点を当て、上腕二頭筋に集中的に効かせるアイソレーション種目です。</string>
+
+    <string name="extensiones_muñeca_mancuerna">リストエクステンション</string>
+    <string name="extensiones_muñeca_mancuerna_desc">前腕筋を鍛える筋力トレーニングです。</string>
+
+    <string name="curls_muñeca_mancuerna">リストカール</string>
+    <string name="curls_muñeca_mancuerna_desc">前腕筋を鍛える筋力トレーニングです。</string>
+
+    <string name="curl_inverso_muñeca_barra">リバースリストカール</string>
+    <string name="curl_inverso_muñeca_barra_desc">前腕筋を鍛える筋力トレーニングです。</string>
+
+    <string name="peso_muerto_romano_barra">ルーマニアンデッドリフト</string>
+    <string name="peso_muerto_romano_barra_desc">ハムストリングスや脊柱起立筋を含むパワフルなエクササイズです。</string>
+
+    <string name="peso_muerto_romano_mancuerna">ダンベルルーマニアンデッドリフト</string>
+    <string name="peso_muerto_romano_mancuerna_desc">ハムストリングスや脊柱起立筋を含むパワフルなエクササイズです。</string>
+
+    <string name="rotacion_muñeca_mancuerna">リストローテーション</string>
+    <string name="rotacion_muñeca_mancuerna_desc">前腕筋を鍛える筋力トレーニングです。</string>
+
+    <string name="press_hombros_barra">ショルダープレス</string>
+    <string name="press_hombros_barra_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="press_hombros_maquina">ショルダープレス（マシン）</string>
+    <string name="press_hombros_maquina_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="press_hombros_mancuerna">ダンベルショルダープレス</string>
+    <string name="press_hombros_mancuerna_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="press_hombros_maquina_smith">ショルダープレス（スミスマシン）</string>
+    <string name="press_hombros_maquina_smith_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="sentadilla_barra">スクワット</string>
+    <string name="sentadilla_barra_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="sentadilla_cuerpo">スクワット</string>
+    <string name="sentadilla_cuerpo_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="sentadilla_mancuerna">ダンベルスクワット</string>
+    <string name="sentadilla_mancuerna_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="sentadilla_maquina_smith">スクワット（スミスマシン）</string>
+    <string name="sentadilla_maquina_smith_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="paso_lateral_con_polea_baja">ラテラルステップ</string>
+    <string name="paso_lateral_con_polea_baja_desc">臀筋と股関節の活性化と強化に焦点を当てたエクササイズ。パワーと安定性に重要です。</string>
+
+    <string name="desplantes_con_barra">ランジ</string>
+    <string name="desplantes_con_barra_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="desplantes_con_mancuerna">ダンベルランジ</string>
+    <string name="desplantes_con_mancuerna_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="zancadas_inversas">リバースランジ</string>
+    <string name="zancadas_inversas_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="press_militar">ミリタリープレス</string>
+    <string name="press_militar_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="press_push_barra">プッシュプレス</string>
+    <string name="press_push_barra_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="flexiones">プッシュアップ</string>
+    <string name="flexiones_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="flexiones_con_apoyo">アシスティッドプッシュアップ</string>
+    <string name="flexiones_con_apoyo_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="flexiones_con_las_manos_elevadas">ハンズイーレイテッドプッシュアップ</string>
+    <string name="flexiones_con_las_manos_elevadas_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="flexiones_con_peso_añadido">ウェイテッドプッシュアップ</string>
+    <string name="flexiones_con_peso_añadido_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="flexiones_maquina_smith">プッシュアップ（スミスマシン）</string>
+    <string name="flexiones_maquina_smith_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="flexiones_pies_elevados">フィートイーレイテッドプッシュアップ</string>
+    <string name="flexiones_pies_elevados_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="rotacion_rodillas_tumbado">ローテーショナルニークランチ</string>
+    <string name="rotacion_rodillas_tumbado_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="jalon_invertido_barra">インクラインロウ</string>
+    <string name="jalon_invertido_barra_desc">広背筋を鍛える筋力トレーニングです。</string>
+
+    <string name="jalon_invertido_maquina_smith">インクラインロウ（スミスマシン）</string>
+    <string name="jalon_invertido_maquina_smith_desc">広背筋を鍛える筋力トレーニングです。</string>
+
+    <string name="jalon_invertido_suspension">サスペンションロウ</string>
+    <string name="jalon_invertido_suspension_desc">広背筋を鍛える筋力トレーニングです。</string>
+
+    <string name="remo_con_agarres_a_mano_sentado">シーテッドロウ</string>
+    <string name="remo_con_agarres_a_mano_sentado_desc">広背筋を鍛える筋力トレーニングです。</string>
+
+    <string name="remo_con_agarres_a_mano_tumbado">ライイングロウ</string>
+    <string name="remo_con_agarres_a_mano_tumbado_desc">広背筋を鍛える筋力トレーニングです。</string>
+
+    <string name="elevacion_gemelos_de_pie">スタンディングカーフレイズ</string>
+    <string name="elevacion_gemelos_de_pie_desc">底屈に焦点を当て、腓腹筋を鍛えるアイソレーション種目です。</string>
+
+    <string name="elevacion_gemelos_sentado">シーテッドカーフレイズ</string>
+    <string name="elevacion_gemelos_sentado_desc">底屈に焦点を当て、腓腹筋を鍛えるアイソレーション種目です。</string>
+
+    <string name="remo_sentado_cable">シーテッドロウ</string>
+    <string name="remo_sentado_cable_desc">広背筋を鍛える筋力トレーニングです。</string>
+
+    <string name="remo_sentado_maquina">シーテッドロウ（マシン）</string>
+    <string name="remo_sentado_maquina_desc">広背筋を鍛える筋力トレーニングです。</string>
+
+    <string name="press_sentado_maquina">シーテッドプレス</string>
+    <string name="press_sentado_maquina_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="press_sentado_maquina_smith">シーテッドプレス（スミスマシン）</string>
+    <string name="press_sentado_maquina_smith_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="press_hombros_sentado_barra">シーテッドショルダープレス</string>
+    <string name="press_hombros_sentado_barra_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="press_hombros_sentado_mancuerna">シーテッドダンベルプレス</string>
+    <string name="press_hombros_sentado_mancuerna_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="press_hombros_sentado_maquina">シーテッドショルダープレス（マシン）</string>
+    <string name="press_hombros_sentado_maquina_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="remo_sentado_con_agarres_a_mano_cable">シーテッドケーブルロー</string>
+    <string name="remo_sentado_con_agarres_a_mano_cable_desc">広背筋を鍛える筋力トレーニングです。</string>
+
+    <string name="curl_piernas_sentado">シーテッドレッグカール</string>
+    <string name="curl_piernas_sentado_desc">ハムストリングスや脊柱起立筋を含むパワフルなエクササイズです。</string>
+
+    <string name="encogimiento_hombros_barra">シュラッグ</string>
+    <string name="encogimiento_hombros_barra_desc">僧帽筋を鍛える筋力トレーニングです。</string>
+
+    <string name="encogimiento_hombros_cable">ケーブルシュラッグ</string>
+    <string name="encogimiento_hombros_cable_desc">僧帽筋を鍛える筋力トレーニングです。</string>
+
+    <string name="encogimiento_hombros_mancuerna">ダンベルシュラッグ</string>
+    <string name="encogimiento_hombros_mancuerna_desc">僧帽筋を鍛える筋力トレーニングです。</string>
+
+    <string name="sizor_jump">シザージャンプ</string>
+    <string name="sizor_jump_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="extension_lateral_cuello_con_peso">サイドネックエクステンション（加重）</string>
+    <string name="extension_lateral_cuello_con_peso_desc">首の筋肉を鍛える筋力トレーニングです。</string>
+
+    <string name="extension_lateral_cuello_tumbado">サイドネックエクステンション</string>
+    <string name="extension_lateral_cuello_tumbado_desc">首の筋肉を鍛える筋力トレーニングです。</string>
+
+    <string name="extension_lateral_cuello_tumbado_con_peso">サイドネックエクステンション（ライイング、加重）</string>
+    <string name="extension_lateral_cuello_tumbado_con_peso_desc">首の筋肉を鍛える筋力トレーニングです。</string>
+
+    <string name="press_hombros_con_split_jerk">スプリットジャーク</string>
+    <string name="press_hombros_con_split_jerk_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="press_push_con_split_jerk">プッシュプレス＆スプリットジャーク</string>
+    <string name="press_push_con_split_jerk_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="snatch">スナッチ</string>
+    <string name="snatch_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="squat_clean">スクワットクリーン</string>
+    <string name="squat_clean_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="squat_jerk">スクワットジャーク</string>
+    <string name="squat_jerk_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="squat_snatch">スクワットスナッチ</string>
+    <string name="squat_snatch_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="squat_thruster">スラスター</string>
+    <string name="squat_thruster_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="step_up">ステップアップ</string>
+    <string name="step_up_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="step_up_mancuerna">ダンベルステップアップ</string>
+    <string name="step_up_mancuerna_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="stiff_leg_deadlift_barra">スティッフレッグデッドリフト</string>
+    <string name="stiff_leg_deadlift_barra_desc">ハムストリングスや脊柱起立筋を含むパワフルなエクササイズです。</string>
+
+    <string name="stiff_leg_deadlift_mancuerna">ダンベルスティッフレッグデッドリフト</string>
+    <string name="stiff_leg_deadlift_mancuerna_desc">ハムストリングスや脊柱起立筋を含むパワフルなエクササイズです。</string>
+
+    <string name="stiff_leg_deadlift_maquina_smith">スティッフレッグデッドリフト（スミスマシン）</string>
+    <string name="stiff_leg_deadlift_maquina_smith_desc">ハムストリングスや脊柱起立筋を含むパワフルなエクササイズです。</string>
+
+    <string name="estiramiento">ストレッチ</string>
+    <string name="estiramiento_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="extensiones_triceps_banda">トライセップスエクステンション（バンド）</string>
+    <string name="extensiones_triceps_banda_desc">腕の伸展に焦点を当て、上腕三頭筋を鍛えるエクササイズです。</string>
+
+    <string name="extensiones_triceps_cable">トライセップスエクステンション</string>
+    <string name="extensiones_triceps_cable_desc">腕の伸展に焦点を当て、上腕三頭筋を鍛えるエクササイズです。</string>
+
+    <string name="extensiones_triceps_mancuerna">ダンベルライイングトライセップスエクステンション</string>
+    <string name="extensiones_triceps_mancuerna_desc">腕の伸展に焦点を当て、上腕三頭筋を鍛えるエクササイズです。</string>
+
+    <string name="extensiones_triceps_maquina">トライセップスエクステンション（マシン）</string>
+    <string name="extensiones_triceps_maquina_desc">腕の伸展に焦点を当て、上腕三頭筋を鍛えるエクササイズです。</string>
+
+    <string name="extensiones_triceps_suspension">サスペンショントライセップスエクステンション</string>
+    <string name="extensiones_triceps_suspension_desc">腕の伸展に焦点を当て、上腕三頭筋を鍛えるエクササイズです。</string>
+
+    <string name="caminadora">トレッドミル</string>
+    <string name="caminadora_desc">心拍数を上げ、カロリーを消費する有酸素運動。心肺持久力の向上に最適です。</string>
+
+    <string name="tirones_barra">プル</string>
+    <string name="tirones_barra_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="tirones_mancuerna">プル（ダンベル）</string>
+    <string name="tirones_mancuerna_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="press_triceps">トライセップスプレス</string>
+    <string name="press_triceps_desc">腕の伸展に焦点を当て、上腕三頭筋を鍛えるエクササイズです。</string>
+
+    <string name="press_triceps_con_rotacion">トライセップスプレス（回転）</string>
+    <string name="press_triceps_con_rotacion_desc">腕の伸展に焦点を当て、上腕三頭筋を鍛えるエクササイズです。</string>
+
+    <string name="v_up">Vアップ</string>
+    <string name="v_up_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="sentadilla_v_up">Vアップスクワット</string>
+    <string name="sentadilla_v_up_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="extension_pierna_vertical">バーチカルレッグエクステンション</string>
+    <string name="extension_pierna_vertical_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="prensa_piernas_vertical">バーチカルレッグプレス</string>
+    <string name="prensa_piernas_vertical_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="caminata">ウォーキング</string>
+    <string name="caminata_desc">心拍数を上げ、カロリーを消費する有酸素運動。心肺持久力の向上に最適です。</string>
+
+    <string name="remo_con_mancuerna_tumbado">ライイングダンベルロー</string>
+    <string name="remo_con_mancuerna_tumbado_desc">広背筋を鍛える筋力トレーニングです。</string>
+
+    <string name="remo_con_mancuerna_en_inclinacion">インクラインダンベルロー</string>
+    <string name="remo_con_mancuerna_en_inclinacion_desc">広背筋を鍛える筋力トレーニングです。</string>
+
+    <string name="remo_con_mancuerna_sentado">シーテッドダンベルロー</string>
+    <string name="remo_con_mancuerna_sentado_desc">広背筋を鍛える筋力トレーニングです。</string>
+
+    <string name="v_sit">Vシット</string>
+    <string name="v_sit_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="plancha_en_pared">ウォールプランク</string>
+    <string name="plancha_en_pared_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="elevaciones_laterales_en_pared">ウォールサイドレイズ</string>
+    <string name="elevaciones_laterales_en_pared_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="press_hombros_en_pared">ウォールショルダープレス</string>
+    <string name="press_hombros_en_pared_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="jalon_invertido_en_pared">ウォールインクラインロウ</string>
+    <string name="jalon_invertido_en_pared_desc">広背筋を鍛える筋力トレーニングです。</string>
+
+    <string name="rotacion_muñeca_barra">リストローテーション</string>
+    <string name="rotacion_muñeca_barra_desc">前腕筋を鍛える筋力トレーニングです。</string>
+
+    <string name="flexiones_muñeca_barra">リストカール</string>
+    <string name="flexiones_muñeca_barra_desc">前腕筋を鍛える筋力トレーニングです。</string>
+
+    <string name="flexiones_muñeca_mancuerna">ダンベルリストカール</string>
+    <string name="flexiones_muñeca_mancuerna_desc">前腕筋を鍛える筋力トレーニングです。</string>
+
+    <string name="zancadas">ランジ</string>
+    <string name="zancadas_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="zancadas_barra">バーベルランジ</string>
+    <string name="zancadas_barra_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="zancadas_mancuerna">ダンベルランジ</string>
+    <string name="zancadas_mancuerna_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="zancadas_maquina_smith">ランジ（スミスマシン）</string>
+    <string name="zancadas_maquina_smith_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="zancadas_inversas_barra">リバースバーベルランジ</string>
+    <string name="zancadas_inversas_barra_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="zancadas_inversas_mancuerna">リバースダンベルランジ</string>
+    <string name="zancadas_inversas_mancuerna_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="zancadas_laterales_barra">ラテラルバーベルランジ</string>
+    <string name="zancadas_laterales_barra_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="zancadas_laterales_mancuerna">ラテラルダンベルランジ</string>
+    <string name="zancadas_laterales_mancuerna_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="zancadas_laterales_maquina_smith">ラテラルランジ（スミスマシン）</string>
+    <string name="zancadas_laterales_maquina_smith_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="zancadas_laterales_cuerpo">ラテラルランジ</string>
+    <string name="zancadas_laterales_cuerpo_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="zancadas_bulgaras_mancuerna">ダンベルブルガリアンスクワット</string>
+    <string name="zancadas_bulgaras_mancuerna_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="zancadas_bulgaras_maquina_smith">ブルガリアンスクワット（スミスマシン）</string>
+    <string name="zancadas_bulgaras_maquina_smith_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="elevacion_gemelos_de_pie_con_barra">バーベルスタンディングカーフレイズ</string>
+    <string name="elevacion_gemelos_de_pie_con_barra_desc">底屈に焦点を当て、腓腹筋を鍛えるアイソレーション種目です。</string>
+
+    <string name="elevacion_gemelos_de_pie_con_mancuerna">ダンベルスタンディングカーフレイズ</string>
+    <string name="elevacion_gemelos_de_pie_con_mancuerna_desc">底屈に焦点を当て、腓腹筋を鍛えるアイソレーション種目です。</string>
+
+    <string name="elevacion_gemelos_de_pie_maquina_smith">スタンディングカーフレイズ（スミスマシン）</string>
+    <string name="elevacion_gemelos_de_pie_maquina_smith_desc">底屈に焦点を当て、腓腹筋を鍛えるアイソレーション種目です。</string>
+
+    <string name="elevacion_gemelos_prensa_piernas">レッグプレスカーフレイズ</string>
+    <string name="elevacion_gemelos_prensa_piernas_desc">底屈に焦点を当て、腓腹筋を鍛えるアイソレーション種目です。</string>
+
+    <string name="elevacion_gemelos_burro">ドンキーカーフレイズ</string>
+    <string name="elevacion_gemelos_burro_desc">底屈に焦点を当て、腓腹筋を鍛えるアイソレーション種目です。</string>
+
+    <string name="press_banca_pesa_rusa">ケトルベルベンチプレス</string>
+    <string name="press_banca_pesa_rusa_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="abdominal_corto_con_pesa_rusa">ケトルベルクランチ</string>
+    <string name="abdominal_corto_con_pesa_rusa_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="elevacion_rodillas_pesa_rusa">ケトルベルニーレイズ</string>
+    <string name="elevacion_rodillas_pesa_rusa_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="extension_triceps_pesa_rusa">ケトルベルトライセップスエクステンション</string>
+    <string name="extension_triceps_pesa_rusa_desc">腕の伸展に焦点を当て、上腕三頭筋を鍛えるエクササイズです。</string>
+
+    <string name="peso_muerto_pesa_rusa">ケトルベルデッドリフト</string>
+    <string name="peso_muerto_pesa_rusa_desc">ハムストリングスや脊柱起立筋を含むパワフルなエクササイズです。</string>
+
+    <string name="remo_con_pesa_rusa_sentado">シーテッドケトルベルロー</string>
+    <string name="remo_con_pesa_rusa_sentado_desc">広背筋を鍛える筋力トレーニングです。</string>
+
+    <string name="peso_muerto_romano_pesa_rusa">ケトルベルルーマニアンデッドリフト</string>
+    <string name="peso_muerto_romano_pesa_rusa_desc">ハムストリングスや脊柱起立筋を含むパワフルなエクササイズです。</string>
+
+    <string name="encogimiento_hombros_pesa_rusa">ケトルベルシュラッグ</string>
+    <string name="encogimiento_hombros_pesa_rusa_desc">僧帽筋を鍛える筋力トレーニングです。</string>
+
+    <string name="remo_con_pesa_rusa_tumbado">ライイングケトルベルロー</string>
+    <string name="remo_con_pesa_rusa_tumbado_desc">広背筋を鍛える筋力トレーニングです。</string>
+
+    <string name="zancada_pesa_rusa">ケトルベルランジ</string>
+    <string name="zancada_pesa_rusa_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="zancada_inversa_pesa_rusa">ケトルベルリバースランジ</string>
+    <string name="zancada_inversa_pesa_rusa_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="zancada_lateral_pesa_rusa">ケトルベルラテラルランジ</string>
+    <string name="zancada_lateral_pesa_rusa_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="zancada_bulgara_pesa_rusa">ケトルベルブルガリアンスクワット</string>
+    <string name="zancada_bulgara_pesa_rusa_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="step_up_pesa_rusa">ケトルベルステップアップ</string>
+    <string name="step_up_pesa_rusa_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="extension_pierna_tumbado">ライイングレッグエクステンション</string>
+    <string name="extension_pierna_tumbado_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="sentadilla_sissy_barra">シシースクワット</string>
+    <string name="sentadilla_sissy_barra_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="sentadilla_sissy_mancuerna">ダンベルシシースクワット</string>
+    <string name="sentadilla_sissy_mancuerna_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="sentadilla_sissy_maquina">シシースクワット（マシン）</string>
+    <string name="sentadilla_sissy_maquina_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="abdominal_corto_vertical">バーチカルクランチ</string>
+    <string name="abdominal_corto_vertical_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="abdominales_bicicleta_vertical">バーチカルバイシクルクランチ</string>
+    <string name="abdominales_bicicleta_vertical_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="curl_biceps_vertical">バーチカルカール</string>
+    <string name="curl_biceps_vertical_desc">肘の屈曲に焦点を当て、上腕二頭筋に集中的に効かせるアイソレーション種目です。</string>
+
+    <string name="extension_triceps_vertical">バーチカルトライセップスエクステンション</string>
+    <string name="extension_triceps_vertical_desc">腕の伸展に焦点を当て、上腕三頭筋を鍛えるエクササイズです。</string>
+
+    <string name="press_banca_vertical">バーチカルベンチプレス</string>
+    <string name="press_banca_vertical_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="remo_vertical_cable">ケーブルアップライトロー</string>
+    <string name="remo_vertical_cable_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="remo_vertical_barra">アップライトロー</string>
+    <string name="remo_vertical_barra_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="remo_vertical_mancuerna">ダンベルアップライトロー</string>
+    <string name="remo_vertical_mancuerna_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="remo_vertical_pesa_rusa">ケトルベルアップライトロー</string>
+    <string name="remo_vertical_pesa_rusa_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="press_hombros_vertical_mancuerna">バーチカルダンベルショルダープレス</string>
+    <string name="press_hombros_vertical_mancuerna_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="elevacion_gemelos_vertical">バーチカルカーフレイズ</string>
+    <string name="elevacion_gemelos_vertical_desc">底屈に焦点を当て、腓腹筋を鍛えるアイソレーション種目です。</string>
+
+    <string name="zancadas_verticales">バーチカルランジ</string>
+    <string name="zancadas_verticales_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="elevacion_talones_con_banda">バンドカーフレイズ</string>
+    <string name="elevacion_talones_con_banda_desc">底屈に焦点を当て、腓腹筋を鍛えるアイソレーション種目です。</string>
+
+    <string name="elevacion_talones_con_mancuerna">ダンベルカーフレイズ</string>
+    <string name="elevacion_talones_con_mancuerna_desc">底屈に焦点を当て、腓腹筋を鍛えるアイソレーション種目です。</string>
+
+    <string name="elevacion_talones_sentado">シーテッドカーフレイズ</string>
+    <string name="elevacion_talones_sentado_desc">底屈に焦点を当て、腓腹筋を鍛えるアイソレーション種目です。</string>
+
+    <string name="paseo_del_granjero_pesa_rusa">ケトルベルファーマーズウォーク</string>
+    <string name="paseo_del_granjero_pesa_rusa_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="caminata_sentadilla_banda">バンドスクワットウォーク</string>
+    <string name="caminata_sentadilla_banda_desc">臀筋と股関節の活性化と強化に焦点を当てたエクササイズ。パワーと安定性に重要です。</string>
+
+    <string name="sentadilla_sumo_barra">バーベルスクワット</string>
+    <string name="sentadilla_sumo_barra_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="sentadilla_sumo_mancuerna">ダンベルスクワット</string>
+    <string name="sentadilla_sumo_mancuerna_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="peso_muerto_sumo_barra">バーベルスクワット</string>
+    <string name="peso_muerto_sumo_barra_desc">ハムストリングスや脊柱起立筋を含むパワフルなエクササイズです。</string>
+
+    <string name="peso_muerto_sumo_mancuerna">ダンベルスクワット</string>
+    <string name="peso_muerto_sumo_mancuerna_desc">ハムストリングスや脊柱起立筋を含むパワフルなエクササイズです。</string>
+
+    <string name="inmersion_en_bicicleta">スピニング</string>
+    <string name="inmersion_en_bicicleta_desc">心拍数を上げ、カロリーを消費する有酸素運動。心肺持久力の向上に最適です。</string>
+
+    <string name="rotacion_torso_maquina">トーソーローテーション</string>
+    <string name="rotacion_torso_maquina_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="rotacion_torso_sentado">シーテッドトーソーローテーション</string>
+    <string name="rotacion_torso_sentado_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="rotacion_torso_tumbado">ライイングトーソーローテーション</string>
+    <string name="rotacion_torso_tumbado_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="sentadilla_al_banco_barra">ボックススクワット</string>
+    <string name="sentadilla_al_banco_barra_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="sentadilla_al_banco_mancuerna">ダンベルボックススクワット</string>
+    <string name="sentadilla_al_banco_mancuerna_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="sentadilla_al_banco_maquina_smith">ボックススクワット（スミスマシン）</string>
+    <string name="sentadilla_al_banco_maquina_smith_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="press_triceps_cable">ケーブルトライセップスプレス</string>
+    <string name="press_triceps_cable_desc">腕の伸展に焦点を当て、上腕三頭筋を鍛えるエクササイズです。</string>
+
+    <string name="press_triceps_mancuerna">ダンベルトライセップスプレス</string>
+    <string name="press_triceps_mancuerna_desc">腕の伸展に焦点を当て、上腕三頭筋を鍛えるエクササイズです。</string>
+
+    <string name="press_triceps_maquina">トライセップスプレス（マシン）</string>
+    <string name="press_triceps_maquina_desc">腕の伸展に焦点を当て、上腕三頭筋を鍛えるエクササイズです。</string>
+
+    <string name="peso_muerto_a_una_pierna_mancuerna">シングルレッグダンベルデッドリフト</string>
+    <string name="peso_muerto_a_una_pierna_mancuerna_desc">ハムストリングスや脊柱起立筋を含むパワフルなエクササイズです。</string>
+
+    <string name="peso_muerto_a_una_pierna_pesa_rusa">シングルレッグケトルベルデッドリフト</string>
+    <string name="peso_muerto_a_una_pierna_pesa_rusa_desc">ハムストリングスや脊柱起立筋を含むパワフルなエクササイズです。</string>
+
+    <string name="press_overhead_barra">オーバーヘッドプレス</string>
+    <string name="press_overhead_barra_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="press_overhead_maquina_smith">オーバーヘッドプレス（スミスマシン）</string>
+    <string name="press_overhead_maquina_smith_desc">三角筋を鍛えるプッシュ動作です。</string>
+
+    <string name="extensiones_muñeca_barra">リストエクステンション</string>
+    <string name="extensiones_muñeca_barra_desc">前腕筋を鍛える筋力トレーニングです。</string>
+
+    <string name="extensiones_muñeca_cable">ケーブルリストエクステンション</string>
+    <string name="extensiones_muñeca_cable_desc">前腕筋を鍛える筋力トレーニングです。</string>
+
+    <string name="curl_inverso_muñeca_cable">ケーブルリバースリストカール</string>
+    <string name="curl_inverso_muñeca_cable_desc">前腕筋を鍛える筋力トレーニングです。</string>
+
+    <string name="flexiones_muñeca_cable">ケーブルリストカール</string>
+    <string name="flexiones_muñeca_cable_desc">前腕筋を鍛える筋力トレーニングです。</string>
+
+    <string name="press_pecho_cable">ケーブルチェストプレス</string>
+    <string name="press_pecho_cable_desc">大胸筋の筋力とサイズを向上させる基本的なプッシュ動作です。</string>
+
+    <string name="rotacion_torso_cable">ケーブルトーソーローテーション</string>
+    <string name="rotacion_torso_cable_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="rotacion_torso_mancuerna">ダンベルトーソーローテーション</string>
+    <string name="rotacion_torso_mancuerna_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="remo_con_maquina_t">Tバーロウ</string>
+    <string name="remo_con_maquina_t_desc">広背筋を鍛える筋力トレーニングです。</string>
+
+    <string name="remo_con_maquina_t_sentado">シーテッドTバーロウ</string>
+    <string name="remo_con_maquina_t_sentado_desc">広背筋を鍛える筋力トレーニングです。</string>
+
+    <string name="remo_con_barra_t">Tバーロウ</string>
+    <string name="remo_con_barra_t_desc">広背筋を鍛える筋力トレーニングです。</string>
+
+    <string name="extension_triceps_barra_ez">EZバートライセップスエクステンション</string>
+    <string name="extension_triceps_barra_ez_desc">腕の伸展に焦点を当て、上腕三頭筋を鍛えるエクササイズです。</string>
+
+    <string name="remo_triceps_cable">トライセップスプッシュダウン</string>
+    <string name="remo_triceps_cable_desc">腕の伸展に焦点を当て、上腕三頭筋を鍛えるエクササイズです。</string>
+
+    <string name="press_frances_barra_ez">フレンチプレス</string>
+    <string name="press_frances_barra_ez_desc">腕の伸展に焦点を当て、上腕三頭筋を鍛えるエクササイズです。</string>
+
+    <string name="press_frances_mancuerna">ダンベルフレンチプレス</string>
+    <string name="press_frances_mancuerna_desc">腕の伸展に焦点を当て、上腕三頭筋を鍛えるエクササイズです。</string>
+
+    <string name="rotacion_torso_barra">バーベルトーソーローテーション</string>
+    <string name="rotacion_torso_barra_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="abdominales">クランチ</string>
+    <string name="abdominales_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="abdominales_con_peso">クランチ（加重）</string>
+    <string name="abdominales_con_peso_desc">安定性と持久力に焦点を当て、腹筋を強化する体幹トレーニングです。</string>
+
+    <string name="curl_zottman_cable">ゾットマンカール（ケーブル）</string>
+    <string name="curl_zottman_cable_desc">肘の屈曲に焦点を当て、上腕二頭筋に集中的に効かせるアイソレーション種目です。</string>
+
+    <string name="zancadas_caminando">ウォーキングランジ</string>
+    <string name="zancadas_caminando_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="zancadas_caminando_mancuerna">ダンベルウォーキングランジ</string>
+    <string name="zancadas_caminando_mancuerna_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="lanzamientos_balon">ウォールボール</string>
+    <string name="lanzamientos_balon_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="sentadilla_en_pared">ウォールスクワット</string>
+    <string name="sentadilla_en_pared_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="calentamiento">ウォームアップ</string>
+    <string name="calentamiento_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="dominada_abierta">ワイドグリッププルアップ</string>
+    <string name="dominada_abierta_desc">広背筋を鍛える優れた垂直方向のプル動作です。</string>
+
+    <string name="rodillo_antebrazos">リストローラー</string>
+    <string name="rodillo_antebrazos_desc">前腕筋を鍛える筋力トレーニングです。</string>
+
+    <string name="yoga">ヨガ</string>
+    <string name="yoga_desc">複数の筋群を同時に動員する機能的なダイナミックな動作で、協調性とパワーを高めます。</string>
+
+    <string name="sentadilla_zercher">ザーチャースクワット</string>
+    <string name="sentadilla_zercher_desc">主に大腿四頭筋と臀筋を鍛えるコンパウンド種目。下半身の強化に不可欠です。</string>
+
+    <string name="curl_zottman_mancuerna">ゾットマンカール</string>
+    <string name="curl_zottman_mancuerna_desc">肘の屈曲に焦点を当て、上腕二頭筋に集中的に効かせるアイソレーション種目です。</string>
+
+    <!-- Meses del año-->
+    <string name="month_january">1月</string>
+    <string name="month_february">2月</string>
+    <string name="month_march">3月</string>
+    <string name="month_april">4月</string>
+    <string name="month_may">5月</string>
+    <string name="month_june">6月</string>
+    <string name="month_july">7月</string>
+    <string name="month_august">8月</string>
+    <string name="month_september">9月</string>
+    <string name="month_october">10月</string>
+    <string name="month_november">11月</string>
+    <string name="month_december">12月</string>
+
+    <string name="no_tienes_medidas_disponibles">計測データがありません</string>
+    <string name="a_adir_medida">計測を追加</string>
+    <string name="historial">履歴</string>
+
+    <string name="titulo_nueva_medida">新規計測</string>
+    <string name="hint_fecha">日付</string>
+    <string name="hint_valor_ejemplo">値（例： 75.5）</string>
+    <string name="accion_guardar">保存</string>
+
+    <string name="titulo_dietas">食事</string>
+
+    <string name="formato_calorias_total">%1$d / %2$d kcal</string>
+    <string name="macro_proteinas">タンパク質</string>
+    <string name="macro_carbohidratos">炭水化物</string>
+    <string name="macro_grasas">脂質</string>
+    <string name="formato_macro_gramos">%1$d / %2$d g</string>
+
+    <string name="seccion_desayuno">朝食</string>
+    <string name="seccion_comida">昼食</string>
+    <string name="seccion_cena">夕食</string>
+    <string name="seccion_snacks">間食</string>
+
+    <string name="btn_agregar_desayuno">+ 朝食を追加</string>
+    <string name="btn_agregar_comida">+ 昼食を追加</string>
+    <string name="btn_agregar_cena">+ 夕食を追加</string>
+    <string name="btn_agregar_snack">+ 間食を追加</string>
+
+    <string name="formato_resumen_comida">%1$d kcal | P %2$d | C %3$d | F %4$d</string>
+
+    <string name="desc_perfil">プロフィール</string>
+    <string name="desc_entrenamiento">トレーニング</string>
+    <string name="desc_calorias">カロリー</string>
+
+    <string name="crear_alimento">食品を作成</string>
+    <string name="nombre_y_marca">食品名とブランド</string>
+    <string name="marca">ブランド</string>
+    <string name="nombre">食品名 *</string>
+    <string name="categor_a">カテゴリ *</string>
+    <string name="informaci_n_nutricional">栄養成分</string>
+    <string name="s_lido_100g">固形 (100g)</string>
+    <string name="l_quido_100ml">液体 (100ml)</string>
+    <string name="valor_energ_tico_por_100g">エネルギー (100gあたり) *</string>
+    <string name="grasas_por_100g">脂質 (100gあたり) *</string>
+    <string name="carbohidratos_por_100g">炭水化物 (100gあたり) *</string>
+    <string name="prote_nas_por_100g">タンパク質 (100gあたり) *</string>
+    <string name="imagen_del_alimento">食品画像</string>
+    <string name="galer_a">ギャラリー</string>
+    <string name="c_mara">カメラ</string>
+    <string name="datos_por_100g">100gあたりのデータ</string>
+    <string name="kcal">kcal</string>
+    <string name="prote_nas">タンパク質</string>
+    <string name="carbs">炭水化物</string>
+    <string name="grasas">脂質</string>
+    <string name="cantidad">量</string>
+    <string name="ingresar_a_desayuno">朝食に追加</string>
+    <string name="alimentos">食品</string>
+    <string name="busca_un_alimento">食品を検索</string>
+    <string name="buscar">検索</string>
+    <string name="mis_alimentos">マイフード</string>
+    <string name="a_adir_alimento_nuevo">新規食品を追加</string>
+    <string name="dialog_eliminar_titulo">食品を削除</string>
+    <string name="dialog_eliminar_mensaje">\'%1$s\' を食品リストから削除しますか？</string>
+    <string name="btn_eliminar">削除</string>
+    <string name="msg_eliminado_ok">削除しました</string>
+    <string name="msg_error_eliminar">削除エラー</string>
+    <string name="hint_calorias_dinamico">エネルギー (%1$sあたり) *</string>
+    <string name="hint_grasas_dinamico">脂質 (%1$sあたり) *</string>
+    <string name="hint_carbohidratos_dinamico">炭水化物 (%1$sあたり) *</string>
+    <string name="hint_proteinas_dinamico">タンパク質 (%1$sあたり) *</string>
+
+    <string name="error_nombre_req">食品名は必須です</string>
+    <string name="error_categoria_req">有効なカテゴリを選択してください</string>
+    <string name="obligatorio">必須</string>
+    <string name="error_campos_obligatorios">全ての必須項目を入力してください</string>
+
+    <string name="guardando">保存中...</string>
+    <string name="msg_alimento_guardado">食品を保存しました</string>
+    <string name="btn_crear_alimento">食品を作成</string>
+    <string name="error">エラー</string>
+    <string name="btn_ingresar_a">%1$s に追加</string>
+    <string name="datos_por_100">%1$s あたりのデータ</string>
+    <string name="msg_anadido_a">%1$s に追加しました</string>
+    <string name="titulo_cerrarsesion">ログアウト</string>
+    <string name="mensaje_confirmacion_cerrarsesion">ログアウトしてもよろしいですか？</string>
+    <string name="boton_si_cerrarsesion">はい</string>
+    <string name="boton_no_cerrarsesion">いいえ</string>
+    <string name="sesion_cerrada_cerrarsesion">ログアウトしました</string>
+    <string name="error_cerrar_sesion_cerrarsesion">ログアウト中にエラーが発生しました</string>
+
+    <string name="cat_frutos_secos">ナッツ＆シード</string>
+    <string name="cat_snacks">スナック</string>
+    <string name="cat_dulces">スイーツ・キャンディ</string>
+    <string name="cat_lacteos">乳製品・チーズ</string>
+    <string name="cat_panaderia">パン・ベーカリー</string>
+    <string name="cat_carnes">肉類</string>
+    <string name="cat_pescados">魚介類</string>
+    <string name="cat_cereales">穀物</string>
+    <string name="cat_vegetal">果物・野菜</string>
+    <string name="cat_bebidas">飲料</string>
+    <string name="cat_salsas">ソース・油</string>
+
+    <string name="seguidos">%1$d フォロー中</string>
+    <string name="seguidores">%1$d フォロワー</string>
+    <string name="seguidoress">フォロワー</string>
+
+    <string name="back">戻る</string>
+    <string name="followers">フォロワー</string>
+    <string name="following">フォロー中</string>
+
+    <string name="titulo_seguidores_notificacion">フォロワーアクティビティ</string>
+    <string name="seguidor_nuevo_notificacion">%1$s さんがフォローしました</string>
+    <string name="seguidor_perdido_notificacion">%1$s さんがフォローを解除しました</string>
+    <string name="canal_seguidores_nombre_notificacion">フォロワー</string>
+    <string name="nuevos_seguidores_notificaciones">新しいフォロワー</string>
+    <string name="nuevos_seguidores_descripcion_notificaciones">フォロー/フォロー解除があったときに通知する</string>
+
+    <string name="dificultad">難易度</string>
+    <string name="dia">%2$s (%1$d日目)</string>
+
+    <string name="copiar_rutina">ルーティンをコピー</string>
+    <string name="copiada">%1$s (コピー)</string>
+    <string name="rutina_a_adida_a_tus_entrenamientos">ルーティンをワークアウトに追加しました</string>
+    <string name="error_al_copiar_rutina">ルーティンのコピーに失敗しました</string>
+    <string name="a_adir_serie">セットを追加</string>
+    <string name="serie">セット</string>
+
+    <string name="unidad_peso_kg">kg</string>
+    <string name="unidad_peso_lbs">ポンド</string>
+    <string name="hint_peso_con_unidad">重量 (%s)</string>
+
+
+    <string name="error_apellidos_req">姓は必須です</string>
+    <string name="error_edad_valida">有効な年齢を入力してください (1～120)</string>
+    <string name="error_seleccionar_genero">性別を選択してください</string>
+
+    <string name="error_seleccionar_estilo">ライフスタイルを選択してください</string>
+    <string name="error_seleccionar_objetivo">目標を選択してください</string>
+
+    <string name="enhorabuena">おめでとうございます！ 🎉</string>
+    <string name="mensaje_finalizar">ルーティンを完了しました。タイム：</string>
+    <string name="aceptar">はい</string>
+
+    <string name="empezar_entrenamiento">トレーニング開始</string>
+    <string name="seleccionar_dias">曜日を選択</string>
+    <string name="valor_invalido">無効な値です</string>
+
+    <string name="formato_grupo_muscular">筋肉グループ: %1$s</string>
+    <string name="formato_dificultad">難易度: %1$s</string>
+
+    <string name="notificaciones_generales">一般通知</string>
+    <string name="activar_o_desactivar_todas">全ての通知を有効/無効</string>
+    <string name="recordatorio_entreno">ワークアウトリマインダー</string>
+    <string name="toca_para_configurar">タップして設定...</string>
+    <string name="resumen_semanal">週間サマリー</string>
+    <string name="recordatorio_de_foto">写真リマインダー</string>
+
+    <string name="catalan_idioma">カタルーニャ語</string>
+    <string name="japones_idioma">日本語</string>
+
+    <string name="error_cargar_datos_formato">データ読み込みエラー： %s</string>
+    <string name="formato_fecha_grafico">MM/dd</string>
+    <string name="grafico_etiqueta_peso_con_unidad">体重 (%s)</string>
+    <string name="grafico_etiqueta_volumen_con_unidad">ボリューム (%s)</string>
+    <string name="etiqueta_semana_con_numero">第 %d 週</string>
+    <string name="grafico_titulo_volumen">ボリューム</string>
+    <string name="grafico_titulo_peso">体重</string>
+    <string name="toast_subiendo_imagen">画像をアップロード中...</string>
+    <string name="toast_error_subida_foto">写真のアップロードエラー</string>
+
+    <string name="mensaje_borrar_rutina">「%1$s」を削除しますか?</string>
+
+    <string name="altura">身長</string>
+    <string name="formato_resumen_entreno">%1$s %2$s</string>
+
+    <string name="notif_entreno_titulo">トレーニングの時間です！</string>
+    <string name="notif_entreno_mensaje">継続を途切れさせないで。今日は全力で頑張りましょう！</string>
+    <string name="notif_foto_titulo">週間写真の時間です！</string>
+    <string name="notif_foto_mensaje">最後の記録から7日が経過しました。進捗を更新しましょう！</string>
+    <string name="canal_entreno_nombre">トレーニングのリマインダー</string>
+    <string name="canal_foto_nombre">進捗のリマインダー</string>
+</resources>

@@ -1,0 +1,1754 @@
+<resources>
+    <string name="app_name">Trainex</string>
+    <string name="entrenamiento">Training</string>
+    <string name="rutinas">Routines</string>
+    <string name="nueva_rutina">New Routine</string>
+    <string name="mis_rutinas">My Routines</string>
+    <string name="ejercicios">Exercises</string>
+    <string name="agregar_ejercicio">Add Exercise</string>
+    <string name="cancelar">Cancel</string>
+    <string name="guardar">Save</string>
+    <string name="crear_rutina">Create Routine</string>
+    <string name="titulo_de_la_rutina">Routine Title</string>
+    <string name="generacion_rutina">Routine Generation</string>
+    <string name="introduzca_su_edad">Enter your age</string>
+    <string name="d_as_de_entrenamiento">Training Days</string>
+    <string name="objetivo_principal">Main Goal</string>
+    <string name="experiencia">Experience</string>
+    <string name="generar_rutina">Generate Routine</string>
+    <string name="edad">Age</string>
+    <string name="iniciar_sesion">Log In</string>
+    <string name="correo_electronico">Email</string>
+    <string name="contrasena">Password</string>
+    <string name="no_tienes_cuenta_registrate">Dont have an account? Sign up</string>
+    <string name="has_olvidado_tu_contrasena">Forgot your password?</string>
+    <string name="ejercicio">Exercise</string>
+    <string name="titulo_del_ejercicio">Exercise Title</string>
+    <string name="grupo_muscular">Muscle Group</string>
+    <string name="menu">Menu</string>
+    <string name="recuperar_contrasena">Recover Password</string>
+    <string name="recuerdas_la_contrasena_inicia_sesion">Remember your password? Sign In</string>
+    <string name="crear_cuenta">Create Account</string>
+    <string name="confirmar_contrasena">Confirm Password</string>
+    <string name="registrarse">Sign Up</string>
+    <string name="ya_tienes_cuenta">Already have an account? Sign In</string>
+    <string name="atras">Back</string>
+    <string name="iniciar_rutina">Start routine</string>
+    <string name="ejercicios_de_rutina">Routine Exercises</string>
+    <string name="create_routine_title">Create Routine</string>
+    <string name="edit_routine_title">Edit Routine</string>
+    <string name="save_button">Save</string>
+    <string name="update_button">Update</string>
+    <string name="validation_title_error">You must enter a title</string>
+    <string name="validation_exercise_error">You must add at least one exercise</string>
+    <string name="toast_update_success">Routine updated successfully</string>
+    <string name="toast_save_success">Routine saved successfully</string>
+    <string name="busca_un_ejercicio">Search for an exercise</string>
+    <string name="add_exercise_singular">Add 1 exercise</string>
+    <string name="add_exercises_plural">Add %d exercises</string>
+    <string name="validation_age_error">Enter your age</string>
+    <string name="eliminar">Delete</string>
+    <string name="editar">Edit</string>
+    <string name="iniciar_entrenamiento">Start Training</string>
+    <string name="finalizar_entrenamiento">Finish Training</string>
+    <string name="introduzca_su_nombre_de_usuario">Enter your username</string>
+    <string name="nombre_de_usuario">Username</string>
+    <string name="objetivo">Goal</string>
+    <string name="estilo_de_vida">Lifestyle</string>
+    <string name="error_username_empty">Username is required</string>
+    <string name="error_username_taken">This username is already taken. Please choose another.</string>
+    <string name="status_checking">Checking...</string>
+    <string name="ejercicios_realizados">Completed Exercises</string>
+    <string name="a_n_no_has_realizado_ejercicios">No exercises completed yet</string>
+    <string name="historial_ltimo_a_o">History: Last Year</string>
+    <string name="mes_a_o">Month Year</string>
+    <string name="cerrar">Close</string>
+    <string name="no_hay_entrenamientos_registrados_este_d_a">No workouts recorded for this day.</string>
+    <string name="mayor_peso">Heaviest Weight</string>
+    <string name="records_personales">Personal Records</string>
+    <string name="mejor_volumen_serie">Best Volume (Set)</string>
+    <string name="mejor_volumen_total">Best Total Volume</string>
+    <!-- Strings for cardio exercises -->
+    <string name="mayor_distancia">Longest Distance</string>
+    <string name="distancia_total">Total Distance</string>
+    <string name="tiempo_total">Total Time</string>
+
+    <string name="medida_peso_corporal">Body Weight</string>
+    <string name="medida_grasa_corporal">Body Fat</string>
+    <string name="medida_cuello">Neck</string>
+    <string name="medida_hombros">Shoulders</string>
+    <string name="medida_pecho">Chest</string>
+    <string name="medida_cintura">Waist</string>
+    <string name="medida_caderas">Hips</string>
+
+    <string name="medida_biceps_izq">Left Bicep</string>
+    <string name="medida_biceps_der">Right Bicep</string>
+    <string name="medida_antebrazo_izq">Left Forearm</string>
+    <string name="medida_antebrazo_der">Right Forearm</string>
+    <string name="medida_muslo_izq">Left Thigh</string>
+    <string name="medida_muslo_der">Right Thigh</string>
+    <string name="medida_pantorrilla_izq">Left Calf</string>
+    <string name="medida_pantorrilla_der">Right Calf</string>
+
+    <string name="titulo_medida_default">Measurement</string>
+    <string name="hint_valor_unidad">Value in %1$s</string>
+    <string name="error_fecha_futura">Date cannot be in the future</string>
+    <string name="error_limite_superado">Max for %1$s is %2$s %3$s</string>
+    <string name="error_valor_positivo">Value must be positive</string>
+    <string name="error_numero_invalido">Invalid number</string>
+    <string name="error_campo_vacio">Enter a value</string>
+    <string name="mensaje_guardado_ok">Saved successfully</string>
+    <string name="error_guardar_formato">Error saving: %s</string>
+
+    <string name="grafico_progreso_label">Progress</string>
+    <string name="mensaje_datos_vacio">No data available</string>
+    <string name="error_cargar_datos">Error loading data</string>
+
+    <string name="dialogo_eliminar_medida_titulo">Delete measurement</string>
+    <string name="dialogo_eliminar_medida_mensaje">Are you sure you want to delete this record?</string>
+    <string name="toast_eliminado">Deleted</string>
+    <string name="error_eliminar">Error deleting</string>
+
+    <string name="peso_corporal">Body Weight</string>
+    <!-- Ajustes Perfil -->
+    <string name="editar_perfil">Edit Profile</string>
+    <string name="cambiar_foto_perfil">Change profile picture</string>
+    <string name="datos_perfil">Profile Data</string>
+    <string name="datos_personales">Personal Data</string>
+    <string name="datos_privados">Private Data</string>
+    <string name="sexo">Gender</string>
+    <string name="cumpleanos">Birthday</string>
+    <!-- Para Datos Personales -->
+    <string name="titulo_ajustes_datos_personales">Personal Data</string>
+    <string name="hint_nombre_ajustes_datos_personales">Name</string>
+    <string name="hint_apellidos_ajustes_datos_personales">Surname</string>
+    <string name="hint_genero_ajustes_datos_personales">Gender</string>
+    <string name="hint_edad_ajustes_datos_personales">Age</string>
+    <string name="hint_peso_ajustes_datos_personales">Weight</string>
+    <string name="hint_altura_ajustes_datos_personales">Height</string>
+    <string name="hint_estilo_vida_ajustes_datos_personales">Lifestyle</string>
+    <string name="hint_objetivo_ajustes_datos_personales">Goal</string>
+    <string name="boton_guardar_ajustes_datos_personales">Save</string>
+
+    <!-- Mensajes de error -->
+    <string name="error_nombre_obligatorio_ajustes">Name is required</string>
+    <string name="error_apellidos_obligatorio_ajustes">Surname is required</string>
+    <string name="error_edad_invalida_ajustes">Invalid age</string>
+    <string name="error_peso_invalido_ajustes">Invalid weight</string>
+    <string name="error_altura_invalida_ajustes">Invalid height</string>
+    <string name="error_seleccione_genero_ajustes">Select a gender</string>
+    <string name="error_seleccione_estilo_vida_ajustes">Select a lifestyle</string>
+    <string name="error_seleccione_objetivo_ajustes">Select a goal</string>
+
+    <!-- Mensajes de éxito -->
+    <string name="mensaje_datos_actualizados_ajustes">Data updated successfully</string>
+    <string name="mensaje_error_guardar_ajustes">Error saving: %s</string>
+
+    <!-- Pantalla Perfil-->
+    <string name="user_name_default">Alberto87</string>
+    <string name="content_description_settings">Profile settings</string>
+
+    <string name="weight_format">Weight: %1$.1f Kg</string>
+    <string name="height_format">Height: %1$.2f m</string>
+    <string name="age_format">Age: %1$d years</string>
+    <string name="bmi_format">BMI: %1$.2f</string>
+
+    <string name="button_calendar">Calendar</string>
+    <string name="button_measures">Measures</string>
+    <string name="button_exercises">Exercises</string>
+
+    <string name="section_weekly_photos">Weekly Photos</string>
+    <string name="content_description_weekly_photos">Weekly progress photos carousel</string>
+    <string name="content_description_photo_week">Weekly progress photo</string>
+
+    <string name="section_evolution_2025">2025 Evolution</string>
+    <string name="content_description_weight_chart">Weight evolution chart</string>
+
+    <string name="content_description_weight_icon">Weight icon</string>
+    <string name="content_description_training_icon">Training icon</string>
+    <string name="content_description_calories_icon">Calories icon</string>
+
+    <string name="grafico_etiqueta_peso">Weight</string>
+    <string name="grafico_etiqueta_volumen">Volume</string>
+    <string name="grafico_titulo_volumen_carga">Load Volume (Kg)</string>
+    <string name="grafico_titulo_peso_corporal">Body Weight (Kg)</string>
+    <string name="formato_imc">BMI: %.2f</string>
+    <string name="etiqueta_semana">Week %d</string>
+
+    <string name="dialogo_titulo_foto">Add progress photo</string>
+    <string name="opcion_hacer_foto">Take photo</string>
+    <string name="opcion_galeria">Choose from gallery</string>
+
+    <string name="dialogo_titulo_eliminar">Delete photo</string>
+    <string name="dialogo_mensaje_eliminar">Are you sure you want to delete this progress photo?</string>
+    <string name="accion_eliminar">Delete</string>
+    <string name="accion_cancelar">Cancel</string>
+
+    <string name="error_iniciar_camara">Error starting camera: %s</string>
+    <string name="toast_procesando">Processing photo...</string>
+    <string name="toast_foto_guardada">Photo saved!</string>
+    <string name="error_generico">Error: %s</string>
+    <string name="error_cargar_imagen">Error loading image</string>
+    <string name="toast_eliminando">Deleting...</string>
+    <string name="toast_foto_eliminada">Photo deleted</string>
+    <string name="error_al_eliminar">Error deleting</string>
+    <!-- Para pantalla de ajustes -->
+    <string name="ajustes">Settings</string>
+    <string name="cuenta">Account</string>
+    <string name="perfil">Profile</string>
+    <string name="cuenta_item">Account Settings</string>
+    <string name="notificaciones">Notifications</string>
+    <string name="preferencias">Preferences</string>
+    <string name="unidades">Units</string>
+    <string name="idioma">Language</string>
+    <string name="modo">Theme</string>
+    <string name="oscuro">Dark</string>
+    <string name="claro">Light</string>
+    <string name="siguenos">Follow Us</string>
+    <string name="cerrar_sesion">Log Out</string>
+
+
+    <!-- Cuenta Activity -->
+    <string name="titulo_cuenta_ajustes">Account</string>
+    <string name="subtitulo_info_cuenta_ajustes">Account Information</string>
+    <string name="opcion_cambiar_nombre_usuario">Change Username</string>
+    <string name="opcion_cambiar_email">Change Email</string>
+    <string name="opcion_cambiar_contrasena">Change Password</string>
+    <string name="boton_eliminar_cuenta">Delete Account</string>
+    <string name="dialogo_titulo_eliminar_cuenta">Delete Account</string>
+    <string name="dialogo_mensaje_eliminar_cuenta">Are you sure you want to delete your account? This action cannot be undone.</string>
+    <string name="mensaje_cuenta_eliminada">Account deleted successfully</string>
+    <string name="error_eliminar_cuenta">Error deleting account: %s</string>
+
+    <!-- Cambiar Nombre de Usuario -->
+    <string name="titulo_cambiar_nombre_usuario">Change Username</string>
+    <string name="label_nombre_usuario_actual">Current username</string>
+    <string name="label_nuevo_nombre_usuario">New username</string>
+    <string name="hint_nombre_usuario_ajustes_cuenta">Enter new username</string>
+    <string name="error_nombre_usuario_vacio">Username cannot be empty</string>
+    <string name="mensaje_nombre_actualizado">Username updated successfully</string>
+    <string name="error_nombre_existe">Username already exists</string>
+    <string name="boton_guardar_nombre_usuario">Save username</string>
+
+    <!-- Cambiar Email -->
+    <string name="titulo_cambiar_email">Change Email</string>
+    <string name="label_email_actual">Current email</string>
+    <string name="label_nuevo_email">New email</string>
+    <string name="hint_nuevo_email">new@example.com</string>
+    <string name="label_contrasena_actual_email">Current password</string>
+    <string name="error_email_invalido">Invalid email</string>
+    <string name="mensaje_email_actualizado">Email updated successfully</string>
+    <string name="error_email_existe">Email already in use</string>
+    <string name="boton_guardar_email">Save email</string>
+
+    <!-- Cambiar Contraseña -->
+    <string name="titulo_cambiar_contrasena">Change Password</string>
+    <string name="label_contrasena_actual">Current password</string>
+    <string name="label_nueva_contrasena">New password</string>
+    <string name="label_confirmar_contrasena">Confirm new password</string>
+    <string name="hint_confirmar_contrasena_igual">Confirm new password</string>
+    <string name="hint_contrasena_placeholder">********</string>
+    <string name="error_contrasena_corta">Password must be at least 6 characters</string>
+    <string name="error_contrasenas_no_coinciden">Passwords don\'t match</string>
+    <string name="mensaje_contrasena_actualizada">Password updated successfully</string>
+    <string name="boton_guardar_contrasena">Save password</string>
+
+    <!-- Mensajes de error generales -->
+    <string name="mensaje_error_actualizar_ajustes_cuenta">Error updating: %s</string>
+    <string name="error_actualizacion_generica">Error: %s</string>
+    <string name="error_autenticacion">Authentication error</string>
+    <string name="error_desconocido">Unknown error</string>
+    <string name="error_contrasena_actual_obligatoria_ajustes_cuenta">Current password is required</string>
+    <string name="error_password_incorrecta">Incorrect password</string>
+    <string name="accion_cancelar_ajustes_cuenta">Cancel</string>
+    <string name="accion_confirmar_ajustes_cuenta">Confirm</string>
+    <!-- Strings adicionales para valores/estados -->
+    <!-- Notifications -->
+    <string name="titulo_notificaciones_notificaciones">Notifications</string>
+    <string name="notificaciones_generales_notificaciones">General notifications</string>
+    <string name="notificaciones_generales_descripcion_notificaciones">Enable/disable all notifications</string>
+    <string name="recordatorio_entrenamiento_notificaciones">Training reminder</string>
+    <string name="recordatorio_entrenamiento_descripcion_notificaciones">Receive reminders for your workouts</string>
+    <string name="recordatorio_foto_semanal_notificaciones">Weekly photo reminder</string>
+    <string name="recordatorio_foto_semanal_descripcion_notificaciones">Reminder to take weekly progress photos</string>
+    <string name="kg_cm">Kg/cm</string>
+    <string name="lb_in">Lb/in</string>
+    <string name="espanol">Spanish</string>
+    <string name="ingles">English</string>
+    <!-- Unidades -->
+    <string name="titulo_unidades_unidades">Units</string>
+    <string name="peso_unidades">Weight</string>
+    <string name="distancia_unidades">Distance</string>
+    <string name="medidas_corporales_unidades">Body measurements</string>
+    <string name="kg_unidades">Kg</string>
+    <string name="lbs_unidades">Lbs</string>
+    <string name="km_unidades">Km</string>
+    <string name="millas_unidades">Miles</string>
+    <string name="cm_unidades">Cm</string>
+    <string name="in_unidades">In</string>
+    <string name="titulo_idioma_idioma">Language</string>
+    <string name="espanol_idioma">Spanish</string>
+    <string name="ingles_idioma">English</string>
+    <string name="frances_idioma">French</string>
+    <string name="idioma_cambiado_idioma">Language changed. Restart the app to apply changes.</string>
+    <string name="titulo_modo_modo">Mode</string>
+    <string name="oscuro_modo">Dark</string>
+    <string name="claro_modo">Light</string>
+    <!-- Grupos musculaes -->
+    <string name="group_abductores">Abductors</string>
+    <string name="group_cuadriceps">Quadriceps</string>
+    <string name="group_biceps">Biceps</string>
+    <string name="group_pecho">Chest</string>
+    <string name="group_adductores">Adductors</string>
+    <string name="group_abdominales">Abdominals</string>
+    <string name="group_cardio">Cardio</string>
+    <string name="group_hombros">Shoulders</string>
+    <string name="group_espalda_baja">Lower Back</string>
+    <string name="group_cuerpo_entero">Full Body</string>
+    <string name="group_ante_brazos">Forearms</string>
+    <string name="group_triceps">Triceps</string>
+    <string name="group_espalda_superior">Upper Back</string>
+    <string name="group_gluteos">Glutes</string>
+    <string name="group_gemelos">Calves</string>
+    <string name="group_dorsales">Lats</string>
+    <string name="group_isquiotibiales">Hamstrings</string>
+    <string name="group_cuello">Neck</string>
+    <string name="group_trapecios">Traps</string>
+    <string name="entrenamiento_activity">Training</string>
+    <string name="series">Series</string>
+    <string name="anadir_serie">Add Series</string>
+    <string name="eliminar_serie">Remove Series</string>
+    <string name="kg">KG</string>
+    <string name="repeticiones">Reps</string>
+    <!-- Dificultad -->
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_medium">Medium</string>
+    <string name="difficulty_difficult">Difficult</string>
+
+    <!-- Ejercicios-->
+    <string name="abduccion_caderas">Hip Abduction</string>
+    <string name="abduccion_caderas_desc">Strength or resistance exercise focused on developing the Abductors.</string>
+
+    <string name="press_piernas_sentado">Seated Leg Press</string>
+    <string name="press_piernas_sentado_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="curl_biceps_mancuerna">Biceps Curl (Dumbbell)</string>
+    <string name="curl_biceps_mancuerna_desc">Isolation exercise to concentrate work on the Biceps, focusing on elbow flexion.</string>
+
+    <string name="press_banca_barra">Bench Press (Barbell)</string>
+    <string name="press_banca_barra_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="aduccion_caderas">Hip Adduction</string>
+    <string name="aduccion_caderas_desc">Strength or resistance exercise focused on developing the Adductors.</string>
+
+    <string name="curl_biceps_21">Biceps Curl 21s</string>
+    <string name="curl_biceps_21_desc">Isolation exercise to concentrate work on the Biceps, focusing on elbow flexion.</string>
+
+    <string name="abdominales_tijera">Scissor Kicks</string>
+    <string name="abdominales_tijera_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="rueda_abdominal">Ab Wheel Rollout</string>
+    <string name="rueda_abdominal_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="aerobics">Aerobics</string>
+    <string name="aerobics_desc">Aerobic exercise that raises heart rate and burns calories. Ideal for improving cardiovascular endurance.</string>
+
+    <string name="bicleta_aire">Air Bike</string>
+    <string name="bicleta_aire_desc">Aerobic exercise that raises heart rate and burns calories. Ideal for improving cardiovascular endurance.</string>
+
+    <string name="arnold_press_mancuerna">Arnold Press (Dumbbell)</string>
+    <string name="arnold_press_mancuerna_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="alrededor_mundo">Around the World</string>
+    <string name="alrededor_mundo_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="sentadilla_pistol_asistida">Assisted Pistol Squat</string>
+    <string name="sentadilla_pistol_asistida_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="extension_espalda_hiperextension">Back Extension (Hyperextension)</string>
+    <string name="extension_espalda_hiperextension_desc">Strength or resistance exercise focused on developing the Lower Back.</string>
+
+    <string name="extension_espalda_maquina">Back Extension (Machine)</string>
+    <string name="extension_espalda_maquina_desc">Strength or resistance exercise focused on developing the Lower Back.</string>
+
+    <string name="extension_espalda_hiperextension_con_peso">Back Extension (Weighted Hyperextension)</string>
+    <string name="extension_espalda_hiperextension_con_peso_desc">Strength or resistance exercise focused on developing the Lower Back.</string>
+
+    <string name="ball_slams">Ball Slams</string>
+    <string name="ball_slams_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="band_pullaparts">Band Pullaparts</string>
+    <string name="band_pullaparts_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="cuerdas_batalla">Battle Ropes</string>
+    <string name="cuerdas_batalla_desc">Aerobic exercise that raises heart rate and burns calories. Ideal for improving cardiovascular endurance.</string>
+
+    <string name="curl_biceps_detras_espalda_barra">Behind-the-Back Biceps Curl (Barbell)</string>
+    <string name="curl_biceps_detras_espalda_barra_desc">Strength or resistance exercise focused on developing the Forearms.</string>
+
+    <string name="fondos_banco">Bench Dips</string>
+    <string name="fondos_banco_desc">Exercise focused on arm extension to work the Triceps.</string>
+
+    <string name="press_banca_agarre_cerrado_barra">Bench Press - Close Grip (Barbell)</string>
+    <string name="press_banca_agarre_cerrado_barra_desc">Exercise focused on arm extension to work the Triceps.</string>
+
+    <string name="press_banca_agarre_abierto_barra">Bench Press - Wide Grip (Barbell)</string>
+    <string name="press_banca_agarre_abierto_barra_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="press_banca_cable">Bench Press (Cable)</string>
+    <string name="press_banca_cable_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="press_banca_mancuerna">Bench Press (Dumbbell)</string>
+    <string name="press_banca_mancuerna_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="press_banca_maquina_smith">Bench Press (Smith Machine)</string>
+    <string name="press_banca_maquina_smith_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="remo_inclinado_banda">Bent-Over Row (Band)</string>
+    <string name="remo_inclinado_banda_desc">Strength or resistance exercise focused on developing the Upper Back.</string>
+
+    <string name="remo_inclinado_barra">Bent-Over Row (Barbell)</string>
+    <string name="remo_inclinado_barra_desc">Strength or resistance exercise focused on developing the Upper Back.</string>
+
+    <string name="remo_inclinado_mancuerna">Bent-Over Row (Dumbbell)</string>
+    <string name="remo_inclinado_mancuerna_desc">Strength or resistance exercise focused on developing the Upper Back.</string>
+
+    <string name="curl_biceps_barra">Biceps Curl (Barbell)</string>
+    <string name="curl_biceps_barra_desc">Isolation exercise to concentrate work on the Biceps, focusing on elbow flexion.</string>
+
+    <string name="curl_biceps_cable">Biceps Curl (Cable)</string>
+    <string name="curl_biceps_cable_desc">Isolation exercise to concentrate work on the Biceps, focusing on elbow flexion.</string>
+
+    <string name="curl_biceps_maquina">Biceps Curl (Machine)</string>
+    <string name="curl_biceps_maquina_desc">Isolation exercise to concentrate work on the Biceps, focusing on elbow flexion.</string>
+
+    <string name="curl_biceps_suspension">Biceps Curl (Suspension)</string>
+    <string name="curl_biceps_suspension_desc">Isolation exercise to concentrate work on the Biceps, focusing on elbow flexion.</string>
+
+    <string name="abdominal_bicleta">Bicycle Crunch</string>
+    <string name="abdominal_bicleta_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="abdominales_bicicleta_piernas_levantadas">Bicycle Crunches with Raised Legs</string>
+    <string name="abdominales_bicicleta_piernas_levantadas_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="perro_caza">Bird Dog</string>
+    <string name="perro_caza_desc">Exercise focused on activation and strengthening of the Glutes and hips, key for power and stability.</string>
+
+    <string name="salto_cajon">Box Jump</string>
+    <string name="salto_cajon_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="sentadilla_cajon_barra">Box Squat (Barbell)</string>
+    <string name="sentadilla_cajon_barra_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="boxeo">Boxing</string>
+    <string name="boxeo_desc">Aerobic exercise that raises heart rate and burns calories. Ideal for improving cardiovascular endurance.</string>
+
+    <string name="sentadilla_bulgara">Bulgarian Split Squat</string>
+    <string name="sentadilla_bulgara_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="burpee">Burpee</string>
+    <string name="burpee_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="burpee_sobre_barra">Burpee Over Bar</string>
+    <string name="burpee_sobre_barra_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="mariposa_pec_deck">Butterfly (Pec Deck)</string>
+    <string name="mariposa_pec_deck_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="cable_core_palloff_press">Cable Core Palloff Press</string>
+    <string name="cable_core_palloff_press_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="abdominal_corto_con_cable">Cable Crunch</string>
+    <string name="abdominal_corto_con_cable_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="cables_cruzados">Cable Crossovers</string>
+    <string name="cables_cruzados_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="trion_polea_entre_piernas">Cable Glute Kickback</string>
+    <string name="trion_polea_entre_piernas_desc">Exercise focused on activation and strengthening of the Glutes and hips, key for power and stability.</string>
+
+    <string name="cable_twist_down_to_up">Cable Twist (Down to Up)</string>
+    <string name="cable_twist_down_to_up_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="cable_twist_up_to_down">Cable Twist (Up to Down)</string>
+    <string name="cable_twist_up_to_down_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="extension_pantorrilla_maquina">Calf Extension (Machine)</string>
+    <string name="extension_pantorrilla_maquina_desc">Exercise to isolate and develop the Calves, focusing on plantar flexion.</string>
+
+    <string name="press_pantorrilla_maquina">Calf Press (Machine)</string>
+    <string name="press_pantorrilla_maquina_desc">Exercise to isolate and develop the Calves, focusing on plantar flexion.</string>
+
+    <string name="fondos">Dips</string>
+    <string name="fondos_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="fondos_asistidos">Dips (Assisted)</string>
+    <string name="fondos_asistidos_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="fondos_con_peso_añadido">Dips (Weighted)</string>
+    <string name="fondos_con_peso_añadido_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="aperturas_banda">Chest Fly (Band)</string>
+    <string name="aperturas_banda_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="aperturas_mancuerna">Chest Fly (Dumbbell)</string>
+    <string name="aperturas_mancuerna_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="aperturas_maquina">Chest Fly (Machine)</string>
+    <string name="aperturas_maquina_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="chest_fly_suspension">Chest Fly (Suspension)</string>
+    <string name="chest_fly_suspension_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="press_pecho_banda">Chest Press (Band)</string>
+    <string name="press_pecho_banda_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="press_pecho_maquina">Chest Press (Machine)</string>
+    <string name="press_pecho_maquina_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="remo_inclinado_con_apoyo_pecho_mancuerna">Chest-Supported Bent-Over Row (Dumbbell)</string>
+    <string name="remo_inclinado_con_apoyo_pecho_mancuerna_desc">Strength or resistance exercise focused on developing the Upper Back.</string>
+
+    <string name="vuelos_posteriores_mancuerna">Rear Delt Fly (Dumbbell)</string>
+    <string name="vuelos_posteriores_mancuerna_desc">Strength or resistance exercise focused on developing the Upper Back.</string>
+
+    <string name="elevacion_y_con_soporte_pecho_mancuerna">Y-Raise with Chest Support (Dumbbell)</string>
+    <string name="elevacion_y_con_soporte_pecho_mancuerna_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="dominadas_chin_up">Chin Up</string>
+    <string name="dominadas_chin_up_desc">Excellent vertical pulling movement for developing the Lats and upper back.</string>
+
+    <string name="dominadas_chin_up_asistida">Chin Up (Assisted)</string>
+    <string name="dominadas_chin_up_asistida_desc">Excellent vertical pulling movement for developing the Lats and upper back.</string>
+
+    <string name="dominadas_chin_up_con_peso">Chin Up (Weighted)</string>
+    <string name="dominadas_chin_up_con_peso_desc">Excellent vertical pulling movement for developing the Lats and upper back.</string>
+
+    <string name="almeja">Clamshell</string>
+    <string name="almeja_desc">Exercise focused on activation and strengthening of the Glutes and hips, key for power and stability.</string>
+
+    <string name="flexiones_con_palmada">Clap Push-Ups</string>
+    <string name="flexiones_con_palmada_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="clean">Clean</string>
+    <string name="clean_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="clean_and_jerk">Clean and Jerk</string>
+    <string name="clean_and_jerk_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="cargada_y_press">Clean and Press</string>
+    <string name="cargada_y_press_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="cargada_y_tiron">Clean and Jerk</string>
+    <string name="cargada_y_tiron_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="escalada">Climbing</string>
+    <string name="escalada_desc">Aerobic exercise that raises heart rate and burns calories. Ideal for improving cardiovascular endurance.</string>
+
+    <string name="curls_concentracion">Concentration Curls</string>
+    <string name="curls_concentracion_desc">Isolation exercise to concentrate work on the Biceps, focusing on elbow flexion.</string>
+
+    <string name="curl_martillo_cruzado">Cross-Body Hammer Curl</string>
+    <string name="curl_martillo_cruzado_desc">Isolation exercise to concentrate work on the Biceps, focusing on elbow flexion.</string>
+
+    <string name="abdominal_corto">Crunch</string>
+    <string name="abdominal_corto_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="abdominal_corto_maquina">Crunch (Machine)</string>
+    <string name="abdominal_corto_maquina_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="abdominal_corto_con_peso_añadido">Crunch (Weighted)</string>
+    <string name="abdominal_corto_con_peso_añadido_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="zancada_curtsy_mancuerna">Curtsy Lunge (Dumbbell)</string>
+    <string name="zancada_curtsy_mancuerna_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="bicicleta">Cycling</string>
+    <string name="bicicleta_desc">Aerobic exercise that raises heart rate and burns calories. Ideal for improving cardiovascular endurance.</string>
+
+    <string name="dead_bug">Dead Bug</string>
+    <string name="dead_bug_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="dead_hang">Dead Hang</string>
+    <string name="dead_hang_desc">Strength or resistance exercise focused on developing the Upper Back.</string>
+
+    <string name="peso_muerto_banda">Deadlift (Band)</string>
+    <string name="peso_muerto_banda_desc">Powerful exercise to strengthen the posterior chain, including Hamstrings and lower back. Focuses on lifting a load from the floor.</string>
+
+    <string name="peso_muerto_barra">Deadlift (Barbell)</string>
+    <string name="peso_muerto_barra_desc">Powerful exercise to strengthen the posterior chain, including Hamstrings and lower back. Focuses on lifting a load from the floor.</string>
+
+    <string name="peso_muerto_mancuerna">Deadlift (Dumbbell)</string>
+    <string name="peso_muerto_mancuerna_desc">Powerful exercise to strengthen the posterior chain, including Hamstrings and lower back. Focuses on lifting a load from the floor.</string>
+
+    <string name="peso_muerto_maquina_smith">Deadlift (Smith Machine)</string>
+    <string name="peso_muerto_maquina_smith_desc">Powerful exercise to strengthen the posterior chain, including Hamstrings and lower back. Focuses on lifting a load from the floor.</string>
+
+    <string name="peso_muerto_barra_trap">Deadlift (Trap Bar)</string>
+    <string name="peso_muerto_barra_trap_desc">Powerful exercise to strengthen the posterior chain, including Hamstrings and lower back. Focuses on lifting a load from the floor.</string>
+
+    <string name="peso_muerto_con_tiron_alto">Deadlift High Pull</string>
+    <string name="peso_muerto_con_tiron_alto_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="press_banca_en_declive_barra">Decline Bench Press (Barbell)</string>
+    <string name="press_banca_en_declive_barra_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="press_banca_en_declive_mancuerna">Decline Bench Press (Dumbbell)</string>
+    <string name="press_banca_en_declive_mancuerna_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="press_banca_en_declive_maquina">Decline Bench Press (Machine)</string>
+    <string name="press_banca_en_declive_maquina_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="press_banca_en_declive_maquina_smith">Decline Bench Press (Smith Machine)</string>
+    <string name="press_banca_en_declive_maquina_smith_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="apertura_declinada_mancuerna">Decline Fly (Dumbbell)</string>
+    <string name="apertura_declinada_mancuerna_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="abdominal_corto_en_banco_inclinado">Decline Bench Crunch</string>
+    <string name="abdominal_corto_en_banco_inclinado_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="abdominal_corto_en_banco_inclinado_con_peso_añadido">Decline Bench Crunch (Weighted)</string>
+    <string name="abdominal_corto_en_banco_inclinado_con_peso_añadido_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="flexión_declinada">Decline Push-Up</string>
+    <string name="flexión_declinada_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="flexiones_diamante">Diamond Push-Ups</string>
+    <string name="flexiones_diamante_desc">Exercise focused on arm extension to work the Triceps.</string>
+
+    <string name="postura_perro_cabeza_abajo">Downward Dog Pose</string>
+    <string name="postura_perro_cabeza_abajo_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="drag_curl">Drag Curl</string>
+    <string name="drag_curl_desc">Isolation exercise to concentrate work on the Biceps, focusing on elbow flexion.</string>
+
+    <string name="dragon_flag">Dragon Flag</string>
+    <string name="dragon_flag_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="dragonfly">Dragonfly</string>
+    <string name="dragonfly_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="remo_con_mancuerna">Dumbbell Row</string>
+    <string name="remo_con_mancuerna_desc">Strength or resistance exercise focused on developing the Upper Back.</string>
+
+    <string name="arrancada_con_mancuerna">Dumbbell Snatch</string>
+    <string name="arrancada_con_mancuerna_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="dumbbell_squeeze_press">Dumbbell Squeeze Press</string>
+    <string name="dumbbell_squeeze_press_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="step_con_mancuerna">Dumbbell Step-Up</string>
+    <string name="step_con_mancuerna_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="rodillas_a_codos">Elbow to Knee Crunch</string>
+    <string name="rodillas_a_codos_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="entrenador_eliptico">Elliptical Trainer</string>
+    <string name="entrenador_eliptico_desc">Aerobic exercise that raises heart rate and burns calories. Ideal for improving cardiovascular endurance.</string>
+
+    <string name="curl_con_barra_ez">EZ Bar Curl</string>
+    <string name="curl_con_barra_ez_desc">Isolation exercise to concentrate work on the Biceps, focusing on elbow flexion.</string>
+
+    <string name="tiron_a_la_cara">Face Pull</string>
+    <string name="tiron_a_la_cara_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="paseo_del_granjero">Farmers Walk</string>
+    <string name="paseo_del_granjero_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="patadas_boca_incendio">Fire Hydrant Kicks</string>
+    <string name="patadas_boca_incendio_desc">Exercise focused on activation and strengthening of the Glutes and hips, key for power and stability.</string>
+
+    <string name="press_suelo_barra">Floor Press (Barbell)</string>
+    <string name="press_suelo_barra_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="press_en_el_suelo_mancuerna">Floor Press (Dumbbell)</string>
+    <string name="press_en_el_suelo_mancuerna_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="fondos_triceps_en_suelo">Floor Triceps Dips</string>
+    <string name="fondos_triceps_en_suelo_desc">Exercise focused on arm extension to work the Triceps.</string>
+
+    <string name="aleteo_piernas">Flutter Kicks</string>
+    <string name="aleteo_piernas_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="saltos_rana">Frog Jumps</string>
+    <string name="saltos_rana_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="frog_pumps_mancuerna">Frog Pumps (Dumbbell)</string>
+    <string name="frog_pumps_mancuerna_desc">Exercise focused on activation and strengthening of the Glutes and hips, key for power and stability.</string>
+
+    <string name="front_lever_sostenida">Front Lever Hold</string>
+    <string name="front_lever_sostenida_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="front_lever_elevacion">Front Lever Raise</string>
+    <string name="front_lever_elevacion_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="elevacion_frontal_banda">Front Raise (Band)</string>
+    <string name="elevacion_frontal_banda_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="elevacion_frontal_barra">Front Raise (Barbell)</string>
+    <string name="elevacion_frontal_barra_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="elevacion_frontal_cable">Front Raise (Cable)</string>
+    <string name="elevacion_frontal_cable_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="elevacion_frontal_mancuerna">Front Raise (Dumbbell)</string>
+    <string name="elevacion_frontal_mancuerna_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="elevacion_frontal_suspension">Front Raise (Suspension)</string>
+    <string name="elevacion_frontal_suspension_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="sentadilla_delantera">Front Squat</string>
+    <string name="sentadilla_delantera_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="sentadilla_profunda">Full Squat</string>
+    <string name="sentadilla_profunda_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="puente_gluteos">Glute Bridge</string>
+    <string name="puente_gluteos_desc">Exercise focused on activation and strengthening of the Glutes and hips, key for power and stability.</string>
+
+    <string name="glute_ham_raise">Glute Ham Raise</string>
+    <string name="glute_ham_raise_desc">Powerful exercise to strengthen the posterior chain, including Hamstrings and lower back. Focuses on lifting a load from the floor.</string>
+
+    <string name="patada_burro_maquina">Glute Kickback (Machine)</string>
+    <string name="patada_burro_maquina_desc">Exercise focused on activation and strengthening of the Glutes and hips, key for power and stability.</string>
+
+    <string name="patada_burro">Glute Kickback</string>
+    <string name="patada_burro_desc">Exercise focused on activation and strengthening of the Glutes and hips, key for power and stability.</string>
+
+    <string name="sentadilla_goblet">Goblet Squat</string>
+    <string name="sentadilla_goblet_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="buen_dia_barra">Good Morning (Barbell)</string>
+    <string name="buen_dia_barra_desc">Powerful exercise to strengthen the posterior chain, including Hamstrings and lower back. Focuses on lifting a load from the floor.</string>
+
+    <string name="remo_gorila_pesa_rusa">Gorilla Row (Kettlebell)</string>
+    <string name="remo_gorila_pesa_rusa_desc">Strength or resistance exercise focused on developing the Upper Back.</string>
+
+    <string name="sentadilla_hack">Hack Squat</string>
+    <string name="sentadilla_hack_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="sentadilla_hack_maquina">Hack Squat (Machine)</string>
+    <string name="sentadilla_hack_maquina_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="curl_martillo_banda">Hammer Curl (Band)</string>
+    <string name="curl_martillo_banda_desc">Isolation exercise to concentrate work on the Biceps, focusing on elbow flexion.</string>
+
+    <string name="curl_martillo_cable">Hammer Curl (Cable)</string>
+    <string name="curl_martillo_cable_desc">Isolation exercise to concentrate work on the Biceps, focusing on elbow flexion.</string>
+
+    <string name="curl_martillo_mancuerna">Hammer Curl (Dumbbell)</string>
+    <string name="curl_martillo_mancuerna_desc">Isolation exercise to concentrate work on the Biceps, focusing on elbow flexion.</string>
+
+    <string name="equilibrio_invertido">Handstand</string>
+    <string name="equilibrio_invertido_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="flexiones_verticales">Handstand Push-Ups</string>
+    <string name="flexiones_verticales_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="hang_clean">Hang Clean</string>
+    <string name="hang_clean_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="hang_snatch">Hang Snatch</string>
+    <string name="hang_snatch_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="levantamiento_rodillas_en_barra">Hanging Knee Raise</string>
+    <string name="levantamiento_rodillas_en_barra_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="levantamiento_piernas_en_barra">Hanging Leg Raise</string>
+    <string name="levantamiento_piernas_en_barra_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="abdominales_toque_talon">Heel Touches</string>
+    <string name="abdominales_toque_talon_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="press_hexagonal_mancuerna">Hex Press (Dumbbell)</string>
+    <string name="press_hexagonal_mancuerna_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="elevacion_rodillas">High Knees</string>
+    <string name="elevacion_rodillas_desc">Exercise focused on activation and strengthening of the Glutes and hips, key for power and stability.</string>
+
+    <string name="hiit">HIIT</string>
+    <string name="hiit_desc">Aerobic exercise that raises heart rate and burns calories. Ideal for improving cardiovascular endurance.</string>
+
+    <string name="senderismo">Hiking</string>
+    <string name="senderismo_desc">Aerobic exercise that raises heart rate and burns calories. Ideal for improving cardiovascular endurance.</string>
+
+    <string name="empuje_caderas">Hip Thrust</string>
+    <string name="empuje_caderas_desc">Exercise focused on activation and strengthening of the Glutes and hips, key for power and stability.</string>
+
+    <string name="empuje_caderas_barra">Hip Thrust (Barbell)</string>
+    <string name="empuje_caderas_barra_desc">Exercise focused on activation and strengthening of the Glutes and hips, key for power and stability.</string>
+
+    <string name="impulso_cadera_maquina">Hip Thrust (Machine)</string>
+    <string name="impulso_cadera_maquina_desc">Exercise focused on activation and strengthening of the Glutes and hips, key for power and stability.</string>
+
+    <string name="hollow_rock">Hollow Rock</string>
+    <string name="hollow_rock_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="press_banca_inclinado_barra">Incline Bench Press (Barbell)</string>
+    <string name="press_banca_inclinado_barra_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="press_banca_inclinado_mancuerna">Incline Bench Press (Dumbbell)</string>
+    <string name="press_banca_inclinado_mancuerna_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="press_banca_inclinado_maquina_smith">Incline Bench Press (Smith Machine)</string>
+    <string name="press_banca_inclinado_maquina_smith_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="aperturas_inclinadas_mancuernas">Incline Dumbbell Fly</string>
+    <string name="aperturas_inclinadas_mancuernas_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="press_pecho_inclinado_maquina">Incline Chest Press (Machine)</string>
+    <string name="press_pecho_inclinado_maquina_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="flexiones_inclinadas">Incline Push-Ups</string>
+    <string name="flexiones_inclinadas_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="remo_invertido">Inverted Row</string>
+    <string name="remo_invertido_desc">Strength or resistance exercise focused on developing the Upper Back.</string>
+
+    <string name="press_pecho_iso_lateral_maquina">Iso-Lateral Chest Press (Machine)</string>
+    <string name="press_pecho_iso_lateral_maquina_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="remo_alto_iso_lateral">Iso-Lateral High Row</string>
+    <string name="remo_alto_iso_lateral_desc">Excellent vertical pulling movement for developing the Lats and upper back.</string>
+
+    <string name="remo_bajo_iso_lateral">Iso-Lateral Low Row</string>
+    <string name="remo_bajo_iso_lateral_desc">Excellent vertical pulling movement for developing the Lats and upper back.</string>
+
+    <string name="remo_iso_lateral">Iso-Lateral Row</string>
+    <string name="remo_iso_lateral_desc">Excellent vertical pulling movement for developing the Lats and upper back.</string>
+
+    <string name="jack_knife_suspension">Jack Knife (Suspension)</string>
+    <string name="jack_knife_suspension_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="press_jm_barra">JM Press (Barbell)</string>
+    <string name="press_jm_barra_desc">Exercise focused on arm extension to work the Triceps.</string>
+
+    <string name="salto_a_la_cuerda">Jump Rope</string>
+    <string name="salto_a_la_cuerda_desc">Aerobic exercise that raises heart rate and burns calories. Ideal for improving cardiovascular endurance.</string>
+
+    <string name="encogimiento_hombros_con_salto">Jumping Shrug</string>
+    <string name="encogimiento_hombros_con_salto_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="sentadilla_con_salto">Jump Squat</string>
+    <string name="sentadilla_con_salto_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="jumping_jack">Jumping Jack</string>
+    <string name="jumping_jack_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="estocada_con_salto">Jumping Lunge</string>
+    <string name="estocada_con_salto_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="cargada_con_pesa_rusa">Kettlebell Clean</string>
+    <string name="cargada_con_pesa_rusa_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="curl_con_pesa_rusa">Kettlebell Curl</string>
+    <string name="curl_con_pesa_rusa_desc">Isolation exercise to concentrate work on the Biceps, focusing on elbow flexion.</string>
+
+    <string name="sentadilla_goblet_con_pesa_rusa">Kettlebell Goblet Squat</string>
+    <string name="sentadilla_goblet_con_pesa_rusa_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="tiron_alto_con_pesa_rusa">Kettlebell High Pull</string>
+    <string name="tiron_alto_con_pesa_rusa_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="press_hombros_con_pesa_rusa">Kettlebell Shoulder Press</string>
+    <string name="press_hombros_con_pesa_rusa_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="arrancada_con_pesa_rusa">Kettlebell Snatch</string>
+    <string name="arrancada_con_pesa_rusa_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="swing_con_pesa_rusa">Kettlebell Swing</string>
+    <string name="swing_con_pesa_rusa_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="levantamiento_turco_con_pesa_rusa">Kettlebell Turkish Get-Up</string>
+    <string name="levantamiento_turco_con_pesa_rusa_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="dominadas_con_kipping">Kipping Pull-Up</string>
+    <string name="dominadas_con_kipping_desc">Excellent vertical pulling movement for developing the Lats and upper back.</string>
+
+    <string name="rodillas_al_pecho_en_barras_paralelas">Knees to Chest on Parallel Bars</string>
+    <string name="rodillas_al_pecho_en_barras_paralelas_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="jalon_rodillas_banda">Kneeling Lat Pulldown (Band)</string>
+    <string name="jalon_rodillas_banda_desc">Excellent vertical pulling movement for developing the Lats and upper back.</string>
+
+    <string name="flexiones_rodillas">Knee Push-Ups</string>
+    <string name="flexiones_rodillas_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="l_sit_sostenido">L-Sit Hold</string>
+    <string name="l_sit_sostenido_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="landmine_180">Landmine 180</string>
+    <string name="landmine_180_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="remo_en_base_rotativa">Landmine Row</string>
+    <string name="remo_en_base_rotativa_desc">Strength or resistance exercise focused on developing the Upper Back.</string>
+
+    <string name="landmine_sentadilla_y_press">Landmine Squat and Press</string>
+    <string name="landmine_sentadilla_y_press_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="jalon_al_pecho_agarre_cerrado_cable">Lat Pulldown - Close Grip (Cable)</string>
+    <string name="jalon_al_pecho_agarre_cerrado_cable_desc">Excellent vertical pulling movement for developing the Lats and upper back.</string>
+
+    <string name="jalon_al_pecho_banda">Lat Pulldown (Band)</string>
+    <string name="jalon_al_pecho_banda_desc">Excellent vertical pulling movement for developing the Lats and upper back.</string>
+
+    <string name="jalon_al_pecho_cable">Lat Pulldown (Cable)</string>
+    <string name="jalon_al_pecho_cable_desc">Excellent vertical pulling movement for developing the Lats and upper back.</string>
+
+    <string name="jalon_al_pecho_maquina">Lat Pulldown (Machine)</string>
+    <string name="jalon_al_pecho_maquina_desc">Excellent vertical pulling movement for developing the Lats and upper back.</string>
+
+    <string name="caminata_lateral_con_banda_elastica">Lateral Walk with Resistance Band</string>
+    <string name="caminata_lateral_con_banda_elastica_desc">Exercise focused on activation and strengthening of the Glutes and hips, key for power and stability.</string>
+
+    <string name="salto_al_cajon_lateral">Lateral Box Jump</string>
+    <string name="salto_al_cajon_lateral_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="elevaciones_laterales_de_pierna">Lateral Leg Raises</string>
+    <string name="elevaciones_laterales_de_pierna_desc">Exercise focused on activation and strengthening of the Glutes and hips, key for power and stability.</string>
+
+    <string name="zancada_lateral">Lateral Lunge</string>
+    <string name="zancada_lateral_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="elevaciones_laterales_banda">Lateral Raise (Band)</string>
+    <string name="elevaciones_laterales_banda_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="elevaciones_laterales_cable">Lateral Raise (Cable)</string>
+    <string name="elevaciones_laterales_cable_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="elevaciones_laterales_mancuerna">Lateral Raise (Dumbbell)</string>
+    <string name="elevaciones_laterales_mancuerna_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="elevaciones_laterales_maquina">Lateral Raise (Machine)</string>
+    <string name="elevaciones_laterales_maquina_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="sentadilla_lateral">Lateral Squat</string>
+    <string name="sentadilla_lateral_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="extension_pierna">Leg Extension</string>
+    <string name="extension_pierna_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="press_piernas">Leg Press</string>
+    <string name="press_piernas_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="pies_a_barra">Toes to Bar</string>
+    <string name="pies_a_barra_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="cables_cruzados_bajos">Low Cable Crossovers</string>
+    <string name="cables_cruzados_bajos_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="remo_bajo_suspension">Low Row (Suspension)</string>
+    <string name="remo_bajo_suspension_desc">Strength or resistance exercise focused on developing the Upper Back.</string>
+
+    <string name="zancada">Lunge</string>
+    <string name="zancada_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="zancada_barra">Lunge (Barbell)</string>
+    <string name="zancada_barra_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="zancada_mancuerna">Lunge (Dumbbell)</string>
+    <string name="zancada_mancuerna_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="levantamiento_rodillas_tumbado">Lying Knee Raise</string>
+    <string name="levantamiento_rodillas_tumbado_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="curl_piernas_acostado_maquina">Lying Leg Curl (Machine)</string>
+    <string name="curl_piernas_acostado_maquina_desc">Powerful exercise to strengthen the posterior chain, including Hamstrings and lower back. Focuses on lifting a load from the floor.</string>
+
+    <string name="levantamiento_piernas_tumbado">Lying Leg Raise</string>
+    <string name="levantamiento_piernas_tumbado_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="flexiones_cuello_acostado">Lying Neck Flexion</string>
+    <string name="flexiones_cuello_acostado_desc">Strength or resistance exercise focused on developing the Neck.</string>
+
+    <string name="flexiones_cuello_acostado_con_peso">Lying Neck Flexion (Weighted)</string>
+    <string name="flexiones_cuello_acostado_con_peso_desc">Strength or resistance exercise focused on developing the Neck.</string>
+
+    <string name="extension_cuello_acostado">Lying Neck Extension</string>
+    <string name="extension_cuello_acostado_desc">Strength or resistance exercise focused on the Neck.</string>
+
+    <string name="extension_cuello_acostado_con_peso">Lying Neck Extension (Weighted)</string>
+    <string name="extension_cuello_acostado_con_peso_desc">Strength or resistance exercise focused on developing the Neck.</string>
+
+    <string name="remos_meadows_barra">Meadows Row (Barbell)</string>
+    <string name="remos_meadows_barra_desc">Strength or resistance exercise focused on developing the Upper Back.</string>
+
+    <string name="escaladores">Mountain Climbers</string>
+    <string name="escaladores_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="muscle_up">Muscle Up</string>
+    <string name="muscle_up_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="dominada_negativa">Negative Pull-Up</string>
+    <string name="dominada_negativa_desc">Excellent vertical pulling movement for developing the Lats and upper back.</string>
+
+    <string name="curls_nordicos_isquiotibiales">Nordic Hamstring Curls</string>
+    <string name="curls_nordicos_isquiotibiales_desc">Powerful exercise to strengthen the posterior chain, including Hamstrings and lower back. Focuses on lifting a load from the floor.</string>
+
+    <string name="abdominales_cortos_oblicuos">Oblique Crunches</string>
+    <string name="abdominales_cortos_oblicuos_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="flexión_a_una_mano">One-Arm Push-Up</string>
+    <string name="flexión_a_una_mano_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="curl_sobre_cabeza_cable">Overhead Cable Curl</string>
+    <string name="curl_sobre_cabeza_cable_desc">Isolation exercise to concentrate work on the Biceps, focusing on elbow flexion.</string>
+
+    <string name="extensiones_muñeca_mancuerna">Overhand Wrist Extension (Dumbbell)</string>
+    <string name="extensiones_muñeca_mancuerna_desc">Strength or resistance exercise focused on developing the Forearms.</string>
+
+    <string name="curls_muñeca_mancuerna">Overhand Wrist Curl (Dumbbell)</string>
+    <string name="curls_muñeca_mancuerna_desc">Strength or resistance exercise focused on developing the Forearms.</string>
+
+    <string name="curl_inverso_muñeca_barra">Overhand Wrist Curl (Barbell)</string>
+    <string name="curl_inverso_muñeca_barra_desc">Strength or resistance exercise focused on developing the Forearms.</string>
+
+    <string name="peso_muerto_romano_barra">Romanian Deadlift (Barbell)</string>
+    <string name="peso_muerto_romano_barra_desc">Powerful exercise to strengthen the posterior chain, including Hamstrings and lower back. Focuses on lifting a load from the floor.</string>
+
+    <string name="peso_muerto_romano_mancuerna">Romanian Deadlift (Dumbbell)</string>
+    <string name="peso_muerto_romano_mancuerna_desc">Powerful exercise to strengthen the posterior chain, including Hamstrings and lower back. Focuses on lifting a load from the floor.</string>
+
+    <string name="rotacion_muñeca_mancuerna">Overhand Wrist Rotation (Dumbbell)</string>
+    <string name="rotacion_muñeca_mancuerna_desc">Strength or resistance exercise focused on developing the Forearms.</string>
+
+    <string name="press_hombros_barra">Overhead Press (Barbell)</string>
+    <string name="press_hombros_barra_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="press_hombros_maquina">Overhead Press (Machine)</string>
+    <string name="press_hombros_maquina_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="press_hombros_mancuerna">Overhead Press (Dumbbell)</string>
+    <string name="press_hombros_mancuerna_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="press_hombros_maquina_smith">Overhead Press (Smith Machine)</string>
+    <string name="press_hombros_maquina_smith_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="sentadilla_barra">Squat (Barbell)</string>
+    <string name="sentadilla_barra_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="sentadilla_cuerpo">Squat (Bodyweight)</string>
+    <string name="sentadilla_cuerpo_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="sentadilla_mancuerna">Squat (Dumbbell)</string>
+    <string name="sentadilla_mancuerna_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="sentadilla_maquina_smith">Squat (Smith Machine)</string>
+    <string name="sentadilla_maquina_smith_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="paso_lateral_con_polea_baja">Lateral Step with Low Pulley</string>
+    <string name="paso_lateral_con_polea_baja_desc">Exercise focused on activation and strengthening of the Glutes and hips, key for power and stability.</string>
+
+    <string name="desplantes_con_barra">Lunges (Barbell)</string>
+    <string name="desplantes_con_barra_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="desplantes_con_mancuerna">Lunges (Dumbbell)</string>
+    <string name="desplantes_con_mancuerna_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="zancadas_inversas">Reverse Lunges</string>
+    <string name="zancadas_inversas_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="press_militar">Military Press</string>
+    <string name="press_militar_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="press_push_barra">Push Press (Barbell)</string>
+    <string name="press_push_barra_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="flexiones">Push-Ups</string>
+    <string name="flexiones_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="flexiones_con_apoyo">Push-Ups (Assisted)</string>
+    <string name="flexiones_con_apoyo_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="flexiones_con_las_manos_elevadas">Push-Ups (Hands Elevated)</string>
+    <string name="flexiones_con_las_manos_elevadas_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="flexiones_con_peso_añadido">Push-Ups (Weighted)</string>
+    <string name="flexiones_con_peso_añadido_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="flexiones_maquina_smith">Push-Ups (Smith Machine)</string>
+    <string name="flexiones_maquina_smith_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="flexiones_pies_elevados">Push-Ups (Feet Elevated)</string>
+    <string name="flexiones_pies_elevados_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="rotacion_rodillas_tumbado">Rotational Knee Crunches (Lying)</string>
+    <string name="rotacion_rodillas_tumbado_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="jalon_invertido_barra">Inverted Row (Barbell)</string>
+    <string name="jalon_invertido_barra_desc">Strength or resistance exercise focused on developing the Upper Back.</string>
+
+    <string name="jalon_invertido_maquina_smith">Inverted Row (Smith Machine)</string>
+    <string name="jalon_invertido_maquina_smith_desc">Strength or resistance exercise focused on developing the Upper Back.</string>
+
+    <string name="jalon_invertido_suspension">Inverted Row (Suspension)</string>
+    <string name="jalon_invertido_suspension_desc">Strength or resistance exercise focused on developing the Upper Back.</string>
+
+    <string name="remo_con_agarres_a_mano_sentado">Row with Hand Grips (Seated)</string>
+    <string name="remo_con_agarres_a_mano_sentado_desc">Strength or resistance exercise focused on developing the Upper Back.</string>
+
+    <string name="remo_con_agarres_a_mano_tumbado">Row with Hand Grips (Lying)</string>
+    <string name="remo_con_agarres_a_mano_tumbado_desc">Strength or resistance exercise focused on developing the Upper Back.</string>
+
+    <string name="elevacion_gemelos_de_pie">Calf Raise (Standing)</string>
+    <string name="elevacion_gemelos_de_pie_desc">Exercise to isolate and develop the Calves, focusing on plantar flexion.</string>
+
+    <string name="elevacion_gemelos_sentado">Calf Raise (Seated)</string>
+    <string name="elevacion_gemelos_sentado_desc">Exercise to isolate and develop the Calves, focusing on plantar flexion.</string>
+
+    <string name="remo_sentado_cable">Seated Row (Cable)</string>
+    <string name="remo_sentado_cable_desc">Strength or resistance exercise focused on developing the Upper Back.</string>
+
+    <string name="remo_sentado_maquina">Seated Row (Machine)</string>
+    <string name="remo_sentado_maquina_desc">Strength or resistance exercise focused on developing the Upper Back.</string>
+
+    <string name="press_sentado_maquina">Seated Press (Machine)</string>
+    <string name="press_sentado_maquina_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="press_sentado_maquina_smith">Seated Press (Smith Machine)</string>
+    <string name="press_sentado_maquina_smith_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="press_hombros_sentado_barra">Seated Shoulder Press (Barbell)</string>
+    <string name="press_hombros_sentado_barra_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="press_hombros_sentado_mancuerna">Seated Shoulder Press (Dumbbell)</string>
+    <string name="press_hombros_sentado_mancuerna_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="press_hombros_sentado_maquina">Seated Shoulder Press (Machine)</string>
+    <string name="press_hombros_sentado_maquina_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="remo_sentado_con_agarres_a_mano_cable">Seated Row with Hand Grips (Cable)</string>
+    <string name="remo_sentado_con_agarres_a_mano_cable_desc">Strength or resistance exercise focused on developing the Upper Back.</string>
+
+    <string name="curl_piernas_sentado">Seated Leg Curl</string>
+    <string name="curl_piernas_sentado_desc">Powerful exercise to strengthen the posterior chain, including Hamstrings and lower back. Focuses on lifting a load from the floor.</string>
+
+    <string name="encogimiento_hombros_barra">Shrug (Barbell)</string>
+    <string name="encogimiento_hombros_barra_desc">Strength or resistance exercise focused on developing the Traps.</string>
+
+    <string name="encogimiento_hombros_cable">Shrug (Cable)</string>
+    <string name="encogimiento_hombros_cable_desc">Strength or resistance exercise focused on developing the Traps.</string>
+
+    <string name="encogimiento_hombros_mancuerna">Shrug (Dumbbell)</string>
+    <string name="encogimiento_hombros_mancuerna_desc">Strength or resistance exercise focused on developing the Traps.</string>
+
+    <string name="sizor_jump">Scissor Jump</string>
+    <string name="sizor_jump_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="extension_lateral_cuello_con_peso">Side Neck Extension (Weighted)</string>
+    <string name="extension_lateral_cuello_con_peso_desc">Strength or resistance exercise focused on developing the Neck.</string>
+
+    <string name="extension_lateral_cuello_tumbado">Side Neck Extension (Lying)</string>
+    <string name="extension_lateral_cuello_tumbado_desc">Strength or resistance exercise focused on developing the Neck.</string>
+
+    <string name="extension_lateral_cuello_tumbado_con_peso">Side Neck Extension (Lying, Weighted)</string>
+    <string name="extension_lateral_cuello_tumbado_con_peso_desc">Strength or resistance exercise focused on developing the Neck.</string>
+
+    <string name="press_hombros_con_split_jerk">Split Jerk</string>
+    <string name="press_hombros_con_split_jerk_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="press_push_con_split_jerk">Push Press with Split Jerk</string>
+    <string name="press_push_con_split_jerk_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="snatch">Snatch</string>
+    <string name="snatch_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="squat_clean">Squat Clean</string>
+    <string name="squat_clean_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="squat_jerk">Squat Jerk</string>
+    <string name="squat_jerk_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="squat_snatch">Squat Snatch</string>
+    <string name="squat_snatch_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="squat_thruster">Squat Thruster</string>
+    <string name="squat_thruster_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="step_up">Step Up</string>
+    <string name="step_up_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="step_up_mancuerna">Step Up (Dumbbell)</string>
+    <string name="step_up_mancuerna_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="stiff_leg_deadlift_barra">Stiff-Leg Deadlift (Barbell)</string>
+    <string name="stiff_leg_deadlift_barra_desc">Powerful exercise to strengthen the posterior chain, including Hamstrings and lower back. Focuses on lifting a load from the floor.</string>
+
+    <string name="stiff_leg_deadlift_mancuerna">Stiff-Leg Deadlift (Dumbbell)</string>
+    <string name="stiff_leg_deadlift_mancuerna_desc">Powerful exercise to strengthen the posterior chain, including Hamstrings and lower back. Focuses on lifting a load from the floor.</string>
+
+    <string name="stiff_leg_deadlift_maquina_smith">Stiff-Leg Deadlift (Smith Machine)</string>
+    <string name="stiff_leg_deadlift_maquina_smith_desc">Powerful exercise to strengthen the posterior chain, including Hamstrings and lower back. Focuses on lifting a load from the floor.</string>
+
+    <string name="estiramiento">Stretching</string>
+    <string name="estiramiento_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="extensiones_triceps_banda">Triceps Extension (Band)</string>
+    <string name="extensiones_triceps_banda_desc">Exercise focused on arm extension to work the Triceps.</string>
+
+    <string name="extensiones_triceps_cable">Triceps Extension (Cable)</string>
+    <string name="extensiones_triceps_cable_desc">Exercise focused on arm extension to work the Triceps.</string>
+
+    <string name="extensiones_triceps_mancuerna">Triceps Extension (Dumbbell)</string>
+    <string name="extensiones_triceps_mancuerna_desc">Exercise focused on arm extension to work the Triceps.</string>
+
+    <string name="extensiones_triceps_maquina">Triceps Extension (Machine)</string>
+    <string name="extensiones_triceps_maquina_desc">Exercise focused on arm extension to work the Triceps.</string>
+
+    <string name="extensiones_triceps_suspension">Triceps Extension (Suspension)</string>
+    <string name="extensiones_triceps_suspension_desc">Exercise focused on arm extension to work the Triceps.</string>
+
+    <string name="caminadora">Treadmill</string>
+    <string name="caminadora_desc">Aerobic exercise that raises heart rate and burns calories. Ideal for improving cardiovascular endurance.</string>
+
+    <string name="tirones_barra">Pulls (Barbell)</string>
+    <string name="tirones_barra_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="tirones_mancuerna">Pulls (Dumbbell)</string>
+    <string name="tirones_mancuerna_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="press_triceps">Triceps Press</string>
+    <string name="press_triceps_desc">Exercise focused on arm extension to work the Triceps.</string>
+
+    <string name="press_triceps_con_rotacion">Triceps Press with Rotation</string>
+    <string name="press_triceps_con_rotacion_desc">Exercise focused on arm extension to work the Triceps.</string>
+
+    <string name="v_up">V-Up</string>
+    <string name="v_up_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="sentadilla_v_up">V-Up Squat</string>
+    <string name="sentadilla_v_up_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="extension_pierna_vertical">Vertical Leg Extension</string>
+    <string name="extension_pierna_vertical_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="prensa_piernas_vertical">Vertical Leg Press</string>
+    <string name="prensa_piernas_vertical_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="caminata">Walking</string>
+    <string name="caminata_desc">Aerobic exercise that raises heart rate and burns calories. Ideal for improving cardiovascular endurance.</string>
+
+    <string name="remo_con_mancuerna_tumbado">Dumbbell Row (Lying)</string>
+    <string name="remo_con_mancuerna_tumbado_desc">Strength or resistance exercise focused on developing the Upper Back.</string>
+
+    <string name="remo_con_mancuerna_en_inclinacion">Dumbbell Row (Incline)</string>
+    <string name="remo_con_mancuerna_en_inclinacion_desc">Strength or resistance exercise focused on developing the Upper Back.</string>
+
+    <string name="remo_con_mancuerna_sentado">Dumbbell Row (Seated)</string>
+    <string name="remo_con_mancuerna_sentado_desc">Strength or resistance exercise focused on developing the Upper Back.</string>
+
+    <string name="v_sit">V-Sit</string>
+    <string name="v_sit_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="plancha_en_pared">Wall Plank</string>
+    <string name="plancha_en_pared_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="elevaciones_laterales_en_pared">Wall Lateral Raises</string>
+    <string name="elevaciones_laterales_en_pared_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="press_hombros_en_pared">Wall Shoulder Press</string>
+    <string name="press_hombros_en_pared_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="jalon_invertido_en_pared">Wall Inverted Row</string>
+    <string name="jalon_invertido_en_pared_desc">Strength or resistance exercise focused on developing the Upper Back.</string>
+
+    <string name="rotacion_muñeca_barra">Wrist Rotation (Barbell)</string>
+    <string name="rotacion_muñeca_barra_desc">Strength or resistance exercise focused on developing the Forearms.</string>
+
+    <string name="flexiones_muñeca_barra">Wrist Curl (Barbell)</string>
+    <string name="flexiones_muñeca_barra_desc">Strength or resistance exercise focused on developing the Forearms.</string>
+
+    <string name="flexiones_muñeca_mancuerna">Wrist Curl (Dumbbell)</string>
+    <string name="flexiones_muñeca_mancuerna_desc">Strength or resistance exercise focused on developing the Forearms.</string>
+
+    <string name="zancadas">Lunges</string>
+    <string name="zancadas_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="zancadas_barra">Lunges (Barbell)</string>
+    <string name="zancadas_barra_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="zancadas_mancuerna">Lunges (Dumbbell)</string>
+    <string name="zancadas_mancuerna_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="zancadas_maquina_smith">Lunges (Smith Machine)</string>
+    <string name="zancadas_maquina_smith_desc">Compound movement to primarily work the Quadriceps and glutees. Essential for lower body strength.</string>
+
+    <string name="zancadas_inversas_barra">Reverse Lunges (Barbell)</string>
+    <string name="zancadas_inversas_barra_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="zancadas_inversas_mancuerna">Reverse Lunges (Dumbbell)</string>
+    <string name="zancadas_inversas_mancuerna_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="zancadas_laterales_barra">Lateral Lunges (Barbell)</string>
+    <string name="zancadas_laterales_barra_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="zancadas_laterales_mancuerna">Lateral Lunges (Dumbbell)</string>
+    <string name="zancadas_laterales_mancuerna_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="zancadas_laterales_maquina_smith">Lateral Lunges (Smith Machine)</string>
+    <string name="zancadas_laterales_maquina_smith_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="zancadas_laterales_cuerpo">Lateral Lunges (Bodyweight)</string>
+    <string name="zancadas_laterales_cuerpo_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="zancadas_bulgaras_mancuerna">Bulgarian Split Squats (Dumbbell)</string>
+    <string name="zancadas_bulgaras_mancuerna_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="zancadas_bulgaras_maquina_smith">Bulgarian Split Squats (Smith Machine)</string>
+    <string name="zancadas_bulgaras_maquina_smith_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="elevacion_gemelos_de_pie_con_barra">Calf Raise (Standing Barbell)</string>
+    <string name="elevacion_gemelos_de_pie_con_barra_desc">Exercise to isolate and develop the Calves, focusing on plantar flexion.</string>
+
+    <string name="elevacion_gemelos_de_pie_con_mancuerna">Calf Raise (Standing Dumbbell)</string>
+    <string name="elevacion_gemelos_de_pie_con_mancuerna_desc">Exercise to isolate and develop the Calves, focusing on plantar flexion.</string>
+
+    <string name="elevacion_gemelos_de_pie_maquina_smith">Calf Raise (Standing Smith Machine)</string>
+    <string name="elevacion_gemelos_de_pie_maquina_smith_desc">Exercise to isolate and develop the Calves, focusing on plantar flexion.</string>
+
+    <string name="elevacion_gemelos_prensa_piernas">Calf Raise (Leg Press)</string>
+    <string name="elevacion_gemelos_prensa_piernas_desc">Exercise to isolate and develop the Calves, focusing on plantar flexion.</string>
+
+    <string name="elevacion_gemelos_burro">Donkey Calf Raise</string>
+    <string name="elevacion_gemelos_burro_desc">Exercise to isolate and develop the Calves, focusing on plantar flexion.</string>
+
+    <string name="press_banca_pesa_rusa">Bench Press (Kettlebell)</string>
+    <string name="press_banca_pesa_rusa_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="abdominal_corto_con_pesa_rusa">Crunch (Kettlebell)</string>
+    <string name="abdominal_corto_con_pesa_rusa_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="elevacion_rodillas_pesa_rusa">Knee Raise (Kettlebell)</string>
+    <string name="elevacion_rodillas_pesa_rusa_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="extension_triceps_pesa_rusa">Triceps Extension (Kettlebell)</string>
+    <string name="extension_triceps_pesa_rusa_desc">Exercise focused on arm extension to work the Triceps.</string>
+
+    <string name="peso_muerto_pesa_rusa">Deadlift (Kettlebell)</string>
+    <string name="peso_muerto_pesa_rusa_desc">Powerful exercise to strengthen the posterior chain, including Hamstrings and lower back. Focuses on lifting a load from the floor.</string>
+
+    <string name="remo_con_pesa_rusa_sentado">Row (Kettlebell, Seated)</string>
+    <string name="remo_con_pesa_rusa_sentado_desc">Strength or resistance exercise focused on developing the Upper Back.</string>
+
+    <string name="peso_muerto_romano_pesa_rusa">Romanian Deadlift (Kettlebell)</string>
+    <string name="peso_muerto_romano_pesa_rusa_desc">Powerful exercise to strengthen the posterior chain, including Hamstrings and lower back. Focuses on lifting a load from the floor.</string>
+
+    <string name="encogimiento_hombros_pesa_rusa">Shrug (Kettlebell)</string>
+    <string name="encogimiento_hombros_pesa_rusa_desc">Strength or resistance exercise focused on developing the Traps.</string>
+
+    <string name="remo_con_pesa_rusa_tumbado">Row (Kettlebell, Lying)</string>
+    <string name="remo_con_pesa_rusa_tumbado_desc">Strength or resistance exercise focused on developing the Upper Back.</string>
+
+    <string name="zancada_pesa_rusa">Lunge (Kettlebell)</string>
+    <string name="zancada_pesa_rusa_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="zancada_inversa_pesa_rusa">Reverse Lunge (Kettlebell)</string>
+    <string name="zancada_inversa_pesa_rusa_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="zancada_lateral_pesa_rusa">Lateral Lunge (Kettlebell)</string>
+    <string name="zancada_lateral_pesa_rusa_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="zancada_bulgara_pesa_rusa">Bulgarian Split Squat (Kettlebell)</string>
+    <string name="zancada_bulgara_pesa_rusa_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="step_up_pesa_rusa">Step Up (Kettlebell)</string>
+    <string name="step_up_pesa_rusa_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="extension_pierna_tumbado">Lying Leg Extension</string>
+    <string name="extension_pierna_tumbado_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="sentadilla_sissy_barra">Sissy Squat (Barbell)</string>
+    <string name="sentadilla_sissy_barra_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="sentadilla_sissy_mancuerna">Sissy Squat (Dumbbell)</string>
+    <string name="sentadilla_sissy_mancuerna_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="sentadilla_sissy_maquina">Sissy Squat (Machine)</string>
+    <string name="sentadilla_sissy_maquina_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="abdominal_corto_vertical">Vertical Crunch</string>
+    <string name="abdominal_corto_vertical_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="abdominales_bicicleta_vertical">Vertical Bicycle Crunches</string>
+    <string name="abdominales_bicicleta_vertical_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="curl_biceps_vertical">Vertical Biceps Curl</string>
+    <string name="curl_biceps_vertical_desc">Isolation exercise to concentrate work on the Biceps, focusing on elbow flexion.</string>
+
+    <string name="extension_triceps_vertical">Vertical Triceps Extension</string>
+    <string name="extension_triceps_vertical_desc">Exercise focused on arm extension to work the Triceps.</string>
+
+    <string name="press_banca_vertical">Vertical Bench Press</string>
+    <string name="press_banca_vertical_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="remo_vertical_cable">Vertical Row (Cable)</string>
+    <string name="remo_vertical_cable_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="remo_vertical_barra">Upright Row (Barbell)</string>
+    <string name="remo_vertical_barra_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="remo_vertical_mancuerna">Upright Row (Dumbbell)</string>
+    <string name="remo_vertical_mancuerna_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="remo_vertical_pesa_rusa">Upright Row (Kettlebell)</string>
+    <string name="remo_vertical_pesa_rusa_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="press_hombros_vertical_mancuerna">Vertical Shoulder Press (Dumbbell)</string>
+    <string name="press_hombros_vertical_mancuerna_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="elevacion_gemelos_vertical">Vertical Calf Raise</string>
+    <string name="elevacion_gemelos_vertical_desc">Exercise to isolate and develop the Calves, focusing on plantar flexion.</string>
+
+    <string name="zancadas_verticales">Vertical Lunges</string>
+    <string name="zancadas_verticales_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="elevacion_talones_con_banda">Heel Raises with Band</string>
+    <string name="elevacion_talones_con_banda_desc">Exercise to isolate and develop the Calves, focusing on plantar flexion.</string>
+
+    <string name="elevacion_talones_con_mancuerna">Heel Raises with Dumbbell</string>
+    <string name="elevacion_talones_con_mancuerna_desc">Exercise to isolate and develop the Calves, focusing on plantar flexion.</string>
+
+    <string name="elevacion_talones_sentado">Seated Heel Raises</string>
+    <string name="elevacion_talones_sentado_desc">Exercise to isolate and develop the Calves, focusing on plantar flexion.</string>
+
+    <string name="paseo_del_granjero_pesa_rusa">Farmers Walk (Kettlebell)</string>
+    <string name="paseo_del_granjero_pesa_rusa_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="caminata_sentadilla_banda">Squat Walk (Band)</string>
+    <string name="caminata_sentadilla_banda_desc">Exercise focused on activation and strengthening of the Glutes and hips, key for power and stability.</string>
+
+    <string name="sentadilla_sumo_barra">Sumo Squat (Barbell)</string>
+    <string name="sentadilla_sumo_barra_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="sentadilla_sumo_mancuerna">Sumo Squat (Dumbbell)</string>
+    <string name="sentadilla_sumo_mancuerna_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="peso_muerto_sumo_barra">Sumo Deadlift (Barbell)</string>
+    <string name="peso_muerto_sumo_barra_desc">Powerful exercise to strengthen the posterior chain, including Hamstrings and lower back. Focuses on lifting a load from the floor.</string>
+
+    <string name="peso_muerto_sumo_mancuerna">Sumo Deadlift (Dumbbell)</string>
+    <string name="peso_muerto_sumo_mancuerna_desc">Powerful exercise to strengthen the posterior chain, including Hamstrings and lower back. Focuses on lifting a load from the floor.</string>
+
+    <string name="inmersion_en_bicicleta">Spinning</string>
+    <string name="inmersion_en_bicicleta_desc">Aerobic exercise that raises heart rate and burns calories. Ideal for improving cardiovascular endurance.</string>
+
+    <string name="rotacion_torso_maquina">Torso Rotation (Machine)</string>
+    <string name="rotacion_torso_maquina_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="rotacion_torso_sentado">Torso Rotation (Seated)</string>
+    <string name="rotacion_torso_sentado_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="rotacion_torso_tumbado">Torso Rotation (Lying)</string>
+    <string name="rotacion_torso_tumbado_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="sentadilla_al_banco_barra">Squat to Bench (Barbell)</string>
+    <string name="sentadilla_al_banco_barra_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="sentadilla_al_banco_mancuerna">Squat to Bench (Dumbbell)</string>
+    <string name="sentadilla_al_banco_mancuerna_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="sentadilla_al_banco_maquina_smith">Squat to Bench (Smith Machine)</string>
+    <string name="sentadilla_al_banco_maquina_smith_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="press_triceps_cable">Triceps Press (Cable)</string>
+    <string name="press_triceps_cable_desc">Exercise focused on arm extension to work the Triceps.</string>
+
+    <string name="press_triceps_mancuerna">Triceps Press (Dumbbell)</string>
+    <string name="press_triceps_mancuerna_desc">Exercise focused on arm extension to work the Triceps.</string>
+
+    <string name="press_triceps_maquina">Triceps Press (Machine)</string>
+    <string name="press_triceps_maquina_desc">Exercise focused on arm extension to work the Triceps.</string>
+
+    <string name="peso_muerto_a_una_pierna_mancuerna">Single Leg Deadlift (Dumbbell)</string>
+    <string name="peso_muerto_a_una_pierna_mancuerna_desc">Powerful exercise to strengthen the posterior chain, including Hamstrings and lower back. Focuses on lifting a load from the floor.</string>
+
+    <string name="peso_muerto_a_una_pierna_pesa_rusa">Single Leg Deadlift (Kettlebell)</string>
+    <string name="peso_muerto_a_una_pierna_pesa_rusa_desc">Powerful exercise to strengthen the posterior chain, including Hamstrings and lower back. Focuses on lifting a load from the floor.</string>
+
+    <string name="press_overhead_barra">Overhead Press (Barbell)</string>
+    <string name="press_overhead_barra_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="press_overhead_maquina_smith">Overhead Press (Smith Machine)</string>
+    <string name="press_overhead_maquina_smith_desc">Pushing or lifting exercise to develop the deltoids, focusing on the Shoulders.</string>
+
+    <string name="extensiones_muñeca_barra">Wrist Extension (Barbell)</string>
+    <string name="extensiones_muñeca_barra_desc">Strength or resistance exercise focused on developing the Forearms.</string>
+
+    <string name="extensiones_muñeca_cable">Wrist Extension (Cable)</string>
+    <string name="extensiones_muñeca_cable_desc">Strength or resistance exercise focused on developing the Forearms.</string>
+
+    <string name="curl_inverso_muñeca_cable">Reverse Wrist Curl (Cable)</string>
+    <string name="curl_inverso_muñeca_cable_desc">Strength or resistance exercise focused on developing the Forearms.</string>
+
+    <string name="flexiones_muñeca_cable">Wrist Curl (Cable)</string>
+    <string name="flexiones_muñeca_cable_desc">Strength or resistance exercise focused on developing the Forearms.</string>
+
+    <string name="press_pecho_cable">Chest Press (Cable)</string>
+    <string name="press_pecho_cable_desc">Fundamental pushing movement to develop Chest strength and volume, focusing on horizontal load pressing.</string>
+
+    <string name="rotacion_torso_cable">Torso Rotation (Cable)</string>
+    <string name="rotacion_torso_cable_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="rotacion_torso_mancuerna">Torso Rotation (Dumbbell)</string>
+    <string name="rotacion_torso_mancuerna_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="remo_con_maquina_t">T-Bar Row (Machine)</string>
+    <string name="remo_con_maquina_t_desc">Strength or resistance exercise focused on developing the Upper Back.</string>
+
+    <string name="remo_con_maquina_t_sentado">T-Bar Row (Seated Machine)</string>
+    <string name="remo_con_maquina_t_sentado_desc">Strength or resistance exercise focused on developing the Upper Back.</string>
+
+    <string name="remo_con_barra_t">T-Bar Row (Barbell)</string>
+    <string name="remo_con_barra_t_desc">Strength or resistance exercise focused on developing the Upper Back.</string>
+
+    <string name="extension_triceps_barra_ez">Triceps Extension (EZ Bar)</string>
+    <string name="extension_triceps_barra_ez_desc">Exercise focused on arm extension to work the Triceps.</string>
+
+    <string name="remo_triceps_cable">Triceps Pushdown (Cable)</string>
+    <string name="remo_triceps_cable_desc">Exercise focused on arm extension to work the Triceps.</string>
+
+    <string name="press_frances_barra_ez">French Press (EZ Bar)</string>
+    <string name="press_frances_barra_ez_desc">Exercise focused on arm extension to work the Triceps.</string>
+
+    <string name="press_frances_mancuerna">French Press (Dumbbell)</string>
+    <string name="press_frances_mancuerna_desc">Exercise focused on arm extension to work the Triceps.</string>
+
+    <string name="rotacion_torso_barra">Torso Rotation (Barbell)</string>
+    <string name="rotacion_torso_barra_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="abdominales">Crunches</string>
+    <string name="abdominales_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="abdominales_con_peso">Crunches (Weighted)</string>
+    <string name="abdominales_con_peso_desc">Core exercise to strengthen the Abdominals, focused on stability and endurance.</string>
+
+    <string name="curl_zottman_cable">Zottman Curl (Cable)</string>
+    <string name="curl_zottman_cable_desc">Isolation exercise to concentrate work on the Biceps, focusing on elbow flexion.</string>
+
+    <string name="zancadas_caminando">Walking Lunges</string>
+    <string name="zancadas_caminando_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="zancadas_caminando_mancuerna">Walking Lunges (Dumbbell)</string>
+    <string name="zancadas_caminando_mancuerna_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="lanzamientos_balon">Wall Ball Shots</string>
+    <string name="lanzamientos_balon_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="sentadilla_en_pared">Wall Squat</string>
+    <string name="sentadilla_en_pared_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="calentamiento">Warm-Up</string>
+    <string name="calentamiento_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="dominada_abierta">Wide Grip Pull-Up</string>
+    <string name="dominada_abierta_desc">Excellent vertical pulling movement for developing the Lats and upper back.</string>
+
+    <string name="rodillo_antebrazos">Wrist Roller</string>
+    <string name="rodillo_antebrazos_desc">Strength or resistance exercise focused on developing the Forearms.</string>
+
+    <string name="yoga">Yoga</string>
+    <string name="yoga_desc">Functional and dynamic movement that recruits multiple muscle groups simultaneously, improving coordination and power.</string>
+
+    <string name="sentadilla_zercher">Zercher Squat</string>
+    <string name="sentadilla_zercher_desc">Compound movement to primarily work the Quadriceps and glutes. Essential for lower body strength.</string>
+
+    <string name="curl_zottman_mancuerna">Zottman Curl (Dumbbell)</string>
+    <string name="curl_zottman_mancuerna_desc">Isolation exercise to concentrate work on the Biceps, focusing on elbow flexion.</string>
+
+    <!-- Meses del año-->
+    <string name="month_january">January</string>
+    <string name="month_february">February</string>
+    <string name="month_march">March</string>
+    <string name="month_april">April</string>
+    <string name="month_may">May</string>
+    <string name="month_june">June</string>
+    <string name="month_july">July</string>
+    <string name="month_august">August</string>
+    <string name="month_september">September</string>
+    <string name="month_october">October</string>
+    <string name="month_november">November</string>
+    <string name="month_december">December</string>
+
+    <string name="no_tienes_medidas_disponibles">No measurements available</string>
+    <string name="a_adir_medida">Add measurement</string>
+    <string name="historial">History</string>
+
+    <string name="titulo_nueva_medida">New Measurement</string>
+    <string name="hint_fecha">Date</string>
+    <string name="hint_valor_ejemplo">Value (e.g. 75.5)</string>
+    <string name="accion_guardar">Save</string>
+
+    <string name="titulo_dietas">Diet</string>
+
+    <string name="formato_calorias_total">%1$d / %2$d kcal</string>
+    <string name="macro_proteinas">Protein</string>
+    <string name="macro_carbohidratos">Carbs</string>
+    <string name="macro_grasas">Fats</string>
+    <string name="formato_macro_gramos">%1$d / %2$d g</string>
+
+    <string name="seccion_desayuno">Breakfast</string>
+    <string name="seccion_comida">Lunch</string>
+    <string name="seccion_cena">Dinner</string>
+    <string name="seccion_snacks">Snacks</string>
+
+    <string name="btn_agregar_desayuno">+ Add Breakfast</string>
+    <string name="btn_agregar_comida">+ Add Lunch</string>
+    <string name="btn_agregar_cena">+ Add Dinner</string>
+    <string name="btn_agregar_snack">+ Add Snack</string>
+
+    <string name="formato_resumen_comida">%1$d kcal | %2$d P | %3$d C | %4$d F</string>
+
+    <string name="desc_perfil">Profile</string>
+    <string name="desc_entrenamiento">Training</string>
+    <string name="desc_calorias">Calories</string>
+
+    <string name="crear_alimento">Create Food</string>
+    <string name="nombre_y_marca">Name and Brand</string>
+    <string name="marca">Brand</string>
+    <string name="nombre">Name *</string>
+    <string name="categor_a">Category *</string>
+    <string name="informaci_n_nutricional">Nutritional Information</string>
+    <string name="s_lido_100g">Solid (100g)</string>
+    <string name="l_quido_100ml">Liquid (100ml)</string>
+    <string name="valor_energ_tico_por_100g">Energy Value (per 100g) *</string>
+    <string name="grasas_por_100g">Fat (per 100g) *</string>
+    <string name="carbohidratos_por_100g">Carbohydrates (per 100g) *</string>
+    <string name="prote_nas_por_100g">Protein (per 100g) *</string>
+    <string name="imagen_del_alimento">Food Image</string>
+    <string name="galer_a">Gallery</string>
+    <string name="c_mara">Camera</string>
+    <string name="datos_por_100g">Data per 100g</string>
+    <string name="kcal">kcal</string>
+    <string name="prote_nas">proteins</string>
+    <string name="carbs">carbs</string>
+    <string name="grasas">fats</string>
+    <string name="cantidad">Quantity</string>
+    <string name="ingresar_a_desayuno">Add to Breakfast</string>
+    <string name="alimentos">Foods</string>
+    <string name="busca_un_alimento">Search for a food</string>
+    <string name="buscar">Search</string>
+    <string name="mis_alimentos">My Foods</string>
+    <string name="a_adir_alimento_nuevo">Add New Food</string>
+    <string name="dialog_eliminar_titulo">Delete Food</string>
+    <string name="dialog_eliminar_mensaje">Do you want to delete \'%1$s\' from your foods?</string>
+    <string name="btn_eliminar">Delete</string>
+    <string name="msg_eliminado_ok">Deleted successfully</string>
+    <string name="msg_error_eliminar">Error deleting</string>
+    <string name="hint_calorias_dinamico">Energy Value (per %1$s) *</string>
+    <string name="hint_grasas_dinamico">Fats (per %1$s) *</string>
+    <string name="hint_carbohidratos_dinamico">Carbohydrates (per %1$s) *</string>
+    <string name="hint_proteinas_dinamico">Proteins (per %1$s) *</string>
+
+    <string name="error_nombre_req">Name is required</string>
+    <string name="error_categoria_req">Select a valid category</string>
+    <string name="obligatorio">Required</string>
+    <string name="error_campos_obligatorios">Please complete all required fields</string>
+
+    <string name="guardando">Saving...</string>
+    <string name="msg_alimento_guardado">Food saved successfully</string>
+    <string name="btn_crear_alimento">Create Food</string>
+    <string name="error">Error</string>
+    <string name="btn_ingresar_a">Add to %1$s</string>
+    <string name="datos_por_100">Data per %1$s</string>
+    <string name="msg_anadido_a">Added to %1$s</string>
+    <string name="titulo_cerrarsesion">Log Out</string>
+    <string name="mensaje_confirmacion_cerrarsesion">Are you sure you want to log out?</string>
+    <string name="boton_si_cerrarsesion">Yes</string>
+    <string name="boton_no_cerrarsesion">No</string>
+    <string name="sesion_cerrada_cerrarsesion">Logged out successfully</string>
+    <string name="error_cerrar_sesion_cerrarsesion">Error logging out</string>
+
+    <string name="cat_frutos_secos">Nuts &amp; Seeds</string>
+    <string name="cat_snacks">Snacks</string>
+    <string name="cat_dulces">Sweets &amp; Candy</string>
+    <string name="cat_lacteos">Dairy &amp; Cheese</string>
+    <string name="cat_panaderia">Bakery</string>
+    <string name="cat_carnes">Meats</string>
+    <string name="cat_pescados">Fish &amp; Seafood</string>
+    <string name="cat_cereales">Cereals &amp; Grains</string>
+    <string name="cat_vegetal">Fruits &amp; Veggies</string>
+    <string name="cat_bebidas">Drinks</string>
+    <string name="cat_salsas">Sauces &amp; Oils</string>
+
+    <string name="seguidos">%1$d Following</string>
+    <string name="seguidores">%1$d Followers</string>
+    <string name="seguidoress">Followers</string>
+
+    <string name="back">Back</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+
+    <string name="titulo_seguidores_notificacion">Follower Activity</string>
+    <string name="seguidor_nuevo_notificacion">%1$s started following you</string>
+    <string name="seguidor_perdido_notificacion">%1$s stopped following you</string>
+    <string name="canal_seguidores_nombre_notificacion">Followers</string>
+    <string name="nuevos_seguidores_notificaciones">New followers</string>
+    <string name="nuevos_seguidores_descripcion_notificaciones">Notify me when someone starts or stops following me.</string>
+
+    <string name="dificultad">Difficulty</string>
+    <string name="dia">Day %1$d - %2$s</string>
+
+    <string name="copiar_rutina">Copy routine</string>
+    <string name="copiada">%1$s (Copied)</string>
+    <string name="rutina_a_adida_a_tus_entrenamientos">Routine added to your workouts</string>
+    <string name="error_al_copiar_rutina">Error copying routine</string>
+    <string name="a_adir_serie">Add set</string>
+    <string name="serie">Set</string>
+
+    <string name="unidad_peso_kg">kg</string>
+    <string name="unidad_peso_lbs">lbs</string>
+    <string name="hint_peso_con_unidad">Peso (%s)</string>
+
+
+    <string name="error_apellidos_req">Last name is required</string>
+    <string name="error_edad_valida">Please enter a valid age (1-120)</string>
+    <string name="error_seleccionar_genero">Please select a gender</string>
+
+    <string name="error_seleccionar_estilo">Please select a lifestyle</string>
+    <string name="error_seleccionar_objetivo">Please select a goal</string>
+
+    <string name="enhorabuena">Congratulations! 🎉</string>
+    <string name="mensaje_finalizar">You have finished your routine in:</string>
+    <string name="aceptar">Ok</string>
+
+    <string name="empezar_entrenamiento">Start Training</string>
+    <string name="seleccionar_dias">Select days</string>
+    <string name="valor_invalido">Invalid value</string>
+
+    <string name="formato_grupo_muscular">Muscle group: %1$s</string>
+    <string name="formato_dificultad">Difficulty: %1$s</string>
+
+    <string name="notificaciones_generales">General notifications</string>
+    <string name="activar_o_desactivar_todas">Enable or disable all</string>
+    <string name="recordatorio_entreno">Workout reminder</string>
+    <string name="toca_para_configurar">Tap to configure...</string>
+    <string name="resumen_semanal">Weekly summary</string>
+    <string name="recordatorio_de_foto">Photo reminder</string>
+
+    <string name="catalan_idioma">Catalan</string>
+    <string name="japones_idioma">Japanese</string>
+
+    <string name="error_cargar_datos_formato">Error loading data: %s</string>
+    <string name="formato_fecha_grafico">dd/MM</string>
+    <string name="grafico_etiqueta_peso_con_unidad">Weight (%s)</string>
+    <string name="grafico_etiqueta_volumen_con_unidad">Volume (%s)</string>
+    <string name="etiqueta_semana_con_numero">Week %d</string>
+    <string name="grafico_titulo_volumen">Volume</string>
+    <string name="grafico_titulo_peso">Weight</string>
+    <string name="toast_subiendo_imagen">Uploading image...</string>
+    <string name="toast_error_subida_foto">Error uploading photo</string>
+
+    <string name="mensaje_borrar_rutina">Delete \'%1$s\'?</string>
+
+    <string name="altura">Height</string>
+
+    <string name="formato_resumen_entreno">%1$s at %2$s</string>
+
+    <string name="notif_entreno_titulo">Time to train!</string>
+    <string name="notif_entreno_mensaje">Don’t break your streak, give it your all today.</string>
+    <string name="notif_foto_titulo">Time for your weekly photo!</string>
+    <string name="notif_foto_mensaje">7 days have passed since your last check-in. Update your progress!</string>
+    <string name="canal_entreno_nombre">Training Reminders</string>
+    <string name="canal_foto_nombre">Progress Reminders</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/rounded_top_corners"
+    android:backgroundTint="@color/background">
+    <TextView
+    android:id="@+id/tvFechaSeleccionada"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:text="18 Diciembre 2025"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="@color/text"
+    android:layout_marginBottom="16dp"/>
+    <androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/llContainerRutinas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+</androidx.core.widget.NestedScrollView>
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cerrar"
+        android:backgroundTint="@color/backgroundSecondaryButton"
+        android:textColor="@color/text"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

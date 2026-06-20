@@ -1,0 +1,3692 @@
+[
+  {
+    "id": 1,
+    "nombre": "abduccion_caderas",
+    "grupoMuscular": "group_abductores",
+    "imagen": "abduccioncaderas",
+    "descripcion": "abduccion_caderas_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://apilyfta.com/static/GymvisualMP4/36111201-Lever-Seated-Hip-Abduction-(female)_Hips.mp4"
+  },
+  {
+    "id": 2,
+    "nombre": "press_piernas_sentado",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "presspiernasentado",
+    "descripcion": "press_piernas_sentado_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://apilyfta.com/static/GymvisualMP4/33851201-Lever-Seated-Leg-Press-(VERSION-2)_Thighs_.mp4"
+  },
+  {
+    "id": 3,
+    "nombre": "curl_biceps_mancuerna",
+    "grupoMuscular": "group_biceps",
+    "imagen": "curlbicepsmancuerna",
+    "descripcion": "curl_biceps_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://apilyfta.com/static/GymvisualMP4/24831201-Dumbbell-Biceps-Curl-(female)_Upper-Arms.mp4"
+  },
+  {
+    "id": 4,
+    "nombre": "press_banca_barra",
+    "grupoMuscular": "group_pecho",
+    "imagen": "pressbancabarra",
+    "descripcion": "press_banca_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://apilyfta.com/static/GymvisualMP4/00251201-Barbell-Bench-Press_Chest-FIX2_.mp4"
+  },
+  {
+    "id": 5,
+    "nombre": "aduccion_caderas",
+    "grupoMuscular": "group_adductores",
+    "imagen": "aduccioncadera",
+    "descripcion": "aduccion_caderas_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://apilyfta.com/static/GymvisualMP4/36121201-Lever-Seated-Hip-Adduction-(female)_Thighs.mp4"
+  },
+  {
+    "id": 6,
+    "nombre": "curl_biceps_21",
+    "grupoMuscular": "group_biceps",
+    "imagen": "curlbiceps21",
+    "descripcion": "curl_biceps_21_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://apilyfta.com/static/GymvisualMP4/54501201-EZ-bar-21s_Upper-Arms_.mp4"
+  },
+  {
+    "id": 7,
+    "nombre": "abdominales_tijera",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "abdominalestijera",
+    "descripcion": "abdominales_tijera_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 8,
+    "nombre": "rueda_abdominal",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "ruedaabdominal",
+    "descripcion": "rueda_abdominal_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/08571201.mp4"
+  },
+  {
+    "id": 9,
+    "nombre": "aerobics",
+    "grupoMuscular": "group_cardio",
+    "imagen": "aerobics",
+    "descripcion": "aerobics_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 10,
+    "nombre": "bicleta_aire",
+    "grupoMuscular": "group_cardio",
+    "imagen": "bicicletaaire",
+    "descripcion": "bicleta_aire_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://apilyfta.com/static/GymvisualMP4/38931201-Assault-Bike-Run_Cardio_.mp4"
+  },
+  {
+    "id": 11,
+    "nombre": "arnold_press_mancuerna",
+    "grupoMuscular": "group_hombros",
+    "imagen": "arnoldpress",
+    "descripcion": "arnold_press_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://apilyfta.com/static/GymvisualMP4/02871201-Dumbbell-Arnold-Press-II_Shoulders.mp4"
+  },
+  {
+    "id": 12,
+    "nombre": "alrededor_mundo",
+    "grupoMuscular": "group_pecho",
+    "imagen": "alrededormundo",
+    "descripcion": "alrededor_mundo_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/21431201.mp4"
+  },
+  {
+    "id": 13,
+    "nombre": "sentadilla_pistol_asistida",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "sentadillapistolasistida",
+    "descripcion": "sentadilla_pistol_asistida_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 14,
+    "nombre": "extension_espalda_hiperextension",
+    "grupoMuscular": "group_espalda_baja",
+    "imagen": "extensionespaldahiperextension",
+    "descripcion": "extension_espalda_hiperextension_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/18601201.mp4"
+  },
+  {
+    "id": 15,
+    "nombre": "extension_espalda_maquina",
+    "grupoMuscular": "group_espalda_baja",
+    "imagen": "extensionespaldamaquina",
+    "descripcion": "extension_espalda_maquina_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://apilyfta.com/static/GymvisualMP4/22661201-Lever-Back-Extension-(version-2)_Back.mp4"
+  },
+  {
+    "id": 16,
+    "nombre": "extension_espalda_hiperextension_con_peso",
+    "grupoMuscular": "group_espalda_baja",
+    "imagen": "extensionespaldahiperextensionpeso",
+    "descripcion": "extension_espalda_hiperextension_con_peso_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://apilyfta.com/static/GymvisualMP4/08771201-45-degree-hyperextension-(arms-in-front-of-chest)_Back.mp4"
+  },
+  {
+    "id": 17,
+    "nombre": "ball_slams",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "ballslams",
+    "descripcion": "ball_slams_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/25451201.mp4"
+  },
+  {
+    "id": 18,
+    "nombre": "band_pullaparts",
+    "grupoMuscular": "group_hombros",
+    "imagen": "bandpullaparts",
+    "descripcion": "band_pullaparts_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/15031201.mp4"
+  },
+  {
+    "id": 19,
+    "nombre": "cuerdas_batalla",
+    "grupoMuscular": "group_cardio",
+    "imagen": "cuerdasbatalla",
+    "descripcion": "cuerdas_batalla_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/01281201.mp4"
+  },
+  {
+    "id": 20,
+    "nombre": "curl_biceps_detras_espalda_barra",
+    "grupoMuscular": "group_ante_brazos",
+    "imagen": "curlbicepsdetrasespalda",
+    "descripcion": "curl_biceps_detras_espalda_barra_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 21,
+    "nombre": "fondos_banco",
+    "grupoMuscular": "group_triceps",
+    "imagen": "fondosbanco",
+    "descripcion": "fondos_banco_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/25461201.mp4"
+  },
+  {
+    "id": 22,
+    "nombre": "press_banca_agarre_cerrado_barra",
+    "grupoMuscular": "group_triceps",
+    "imagen": "pressbancaagarrecerradobarra",
+    "descripcion": "press_banca_agarre_cerrado_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/23911201.mp4"
+  },
+  {
+    "id": 23,
+    "nombre": "press_banca_agarre_abierto_barra",
+    "grupoMuscular": "group_pecho",
+    "imagen": "pressbancaagarreabiertobarra",
+    "descripcion": "press_banca_agarre_abierto_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/24401201.mp4"
+  },
+  {
+    "id": 24,
+    "nombre": "press_banca_cable",
+    "grupoMuscular": "group_pecho",
+    "imagen": "pressbancacable",
+    "descripcion": "press_banca_cable_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/01511201.mp4"
+  },
+  {
+    "id": 25,
+    "nombre": "press_banca_mancuerna",
+    "grupoMuscular": "group_pecho",
+    "imagen": "pressbancamancuerna",
+    "descripcion": "press_banca_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/02891201.mp4"
+  },
+  {
+    "id": 26,
+    "nombre": "press_banca_maquina_smith",
+    "grupoMuscular": "group_pecho",
+    "imagen": "pressbancamaquinasmith",
+    "descripcion": "press_banca_maquina_smith_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/07481201.mp4"
+  },
+  {
+    "id": 27,
+    "nombre": "remo_inclinado_banda",
+    "grupoMuscular": "group_espalda_superior",
+    "imagen": "remoinclinadobanda",
+    "descripcion": "remo_inclinado_banda_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/08921201.mp4"
+  },
+  {
+    "id": 28,
+    "nombre": "remo_inclinado_barra",
+    "grupoMuscular": "group_espalda_superior",
+    "imagen": "remoinclinadobarra",
+    "descripcion": "remo_inclinado_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/00491201.mp4"
+  },
+  {
+    "id": 29,
+    "nombre": "remo_inclinado_mancuerna",
+    "grupoMuscular": "group_espalda_superior",
+    "imagen": "remoinclinadomancuerna",
+    "descripcion": "remo_inclinado_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/25101201.mp4"
+  },
+  {
+    "id": 30,
+    "nombre": "curl_biceps_barra",
+    "grupoMuscular": "group_biceps",
+    "imagen": "curlbicepsbarra",
+    "descripcion": "curl_biceps_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 31,
+    "nombre": "curl_biceps_cable",
+    "grupoMuscular": "group_biceps",
+    "imagen": "curlbicepscable",
+    "descripcion": "curl_biceps_cable_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 32,
+    "nombre": "curl_biceps_maquina",
+    "grupoMuscular": "group_biceps",
+    "imagen": "curlbicepsmaquina",
+    "descripcion": "curl_biceps_maquina_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/16831201.mp4"
+  },
+  {
+    "id": 33,
+    "nombre": "curl_biceps_suspension",
+    "grupoMuscular": "group_biceps",
+    "imagen": "curlbicepssuspension",
+    "descripcion": "curl_biceps_suspension_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/10701201.mp4"
+  },
+  {
+    "id": 34,
+    "nombre": "abdominal_bicleta",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "abdominalbicicleta",
+    "descripcion": "abdominal_bicleta_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/23951201.mp4"
+  },
+  {
+    "id": 35,
+    "nombre": "abdominales_bicicleta_piernas_levantadas",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "abdominalesbicicletapiernaslevantadas",
+    "descripcion": "abdominales_bicicleta_piernas_levantadas_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 36,
+    "nombre": "perro_caza",
+    "grupoMuscular": "group_gluteos",
+    "imagen": "perrocaza",
+    "descripcion": "perro_caza_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 37,
+    "nombre": "salto_cajon",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "saltocajon",
+    "descripcion": "salto_cajon_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/05091201.mp4"
+  },
+  {
+    "id": 38,
+    "nombre": "sentadilla_cajon_barra",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "sentadillacajonbarra",
+    "descripcion": "sentadilla_cajon_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/00261201.mp4"
+  },
+  {
+    "id": 39,
+    "nombre": "boxeo",
+    "grupoMuscular": "group_cardio",
+    "imagen": "boxeo",
+    "descripcion": "boxeo_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/22721201.mp4"
+  },
+  {
+    "id": 40,
+    "nombre": "sentadilla_bulgara",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "sentadillabulgara",
+    "descripcion": "sentadilla_bulgara_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/35331201.mp4"
+  },
+  {
+    "id": 41,
+    "nombre": "burpee",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "burpee",
+    "descripcion": "burpee_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/11601201.mp4"
+  },
+  {
+    "id": 42,
+    "nombre": "burpee_sobre_barra",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "burpeesobrebarra",
+    "descripcion": "burpee_sobre_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 43,
+    "nombre": "mariposa_pec_deck",
+    "grupoMuscular": "group_pecho",
+    "imagen": "mariposapecdeck",
+    "descripcion": "mariposa_pec_deck_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/10301201.mp4"
+  },
+  {
+    "id": 44,
+    "nombre": "cable_core_palloff_press",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "cablecorepalloffpress",
+    "descripcion": "cable_core_palloff_press_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/12021201.mp4"
+  },
+  {
+    "id": 45,
+    "nombre": "abdominal_corto_con_cable",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "abdominalcortocable",
+    "descripcion": "abdominal_corto_con_cable_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/26741201.mp4"
+  },
+  {
+    "id": 46,
+    "nombre": "cables_cruzados",
+    "grupoMuscular": "group_pecho",
+    "imagen": "cablescruzados",
+    "descripcion": "cables_cruzados_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/01541201.mp4"
+  },
+  {
+    "id": 47,
+    "nombre": "trion_polea_entre_piernas",
+    "grupoMuscular": "group_gluteos",
+    "imagen": "trionpoleaentrepiernas",
+    "descripcion": "trion_polea_entre_piernas_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 48,
+    "nombre": "cable_twist_down_to_up",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "cabletwistdown",
+    "descripcion": "cable_twist_down_to_up_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 49,
+    "nombre": "cable_twist_up_to_down",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "cabletwistup",
+    "descripcion": "cable_twist_up_to_down_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/08621201.mp4"
+  },
+  {
+    "id": 50,
+    "nombre": "extension_pantorrilla_maquina",
+    "grupoMuscular": "group_gemelos",
+    "imagen": "extensionpantorrillamaquina",
+    "descripcion": "extension_pantorrilla_maquina_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 51,
+    "nombre": "press_pantorrilla_maquina",
+    "grupoMuscular": "group_gemelos",
+    "imagen": "presspantorrillamaquina",
+    "descripcion": "press_pantorrilla_maquina_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 52,
+    "nombre": "fondos",
+    "grupoMuscular": "group_pecho",
+    "imagen": "fondos",
+    "descripcion": "fondos_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 53,
+    "nombre": "fondos_asistidos",
+    "grupoMuscular": "group_pecho",
+    "imagen": "fondosasistidos",
+    "descripcion": "fondos_asistidos_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 54,
+    "nombre": "fondos_con_peso_añadido",
+    "grupoMuscular": "group_pecho",
+    "imagen": "fondosconpesoañadido",
+    "descripcion": "fondos_con_peso_añadido_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 55,
+    "nombre": "aperturas_banda",
+    "grupoMuscular": "group_pecho",
+    "imagen": "aperturasbanda",
+    "descripcion": "aperturas_banda_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 56,
+    "nombre": "aperturas_mancuerna",
+    "grupoMuscular": "group_pecho",
+    "imagen": "aperturasmancuerna",
+    "descripcion": "aperturas_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 57,
+    "nombre": "aperturas_maquina",
+    "grupoMuscular": "group_pecho",
+    "imagen": "aperturasmaquina",
+    "descripcion": "aperturas_maquina_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 58,
+    "nombre": "chest_fly_suspension",
+    "grupoMuscular": "group_pecho",
+    "imagen": "chestflysuspension",
+    "descripcion": "chest_fly_suspension_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 59,
+    "nombre": "press_pecho_banda",
+    "grupoMuscular": "group_pecho",
+    "imagen": "presspechobanda",
+    "descripcion": "press_pecho_banda_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 60,
+    "nombre": "press_pecho_maquina",
+    "grupoMuscular": "group_pecho",
+    "imagen": "presspechomaquina",
+    "descripcion": "press_pecho_maquina_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 61,
+    "nombre": "remo_inclinado_con_apoyo_pecho_mancuerna",
+    "grupoMuscular": "group_espalda_superior",
+    "imagen": "remoinclinadoapoyopechomancuerna",
+    "descripcion": "remo_inclinado_con_apoyo_pecho_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 62,
+    "nombre": "vuelos_posteriores_mancuerna",
+    "grupoMuscular": "group_espalda_superior",
+    "imagen": "vuelosposterioresmancuerna",
+    "descripcion": "vuelos_posteriores_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 63,
+    "nombre": "elevacion_y_con_soporte_pecho_mancuerna",
+    "grupoMuscular": "group_hombros",
+    "imagen": "elevacionysoportepechomancuerna",
+    "descripcion": "elevacion_y_con_soporte_pecho_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 64,
+    "nombre": "dominadas_chin_up",
+    "grupoMuscular": "group_dorsales",
+    "imagen": "dominadaschinup",
+    "descripcion": "dominadas_chin_up_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 65,
+    "nombre": "dominadas_chin_up_asistida",
+    "grupoMuscular": "group_dorsales",
+    "imagen": "dominadaschinupasistida",
+    "descripcion": "dominadas_chin_up_asistida_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 66,
+    "nombre": "dominadas_chin_up_con_peso",
+    "grupoMuscular": "group_dorsales",
+    "imagen": "dominadaschinupconpeso",
+    "descripcion": "dominadas_chin_up_con_peso_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": ""
+  },
+  {
+    "id": 67,
+    "nombre": "almeja",
+    "grupoMuscular": "group_gluteos",
+    "imagen": "almeja",
+    "descripcion": "almeja_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 68,
+    "nombre": "flexiones_con_palmada",
+    "grupoMuscular": "group_pecho",
+    "imagen": "flexionespalmada",
+    "descripcion": "flexiones_con_palmada_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 69,
+    "nombre": "clean",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "clean",
+    "descripcion": "clean_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": ""
+  },
+  {
+    "id": 70,
+    "nombre": "clean_and_jerk",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "cleanjerk",
+    "descripcion": "clean_and_jerk_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": ""
+  },
+  {
+    "id": 71,
+    "nombre": "cargada_y_press",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "cargadapress",
+    "descripcion": "cargada_y_press_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": ""
+  },
+  {
+    "id": 72,
+    "nombre": "cargada_y_tiron",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "cargadatiron",
+    "descripcion": "cargada_y_tiron_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": ""
+  },
+  {
+    "id": 73,
+    "nombre": "escalada",
+    "grupoMuscular": "group_cardio",
+    "imagen": "escalada",
+    "descripcion": "escalada_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 74,
+    "nombre": "curls_concentracion",
+    "grupoMuscular": "group_biceps",
+    "imagen": "curlsconcentracion",
+    "descripcion": "curls_concentracion_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 75,
+    "nombre": "curl_martillo_cruzado",
+    "grupoMuscular": "group_biceps",
+    "imagen": "curlmartillocruzado",
+    "descripcion": "curl_martillo_cruzado_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 76,
+    "nombre": "abdominal_corto",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "abdominalcorto",
+    "descripcion": "abdominal_corto_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 77,
+    "nombre": "abdominal_corto_maquina",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "abdominalcortomaquina",
+    "descripcion": "abdominal_corto_maquina_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 78,
+    "nombre": "abdominal_corto_con_peso_añadido",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "abdominalcortoconpesoañadido",
+    "descripcion": "abdominal_corto_con_peso_añadido_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 79,
+    "nombre": "zancada_curtsy_mancuerna",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "zancadacurtsymancuerna",
+    "descripcion": "zancada_curtsy_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 80,
+    "nombre": "bicicleta",
+    "grupoMuscular": "group_cardio",
+    "imagen": "bicicleta",
+    "descripcion": "bicicleta_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 81,
+    "nombre": "dead_bug",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "deadbug",
+    "descripcion": "dead_bug_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 82,
+    "nombre": "dead_hang",
+    "grupoMuscular": "group_espalda_superior",
+    "imagen": "deadhang",
+    "descripcion": "dead_hang_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 83,
+    "nombre": "peso_muerto_banda",
+    "grupoMuscular": "group_isquiotibiales",
+    "imagen": "pesomuertobanda",
+    "descripcion": "peso_muerto_banda_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 84,
+    "nombre": "peso_muerto_barra",
+    "grupoMuscular": "group_isquiotibiales",
+    "imagen": "pesomuertobarra",
+    "descripcion": "peso_muerto_barra_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": ""
+  },
+  {
+    "id": 85,
+    "nombre": "peso_muerto_mancuerna",
+    "grupoMuscular": "group_isquiotibiales",
+    "imagen": "pesomuertomancuerna",
+    "descripcion": "peso_muerto_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 86,
+    "nombre": "peso_muerto_maquina_smith",
+    "grupoMuscular": "group_isquiotibiales",
+    "imagen": "pesomuertomaquinasmith",
+    "descripcion": "peso_muerto_maquina_smith_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 87,
+    "nombre": "peso_muerto_barra_trap",
+    "grupoMuscular": "group_isquiotibiales",
+    "imagen": "pesomuertobarratrap",
+    "descripcion": "peso_muerto_barra_trap_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 88,
+    "nombre": "peso_muerto_con_tiron_alto",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "pesomuertotironalto",
+    "descripcion": "peso_muerto_con_tiron_alto_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": ""
+  },
+  {
+    "id": 89,
+    "nombre": "press_banca_en_declive_barra",
+    "grupoMuscular": "group_pecho",
+    "imagen": "pressbancadeclivebarra",
+    "descripcion": "press_banca_en_declive_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 90,
+    "nombre": "press_banca_en_declive_mancuerna",
+    "grupoMuscular": "group_pecho",
+    "imagen": "pressbancadeclivemancuerna",
+    "descripcion": "press_banca_en_declive_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 91,
+    "nombre": "press_banca_en_declive_maquina",
+    "grupoMuscular": "group_pecho",
+    "imagen": "pressbancadeclivemaquina",
+    "descripcion": "press_banca_en_declive_maquina_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 92,
+    "nombre": "press_banca_en_declive_maquina_smith",
+    "grupoMuscular": "group_pecho",
+    "imagen": "pressbancadeclivemaquinasmith",
+    "descripcion": "press_banca_en_declive_maquina_smith_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 93,
+    "nombre": "apertura_declinada_mancuerna",
+    "grupoMuscular": "group_pecho",
+    "imagen": "aperturadeclinadamancuerna",
+    "descripcion": "apertura_declinada_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 94,
+    "nombre": "abdominal_corto_en_banco_inclinado",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "abdominalcortobancoinclinado",
+    "descripcion": "abdominal_corto_en_banco_inclinado_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 95,
+    "nombre": "abdominal_corto_en_banco_inclinado_con_peso_añadido",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "abdominalcortobancoinclinadoconpesoanadido",
+    "descripcion": "abdominal_corto_en_banco_inclinado_con_peso_añadido_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 96,
+    "nombre": "flexión_declinada",
+    "grupoMuscular": "group_pecho",
+    "imagen": "flexiondeclinada",
+    "descripcion": "flexión_declinada_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 97,
+    "nombre": "flexiones_diamante",
+    "grupoMuscular": "group_triceps",
+    "imagen": "flexionesdiamante",
+    "descripcion": "flexiones_diamante_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 98,
+    "nombre": "postura_perro_cabeza_abajo",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "posturaperrocabezaabajo",
+    "descripcion": "postura_perro_cabeza_abajo_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 99,
+    "nombre": "drag_curl",
+    "grupoMuscular": "group_biceps",
+    "imagen": "dragcurl",
+    "descripcion": "drag_curl_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 100,
+    "nombre": "dragon_flag",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "dragonflag",
+    "descripcion": "dragon_flag_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": ""
+  },
+  {
+    "id": 101,
+    "nombre": "dragonfly",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "dragonfly",
+    "descripcion": "dragonfly_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": ""
+  },
+  {
+    "id": 102,
+    "nombre": "remo_con_mancuerna",
+    "grupoMuscular": "group_espalda_superior",
+    "imagen": "remomancuerna",
+    "descripcion": "remo_con_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 103,
+    "nombre": "arrancada_con_mancuerna",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "arrancadamancuerna",
+    "descripcion": "arrancada_con_mancuerna_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": ""
+  },
+  {
+    "id": 104,
+    "nombre": "dumbbell_squeeze_press",
+    "grupoMuscular": "group_pecho",
+    "imagen": "dumbbellsqueezepress",
+    "descripcion": "dumbbell_squeeze_press_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 105,
+    "nombre": "step_con_mancuerna",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "stepmancuerna",
+    "descripcion": "step_con_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 106,
+    "nombre": "rodillas_a_codos",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "rodillascodos",
+    "descripcion": "rodillas_a_codos_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 107,
+    "nombre": "entrenador_eliptico",
+    "grupoMuscular": "group_cardio",
+    "imagen": "entrenadoreliptico",
+    "descripcion": "entrenador_eliptico_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 108,
+    "nombre": "curl_con_barra_ez",
+    "grupoMuscular": "group_biceps",
+    "imagen": "curlbarraez",
+    "descripcion": "curl_con_barra_ez_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 109,
+    "nombre": "tiron_a_la_cara",
+    "grupoMuscular": "group_hombros",
+    "imagen": "tironcara",
+    "descripcion": "tiron_a_la_cara_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 110,
+    "nombre": "paseo_del_granjero",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "paseogranjero",
+    "descripcion": "paseo_del_granjero_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 111,
+    "nombre": "patadas_boca_incendio",
+    "grupoMuscular": "group_gluteos",
+    "imagen": "patadabocaincendio",
+    "descripcion": "patadas_boca_incendio_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 112,
+    "nombre": "press_suelo_barra",
+    "grupoMuscular": "group_pecho",
+    "imagen": "presssuelobarra",
+    "descripcion": "press_suelo_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 113,
+    "nombre": "press_en_el_suelo_mancuerna",
+    "grupoMuscular": "group_pecho",
+    "imagen": "presssuelomancuerna",
+    "descripcion": "press_en_el_suelo_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 114,
+    "nombre": "fondos_triceps_en_suelo",
+    "grupoMuscular": "group_triceps",
+    "imagen": "fondostricepssuelo",
+    "descripcion": "fondos_triceps_en_suelo_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 115,
+    "nombre": "aleteo_piernas",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "aleteopiernas",
+    "descripcion": "aleteo_piernas_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 116,
+    "nombre": "saltos_rana",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "saltosrana",
+    "descripcion": "saltos_rana_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 117,
+    "nombre": "frog_pumps_mancuerna",
+    "grupoMuscular": "group_gluteos",
+    "imagen": "frogpumpsmancuerna",
+    "descripcion": "frog_pumps_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 118,
+    "nombre": "front_lever_sostenida",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "frontleversostenida",
+    "descripcion": "front_lever_sostenida_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": ""
+  },
+  {
+    "id": 119,
+    "nombre": "front_lever_elevacion",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "frontleverelevacion",
+    "descripcion": "front_lever_elevacion_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": ""
+  },
+  {
+    "id": 120,
+    "nombre": "elevacion_frontal_banda",
+    "grupoMuscular": "group_hombros",
+    "imagen": "elevacionfrontalbanda",
+    "descripcion": "elevacion_frontal_banda_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 121,
+    "nombre": "elevacion_frontal_barra",
+    "grupoMuscular": "group_hombros",
+    "imagen": "elevacionfrontalbarra",
+    "descripcion": "elevacion_frontal_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 122,
+    "nombre": "elevacion_frontal_cable",
+    "grupoMuscular": "group_hombros",
+    "imagen": "elevacionfrontalcable",
+    "descripcion": "elevacion_frontal_cable_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 123,
+    "nombre": "elevacion_frontal_mancuerna",
+    "grupoMuscular": "group_hombros",
+    "imagen": "elevacionfrontalmancuerna",
+    "descripcion": "elevacion_frontal_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 124,
+    "nombre": "elevacion_frontal_suspension",
+    "grupoMuscular": "group_hombros",
+    "imagen": "elevacionfrontalsuspension",
+    "descripcion": "elevacion_frontal_suspension_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 125,
+    "nombre": "sentadilla_delantera",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "sentadilladelantera",
+    "descripcion": "sentadilla_delantera_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 126,
+    "nombre": "sentadilla_profunda",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "sentadillaprofunda",
+    "descripcion": "sentadilla_profunda_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 127,
+    "nombre": "puente_gluteos",
+    "grupoMuscular": "group_gluteos",
+    "imagen": "puentegluteos",
+    "descripcion": "puente_gluteos_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 128,
+    "nombre": "glute_ham_raise",
+    "grupoMuscular": "group_isquiotibiales",
+    "imagen": "glutehamraise",
+    "descripcion": "glute_ham_raise_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": ""
+  },
+  {
+    "id": 129,
+    "nombre": "patada_burro_maquina",
+    "grupoMuscular": "group_gluteos",
+    "imagen": "patadaburromaquina",
+    "descripcion": "patada_burro_maquina_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 130,
+    "nombre": "patada_burro",
+    "grupoMuscular": "group_gluteos",
+    "imagen": "patadaburro",
+    "descripcion": "patada_burro_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 131,
+    "nombre": "sentadilla_goblet",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "sentadillagoblet",
+    "descripcion": "sentadilla_goblet_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 132,
+    "nombre": "buen_dia_barra",
+    "grupoMuscular": "group_isquiotibiales",
+    "imagen": "buendiabarra",
+    "descripcion": "buen_dia_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 133,
+    "nombre": "remo_gorila_pesa_rusa",
+    "grupoMuscular": "group_espalda_superior",
+    "imagen": "remogorilapesarusa",
+    "descripcion": "remo_gorila_pesa_rusa_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 134,
+    "nombre": "sentadilla_hack",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "sentadillahack",
+    "descripcion": "sentadilla_hack_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 135,
+    "nombre": "sentadilla_hack_maquina",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "sentadillahackmaquina",
+    "descripcion": "sentadilla_hack_maquina_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 136,
+    "nombre": "curl_martillo_banda",
+    "grupoMuscular": "group_biceps",
+    "imagen": "curlmartillobanda",
+    "descripcion": "curl_martillo_banda_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 137,
+    "nombre": "curl_martillo_cable",
+    "grupoMuscular": "group_biceps",
+    "imagen": "curlmartillocable",
+    "descripcion": "curl_martillo_cable_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 138,
+    "nombre": "curl_martillo_mancuerna",
+    "grupoMuscular": "group_biceps",
+    "imagen": "curlmartillomancuerna",
+    "descripcion": "curl_martillo_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 139,
+    "nombre": "equilibrio_invertido",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "equilibrioinvertido",
+    "descripcion": "equilibrio_invertido_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": ""
+  },
+  {
+    "id": 140,
+    "nombre": "flexiones_verticales",
+    "grupoMuscular": "group_hombros",
+    "imagen": "flexionesverticales",
+    "descripcion": "flexiones_verticales_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 141,
+    "nombre": "hang_clean",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "hangclean",
+    "descripcion": "hang_clean_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": ""
+  },
+  {
+    "id": 142,
+    "nombre": "hang_snatch",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "hangsnatch",
+    "descripcion": "hang_snatch_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": ""
+  },
+  {
+    "id": 143,
+    "nombre": "levantamiento_rodillas_en_barra",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "levantamientorodillasbarra",
+    "descripcion": "levantamiento_rodillas_en_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 144,
+    "nombre": "levantamiento_piernas_en_barra",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "levantamientopiernasbarra",
+    "descripcion": "levantamiento_piernas_en_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 145,
+    "nombre": "abdominales_toque_talon",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "abdominalestoquetalon",
+    "descripcion": "abdominales_toque_talon_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 146,
+    "nombre": "press_hexagonal_mancuerna",
+    "grupoMuscular": "group_pecho",
+    "imagen": "presshexagonalmancuerna",
+    "descripcion": "press_hexagonal_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 147,
+    "nombre": "elevacion_rodillas",
+    "grupoMuscular": "group_gluteos",
+    "imagen": "elevacionrodillas",
+    "descripcion": "elevacion_rodillas_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 148,
+    "nombre": "hiit",
+    "grupoMuscular": "group_cardio",
+    "imagen": "hiit",
+    "descripcion": "hiit_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 149,
+    "nombre": "senderismo",
+    "grupoMuscular": "group_cardio",
+    "imagen": "senderismo",
+    "descripcion": "senderismo_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 150,
+    "nombre": "empuje_caderas",
+    "grupoMuscular": "group_gluteos",
+    "imagen": "empujecaderas",
+    "descripcion": "empuje_caderas_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 151,
+    "nombre": "empuje_caderas_barra",
+    "grupoMuscular": "group_gluteos",
+    "imagen": "empujecaderasbarra",
+    "descripcion": "empuje_caderas_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 152,
+    "nombre": "impulso_cadera_maquina",
+    "grupoMuscular": "group_gluteos",
+    "imagen": "impulsocaderamaquina",
+    "descripcion": "impulso_cadera_maquina_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 153,
+    "nombre": "hollow_rock",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "hollowrock",
+    "descripcion": "hollow_rock_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 154,
+    "nombre": "press_banca_inclinado_barra",
+    "grupoMuscular": "group_pecho",
+    "imagen": "pressbancainclinadobarra",
+    "descripcion": "press_banca_inclinado_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 155,
+    "nombre": "press_banca_inclinado_mancuerna",
+    "grupoMuscular": "group_pecho",
+    "imagen": "pressbancainclinadomancuerna",
+    "descripcion": "press_banca_inclinado_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 156,
+    "nombre": "press_banca_inclinado_maquina_smith",
+    "grupoMuscular": "group_pecho",
+    "imagen": "pressbancainclinadomaquinasmith",
+    "descripcion": "press_banca_inclinado_maquina_smith_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 157,
+    "nombre": "aperturas_inclinadas_mancuernas",
+    "grupoMuscular": "group_pecho",
+    "imagen": "aperturasinclinadasmancuernas",
+    "descripcion": "aperturas_inclinadas_mancuernas_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 158,
+    "nombre": "press_pecho_inclinado_maquina",
+    "grupoMuscular": "group_pecho",
+    "imagen": "presspechoinclinadomaquina",
+    "descripcion": "press_pecho_inclinado_maquina_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 159,
+    "nombre": "flexiones_inclinadas",
+    "grupoMuscular": "group_pecho",
+    "imagen": "flexionesinclinadas",
+    "descripcion": "flexiones_inclinadas_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 160,
+    "nombre": "remo_invertido",
+    "grupoMuscular": "group_espalda_superior",
+    "imagen": "remoinvertido",
+    "descripcion": "remo_invertido_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 161,
+    "nombre": "press_pecho_iso_lateral_maquina",
+    "grupoMuscular": "group_pecho",
+    "imagen": "presspechoisolateralmaquina",
+    "descripcion": "press_pecho_iso_lateral_maquina_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 162,
+    "nombre": "remo_alto_iso_lateral",
+    "grupoMuscular": "group_dorsales",
+    "imagen": "remoaltoisolateral",
+    "descripcion": "remo_alto_iso_lateral_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 163,
+    "nombre": "remo_bajo_iso_lateral",
+    "grupoMuscular": "group_dorsales",
+    "imagen": "remobajoisolateral",
+    "descripcion": "remo_bajo_iso_lateral_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 164,
+    "nombre": "remo_iso_lateral",
+    "grupoMuscular": "group_dorsales",
+    "imagen": "remoisolateral",
+    "descripcion": "remo_iso_lateral_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 165,
+    "nombre": "jack_knife_suspension",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "jackknifesuspension",
+    "descripcion": "jack_knife_suspension_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 166,
+    "nombre": "press_jm_barra",
+    "grupoMuscular": "group_triceps",
+    "imagen": "pressjmbarra",
+    "descripcion": "press_jm_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 167,
+    "nombre": "salto_a_la_cuerda",
+    "grupoMuscular": "group_cardio",
+    "imagen": "salto",
+    "descripcion": "salto_a_la_cuerda_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 168,
+    "nombre": "encogimiento_hombros_con_salto",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "encogimientohombrossalto",
+    "descripcion": "encogimiento_hombros_con_salto_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 169,
+    "nombre": "sentadilla_con_salto",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "sentadillasalto",
+    "descripcion": "sentadilla_con_salto_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 170,
+    "nombre": "jumping_jack",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "jumpingjack",
+    "descripcion": "jumping_jack_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 171,
+    "nombre": "estocada_con_salto",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "estocadasalto",
+    "descripcion": "estocada_con_salto_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 172,
+    "nombre": "cargada_con_pesa_rusa",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "cargadapesarusa",
+    "descripcion": "cargada_con_pesa_rusa_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": ""
+  },
+  {
+    "id": 173,
+    "nombre": "curl_con_pesa_rusa",
+    "grupoMuscular": "group_biceps",
+    "imagen": "curlpesarusa",
+    "descripcion": "curl_con_pesa_rusa_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 174,
+    "nombre": "sentadilla_goblet_con_pesa_rusa",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "sentadillagobletpesarusa",
+    "descripcion": "sentadilla_goblet_con_pesa_rusa_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 175,
+    "nombre": "tiron_alto_con_pesa_rusa",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "tironaltopesarusa",
+    "descripcion": "tiron_alto_con_pesa_rusa_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 176,
+    "nombre": "press_hombros_con_pesa_rusa",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "presshombrospesarusa",
+    "descripcion": "press_hombros_con_pesa_rusa_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 177,
+    "nombre": "arrancada_con_pesa_rusa",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "arrancadapesarusa",
+    "descripcion": "arrancada_con_pesa_rusa_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": ""
+  },
+  {
+    "id": 178,
+    "nombre": "swing_con_pesa_rusa",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "swingpesarusa",
+    "descripcion": "swing_con_pesa_rusa_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 179,
+    "nombre": "levantamiento_turco_con_pesa_rusa",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "levantamientoturcopesarusa",
+    "descripcion": "levantamiento_turco_con_pesa_rusa_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": ""
+  },
+  {
+    "id": 180,
+    "nombre": "dominadas_con_kipping",
+    "grupoMuscular": "group_dorsales",
+    "imagen": "dominadaskipping",
+    "descripcion": "dominadas_con_kipping_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": ""
+  },
+  {
+    "id": 181,
+    "nombre": "rodillas_al_pecho_en_barras_paralelas",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "rodillaspechobarrasparalelas",
+    "descripcion": "rodillas_al_pecho_en_barras_paralelas_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 182,
+    "nombre": "jalon_rodillas_banda",
+    "grupoMuscular": "group_dorsales",
+    "imagen": "jalonrodillasbanda",
+    "descripcion": "jalon_rodillas_banda_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 183,
+    "nombre": "flexiones_rodillas",
+    "grupoMuscular": "group_pecho",
+    "imagen": "flexionesrodillas",
+    "descripcion": "flexiones_rodillas_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 184,
+    "nombre": "l_sit_sostenido",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "lsitsostenido",
+    "descripcion": "l_sit_sostenido_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": ""
+  },
+  {
+    "id": 185,
+    "nombre": "landmine_180",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "landmine180",
+    "descripcion": "landmine_180_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 186,
+    "nombre": "remo_en_base_rotativa",
+    "grupoMuscular": "group_espalda_superior",
+    "imagen": "remobaserotativa",
+    "descripcion": "remo_en_base_rotativa_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 187,
+    "nombre": "landmine_sentadilla_y_press",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "landminesentadillapress",
+    "descripcion": "landmine_sentadilla_y_press_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 188,
+    "nombre": "jalon_al_pecho_agarre_cerrado_cable",
+    "grupoMuscular": "group_dorsales",
+    "imagen": "jalonpechoagarrecerradocable",
+    "descripcion": "jalon_al_pecho_agarre_cerrado_cable_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 189,
+    "nombre": "jalon_al_pecho_banda",
+    "grupoMuscular": "group_dorsales",
+    "imagen": "jalonpechobanda",
+    "descripcion": "jalon_al_pecho_banda_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 190,
+    "nombre": "jalon_al_pecho_cable",
+    "grupoMuscular": "group_dorsales",
+    "imagen": "jalonpechocable",
+    "descripcion": "jalon_al_pecho_cable_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 191,
+    "nombre": "jalon_al_pecho_maquina",
+    "grupoMuscular": "group_dorsales",
+    "imagen": "jalonpechomaquina",
+    "descripcion": "jalon_al_pecho_maquina_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 192,
+    "nombre": "caminata_lateral_con_banda_elastica",
+    "grupoMuscular": "group_gluteos",
+    "imagen": "caminatalateralbandaelastica",
+    "descripcion": "caminata_lateral_con_banda_elastica_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 193,
+    "nombre": "salto_al_cajon_lateral",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "saltocajonlateral",
+    "descripcion": "salto_al_cajon_lateral_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 194,
+    "nombre": "elevaciones_laterales_de_pierna",
+    "grupoMuscular": "group_gluteos",
+    "imagen": "elevacioneslateralespierna",
+    "descripcion": "elevaciones_laterales_de_pierna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 195,
+    "nombre": "zancada_lateral",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "zancadalateral",
+    "descripcion": "zancada_lateral_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 196,
+    "nombre": "elevaciones_laterales_banda",
+    "grupoMuscular": "group_hombros",
+    "imagen": "elevacioneslateralesbanda",
+    "descripcion": "elevaciones_laterales_banda_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 197,
+    "nombre": "elevaciones_laterales_cable",
+    "grupoMuscular": "group_hombros",
+    "imagen": "elevacioneslateralescable",
+    "descripcion": "elevaciones_laterales_cable_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 198,
+    "nombre": "elevaciones_laterales_mancuerna",
+    "grupoMuscular": "group_hombros",
+    "imagen": "elevacioneslateralesmancuerna",
+    "descripcion": "elevaciones_laterales_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 199,
+    "nombre": "elevaciones_laterales_maquina",
+    "grupoMuscular": "group_hombros",
+    "imagen": "elevacioneslateralesmaquina",
+    "descripcion": "elevaciones_laterales_maquina_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 200,
+    "nombre": "sentadilla_lateral",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "sentadillalateral",
+    "descripcion": "sentadilla_lateral_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/00971201.mp4"
+  },
+  {
+    "id": 201,
+    "nombre": "extension_pierna",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "extensionpierna",
+    "descripcion": "extension_pierna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/22561201.mp4"
+  },
+  {
+    "id": 202,
+    "nombre": "press_piernas",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "presspiernas",
+    "descripcion": "press_piernas_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/07391201.mp4"
+  },
+  {
+    "id": 203,
+    "nombre": "pies_a_barra",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "piesbarra",
+    "descripcion": "pies_a_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/38911201.mp4"
+  },
+  {
+    "id": 204,
+    "nombre": "cables_cruzados_bajos",
+    "grupoMuscular": "group_pecho",
+    "imagen": "cablescruzadosbajos",
+    "descripcion": "cables_cruzados_bajos_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/24421201.mp4"
+  },
+  {
+    "id": 205,
+    "nombre": "remo_bajo_suspension",
+    "grupoMuscular": "group_espalda_superior",
+    "imagen": "remobajosuspension",
+    "descripcion": "remo_bajo_suspension_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 206,
+    "nombre": "zancada",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "zancada",
+    "descripcion": "zancada_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 207,
+    "nombre": "zancada_barra",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "zancadabarra",
+    "descripcion": "zancada_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/24781201.mp4"
+  },
+  {
+    "id": 208,
+    "nombre": "zancada_mancuerna",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "zancadamancuerna",
+    "descripcion": "zancada_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/03361201.mp4"
+  },
+  {
+    "id": 209,
+    "nombre": "levantamiento_rodillas_tumbado",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "levantamientorodillastumbado",
+    "descripcion": "levantamiento_rodillas_tumbado_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/18561201.mp4"
+  },
+  {
+    "id": 210,
+    "nombre": "curl_piernas_acostado_maquina",
+    "grupoMuscular": "group_isquiotibiales",
+    "imagen": "curlpiernasacostadomaquina",
+    "descripcion": "curl_piernas_acostado_maquina_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/05861201.mp4"
+  },
+  {
+    "id": 211,
+    "nombre": "levantamiento_piernas_tumbado",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "levantamientopiernastumbado",
+    "descripcion": "levantamiento_piernas_tumbado_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/35901201.mp4"
+  },
+  {
+    "id": 212,
+    "nombre": "flexiones_cuello_acostado",
+    "grupoMuscular": "group_cuello",
+    "imagen": "flexionescuelloacostado",
+    "descripcion": "flexiones_cuello_acostado_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/10431201.mp4"
+  },
+  {
+    "id": 213,
+    "nombre": "flexiones_cuello_acostado_con_peso",
+    "grupoMuscular": "group_cuello",
+    "imagen": "flexionescuelloacostadoconpeso",
+    "descripcion": "flexiones_cuello_acostado_con_peso_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/10431201.mp4"
+  },
+  {
+    "id": 214,
+    "nombre": "extension_cuello_acostado",
+    "grupoMuscular": "group_cuello",
+    "imagen": "extensioncuelloacostado",
+    "descripcion": "extension_cuello_acostado_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 215,
+    "nombre": "extension_cuello_acostado_con_peso",
+    "grupoMuscular": "group_cuello",
+    "imagen": "extensioncuelloacostadopeso",
+    "descripcion": "extension_cuello_acostado_con_peso_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 216,
+    "nombre": "remos_meadows_barra",
+    "grupoMuscular": "group_espalda_superior",
+    "imagen": "remosmeadowsbarra",
+    "descripcion": "remos_meadows_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 217,
+    "nombre": "escaladores",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "escaladores",
+    "descripcion": "escaladores_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/06301201.mp4"
+  },
+  {
+    "id": 218,
+    "nombre": "muscle_up",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "muscleup",
+    "descripcion": "muscle_up_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/06311201.mp4"
+  },
+  {
+    "id": 219,
+    "nombre": "dominada_negativa",
+    "grupoMuscular": "group_dorsales",
+    "imagen": "dominadanegativa",
+    "descripcion": "dominada_negativa_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 220,
+    "nombre": "curls_nordicos_isquiotibiales",
+    "grupoMuscular": "group_isquiotibiales",
+    "imagen": "curlsnordicosisquiotibiales",
+    "descripcion": "curls_nordicos_isquiotibiales_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": ""
+  },
+  {
+    "id": 221,
+    "nombre": "abdominales_cortos_oblicuos",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "abdominalescortosoblicuos",
+    "descripcion": "abdominales_cortos_oblicuos_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/06911201.mp4"
+  },
+  {
+    "id": 222,
+    "nombre": "flexión_a_una_mano",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "flexionunamano",
+    "descripcion": "flexión_a_una_mano_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": ""
+  },
+  {
+    "id": 223,
+    "nombre": "curl_sobre_cabeza_cable",
+    "grupoMuscular": "group_biceps",
+    "imagen": "curlsobrecabezacable",
+    "descripcion": "curl_sobre_cabeza_cable_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/16361201.mp4"
+  },
+  {
+    "id": 224,
+    "nombre": "extensiones_muñeca_mancuerna",
+    "grupoMuscular": "group_ante_brazos",
+    "imagen": "extensionesmunecamancuerna",
+    "descripcion": "extensiones_muñeca_mancuerna_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 225,
+    "nombre": "curls_muñeca_mancuerna",
+    "grupoMuscular": "group_ante_brazos",
+    "imagen": "curlsmunecamancuerna",
+    "descripcion": "curls_muñeca_mancuerna_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/26311201.mp4"
+  },
+  {
+    "id": 226,
+    "nombre": "curl_inverso_muñeca_barra",
+    "grupoMuscular": "group_ante_brazos",
+    "imagen": "curlinversomunecabarra",
+    "descripcion": "curl_inverso_muñeca_barra_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/30291201.mp4"
+  },
+  {
+    "id": 227,
+    "nombre": "peso_muerto_romano_barra",
+    "grupoMuscular": "group_isquiotibiales",
+    "imagen": "pesomuertoromanobarra",
+    "descripcion": "peso_muerto_romano_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/22131201.mp4"
+  },
+  {
+    "id": 228,
+    "nombre": "peso_muerto_romano_mancuerna",
+    "grupoMuscular": "group_isquiotibiales",
+    "imagen": "pesomuertoromanomancuerna",
+    "descripcion": "peso_muerto_romano_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/22221201.mp4"
+  },
+  {
+    "id": 229,
+    "nombre": "rotacion_muñeca_mancuerna",
+    "grupoMuscular": "group_ante_brazos",
+    "imagen": "rotacionmunecamancuerna",
+    "descripcion": "rotacion_muñeca_mancuerna_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/26311201.mp4"
+  },
+  {
+    "id": 230,
+    "nombre": "press_hombros_barra",
+    "grupoMuscular": "group_hombros",
+    "imagen": "presshombrosbarra",
+    "descripcion": "press_hombros_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/26041201.mp4"
+  },
+  {
+    "id": 231,
+    "nombre": "press_hombros_maquina",
+    "grupoMuscular": "group_hombros",
+    "imagen": "presshombrosmaquina",
+    "descripcion": "press_hombros_maquina_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/14541201.mp4"
+  },
+  {
+    "id": 232,
+    "nombre": "press_hombros_mancuerna",
+    "grupoMuscular": "group_hombros",
+    "imagen": "presshombrosmancuerna",
+    "descripcion": "press_hombros_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/39721201.mp4"
+  },
+  {
+    "id": 233,
+    "nombre": "press_hombros_maquina_smith",
+    "grupoMuscular": "group_hombros",
+    "imagen": "presshombrosmaquinasmith",
+    "descripcion": "press_hombros_maquina_smith_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/07661201.mp4"
+  },
+  {
+    "id": 234,
+    "nombre": "sentadilla_barra",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "sentadillabarra",
+    "descripcion": "sentadilla_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/00431201.mp4"
+  },
+  {
+    "id": 235,
+    "nombre": "sentadilla_cuerpo",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "sentadillacuerpo",
+    "descripcion": "sentadilla_cuerpo_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/38031201.mp4"
+  },
+  {
+    "id": 236,
+    "nombre": "sentadilla_mancuerna",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "sentadillamancuerna",
+    "descripcion": "sentadilla_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/22201201.mp4"
+  },
+  {
+    "id": 237,
+    "nombre": "sentadilla_maquina_smith",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "sentadillamaquinasmith",
+    "descripcion": "sentadilla_maquina_smith_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 238,
+    "nombre": "paso_lateral_con_polea_baja",
+    "grupoMuscular": "group_gluteos",
+    "imagen": "pasolateralpoleabaja",
+    "descripcion": "paso_lateral_con_polea_baja_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 239,
+    "nombre": "desplantes_con_barra",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "desplantesbarra",
+    "descripcion": "desplantes_con_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 240,
+    "nombre": "desplantes_con_mancuerna",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "desplantesmancuerna",
+    "descripcion": "desplantes_con_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 241,
+    "nombre": "zancadas_inversas",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "zancadasinversas",
+    "descripcion": "zancadas_inversas_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/06761201.mp4"
+  },
+  {
+    "id": 242,
+    "nombre": "press_militar",
+    "grupoMuscular": "group_hombros",
+    "imagen": "prensamilitar",
+    "descripcion": "press_militar_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/14571201.mp4"
+  },
+  {
+    "id": 243,
+    "nombre": "press_push_barra",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "presspushbarra",
+    "descripcion": "press_push_barra_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/11651201.mp4"
+  },
+  {
+    "id": 244,
+    "nombre": "flexiones",
+    "grupoMuscular": "group_pecho",
+    "imagen": "flexiones",
+    "descripcion": "flexiones_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/31451201.mp4"
+  },
+  {
+    "id": 245,
+    "nombre": "flexiones_con_apoyo",
+    "grupoMuscular": "group_pecho",
+    "imagen": "flexionesconapoyo",
+    "descripcion": "flexiones_con_apoyo_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/32111201.mp4"
+  },
+  {
+    "id": 246,
+    "nombre": "flexiones_con_las_manos_elevadas",
+    "grupoMuscular": "group_pecho",
+    "imagen": "flexionesconmanoselevadas",
+    "descripcion": "flexiones_con_las_manos_elevadas_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/04931201.mp4"
+  },
+  {
+    "id": 247,
+    "nombre": "flexiones_con_peso_añadido",
+    "grupoMuscular": "group_pecho",
+    "imagen": "flexionesconpesoanadido",
+    "descripcion": "flexiones_con_peso_añadido_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/11721201.mp4https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/11721201.mp4"
+  },
+  {
+    "id": 248,
+    "nombre": "flexiones_maquina_smith",
+    "grupoMuscular": "group_pecho",
+    "imagen": "flexionesmaquinasmith",
+    "descripcion": "flexiones_maquina_smith_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 249,
+    "nombre": "flexiones_pies_elevados",
+    "grupoMuscular": "group_pecho",
+    "imagen": "flexionespieselevados",
+    "descripcion": "flexiones_pies_elevados_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 250,
+    "nombre": "rotacion_rodillas_tumbado",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "rotacionrodillastumbado",
+    "descripcion": "rotacion_rodillas_tumbado_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/01321201.mp4"
+  },
+  {
+    "id": 251,
+    "nombre": "jalon_invertido_barra",
+    "grupoMuscular": "group_espalda_superior",
+    "imagen": "jaloninvertidobarra",
+    "descripcion": "jalon_invertido_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 252,
+    "nombre": "jalon_invertido_maquina_smith",
+    "grupoMuscular": "group_espalda_superior",
+    "imagen": "jaloninvertidomaquinasmith",
+    "descripcion": "jalon_invertido_maquina_smith_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 253,
+    "nombre": "jalon_invertido_suspension",
+    "grupoMuscular": "group_espalda_superior",
+    "imagen": "jaloninvertidosuspension",
+    "descripcion": "jalon_invertido_suspension_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 254,
+    "nombre": "remo_con_agarres_a_mano_sentado",
+    "grupoMuscular": "group_espalda_superior",
+    "imagen": "remoagarresamano",
+    "descripcion": "remo_con_agarres_a_mano_sentado_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/02181201.mp4"
+  },
+  {
+    "id": 255,
+    "nombre": "remo_con_agarres_a_mano_tumbado",
+    "grupoMuscular": "group_espalda_superior",
+    "imagen": "remoagarresamanotumbado",
+    "descripcion": "remo_con_agarres_a_mano_tumbado_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/11941201.mp4"
+  },
+  {
+    "id": 256,
+    "nombre": "elevacion_gemelos_de_pie",
+    "grupoMuscular": "group_gemelos",
+    "imagen": "elevaciongemelosdepie",
+    "descripcion": "elevacion_gemelos_de_pie_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/30181201.mp4"
+  },
+  {
+    "id": 257,
+    "nombre": "elevacion_gemelos_sentado",
+    "grupoMuscular": "group_gemelos",
+    "imagen": "elevaciongemelossentado",
+    "descripcion": "elevacion_gemelos_sentado_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/05941201.mp4"
+  },
+  {
+    "id": 258,
+    "nombre": "remo_sentado_cable",
+    "grupoMuscular": "group_espalda_superior",
+    "imagen": "remosentadocable",
+    "descripcion": "remo_sentado_cable_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/08611201.mp4"
+  },
+  {
+    "id": 259,
+    "nombre": "remo_sentado_maquina",
+    "grupoMuscular": "group_espalda_superior",
+    "imagen": "remosentadomaquina",
+    "descripcion": "remo_sentado_maquina_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/05881201.mp4"
+  },
+  {
+    "id": 260,
+    "nombre": "press_sentado_maquina",
+    "grupoMuscular": "group_pecho",
+    "imagen": "presssentadomaquina",
+    "descripcion": "press_sentado_maquina_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/14541201.mp4"
+  },
+  {
+    "id": 261,
+    "nombre": "press_sentado_maquina_smith",
+    "grupoMuscular": "group_pecho",
+    "imagen": "presssentadomaquinasmith",
+    "descripcion": "press_sentado_maquina_smith_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/07651201.mp4"
+  },
+  {
+    "id": 262,
+    "nombre": "press_hombros_sentado_barra",
+    "grupoMuscular": "group_hombros",
+    "imagen": "presshombrossentadobarra",
+    "descripcion": "press_hombros_sentado_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/00911201.mp4"
+  },
+  {
+    "id": 263,
+    "nombre": "press_hombros_sentado_mancuerna",
+    "grupoMuscular": "group_hombros",
+    "imagen": "presshombrossentadomancuerna",
+    "descripcion": "press_hombros_sentado_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/04051201.mp4"
+  },
+  {
+    "id": 264,
+    "nombre": "press_hombros_sentado_maquina",
+    "grupoMuscular": "group_hombros",
+    "imagen": "presshombrossentadomaquina",
+    "descripcion": "press_hombros_sentado_maquina_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 265,
+    "nombre": "remo_sentado_con_agarres_a_mano_cable",
+    "grupoMuscular": "group_espalda_superior",
+    "imagen": "remosentadoagarresamanocable",
+    "descripcion": "remo_sentado_con_agarres_a_mano_cable_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/02181201.mp4"
+  },
+  {
+    "id": 266,
+    "nombre": "curl_piernas_sentado",
+    "grupoMuscular": "group_isquiotibiales",
+    "imagen": "curlpiernassentado",
+    "descripcion": "curl_piernas_sentado_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/05991201.mp4"
+  },
+  {
+    "id": 267,
+    "nombre": "encogimiento_hombros_barra",
+    "grupoMuscular": "group_trapecios",
+    "imagen": "encogimientohombrosbarra",
+    "descripcion": "encogimiento_hombros_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/00951201.mp4"
+  },
+  {
+    "id": 268,
+    "nombre": "encogimiento_hombros_cable",
+    "grupoMuscular": "group_trapecios",
+    "imagen": "encogimientohombroscable",
+    "descripcion": "encogimiento_hombros_cable_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/02201201.mp4"
+  },
+  {
+    "id": 269,
+    "nombre": "encogimiento_hombros_mancuerna",
+    "grupoMuscular": "group_trapecios",
+    "imagen": "encogimientohombrosmancuerna",
+    "descripcion": "encogimiento_hombros_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/04061201.mp4"
+  },
+  {
+    "id": 270,
+    "nombre": "sizor_jump",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "sizorjump",
+    "descripcion": "sizor_jump_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 271,
+    "nombre": "extension_lateral_cuello_con_peso",
+    "grupoMuscular": "group_cuello",
+    "imagen": "extensionlateralcuelloconpeso",
+    "descripcion": "extension_lateral_cuello_con_peso_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 272,
+    "nombre": "extension_lateral_cuello_tumbado",
+    "grupoMuscular": "group_cuello",
+    "imagen": "extensionlateralcuellotumbado",
+    "descripcion": "extension_lateral_cuello_tumbado_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 273,
+    "nombre": "extension_lateral_cuello_tumbado_con_peso",
+    "grupoMuscular": "group_cuello",
+    "imagen": "extensionlateralcuellotumbadopeso",
+    "descripcion": "extension_lateral_cuello_tumbado_con_peso_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 274,
+    "nombre": "press_hombros_con_split_jerk",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "presshombrossplitjerk",
+    "descripcion": "press_hombros_con_split_jerk_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/15381201.mp4"
+  },
+  {
+    "id": 275,
+    "nombre": "press_push_con_split_jerk",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "presspushsplitjerk",
+    "descripcion": "press_push_con_split_jerk_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": ""
+  },
+  {
+    "id": 276,
+    "nombre": "snatch",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "snatch",
+    "descripcion": "snatch_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/38881201.mp4"
+  },
+  {
+    "id": 277,
+    "nombre": "squat_clean",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "squatclean",
+    "descripcion": "squat_clean_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/36481201.mp4"
+  },
+  {
+    "id": 278,
+    "nombre": "squat_jerk",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "squatjerk",
+    "descripcion": "squat_jerk_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": ""
+  },
+  {
+    "id": 279,
+    "nombre": "squat_snatch",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "squatsnatch",
+    "descripcion": "squat_snatch_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": ""
+  },
+  {
+    "id": 280,
+    "nombre": "squat_thruster",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "squatthruster",
+    "descripcion": "squat_thruster_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/29711201.mp4"
+  },
+  {
+    "id": 281,
+    "nombre": "step_up",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "stepup",
+    "descripcion": "step_up_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/45791201.mp4"
+  },
+  {
+    "id": 282,
+    "nombre": "step_up_mancuerna",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "stepupmancuerna",
+    "descripcion": "step_up_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/04311201.mp4"
+  },
+  {
+    "id": 283,
+    "nombre": "stiff_leg_deadlift_barra",
+    "grupoMuscular": "group_isquiotibiales",
+    "imagen": "stifflegdeadliftbarra",
+    "descripcion": "stiff_leg_deadlift_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/15431201.mp4"
+  },
+  {
+    "id": 284,
+    "nombre": "stiff_leg_deadlift_mancuerna",
+    "grupoMuscular": "group_isquiotibiales",
+    "imagen": "stifflegdeadliftmancuerna",
+    "descripcion": "stiff_leg_deadlift_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/38941201.mp4"
+  },
+  {
+    "id": 285,
+    "nombre": "stiff_leg_deadlift_maquina_smith",
+    "grupoMuscular": "group_isquiotibiales",
+    "imagen": "stifflegdeadliftmaquinasmith",
+    "descripcion": "stiff_leg_deadlift_maquina_smith_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/15971201.mp4"
+  },
+  {
+    "id": 286,
+    "nombre": "estiramiento",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "estiramiento",
+    "descripcion": "estiramiento_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 287,
+    "nombre": "extensiones_triceps_banda",
+    "grupoMuscular": "group_triceps",
+    "imagen": "extensionestricepsbanda",
+    "descripcion": "extensiones_triceps_banda_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/39391201.mp4"
+  },
+  {
+    "id": 288,
+    "nombre": "extensiones_triceps_cable",
+    "grupoMuscular": "group_triceps",
+    "imagen": "extensionestricepscable",
+    "descripcion": "extensiones_triceps_cable_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/01871201.mp4"
+  },
+  {
+    "id": 289,
+    "nombre": "extensiones_triceps_mancuerna",
+    "grupoMuscular": "group_triceps",
+    "imagen": "extensionestricepsmancuerna",
+    "descripcion": "extensiones_triceps_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/26011201.mp4"
+  },
+  {
+    "id": 290,
+    "nombre": "extensiones_triceps_maquina",
+    "grupoMuscular": "group_triceps",
+    "imagen": "extensionestricepsmaquina",
+    "descripcion": "extensiones_triceps_maquina_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 291,
+    "nombre": "extensiones_triceps_suspension",
+    "grupoMuscular": "group_triceps",
+    "imagen": "extensionestricepssuspension",
+    "descripcion": "extensiones_triceps_suspension_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 292,
+    "nombre": "caminadora",
+    "grupoMuscular": "group_cardio",
+    "imagen": "caminadora",
+    "descripcion": "caminadora_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/22591201.mp4"
+  },
+  {
+    "id": 293,
+    "nombre": "tirones_barra",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "tironesbarra",
+    "descripcion": "tirones_barra_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/15291201.mp4"
+  },
+  {
+    "id": 294,
+    "nombre": "tirones_mancuerna",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "tironesmancuerna",
+    "descripcion": "tirones_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 295,
+    "nombre": "press_triceps",
+    "grupoMuscular": "group_triceps",
+    "imagen": "presstriceps",
+    "descripcion": "press_triceps_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/11911201.mp4"
+  },
+  {
+    "id": 296,
+    "nombre": "press_triceps_con_rotacion",
+    "grupoMuscular": "group_triceps",
+    "imagen": "presstricepsconrotacion",
+    "descripcion": "press_triceps_con_rotacion_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 297,
+    "nombre": "v_up",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "vup",
+    "descripcion": "v_up_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/08251201.mp4"
+  },
+  {
+    "id": 298,
+    "nombre": "sentadilla_v_up",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "sentadillavup",
+    "descripcion": "sentadilla_v_up_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 299,
+    "nombre": "extension_pierna_vertical",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "extensionpiernavertical",
+    "descripcion": "extension_pierna_vertical_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 300,
+    "nombre": "prensa_piernas_vertical",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "prensapiernavertical",
+    "descripcion": "prensa_piernas_vertical_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/15751201.mp4"
+  },
+  {
+    "id": 301,
+    "nombre": "caminata",
+    "grupoMuscular": "group_cardio",
+    "imagen": "caminata",
+    "descripcion": "caminata_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/22581201.mp4"
+  },
+  {
+    "id": 302,
+    "nombre": "remo_con_mancuerna_tumbado",
+    "grupoMuscular": "group_espalda_superior",
+    "imagen": "remomancuernatumbado",
+    "descripcion": "remo_con_mancuerna_tumbado_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/25101201.mp4"
+  },
+  {
+    "id": 303,
+    "nombre": "remo_con_mancuerna_en_inclinacion",
+    "grupoMuscular": "group_espalda_superior",
+    "imagen": "remomancuernaeninclinacion",
+    "descripcion": "remo_con_mancuerna_en_inclinacion_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/25101201.mp4"
+  },
+  {
+    "id": 304,
+    "nombre": "remo_con_mancuerna_sentado",
+    "grupoMuscular": "group_espalda_superior",
+    "imagen": "remomancuernasentado",
+    "descripcion": "remo_con_mancuerna_sentado_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/23931201.mp4"
+  },
+  {
+    "id": 305,
+    "nombre": "v_sit",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "vsit",
+    "descripcion": "v_sit_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/34201201.mp4"
+  },
+  {
+    "id": 306,
+    "nombre": "plancha_en_pared",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "planchapared",
+    "descripcion": "plancha_en_pared_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 307,
+    "nombre": "elevaciones_laterales_en_pared",
+    "grupoMuscular": "group_hombros",
+    "imagen": "elevacioneslateralespared",
+    "descripcion": "elevaciones_laterales_en_pared_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 308,
+    "nombre": "press_hombros_en_pared",
+    "grupoMuscular": "group_hombros",
+    "imagen": "presshombrospared",
+    "descripcion": "press_hombros_en_pared_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/46131201.mp4"
+  },
+  {
+    "id": 309,
+    "nombre": "jalon_invertido_en_pared",
+    "grupoMuscular": "group_espalda_superior",
+    "imagen": "jaloninvertidopared",
+    "descripcion": "jalon_invertido_en_pared_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 310,
+    "nombre": "rotacion_muñeca_barra",
+    "grupoMuscular": "group_ante_brazos",
+    "imagen": "rotacionmunecabarra",
+    "descripcion": "rotacion_muñeca_barra_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 311,
+    "nombre": "flexiones_muñeca_barra",
+    "grupoMuscular": "group_ante_brazos",
+    "imagen": "flexionesmunecabarra",
+    "descripcion": "flexiones_muñeca_barra_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/30331201.mp4"
+  },
+  {
+    "id": 312,
+    "nombre": "flexiones_muñeca_mancuerna",
+    "grupoMuscular": "group_ante_brazos",
+    "imagen": "flexionesmunecamancuerna",
+    "descripcion": "flexiones_muñeca_mancuerna_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/26311201.mp4"
+  },
+  {
+    "id": 313,
+    "nombre": "zancadas",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "zancadas",
+    "descripcion": "zancadas_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 314,
+    "nombre": "zancadas_barra",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "zancadasbarra",
+    "descripcion": "zancadas_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/24781201.mp4"
+  },
+  {
+    "id": 315,
+    "nombre": "zancadas_mancuerna",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "zancadasmancuerna",
+    "descripcion": "zancadas_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/03361201.mp4"
+  },
+  {
+    "id": 316,
+    "nombre": "zancadas_maquina_smith",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "zancadasmaquinasmith",
+    "descripcion": "zancadas_maquina_smith_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/07691201.mp4"
+  },
+  {
+    "id": 317,
+    "nombre": "zancadas_inversas_barra",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "zancadasinversasbarra",
+    "descripcion": "zancadas_inversas_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/06761201.mp4"
+  },
+  {
+    "id": 318,
+    "nombre": "zancadas_inversas_mancuerna",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "zancadasinversasmancuerna",
+    "descripcion": "zancadas_inversas_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/06761201.mp4"
+  },
+  {
+    "id": 319,
+    "nombre": "zancadas_laterales_barra",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "zancadaslateralesbarra",
+    "descripcion": "zancadas_laterales_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/22281201.mp4"
+  },
+  {
+    "id": 320,
+    "nombre": "zancadas_laterales_mancuerna",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "zancadaslateralesmancuerna",
+    "descripcion": "zancadas_laterales_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/34471201.mp4"
+  },
+  {
+    "id": 321,
+    "nombre": "zancadas_laterales_maquina_smith",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "zancadaslateralesmaquinasmith",
+    "descripcion": "zancadas_laterales_maquina_smith_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 322,
+    "nombre": "zancadas_laterales_cuerpo",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "zancadaslateralescuerpo",
+    "descripcion": "zancadas_laterales_cuerpo_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/29731201.mp4"
+  },
+  {
+    "id": 323,
+    "nombre": "zancadas_bulgaras_mancuerna",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "zancadasbulgarasmancuerna",
+    "descripcion": "zancadas_bulgaras_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/22901201.mp4"
+  },
+  {
+    "id": 324,
+    "nombre": "zancadas_bulgaras_maquina_smith",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "zancadasbulgarasmaquinasmith",
+    "descripcion": "zancadas_bulgaras_maquina_smith_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/31111201.mp4"
+  },
+  {
+    "id": 325,
+    "nombre": "elevacion_gemelos_de_pie_con_barra",
+    "grupoMuscular": "group_gemelos",
+    "imagen": "elevaciongemelosdepiebarra",
+    "descripcion": "elevacion_gemelos_de_pie_con_barra_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/13721201.mp4"
+  },
+  {
+    "id": 326,
+    "nombre": "elevacion_gemelos_de_pie_con_mancuerna",
+    "grupoMuscular": "group_gemelos",
+    "imagen": "elevaciongemelosdepiemancuerna",
+    "descripcion": "elevacion_gemelos_de_pie_con_mancuerna_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/22101201.mp4"
+  },
+  {
+    "id": 327,
+    "nombre": "elevacion_gemelos_de_pie_maquina_smith",
+    "grupoMuscular": "group_gemelos",
+    "imagen": "elevaciongemelosdepiemaquinasmith",
+    "descripcion": "elevacion_gemelos_de_pie_maquina_smith_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/26551201.mp4"
+  },
+  {
+    "id": 328,
+    "nombre": "elevacion_gemelos_prensa_piernas",
+    "grupoMuscular": "group_gemelos",
+    "imagen": "elevaciongemelosprensapiernas",
+    "descripcion": "elevacion_gemelos_prensa_piernas_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/07381201.mp4"
+  },
+  {
+    "id": 329,
+    "nombre": "elevacion_gemelos_burro",
+    "grupoMuscular": "group_gemelos",
+    "imagen": "elevaciongemelosburro",
+    "descripcion": "elevacion_gemelos_burro_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/02841201.mp4"
+  },
+  {
+    "id": 330,
+    "nombre": "press_banca_pesa_rusa",
+    "grupoMuscular": "group_pecho",
+    "imagen": "pressbancapesarusa",
+    "descripcion": "press_banca_pesa_rusa_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 331,
+    "nombre": "abdominal_corto_con_pesa_rusa",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "abdominalcortopesarusa",
+    "descripcion": "abdominal_corto_con_pesa_rusa_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 332,
+    "nombre": "elevacion_rodillas_pesa_rusa",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "elevacionrodillaspesarusa",
+    "descripcion": "elevacion_rodillas_pesa_rusa_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 333,
+    "nombre": "extension_triceps_pesa_rusa",
+    "grupoMuscular": "group_triceps",
+    "imagen": "extensionestricepspesarusa",
+    "descripcion": "extension_triceps_pesa_rusa_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 334,
+    "nombre": "peso_muerto_pesa_rusa",
+    "grupoMuscular": "group_isquiotibiales",
+    "imagen": "pesomuertopesarusa",
+    "descripcion": "peso_muerto_pesa_rusa_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/39021201.mp4"
+  },
+  {
+    "id": 335,
+    "nombre": "remo_con_pesa_rusa_sentado",
+    "grupoMuscular": "group_espalda_superior",
+    "imagen": "remopesarusasentado",
+    "descripcion": "remo_con_pesa_rusa_sentado_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/13451201.mp4"
+  },
+  {
+    "id": 336,
+    "nombre": "peso_muerto_romano_pesa_rusa",
+    "grupoMuscular": "group_isquiotibiales",
+    "imagen": "pesomuertoromanopesarusa",
+    "descripcion": "peso_muerto_romano_pesa_rusa_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/39021201.mp4"
+  },
+  {
+    "id": 337,
+    "nombre": "encogimiento_hombros_pesa_rusa",
+    "grupoMuscular": "group_trapecios",
+    "imagen": "encogimientohombrospesarusa",
+    "descripcion": "encogimiento_hombros_pesa_rusa_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 338,
+    "nombre": "remo_con_pesa_rusa_tumbado",
+    "grupoMuscular": "group_espalda_superior",
+    "imagen": "remopesarusatumbado",
+    "descripcion": "remo_con_pesa_rusa_tumbado_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 339,
+    "nombre": "zancada_pesa_rusa",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "zancadapesarusa",
+    "descripcion": "zancada_pesa_rusa_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/35741201.mp4"
+  },
+  {
+    "id": 340,
+    "nombre": "zancada_inversa_pesa_rusa",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "zancadainversapesarusa",
+    "descripcion": "zancada_inversa_pesa_rusa_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 341,
+    "nombre": "zancada_lateral_pesa_rusa",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "zancadalateralpesarusa",
+    "descripcion": "zancada_lateral_pesa_rusa_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 342,
+    "nombre": "zancada_bulgara_pesa_rusa",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "zancadabulgarapesarusa",
+    "descripcion": "zancada_bulgara_pesa_rusa_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 343,
+    "nombre": "step_up_pesa_rusa",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "stepuppesarusa",
+    "descripcion": "step_up_pesa_rusa_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/44401201.mp4"
+  },
+  {
+    "id": 344,
+    "nombre": "extension_pierna_tumbado",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "extensionpiernatumbado",
+    "descripcion": "extension_pierna_tumbado_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 345,
+    "nombre": "sentadilla_sissy_barra",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "sentadillasissybarra",
+    "descripcion": "sentadilla_sissy_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/40321201.mp4"
+  },
+  {
+    "id": 346,
+    "nombre": "sentadilla_sissy_mancuerna",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "sentadillasissymancuerna",
+    "descripcion": "sentadilla_sissy_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/40321201.mp4"
+  },
+  {
+    "id": 347,
+    "nombre": "sentadilla_sissy_maquina",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "sentadillasissymaquina",
+    "descripcion": "sentadilla_sissy_maquina_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/40321201.mp4"
+  },
+  {
+    "id": 348,
+    "nombre": "abdominal_corto_vertical",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "abdominalcortovertical",
+    "descripcion": "abdominal_corto_vertical_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/07361201.mp4"
+  },
+  {
+    "id": 349,
+    "nombre": "abdominales_bicicleta_vertical",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "abdominalesbicicletavertebral",
+    "descripcion": "abdominales_bicicleta_vertical_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/01471201.mp4"
+  },
+  {
+    "id": 350,
+    "nombre": "curl_biceps_vertical",
+    "grupoMuscular": "group_biceps",
+    "imagen": "curlbicepsvertical",
+    "descripcion": "curl_biceps_vertical_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 351,
+    "nombre": "extension_triceps_vertical",
+    "grupoMuscular": "group_triceps",
+    "imagen": "extensionestricepsvertical",
+    "descripcion": "extension_triceps_vertical_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 352,
+    "nombre": "press_banca_vertical",
+    "grupoMuscular": "group_pecho",
+    "imagen": "pressbancavertical",
+    "descripcion": "press_banca_vertical_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 353,
+    "nombre": "remo_vertical_cable",
+    "grupoMuscular": "group_hombros",
+    "imagen": "removerticalcable",
+    "descripcion": "remo_vertical_cable_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/02461201.mp4"
+  },
+  {
+    "id": 354,
+    "nombre": "remo_vertical_barra",
+    "grupoMuscular": "group_hombros",
+    "imagen": "removerticalbarra",
+    "descripcion": "remo_vertical_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/01201201.mp4"
+  },
+  {
+    "id": 355,
+    "nombre": "remo_vertical_mancuerna",
+    "grupoMuscular": "group_hombros",
+    "imagen": "removerticalmancuerna",
+    "descripcion": "remo_vertical_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/34311201.mp4"
+  },
+  {
+    "id": 356,
+    "nombre": "remo_vertical_pesa_rusa",
+    "grupoMuscular": "group_hombros",
+    "imagen": "removerticalpesarusa",
+    "descripcion": "remo_vertical_pesa_rusa_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/44081201.mp4"
+  },
+  {
+    "id": 357,
+    "nombre": "press_hombros_vertical_mancuerna",
+    "grupoMuscular": "group_hombros",
+    "imagen": "presshombrosverticalmancuerna",
+    "descripcion": "press_hombros_vertical_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/39721201.mp4"
+  },
+  {
+    "id": 358,
+    "nombre": "elevacion_gemelos_vertical",
+    "grupoMuscular": "group_gemelos",
+    "imagen": "elevaciongemelosvertical",
+    "descripcion": "elevacion_gemelos_vertical_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/30181201.mp4"
+  },
+  {
+    "id": 359,
+    "nombre": "zancadas_verticales",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "zancadasverticales",
+    "descripcion": "zancadas_verticales_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/40001201.mp4"
+  },
+  {
+    "id": 360,
+    "nombre": "elevacion_talones_con_banda",
+    "grupoMuscular": "group_gemelos",
+    "imagen": "elevaciontalonesbanda",
+    "descripcion": "elevacion_talones_con_banda_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/13691201.mp4"
+  },
+  {
+    "id": 361,
+    "nombre": "elevacion_talones_con_mancuerna",
+    "grupoMuscular": "group_gemelos",
+    "imagen": "elevaciontalonesmancuerna",
+    "descripcion": "elevacion_talones_con_mancuerna_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/04171201.mp4"
+  },
+  {
+    "id": 362,
+    "nombre": "elevacion_talones_sentado",
+    "grupoMuscular": "group_gemelos",
+    "imagen": "elevaciontalonessentado",
+    "descripcion": "elevacion_talones_sentado_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/00881201.mp4"
+  },
+  {
+    "id": 363,
+    "nombre": "paseo_del_granjero_pesa_rusa",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "paseogranjeropesarusa",
+    "descripcion": "paseo_del_granjero_pesa_rusa_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 364,
+    "nombre": "caminata_sentadilla_banda",
+    "grupoMuscular": "group_gluteos",
+    "imagen": "caminatasentadillabanda",
+    "descripcion": "caminata_sentadilla_banda_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 365,
+    "nombre": "sentadilla_sumo_barra",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "sentadillasumobarra",
+    "descripcion": "sentadilla_sumo_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/10631201.mp4"
+  },
+  {
+    "id": 366,
+    "nombre": "sentadilla_sumo_mancuerna",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "sentadillasumomancuerna",
+    "descripcion": "sentadilla_sumo_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/22201201.mp4"
+  },
+  {
+    "id": 367,
+    "nombre": "peso_muerto_sumo_barra",
+    "grupoMuscular": "group_isquiotibiales",
+    "imagen": "pesomuertosumobarra",
+    "descripcion": "peso_muerto_sumo_barra_desc",
+    "dificultad": "difficulty_difficult",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/01171201.mp4"
+  },
+  {
+    "id": 368,
+    "nombre": "peso_muerto_sumo_mancuerna",
+    "grupoMuscular": "group_isquiotibiales",
+    "imagen": "pesomuertosumomancuerna",
+    "descripcion": "peso_muerto_sumo_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/03001201.mp4"
+  },
+  {
+    "id": 369,
+    "nombre": "inmersion_en_bicicleta",
+    "grupoMuscular": "group_cardio",
+    "imagen": "inmersionbicicleta",
+    "descripcion": "inmersion_en_bicicleta_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/22791201.mp4"
+  },
+  {
+    "id": 370,
+    "nombre": "rotacion_torso_maquina",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "rotaciontorsomaquina",
+    "descripcion": "rotacion_torso_maquina_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 371,
+    "nombre": "rotacion_torso_sentado",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "rotaciontorsosentado",
+    "descripcion": "rotacion_torso_sentado_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/06951201.mp4"
+  },
+  {
+    "id": 372,
+    "nombre": "rotacion_torso_tumbado",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "rotaciontorsotumbado",
+    "descripcion": "rotacion_torso_tumbado_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 373,
+    "nombre": "sentadilla_al_banco_barra",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "sentadillabancobarra",
+    "descripcion": "sentadilla_al_banco_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/00261201.mp4"
+  },
+  {
+    "id": 374,
+    "nombre": "sentadilla_al_banco_mancuerna",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "sentadillabandomancuerna",
+    "descripcion": "sentadilla_al_banco_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/22171201.mp4"
+  },
+  {
+    "id": 375,
+    "nombre": "sentadilla_al_banco_maquina_smith",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "sentadillabancomaquinasmith",
+    "descripcion": "sentadilla_al_banco_maquina_smith_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/15961201.mp4"
+  },
+  {
+    "id": 376,
+    "nombre": "press_triceps_cable",
+    "grupoMuscular": "group_triceps",
+    "imagen": "presstricepscable",
+    "descripcion": "press_triceps_cable_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/01491201.mp4"
+  },
+  {
+    "id": 377,
+    "nombre": "press_triceps_mancuerna",
+    "grupoMuscular": "group_triceps",
+    "imagen": "presstricepsmancuerna",
+    "descripcion": "press_triceps_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://apilyfta.com/static/GymvisualMP4/04301201-Dumbbell-Standing-Triceps-Extension_Upper-Arms.mp4"
+  },
+  {
+    "id": 378,
+    "nombre": "press_triceps_maquina",
+    "grupoMuscular": "group_triceps",
+    "imagen": "presstricepsmaquina",
+    "descripcion": "press_triceps_maquina_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 379,
+    "nombre": "peso_muerto_a_una_pierna_mancuerna",
+    "grupoMuscular": "group_isquiotibiales",
+    "imagen": "pesomuertounapiernamancuerna",
+    "descripcion": "peso_muerto_a_una_pierna_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/17571201.mp4"
+  },
+  {
+    "id": 380,
+    "nombre": "peso_muerto_a_una_pierna_pesa_rusa",
+    "grupoMuscular": "group_isquiotibiales",
+    "imagen": "pesomuertounapiernapesarusa",
+    "descripcion": "peso_muerto_a_una_pierna_pesa_rusa_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/15691201.mp4"
+  },
+  {
+    "id": 381,
+    "nombre": "press_overhead_barra",
+    "grupoMuscular": "group_hombros",
+    "imagen": "pressoverheadbarra",
+    "descripcion": "press_overhead_barra_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/00911201.mp4"
+  },
+  {
+    "id": 382,
+    "nombre": "press_overhead_maquina_smith",
+    "grupoMuscular": "group_hombros",
+    "imagen": "pressoverheadmaquinasmith",
+    "descripcion": "press_overhead_maquina_smith_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/07661201.mp4"
+  },
+  {
+    "id": 383,
+    "nombre": "extensiones_muñeca_barra",
+    "grupoMuscular": "group_ante_brazos",
+    "imagen": "extensionesmunecabarra",
+    "descripcion": "extensiones_muñeca_barra_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/01251201.mp4"
+  },
+  {
+    "id": 384,
+    "nombre": "extensiones_muñeca_cable",
+    "grupoMuscular": "group_ante_brazos",
+    "imagen": "extensionesmunecacable",
+    "descripcion": "extensiones_muñeca_cable_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/02471201.mp4"
+  },
+  {
+    "id": 385,
+    "nombre": "curl_inverso_muñeca_cable",
+    "grupoMuscular": "group_ante_brazos",
+    "imagen": "curlinversomunecacable",
+    "descripcion": "curl_inverso_muñeca_cable_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 386,
+    "nombre": "flexiones_muñeca_cable",
+    "grupoMuscular": "group_ante_brazos",
+    "imagen": "flexionesmunecacable",
+    "descripcion": "flexiones_muñeca_cable_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/02471201.mp4"
+  },
+  {
+    "id": 387,
+    "nombre": "press_pecho_cable",
+    "grupoMuscular": "group_pecho",
+    "imagen": "presspechocable",
+    "descripcion": "press_pecho_cable_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/33591201.mp4"
+  },
+  {
+    "id": 388,
+    "nombre": "rotacion_torso_cable",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "rotaciontorsocable",
+    "descripcion": "rotacion_torso_cable_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/12081201.mp4"
+  },
+  {
+    "id": 389,
+    "nombre": "rotacion_torso_mancuerna",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "rotaciontorsomancuerna",
+    "descripcion": "rotacion_torso_mancuerna_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 390,
+    "nombre": "remo_con_maquina_t",
+    "grupoMuscular": "group_espalda_superior",
+    "imagen": "remomaquinat",
+    "descripcion": "remo_con_maquina_t_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://apilyfta.com/static/GymvisualMP4/06061201-Lever-T-bar-Row-(plate-loaded)_Back.mp4"
+  },
+  {
+    "id": 391,
+    "nombre": "remo_con_maquina_t_sentado",
+    "grupoMuscular": "group_espalda_superior",
+    "imagen": "remomaquinatsentado",
+    "descripcion": "remo_con_maquina_t_sentado_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://apilyfta.com/static/GymvisualMP4/26641201-Lever-Seated-Row-(plate-loaded)_Back.mp4"
+  },
+  {
+    "id": 392,
+    "nombre": "remo_con_barra_t",
+    "grupoMuscular": "group_espalda_superior",
+    "imagen": "remobarrat",
+    "descripcion": "remo_con_barra_t_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://apilyfta.com/static/GymvisualMP4/06061201-Lever-T-bar-Row-(plate-loaded)_Back.mp4"
+  },
+  {
+    "id": 393,
+    "nombre": "extension_triceps_barra_ez",
+    "grupoMuscular": "group_triceps",
+    "imagen": "extensionestricepsbarraez",
+    "descripcion": "extension_triceps_barra_ez_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://apilyfta.com/static/GymvisualMP4/04531201-EZ-Barbell-Seated-Triceps-Extension_Upper-Arms_.mp4"
+  },
+  {
+    "id": 394,
+    "nombre": "remo_triceps_cable",
+    "grupoMuscular": "group_triceps",
+    "imagen": "remotricepscable",
+    "descripcion": "remo_triceps_cable_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/22481201.mp4"
+  },
+  {
+    "id": 395,
+    "nombre": "press_frances_barra_ez",
+    "grupoMuscular": "group_triceps",
+    "imagen": "pressfrancesbarraez",
+    "descripcion": "press_frances_barra_ez_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://apilyfta.com/static/GymvisualMP4/17491201-EZ-Bar-Standing-French-Press_Upper-Arms.mp4"
+  },
+  {
+    "id": 396,
+    "nombre": "press_frances_mancuerna",
+    "grupoMuscular": "group_triceps",
+    "imagen": "pressfrancesmancuerna",
+    "descripcion": "press_frances_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://apilyfta.com/static/GymvisualMP4/04301201-Dumbbell-Standing-Triceps-Extension_Upper-Arms.mp4"
+  },
+  {
+    "id": 397,
+    "nombre": "rotacion_torso_barra",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "rotaciontorsobarra",
+    "descripcion": "rotacion_torso_barra_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 398,
+    "nombre": "abdominales",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "abdominales",
+    "descripcion": "abdominales_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://apilyfta.com/static/GymvisualMP4/02741201-Crunch-Floor-(male)_waist.mp4"
+  },
+  {
+    "id": 399,
+    "nombre": "abdominales_con_peso",
+    "grupoMuscular": "group_abdominales",
+    "imagen": "abdominalesconpeso",
+    "descripcion": "abdominales_con_peso_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://apilyfta.com/static/GymvisualMP4/42521201-Weighted-Crunch-(VERSION-2)_Waist.mp4"
+  },
+  {
+    "id": 400,
+    "nombre": "curl_zottman_cable",
+    "grupoMuscular": "group_biceps",
+    "imagen": "curlzottmancable",
+    "descripcion": "curl_zottman_cable_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 401,
+    "nombre": "zancadas_caminando",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "zancadascaminando",
+    "descripcion": "zancadas_caminando_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://apilyfta.com/static/GymvisualMP4/14601201-Walking-Lunge-Male_Hips-FIX_.mp4"
+  },
+  {
+    "id": 402,
+    "nombre": "zancadas_caminando_mancuerna",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "zancadascaminandomancuerna",
+    "descripcion": "zancadas_caminando_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://apilyfta.com/static/GymvisualMP4/15571201-Dumbbell-Walking-Lunges_Thighs_.mp4"
+  },
+  {
+    "id": 403,
+    "nombre": "lanzamientos_balon",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "lanzamientosbalon",
+    "descripcion": "lanzamientos_balon_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 404,
+    "nombre": "sentadilla_en_pared",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "sentadillapared",
+    "descripcion": "sentadilla_en_pared_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://apilyfta.com/static/GymvisualMP4/15461201-Bodyweight-Wall-Squat_Thighs_.mp4"
+  },
+  {
+    "id": 405,
+    "nombre": "calentamiento",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "calentamiento",
+    "descripcion": "calentamiento_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": ""
+  },
+  {
+    "id": 406,
+    "nombre": "dominada_abierta",
+    "grupoMuscular": "group_dorsales",
+    "imagen": "dominadaabierta",
+    "descripcion": "dominada_abierta_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://apilyfta.com/static/GymvisualMP4/36271201-Wide-Grip-Pull-Up-(female)_Back.mp4"
+  },
+  {
+    "id": 407,
+    "nombre": "rodillo_antebrazos",
+    "grupoMuscular": "group_ante_brazos",
+    "imagen": "rodilloantebrazos",
+    "descripcion": "rodillo_antebrazos_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": "https://lyftaweb.s3.us-east-2.amazonaws.com/GymvisualMP4/08591201.mp4"
+  },
+  {
+    "id": 408,
+    "nombre": "yoga",
+    "grupoMuscular": "group_cuerpo_entero",
+    "imagen": "yoga",
+    "descripcion": "yoga_desc",
+    "dificultad": "difficulty_easy",
+    "urlVideo": ""
+  },
+  {
+    "id": 409,
+    "nombre": "sentadilla_zercher",
+    "grupoMuscular": "group_cuadriceps",
+    "imagen": "sentadillazercher",
+    "descripcion": "sentadilla_zercher_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://apilyfta.com/static/GymvisualMP4/15451201-Barbell-full-Zercher-Squat_Thighs.mp4"
+  },
+  {
+    "id": 410,
+    "nombre": "curl_zottman_mancuerna",
+    "grupoMuscular": "group_biceps",
+    "imagen": "curlzottmanmancuerna",
+    "descripcion": "curl_zottman_mancuerna_desc",
+    "dificultad": "difficulty_medium",
+    "urlVideo": "https://apilyfta.com/static/GymvisualMP4/04391201-Dumbbell-Zottman-Curl_Upper-Arms-FIX_.mp4"
+  }
+]

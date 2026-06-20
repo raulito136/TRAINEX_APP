@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#FFFFFFFF</color>
+    <color name="secondary">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="grey">#424949</color>
+    <color name="textSecondary">#808080</color>
+
+
+    <!-- Textos -->
+    <color name="text">#FF000000</color> <!-- Texto principal: negro -->
+    <color name="textPrimaryButton">#FFFFFFFF</color> <!-- Texto de botones primarios: blanco -->
+
+    <!-- Fondo principal y secciones -->
+    <color name="background">#FFFFFFFF</color> <!-- Fondo principal: blanco -->
+    <color name="backgroundHeader">#F2F2F2</color> <!-- Fondo del encabezado: gris claro -->
+    <color name="selection">#E0E0E0</color> <!-- Color para selección o secciones -->
+    <color name="link">#2980b9</color> <!-- Enlaces: azul -->
+    <color name="separator">#FF000000</color>
+    <color name="backgroundSearch">#FF000000</color>
+    <color name="backgroundCardView">#FFFFFFFF</color>
+
+    <!-- Botones -->
+    <color name="backgroundPrimaryButton">#FF000000</color> <!-- Botón principal: negro -->
+    <color name="backgroundSecondaryButton">#2980b9</color> <!-- Botón secundario: blanco -->
+    <color name="tercerColorFondoRojoBoton">#C30707</color>
+    <color name="light_gray">#E0E0E0</color>
+
+    <color name="divider_color">#E0E0E0</color>
+    <color name="image_placeholder_bg">#F5F5F5</color>
+
+    <color name="surface">#1E1E1E</color>
+</resources>

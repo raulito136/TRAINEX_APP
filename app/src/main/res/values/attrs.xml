@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="backgroundHeader" format="color" />
+    <attr name="selection" format="color"/>
+    <attr name="link" format="color"/>
+    <attr name="backgroundPrimaryButton" format="color"/>
+    <attr name="textSecundaryButton" format="color"/>
+    <attr name="textPrimaryButton" format="color"/>
+    <attr name="backgroundSecondaryButton" format="color"/>
+    <attr name="separator" format="color"/>
+    <attr name="backgroundSearch" format="color"/>
+    <attr name="backgroundCardView" format="color"/>
+    <attr name="primary" format="color"/>
+    <attr name="secondary" format="color"/>
+</resources>

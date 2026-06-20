@@ -1,0 +1,1735 @@
+<resources>
+    <string name="app_name">Trainex</string>
+    <string name="entrenamiento">Entraînement</string>
+    <string name="rutinas">Routines</string>
+    <string name="nueva_rutina">Nouvelle Routine</string>
+    <string name="mis_rutinas">Mes Routines</string>
+    <string name="ejercicios">Exercices</string>
+    <string name="agregar_ejercicio">Ajouter Exercice</string>
+    <string name="cancelar">Annuler</string>
+    <string name="guardar">Enregistrer</string>
+    <string name="crear_rutina">Créer Routine</string>
+    <string name="titulo_de_la_rutina">Titre de la Routine</string>
+    <string name="generacion_rutina">Génération de Routine</string>
+    <string name="introduzca_su_edad">Entrez votre âge</string>
+    <string name="d_as_de_entrenamiento">Jours d\'Entraînement</string>
+    <string name="objetivo_principal">Objectif Principal</string>
+    <string name="experiencia">Expérience</string>
+    <string name="generar_rutina">Générer Routine</string>
+    <string name="edad">Âge</string>
+    <string name="iniciar_sesion">Connexion</string>
+    <string name="correo_electronico">E-mail</string>
+    <string name="contrasena">Mot de passe</string>
+    <string name="no_tienes_cuenta_registrate">Pas de compte ? Inscrivez-vous</string>
+    <string name="has_olvidado_tu_contrasena">Mot de passe oublié ?</string>
+    <string name="ejercicio">Exercice</string>
+    <string name="titulo_del_ejercicio">Titre de l\'Exercice</string>
+    <string name="grupo_muscular">Groupe Musculaire</string>
+    <string name="menu">Menu</string>
+    <string name="recuperar_contrasena">Récupérer Mot de Passe</string>
+    <string name="recuerdas_la_contrasena_inicia_sesion">Vous vous souvenez de votre mot de passe ? Connectez-vous</string>
+    <string name="crear_cuenta">Créer un Compte</string>
+    <string name="confirmar_contrasena">Confirmer Mot de Passe</string>
+    <string name="registrarse">S\'inscrire</string>
+    <string name="ya_tienes_cuenta">Déjà un compte ? Connectez-vous</string>
+    <string name="atras">Retour</string>
+    <string name="iniciar_rutina">Commencer routine</string>
+    <string name="ejercicios_de_rutina">Exercices de la Routine</string>
+    <string name="create_routine_title">Créer Routine</string>
+    <string name="edit_routine_title">Modifier Routine</string>
+    <string name="save_button">Enregistrer</string>
+    <string name="update_button">Mettre à jour</string>
+    <string name="validation_title_error">Vous devez entrer un titre</string>
+    <string name="validation_exercise_error">Vous devez ajouter au moins un exercice</string>
+    <string name="toast_update_success">Routine mise à jour avec succès</string>
+    <string name="toast_save_success">Routine enregistrée avec succès</string>
+    <string name="busca_un_ejercicio">Rechercher un exercice</string>
+    <string name="add_exercise_singular">Ajouter 1 exercice</string>
+    <string name="add_exercises_plural">Ajouter %d exercices</string>
+    <string name="validation_age_error">Entrez votre âge</string>
+    <string name="eliminar">Supprimer</string>
+    <string name="editar">Modifier</string>
+    <string name="iniciar_entrenamiento">Commencer Entraînement</string>
+    <string name="finalizar_entrenamiento">Terminer Entraînement</string>
+    <string name="introduzca_su_nombre_de_usuario">Entrez votre nom d\'utilisateur</string>
+    <string name="nombre_de_usuario">Nom d\'utilisateur</string>
+    <string name="objetivo">Objectif</string>
+    <string name="estilo_de_vida">Mode de Vie</string>
+    <string name="error_username_empty">Nom d\'utilisateur requis</string>
+    <string name="error_username_taken">Ce nom d\'utilisateur est déjà pris. Veuillez en choisir un autre.</string>
+    <string name="status_checking">Vérification...</string>
+    <string name="ejercicios_realizados">Exercices Effectués</string>
+    <string name="a_n_no_has_realizado_ejercicios">Aucun exercice effectué pour le moment</string>
+    <string name="historial_ltimo_a_o">Historique : Dernière Année</string>
+    <string name="mes_a_o">Mois Année</string>
+    <string name="cerrar">Fermer</string>
+    <string name="no_hay_entrenamientos_registrados_este_d_a">Aucun entraînement enregistré pour ce jour.</string>
+    <string name="mayor_peso">Poids Maximum</string>
+    <string name="records_personales">Records Personnels</string>
+    <string name="mejor_volumen_serie">Meilleur Volume (Série)</string>
+    <string name="mejor_volumen_total">Meilleur Volume Total</string>
+    <string name="mayor_distancia">Plus Longue Distance</string>
+    <string name="distancia_total">Distance Totale</string>
+    <string name="tiempo_total">Temps Total</string>
+
+    <string name="medida_peso_corporal">Poids Corporel</string>
+    <string name="medida_grasa_corporal">Graisse Corporelle</string>
+    <string name="medida_cuello">Cou</string>
+    <string name="medida_hombros">Épaules</string>
+    <string name="medida_pecho">Poitrine</string>
+    <string name="medida_cintura">Taille</string>
+    <string name="medida_caderas">Hanches</string>
+
+    <string name="medida_biceps_izq">Biceps Gauche</string>
+    <string name="medida_biceps_der">Biceps Droit</string>
+    <string name="medida_antebrazo_izq">Avant-bras Gauche</string>
+    <string name="medida_antebrazo_der">Avant-bras Droit</string>
+    <string name="medida_muslo_izq">Cuisse Gauche</string>
+    <string name="medida_muslo_der">Cuisse Droite</string>
+    <string name="medida_pantorrilla_izq">Mollet Gauche</string>
+    <string name="medida_pantorrilla_der">Mollet Droit</string>
+
+    <string name="titulo_medida_default">Mesure</string>
+    <string name="hint_valor_unidad">Valeur en %1$s</string>
+    <string name="error_fecha_futura">La date ne peut pas être dans le futur</string>
+    <string name="error_limite_superado">Maximum pour %1$s est %2$s %3$s</string>
+    <string name="error_valor_positivo">La valeur doit être positive</string>
+    <string name="error_numero_invalido">Nombre invalide</string>
+    <string name="error_campo_vacio">Entrez une valeur</string>
+    <string name="mensaje_guardado_ok">Enregistré avec succès</string>
+    <string name="error_guardar_formato">Erreur d\'enregistrement : %s</string>
+
+    <string name="grafico_progreso_label">Progression</string>
+    <string name="mensaje_datos_vacio">Aucune donnée disponible</string>
+    <string name="error_cargar_datos">Erreur de chargement des données</string>
+
+    <string name="dialogo_eliminar_medida_titulo">Supprimer la mesure</string>
+    <string name="dialogo_eliminar_medida_mensaje">Êtes-vous sûr de vouloir supprimer cet enregistrement ?</string>
+    <string name="toast_eliminado">Supprimé</string>
+    <string name="error_eliminar">Erreur de suppression</string>
+
+    <string name="peso_corporal">Poids Corporel</string>
+    <string name="editar_perfil">Modifier Profil</string>
+    <string name="cambiar_foto_perfil">Changer photo de profil</string>
+    <string name="datos_perfil">Données du Profil</string>
+    <string name="datos_personales">Données Personnelles</string>
+    <string name="datos_privados">Données Privées</string>
+    <string name="sexo">Sexe</string>
+    <string name="cumpleanos">Anniversaire</string>
+    <string name="titulo_ajustes_datos_personales">Données Personnelles</string>
+    <string name="hint_nombre_ajustes_datos_personales">Prénom</string>
+    <string name="hint_apellidos_ajustes_datos_personales">Nom de famille</string>
+    <string name="hint_genero_ajustes_datos_personales">Genre</string>
+    <string name="hint_edad_ajustes_datos_personales">Âge</string>
+    <string name="hint_peso_ajustes_datos_personales">Poids</string>
+    <string name="hint_altura_ajustes_datos_personales">Taille</string>
+    <string name="hint_estilo_vida_ajustes_datos_personales">Mode de Vie</string>
+    <string name="hint_objetivo_ajustes_datos_personales">Objectif</string>
+    <string name="boton_guardar_ajustes_datos_personales">Enregistrer</string>
+
+    <string name="error_nombre_obligatorio_ajustes">Le prénom est requis</string>
+    <string name="error_apellidos_obligatorio_ajustes">Le nom de famille est requis</string>
+    <string name="error_edad_invalida_ajustes">Âge invalide</string>
+    <string name="error_peso_invalido_ajustes">Poids invalide</string>
+    <string name="error_altura_invalida_ajustes">Taille invalide</string>
+    <string name="error_seleccione_genero_ajustes">Sélectionnez un genre</string>
+    <string name="error_seleccione_estilo_vida_ajustes">Sélectionnez un mode de vie</string>
+    <string name="error_seleccione_objetivo_ajustes">Sélectionnez un objectif</string>
+
+    <string name="mensaje_datos_actualizados_ajustes">Données mises à jour avec succès</string>
+    <string name="mensaje_error_guardar_ajustes">Erreur d\'enregistrement : %s</string>
+
+    <string name="user_name_default">Alberto87</string>
+    <string name="content_description_settings">Paramètres du profil</string>
+
+    <string name="weight_format">Poids : %1$.1f Kg</string>
+    <string name="height_format">Taille : %1$.2f m</string>
+    <string name="age_format">Âge : %1$d ans</string>
+    <string name="bmi_format">IMC : %1$.2f</string>
+
+    <string name="button_calendar">Calendrier</string>
+    <string name="button_measures">Mesures</string>
+    <string name="button_exercises">Exercices</string>
+
+    <string name="section_weekly_photos">Photos Hebdomadaires</string>
+    <string name="content_description_weekly_photos">Carrousel de photos de progression hebdomadaire</string>
+    <string name="content_description_photo_week">Photo de progression hebdomadaire</string>
+
+    <string name="section_evolution_2025">Évolution 2025</string>
+    <string name="content_description_weight_chart">Graphique d\'évolution du poids</string>
+
+    <string name="content_description_weight_icon">Icône de poids</string>
+    <string name="content_description_training_icon">Icône d\'entraînement</string>
+    <string name="content_description_calories_icon">Icône de calories</string>
+
+    <string name="grafico_etiqueta_peso">Poids</string>
+    <string name="grafico_etiqueta_volumen">Volume</string>
+    <string name="grafico_titulo_volumen_carga">Volume de Charge (Kg)</string>
+    <string name="grafico_titulo_peso_corporal">Poids Corporel (Kg)</string>
+    <string name="formato_imc">IMC : %.2f</string>
+    <string name="etiqueta_semana">Semaine %d</string>
+
+    <string name="dialogo_titulo_foto">Ajouter photo de progression</string>
+    <string name="opcion_hacer_foto">Prendre une photo</string>
+    <string name="opcion_galeria">Choisir dans la galerie</string>
+
+    <string name="dialogo_titulo_eliminar">Supprimer la photo</string>
+    <string name="dialogo_mensaje_eliminar">Êtes-vous sûr de vouloir supprimer cette photo de progression ?</string>
+    <string name="accion_eliminar">Supprimer</string>
+    <string name="accion_cancelar">Annuler</string>
+
+    <string name="error_iniciar_camara">Erreur de démarrage de l\'appareil photo : %s</string>
+    <string name="toast_procesando">Traitement de la photo...</string>
+    <string name="toast_foto_guardada">Photo enregistrée !</string>
+    <string name="error_generico">Erreur : %s</string>
+    <string name="error_cargar_imagen">Erreur de chargement de l\'image</string>
+    <string name="toast_eliminando">Suppression...</string>
+    <string name="toast_foto_eliminada">Photo supprimée</string>
+    <string name="error_al_eliminar">Erreur de suppression</string>
+    <string name="ajustes">Paramètres</string>
+    <string name="cuenta">Compte</string>
+    <string name="perfil">Profil</string>
+    <string name="cuenta_item">Paramètres du Compte</string>
+    <string name="notificaciones">Notifications</string>
+    <string name="preferencias">Préférences</string>
+    <string name="unidades">Unités</string>
+    <string name="idioma">Langue</string>
+    <string name="modo">Thème</string>
+    <string name="oscuro">Sombre</string>
+    <string name="claro">Clair</string>
+    <string name="siguenos">Suivez-nous</string>
+    <string name="cerrar_sesion">Déconnexion</string>
+
+    <string name="titulo_cuenta_ajustes">Compte</string>
+    <string name="subtitulo_info_cuenta_ajustes">Informations du Compte</string>
+    <string name="opcion_cambiar_nombre_usuario">Changer Nom d\'utilisateur</string>
+    <string name="opcion_cambiar_email">Changer E-mail</string>
+    <string name="opcion_cambiar_contrasena">Changer Mot de passe</string>
+    <string name="boton_eliminar_cuenta">Supprimer le Compte</string>
+    <string name="dialogo_titulo_eliminar_cuenta">Supprimer le Compte</string>
+    <string name="dialogo_mensaje_eliminar_cuenta">Êtes-vous sûr de vouloir supprimer votre compte ? Cette action est irréversible.</string>
+    <string name="mensaje_cuenta_eliminada">Compte supprimé avec succès</string>
+    <string name="error_eliminar_cuenta">Erreur de suppression du compte : %s</string>
+
+    <string name="titulo_cambiar_nombre_usuario">Changer Nom d\'utilisateur</string>
+    <string name="label_nombre_usuario_actual">Nom d\'utilisateur actuel</string>
+    <string name="label_nuevo_nombre_usuario">Nouveau nom d\'utilisateur</string>
+    <string name="hint_nombre_usuario_ajustes_cuenta">Entrez le nouveau nom d\'utilisateur</string>
+    <string name="error_nombre_usuario_vacio">Le nom d\'utilisateur ne peut pas être vide</string>
+    <string name="mensaje_nombre_actualizado">Nom d\'utilisateur mis à jour avec succès</string>
+    <string name="error_nombre_existe">Ce nom d\'utilisateur existe déjà</string>
+    <string name="boton_guardar_nombre_usuario">Enregistrer le nom</string>
+
+    <string name="titulo_cambiar_email">Changer E-mail</string>
+    <string name="label_email_actual">E-mail actuel</string>
+    <string name="label_nuevo_email">Nouvel e-mail</string>
+    <string name="hint_nuevo_email">nouveau@exemple.com</string>
+    <string name="label_contrasena_actual_email">Mot de passe actuel</string>
+    <string name="error_email_invalido">E-mail invalide</string>
+    <string name="mensaje_email_actualizado">E-mail mis à jour avec succès</string>
+    <string name="error_email_existe">Cet e-mail est déjà utilisé</string>
+    <string name="boton_guardar_email">Enregistrer l\'e-mail</string>
+
+    <string name="titulo_cambiar_contrasena">Changer Mot de passe</string>
+    <string name="label_contrasena_actual">Mot de passe actuel</string>
+    <string name="label_nueva_contrasena">Nouveau mot de passe</string>
+    <string name="label_confirmar_contrasena">Confirmer le nouveau mot de passe</string>
+    <string name="hint_confirmar_contrasena_igual">Confirmer le nouveau mot de passe</string>
+    <string name="hint_contrasena_placeholder">********</string>
+    <string name="error_contrasena_corta">Le mot de passe doit contenir au moins 6 caractères</string>
+    <string name="error_contrasenas_no_coinciden">Les mots de passe ne correspondent pas</string>
+    <string name="mensaje_contrasena_actualizada">Mot de passe mis à jour avec succès</string>
+    <string name="boton_guardar_contrasena">Enregistrer le mot de passe</string>
+
+    <string name="mensaje_error_actualizar_ajustes_cuenta">Erreur de mise à jour : %s</string>
+    <string name="error_actualizacion_generica">Erreur : %s</string>
+    <string name="error_autenticacion">Erreur d\'authentification</string>
+    <string name="error_desconocido">Erreur inconnue</string>
+    <string name="error_contrasena_actual_obligatoria_ajustes_cuenta">Le mot de passe actuel est requis</string>
+    <string name="error_password_incorrecta">Mot de passe incorrect</string>
+    <string name="accion_cancelar_ajustes_cuenta">Annuler</string>
+    <string name="accion_confirmar_ajustes_cuenta">Confirmer</string>
+    <string name="titulo_notificaciones_notificaciones">Notifications</string>
+    <string name="notificaciones_generales_notificaciones">Notifications générales</string>
+    <string name="notificaciones_generales_descripcion_notificaciones">Activer/désactiver toutes les notifications</string>
+    <string name="recordatorio_entrenamiento_notificaciones">Rappel d\'entraînement</string>
+    <string name="recordatorio_entrenamiento_descripcion_notificaciones">Recevoir des rappels pour vos séances</string>
+    <string name="recordatorio_foto_semanal_notificaciones">Rappel photo hebdomadaire</string>
+    <string name="recordatorio_foto_semanal_descripcion_notificaciones">Rappel pour prendre vos photos de progression</string>
+    <string name="kg_cm">Kg/cm</string>
+    <string name="lb_in">Lb/in</string>
+    <string name="espanol">Espagnol</string>
+    <string name="ingles">Anglais</string>
+    <string name="titulo_unidades_unidades">Unités</string>
+    <string name="peso_unidades">Poids</string>
+    <string name="distancia_unidades">Distance</string>
+    <string name="medidas_corporales_unidades">Mesures corporelles</string>
+    <string name="kg_unidades">Kg</string>
+    <string name="lbs_unidades">Lbs</string>
+    <string name="km_unidades">Km</string>
+    <string name="millas_unidades">Miles</string>
+    <string name="cm_unidades">Cm</string>
+    <string name="in_unidades">Po</string>
+    <string name="titulo_idioma_idioma">Langue</string>
+    <string name="espanol_idioma">Espagnol</string>
+    <string name="ingles_idioma">Anglais</string>
+    <string name="frances_idioma">Français</string>
+    <string name="idioma_cambiado_idioma">Langue changée. Redémarrez l\'application pour appliquer les modifications.</string>
+    <string name="titulo_modo_modo">Mode</string>
+    <string name="oscuro_modo">Sombre</string>
+    <string name="claro_modo">Clair</string>
+
+    <string name="group_abductores">Abducteurs</string>
+    <string name="group_cuadriceps">Quadriceps</string>
+    <string name="group_biceps">Biceps</string>
+    <string name="group_pecho">Pectoraux</string>
+    <string name="group_adductores">Adducteurs</string>
+    <string name="group_abdominales">Abdominaux</string>
+    <string name="group_cardio">Cardio</string>
+    <string name="group_hombros">Épaules</string>
+    <string name="group_espalda_baja">Bas du Dos</string>
+    <string name="group_cuerpo_entero">Corps Entier</string>
+    <string name="group_ante_brazos">Avant-bras</string>
+    <string name="group_triceps">Triceps</string>
+    <string name="group_espalda_superior">Haut du Dos</string>
+    <string name="group_gluteos">Fessiers</string>
+    <string name="group_gemelos">Mollets</string>
+    <string name="group_dorsales">Dorsaux</string>
+    <string name="group_isquiotibiales">Ischio-jambiers</string>
+    <string name="group_cuello">Cou</string>
+    <string name="group_trapecios">Trapèzes</string>
+    <string name="entrenamiento_activity">Entraînement</string>
+    <string name="series">Séries</string>
+    <string name="anadir_serie">Ajouter Série</string>
+    <string name="eliminar_serie">Supprimer Série</string>
+    <string name="kg">KG</string>
+    <string name="repeticiones">Rép</string>
+
+    <string name="difficulty_easy">Facile</string>
+    <string name="difficulty_medium">Moyen</string>
+    <string name="difficulty_difficult">Difficile</string>
+
+    <string name="abduccion_caderas">Abduction Hanches</string>
+    <string name="abduccion_caderas_desc">Exercice de force ou résistance axé sur le développement des Abducteurs.</string>
+
+    <string name="press_piernas_sentado">Presse à Cuisses Assise</string>
+    <string name="press_piernas_sentado_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="curl_biceps_mancuerna">Curl Biceps (Haltère)</string>
+    <string name="curl_biceps_mancuerna_desc">Exercice d\'isolation pour concentrer le travail sur les Biceps, axé sur la flexion du coude.</string>
+
+    <string name="press_banca_barra">Développé Couché (Barre)</string>
+    <string name="press_banca_barra_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="aduccion_caderas">Adduction Hanches</string>
+    <string name="aduccion_caderas_desc">Exercice de force ou résistance axé sur le développement des Adducteurs.</string>
+
+    <string name="curl_biceps_21">Curl Biceps 21</string>
+    <string name="curl_biceps_21_desc">Exercice d\'isolation pour concentrer le travail sur les Biceps, axé sur la flexion du coude.</string>
+
+    <string name="abdominales_tijera">Ciseaux</string>
+    <string name="abdominales_tijera_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="rueda_abdominal">Roue Abdominale</string>
+    <string name="rueda_abdominal_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="aerobics">Aérobic</string>
+    <string name="aerobics_desc">Exercice aérobique qui augmente le rythme cardiaque et brûle des calories. Idéal pour améliorer l\'endurance cardiovasculaire.</string>
+
+    <string name="bicleta_aire">Vélo Aérien</string>
+    <string name="bicleta_aire_desc">Exercice aérobique qui augmente le rythme cardiaque et brûle des calories. Idéal pour améliorer l\'endurance cardiovasculaire.</string>
+
+    <string name="arnold_press_mancuerna">Arnold Press (Haltère)</string>
+    <string name="arnold_press_mancuerna_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="alrededor_mundo">Autour du Monde</string>
+    <string name="alrededor_mundo_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="sentadilla_pistol_asistida">Pistol Squat Assisté</string>
+    <string name="sentadilla_pistol_asistida_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="extension_espalda_hiperextension">Extension Dos (Hyperextension)</string>
+    <string name="extension_espalda_hiperextension_desc">Exercice de force ou résistance axé sur le développement du Bas du Dos.</string>
+
+    <string name="extension_espalda_maquina">Extension Dos (Machine)</string>
+    <string name="extension_espalda_maquina_desc">Exercice de force ou résistance axé sur le développement du Bas du Dos.</string>
+
+    <string name="extension_espalda_hiperextension_con_peso">Extension Dos (Hyperextension pondérée)</string>
+    <string name="extension_espalda_hiperextension_con_peso_desc">Exercice de force ou résistance axé sur le développement du Bas du Dos.</string>
+
+    <string name="ball_slams">Ball Slams</string>
+    <string name="ball_slams_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="band_pullaparts">Band Pullaparts</string>
+    <string name="band_pullaparts_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="cuerdas_batalla">Battle Ropes</string>
+    <string name="cuerdas_batalla_desc">Exercice aérobique qui augmente le rythme cardiaque et brûle des calories. Idéal pour améliorer l\'endurance cardiovasculaire.</string>
+
+    <string name="curl_biceps_detras_espalda_barra">Curl Biceps Barre (derrière le dos)</string>
+    <string name="curl_biceps_detras_espalda_barra_desc">Exercice de force ou résistance axé sur le développement des Avant-bras.</string>
+
+    <string name="fondos_banco">Dips sur Banc</string>
+    <string name="fondos_banco_desc">Exercice axé sur l\'extension des bras pour travailler les Triceps.</string>
+
+    <string name="press_banca_agarre_cerrado_barra">Développé Couché - Prise Serrée (Barre)</string>
+    <string name="press_banca_agarre_cerrado_barra_desc">Exercice axé sur l\'extension des bras pour travailler les Triceps.</string>
+
+    <string name="press_banca_agarre_abierto_barra">Développé Couché - Prise Large (Barre)</string>
+    <string name="press_banca_agarre_abierto_barra_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="press_banca_cable">Développé Couché (Câble)</string>
+    <string name="press_banca_cable_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="press_banca_mancuerna">Développé Couché (Haltères)</string>
+    <string name="press_banca_mancuerna_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="press_banca_maquina_smith">Développé Couché (Machine Smith)</string>
+    <string name="press_banca_maquina_smith_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="remo_inclinado_banda">Rowing Penché (Élastique)</string>
+    <string name="remo_inclinado_banda_desc">Exercice de force ou résistance axé sur le développement du Haut du Dos.</string>
+
+    <string name="remo_inclinado_barra">Rowing Penché (Barre)</string>
+    <string name="remo_inclinado_barra_desc">Exercice de force ou résistance axé sur le développement du Haut du Dos.</string>
+
+    <string name="remo_inclinado_mancuerna">Rowing Penché (Haltère)</string>
+    <string name="remo_inclinado_mancuerna_desc">Exercice de force ou résistance axé sur le développement du Haut du Dos.</string>
+
+    <string name="curl_biceps_barra">Curl Biceps (Barre)</string>
+    <string name="curl_biceps_barra_desc">Exercice d\'isolation pour concentrer le travail sur les Biceps, axé sur la flexion du coude.</string>
+
+    <string name="curl_biceps_cable">Curl Biceps (Câble)</string>
+    <string name="curl_biceps_cable_desc">Exercice d\'isolation pour concentrer le travail sur les Biceps, axé sur la flexion du coude.</string>
+
+    <string name="curl_biceps_maquina">Curl Biceps (Machine)</string>
+    <string name="curl_biceps_maquina_desc">Exercice d\'isolation pour concentrer le travail sur les Biceps, axé sur la flexion du coude.</string>
+
+    <string name="curl_biceps_suspension">Curl Biceps (Suspension)</string>
+    <string name="curl_biceps_suspension_desc">Exercice d\'isolation pour concentrer le travail sur les Biceps, axé sur la flexion du coude.</string>
+
+    <string name="abdominal_bicleta">Crunch Bicyclette</string>
+    <string name="abdominal_bicleta_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="abdominales_bicicleta_piernas_levantadas">Crunch Bicyclette Jambes Levées</string>
+    <string name="abdominales_bicicleta_piernas_levantadas_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="perro_caza">Bird Dog</string>
+    <string name="perro_caza_desc">Exercice axé sur l\'activation et le renforcement des Fessiers et des hanches.</string>
+
+    <string name="salto_cajon">Saut de Boîte</string>
+    <string name="salto_cajon_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="sentadilla_cajon_barra">Box Squat (Barre)</string>
+    <string name="sentadilla_cajon_barra_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="boxeo">Boxe</string>
+    <string name="boxeo_desc">Exercice aérobique qui augmente le rythme cardiaque et brûle des calories. Idéal pour améliorer l\'endurance cardiovasculaire.</string>
+
+    <string name="sentadilla_bulgara">Bulgarian Split Squat</string>
+    <string name="sentadilla_bulgara_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="burpee">Burpee</string>
+    <string name="burpee_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="burpee_sobre_barra">Burpee Par-dessus Barre</string>
+    <string name="burpee_sobre_barra_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="mariposa_pec_deck">Papillon (Pec Deck)</string>
+    <string name="mariposa_pec_deck_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="cable_core_palloff_press">Palloff Press (Câble)</string>
+    <string name="cable_core_palloff_press_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="abdominal_corto_con_cable">Crunch (Câble)</string>
+    <string name="abdominal_corto_con_cable_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="cables_cruzados">Câbles Croisés</string>
+    <string name="cables_cruzados_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="trion_polea_entre_piernas">Kickback Fessiers (Câble)</string>
+    <string name="trion_polea_entre_piernas_desc">Exercice axé sur l\'activation et le renforcement des Fessiers et des hanches.</string>
+
+    <string name="cable_twist_down_to_up">Rotation Câble (Bas vers Haut)</string>
+    <string name="cable_twist_down_to_up_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="cable_twist_up_to_down">Rotation Câble (Haut vers Bas)</string>
+    <string name="cable_twist_up_to_down_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="extension_pantorrilla_maquina">Extension Mollets (Machine)</string>
+    <string name="extension_pantorrilla_maquina_desc">Exercice pour isoler et développer les Mollets, axé sur la flexion plantaire.</string>
+
+    <string name="press_pantorrilla_maquina">Press Mollets (Machine)</string>
+    <string name="press_pantorrilla_maquina_desc">Exercice pour isoler et développer les Mollets, axé sur la flexion plantaire.</string>
+
+    <string name="fondos">Dips</string>
+    <string name="fondos_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="fondos_asistidos">Dips Assistés</string>
+    <string name="fondos_asistidos_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="fondos_con_peso_añadido">Dips (Pondérés)</string>
+    <string name="fondos_con_peso_añadido_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="aperturas_banda">Écartés (Élastique)</string>
+    <string name="aperturas_banda_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="aperturas_mancuerna">Écartés (Haltères)</string>
+    <string name="aperturas_mancuerna_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="aperturas_maquina">Écartés (Machine)</string>
+    <string name="aperturas_maquina_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="chest_fly_suspension">Écartés (Suspension)</string>
+    <string name="chest_fly_suspension_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="press_pecho_banda">Développé Poitrine (Élastique)</string>
+    <string name="press_pecho_banda_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="press_pecho_maquina">Développé Poitrine (Machine)</string>
+    <string name="press_pecho_maquina_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="remo_inclinado_con_apoyo_pecho_mancuerna">Rowing Penché (Haltères avec support)</string>
+    <string name="remo_inclinado_con_apoyo_pecho_mancuerna_desc">Exercice de force ou résistance axé sur le développement du Haut du Dos.</string>
+
+    <string name="vuelos_posteriores_mancuerna">Éléments Postérieurs (Haltères)</string>
+    <string name="vuelos_posteriores_mancuerna_desc">Exercice de force ou résistance axé sur le développement du Haut du Dos.</string>
+
+    <string name="elevacion_y_con_soporte_pecho_mancuerna">Y-Raise avec support (Haltères)</string>
+    <string name="elevacion_y_con_soporte_pecho_mancuerna_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="dominadas_chin_up">Tractions (Chin-up)</string>
+    <string name="dominadas_chin_up_desc">Excellent mouvement de tirage vertical pour développer les Dorsaux et le haut du dos.</string>
+
+    <string name="dominadas_chin_up_asistida">Tractions Assistées (Chin-up)</string>
+    <string name="dominadas_chin_up_asistida_desc">Excellent mouvement de tirage vertical pour développer les Dorsaux et le haut du dos.</string>
+
+    <string name="dominadas_chin_up_con_peso">Tractions (Chin-up pondérées)</string>
+    <string name="dominadas_chin_up_con_peso_desc">Excellent mouvement de tirage vertical pour développer les Dorsaux et le haut du dos.</string>
+
+    <string name="almeja">Clamshell</string>
+    <string name="almeja_desc">Exercice axé sur l\'activation et le renforcement des Fessiers et des hanches.</string>
+
+    <string name="flexiones_con_palmada">Pompes Claquées</string>
+    <string name="flexiones_con_palmada_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="clean">Clean</string>
+    <string name="clean_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="clean_and_jerk">Clean and Jerk</string>
+    <string name="clean_and_jerk_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="cargada_y_press">Clean and Press</string>
+    <string name="cargada_y_press_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="cargada_y_tiron">Clean and Jerk</string>
+    <string name="cargada_y_tiron_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="escalada">Escalade</string>
+    <string name="escalada_desc">Exercice aérobique qui augmente le rythme cardiaque et brûle des calories. Idéal pour améliorer l\'endurance cardiovasculaire.</string>
+
+    <string name="curls_concentracion">Curls Concentration</string>
+    <string name="curls_concentracion_desc">Exercice d\'isolation pour concentrer le travail sur les Biceps, axé sur la flexion du coude.</string>
+
+    <string name="curl_martillo_cruzado">Curl Marteau Croisé</string>
+    <string name="curl_martillo_cruzado_desc">Exercice d\'isolation pour concentrer le travail sur les Biceps, axé sur la flexion du coude.</string>
+
+    <string name="abdominal_corto">Crunch</string>
+    <string name="abdominal_corto_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="abdominal_corto_maquina">Crunch (Machine)</string>
+    <string name="abdominal_corto_maquina_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="abdominal_corto_con_peso_añadido">Crunch (Pondéré)</string>
+    <string name="abdominal_corto_con_peso_añadido_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="zancada_curtsy_mancuerna">Curtsy Lunge (Haltères)</string>
+    <string name="zancada_curtsy_mancuerna_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="bicicleta">Vélo</string>
+    <string name="bicicleta_desc">Exercice aérobique qui augmente le rythme cardiaque et brûle des calories. Idéal pour améliorer l\'endurance cardiovasculaire.</string>
+
+    <string name="dead_bug">Dead Bug</string>
+    <string name="dead_bug_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="dead_hang">Dead Hang</string>
+    <string name="dead_hang_desc">Exercice de force ou résistance axé sur le développement du Haut du Dos.</string>
+
+    <string name="peso_muerto_banda">Soulevé de Terre (Élastique)</string>
+    <string name="peso_muerto_banda_desc">Exercice puissant pour renforcer la chaîne postérieure, incluant les Ischio-jambiers et le bas du dos.</string>
+
+    <string name="peso_muerto_barra">Soulevé de Terre (Barre)</string>
+    <string name="peso_muerto_barra_desc">Exercice puissant pour renforcer la chaîne postérieure, incluant les Ischio-jambiers et le bas du dos.</string>
+
+    <string name="peso_muerto_mancuerna">Soulevé de Terre (Haltères)</string>
+    <string name="peso_muerto_mancuerna_desc">Exercice puissant pour renforcer la chaîne postérieure, incluant les Ischio-jambiers et le bas du dos.</string>
+
+    <string name="peso_muerto_maquina_smith">Soulevé de Terre (Machine Smith)</string>
+    <string name="peso_muerto_maquina_smith_desc">Exercice puissant pour renforcer la chaîne postérieure, incluant les Ischio-jambiers et le bas du dos.</string>
+
+    <string name="peso_muerto_barra_trap">Soulevé de Terre (Trap Bar)</string>
+    <string name="peso_muerto_barra_trap_desc">Exercice puissant pour renforcer la chaîne postérieure, incluant les Ischio-jambiers et le bas du dos.</string>
+
+    <string name="peso_muerto_con_tiron_alto">Soulevé de Terre avec Tirage Haut</string>
+    <string name="peso_muerto_con_tiron_alto_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="press_banca_en_declive_barra">Développé Couché Décliné (Barre)</string>
+    <string name="press_banca_en_declive_barra_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="press_banca_en_declive_mancuerna">Développé Couché Décliné (Haltères)</string>
+    <string name="press_banca_en_declive_mancuerna_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="press_banca_en_declive_maquina">Développé Couché Décliné (Machine)</string>
+    <string name="press_banca_en_declive_maquina_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="press_banca_en_declive_maquina_smith">Développé Couché Décliné (Machine Smith)</string>
+    <string name="press_banca_en_declive_maquina_smith_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="apertura_declinada_mancuerna">Écartés Déclinés (Haltères)</string>
+    <string name="apertura_declinada_mancuerna_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="abdominal_corto_en_banco_inclinado">Crunch Banc Incliné</string>
+    <string name="abdominal_corto_en_banco_inclinado_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="abdominal_corto_en_banco_inclinado_con_peso_añadido">Crunch Banc Incliné (Pondéré)</string>
+    <string name="abdominal_corto_en_banco_inclinado_con_peso_añadido_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="flexión_declinada">Pompe Déclinée</string>
+    <string name="flexión_declinada_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="flexiones_diamante">Pompes Diamant</string>
+    <string name="flexiones_diamante_desc">Exercice axé sur l\'extension des bras pour travailler les Triceps.</string>
+
+    <string name="postura_perro_cabeza_abajo">Posture du Chien Tête en Bas</string>
+    <string name="postura_perro_cabeza_abajo_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="drag_curl">Drag Curl</string>
+    <string name="drag_curl_desc">Exercice d\'isolation pour concentrer le travail sur les Biceps, axé sur la flexion du coude.</string>
+
+    <string name="dragon_flag">Dragon Flag</string>
+    <string name="dragon_flag_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="dragonfly">Dragonfly</string>
+    <string name="dragonfly_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="remo_con_mancuerna">Rowing Haltère</string>
+    <string name="remo_con_mancuerna_desc">Exercice de force ou résistance axé sur le développement du Haut du Dos.</string>
+
+    <string name="arrancada_con_mancuerna">Arraché Haltère</string>
+    <string name="arrancada_con_mancuerna_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="dumbbell_squeeze_press">Dumbbell Squeeze Press</string>
+    <string name="dumbbell_squeeze_press_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="step_con_mancuerna">Step-up Haltères</string>
+    <string name="step_con_mancuerna_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="rodillas_a_codos">Genoux aux Coudes</string>
+    <string name="rodillas_a_codos_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="entrenador_eliptico">Elliptique</string>
+    <string name="entrenador_eliptico_desc">Exercice aérobique qui augmente le rythme cardiaque et brûle des calories. Idéal pour améliorer l\'endurance cardiovasculaire.</string>
+
+    <string name="curl_con_barra_ez">Curl Barre EZ</string>
+    <string name="curl_con_barra_ez_desc">Exercice d\'isolation pour concentrer le travail sur les Biceps, axé sur la flexion du coude.</string>
+
+    <string name="tiron_a_la_cara">Face Pull</string>
+    <string name="tiron_a_la_cara_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="paseo_del_granjero">Farmers Walk</string>
+    <string name="paseo_del_granjero_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="patadas_boca_incendio">Fire Hydrant Kicks</string>
+    <string name="patadas_boca_incendio_desc">Exercice axé sur l\'activation et le renforcement des Fessiers et des hanches.</string>
+
+    <string name="press_suelo_barra">Floor Press (Barre)</string>
+    <string name="press_suelo_barra_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="press_en_el_suelo_mancuerna">Floor Press (Haltères)</string>
+    <string name="press_en_el_suelo_mancuerna_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="fondos_triceps_en_suelo">Dips Triceps au Sol</string>
+    <string name="fondos_triceps_en_suelo_desc">Exercice axé sur l\'extension des bras pour travailler les Triceps.</string>
+
+    <string name="aleteo_piernas">Flutter Kicks</string>
+    <string name="aleteo_piernas_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="saltos_rana">Sauts de Grenouille</string>
+    <string name="saltos_rana_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="frog_pumps_mancuerna">Frog Pumps (Haltères)</string>
+    <string name="frog_pumps_mancuerna_desc">Exercice axé sur l\'activation et le renforcement des Fessiers et des hanches.</string>
+
+    <string name="front_lever_sostenida">Front Lever Hold</string>
+    <string name="front_lever_sostenida_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="front_lever_elevacion">Front Lever Raise</string>
+    <string name="front_lever_elevacion_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="elevacion_frontal_banda">Élévation Frontale (Élastique)</string>
+    <string name="elevacion_frontal_banda_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="elevacion_frontal_barra">Élévation Frontale (Barre)</string>
+    <string name="elevacion_frontal_barra_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="elevacion_frontal_cable">Élévation Frontale (Câble)</string>
+    <string name="elevacion_frontal_cable_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="elevacion_frontal_mancuerna">Élévation Frontale (Haltères)</string>
+    <string name="elevacion_frontal_mancuerna_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="elevacion_frontal_suspension">Élévation Frontale (Suspension)</string>
+    <string name="elevacion_frontal_suspension_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="sentadilla_delantera">Squat Avant</string>
+    <string name="sentadilla_delantera_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="sentadilla_profunda">Squat Profond</string>
+    <string name="sentadilla_profunda_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="puente_gluteos">Pont Fessiers</string>
+    <string name="puente_gluteos_desc">Exercice axé sur l\'activation et le renforcement des Fessiers et des hanches.</string>
+
+    <string name="glute_ham_raise">Glute Ham Raise</string>
+    <string name="glute_ham_raise_desc">Exercice puissant pour renforcer la chaîne postérieure, incluant les Ischio-jambiers et le bas du dos.</string>
+
+    <string name="patada_burro_maquina">Kickback Fessiers (Machine)</string>
+    <string name="patada_burro_maquina_desc">Exercice axé sur l\'activation et le renforcement des Fessiers et des hanches.</string>
+
+    <string name="patada_burro">Kickback Fessiers</string>
+    <string name="patada_burro_desc">Exercice axé sur l\'activation et le renforcement des Fessiers et des hanches.</string>
+
+    <string name="sentadilla_goblet">Goblet Squat</string>
+    <string name="sentadilla_goblet_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="buen_dia_barra">Good Morning (Barre)</string>
+    <string name="buen_dia_barra_desc">Exercice puissant pour renforcer la chaîne postérieure, incluant les Ischio-jambiers et le bas du dos.</string>
+
+    <string name="remo_gorila_pesa_rusa">Gorilla Row (Kettlebell)</string>
+    <string name="remo_gorila_pesa_rusa_desc">Exercice de force ou résistance axé sur le développement du Haut du Dos.</string>
+
+    <string name="sentadilla_hack">Hack Squat</string>
+    <string name="sentadilla_hack_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="sentadilla_hack_maquina">Hack Squat (Machine)</string>
+    <string name="sentadilla_hack_maquina_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="curl_martillo_banda">Curl Marteau (Élastique)</string>
+    <string name="curl_martillo_banda_desc">Exercice d\'isolation pour concentrer le travail sur les Biceps, axé sur la flexion du coude.</string>
+
+    <string name="curl_martillo_cable">Curl Marteau (Câble)</string>
+    <string name="curl_martillo_cable_desc">Exercice d\'isolation pour concentrer le travail sur les Biceps, axé sur la flexion du coude.</string>
+
+    <string name="curl_martillo_mancuerna">Curl Marteau (Haltères)</string>
+    <string name="curl_martillo_mancuerna_desc">Exercice d\'isolation pour concentrer le travail sur les Biceps, axé sur la flexion du coude.</string>
+
+    <string name="equilibrio_invertido">Handstand</string>
+    <string name="equilibrio_invertido_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="flexiones_verticales">Pompes en Handstand</string>
+    <string name="flexiones_verticales_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="hang_clean">Hang Clean</string>
+    <string name="hang_clean_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="hang_snatch">Hang Snatch</string>
+    <string name="hang_snatch_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="levantamiento_rodillas_en_barra">Élévation Genoux Suspendu</string>
+    <string name="levantamiento_rodillas_en_barra_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="levantamiento_piernas_en_barra">Élévation Jambes Suspendu</string>
+    <string name="levantamiento_piernas_en_barra_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="abdominales_toque_talon">Heel Touches</string>
+    <string name="abdominales_toque_talon_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="press_hexagonal_mancuerna">Hex Press (Haltères)</string>
+    <string name="press_hexagonal_mancuerna_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="elevacion_rodillas">Genoux Hauts</string>
+    <string name="elevacion_rodillas_desc">Exercice axé sur l\'activation et le renforcement des Fessiers et des hanches.</string>
+
+    <string name="hiit">HIIT</string>
+    <string name="hiit_desc">Exercice aérobique qui augmente le rythme cardiaque et brûle des calories. Idéal pour améliorer l\'endurance cardiovasculaire.</string>
+
+    <string name="senderismo">Randonnée</string>
+    <string name="senderismo_desc">Exercice aérobique qui augmente le rythme cardiaque et brûle des calories. Idéal pour améliorer l\'endurance cardiovasculaire.</string>
+
+    <string name="empuje_caderas">Hip Thrust</string>
+    <string name="empuje_caderas_desc">Exercice axé sur l\'activation et le renforcement des Fessiers et des hanches.</string>
+
+    <string name="empuje_caderas_barra">Hip Thrust (Barre)</string>
+    <string name="empuje_caderas_barra_desc">Exercice axé sur l\'activation et le renforcement des Fessiers et des hanches.</string>
+
+    <string name="impulso_cadera_maquina">Hip Thrust (Machine)</string>
+    <string name="impulso_cadera_maquina_desc">Exercice axé sur l\'activation et le renforcement des Fessiers et des hanches.</string>
+
+    <string name="hollow_rock">Hollow Rock</string>
+    <string name="hollow_rock_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="press_banca_inclinado_barra">Développé Incliné (Barre)</string>
+    <string name="press_banca_inclinado_barra_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="press_banca_inclinado_mancuerna">Développé Incliné (Haltères)</string>
+    <string name="press_banca_inclinado_mancuerna_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="press_banca_inclinado_maquina_smith">Développé Incliné (Machine Smith)</string>
+    <string name="press_banca_inclinado_maquina_smith_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="aperturas_inclinadas_mancuernas">Écartés Inclinés (Haltères)</string>
+    <string name="aperturas_inclinadas_mancuernas_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="press_pecho_inclinado_maquina">Développé Incliné (Machine)</string>
+    <string name="press_pecho_inclinado_maquina_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="flexiones_inclinadas">Pompes Inclinées</string>
+    <string name="flexiones_inclinadas_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="remo_invertido">Rowing Inversé</string>
+    <string name="remo_invertido_desc">Exercice de force ou résistance axé sur le développement du Haut du Dos.</string>
+
+    <string name="press_pecho_iso_lateral_maquina">Développé Iso-latéral (Machine)</string>
+    <string name="press_pecho_iso_lateral_maquina_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="remo_alto_iso_lateral">Rowing Haut Iso-latéral</string>
+    <string name="remo_alto_iso_lateral_desc">Excellent mouvement de tirage vertical pour développer les Dorsaux et le haut du dos.</string>
+
+    <string name="remo_bajo_iso_lateral">Rowing Bas Iso-latéral</string>
+    <string name="remo_bajo_iso_lateral_desc">Excellent mouvement de tirage vertical pour développer les Dorsaux et le haut du dos.</string>
+
+    <string name="remo_iso_lateral">Rowing Iso-latéral</string>
+    <string name="remo_iso_lateral_desc">Excellent mouvement de tirage vertical pour développer les Dorsaux et le haut du dos.</string>
+
+    <string name="jack_knife_suspension">Jack Knife (Suspension)</string>
+    <string name="jack_knife_suspension_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="press_jm_barra">JM Press (Barre)</string>
+    <string name="press_jm_barra_desc">Exercice axé sur l\'extension des bras pour travailler les Triceps.</string>
+
+    <string name="salto_a_la_cuerda">Corde à Sauter</string>
+    <string name="salto_a_la_cuerda_desc">Exercice aérobique qui augmente le rythme cardiaque et brûle des calories. Idéal pour améliorer l\'endurance cardiovasculaire.</string>
+
+    <string name="encogimiento_hombros_con_salto">Jumping Shrug</string>
+    <string name="encogimiento_hombros_con_salto_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="sentadilla_con_salto">Squat Sauté</string>
+    <string name="sentadilla_con_salto_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="jumping_jack">Jumping Jack</string>
+    <string name="jumping_jack_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="estocada_con_salto">Fente Sautée</string>
+    <string name="estocada_con_salto_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="cargada_con_pesa_rusa">Kettlebell Clean</string>
+    <string name="cargada_con_pesa_rusa_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="curl_con_pesa_rusa">Curl Kettlebell</string>
+    <string name="curl_con_pesa_rusa_desc">Exercice d\'isolation pour concentrer le travail sur les Biceps, axé sur la flexion du coude.</string>
+
+    <string name="sentadilla_goblet_con_pesa_rusa">Goblet Squat Kettlebell</string>
+    <string name="sentadilla_goblet_con_pesa_rusa_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="tiron_alto_con_pesa_rusa">Kettlebell High Pull</string>
+    <string name="tiron_alto_con_pesa_rusa_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="press_hombros_con_pesa_rusa">Développé Épaules Kettlebell</string>
+    <string name="press_hombros_con_pesa_rusa_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="arrancada_con_pesa_rusa">Kettlebell Snatch</string>
+    <string name="arrancada_con_pesa_rusa_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="swing_con_pesa_rusa">Kettlebell Swing</string>
+    <string name="swing_con_pesa_rusa_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="levantamiento_turco_con_pesa_rusa">Turkish Get-Up Kettlebell</string>
+    <string name="levantamiento_turco_con_pesa_rusa_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="dominadas_con_kipping">Kipping Pull-Up</string>
+    <string name="dominadas_con_kipping_desc">Excellent mouvement de tirage vertical pour développer les Dorsaux et le haut du dos.</string>
+
+    <string name="rodillas_al_pecho_en_barras_paralelas">Genoux à la Poitrine (Barres Parallèles)</string>
+    <string name="rodillas_al_pecho_en_barras_paralelas_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="jalon_rodillas_banda">Tirage Dorsal à Genoux (Élastique)</string>
+    <string name="jalon_rodillas_banda_desc">Excellent mouvement de tirage vertical pour développer les Dorsaux et le haut du dos.</string>
+
+    <string name="flexiones_rodillas">Pompes sur Genoux</string>
+    <string name="flexiones_rodillas_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="l_sit_sostenido">L-Sit Hold</string>
+    <string name="l_sit_sostenido_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="landmine_180">Landmine 180</string>
+    <string name="landmine_180_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="remo_en_base_rotativa">Landmine Row</string>
+    <string name="remo_en_base_rotativa_desc">Exercice de force ou résistance axé sur le développement du Haut du Dos.</string>
+
+    <string name="landmine_sentadilla_y_press">Landmine Squat and Press</string>
+    <string name="landmine_sentadilla_y_press_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="jalon_al_pecho_agarre_cerrado_cable">Tirage Dorsal Prise Serrée (Câble)</string>
+    <string name="jalon_al_pecho_agarre_cerrado_cable_desc">Excellent mouvement de tirage vertical pour développer les Dorsaux et le haut du dos.</string>
+
+    <string name="jalon_al_pecho_banda">Tirage Dorsal (Élastique)</string>
+    <string name="jalon_al_pecho_banda_desc">Excellent mouvement de tirage vertical pour développer les Dorsaux et le haut du dos.</string>
+
+    <string name="jalon_al_pecho_cable">Tirage Dorsal (Câble)</string>
+    <string name="jalon_al_pecho_cable_desc">Excellent mouvement de tirage vertical pour développer les Dorsaux et le haut du dos.</string>
+
+    <string name="jalon_al_pecho_maquina">Tirage Dorsal (Machine)</string>
+    <string name="jalon_al_pecho_maquina_desc">Excellent mouvement de tirage vertical pour développer les Dorsaux et le haut du dos.</string>
+
+    <string name="caminata_lateral_con_banda_elastica">Marche Latérale (Élastique)</string>
+    <string name="caminata_lateral_con_banda_elastica_desc">Exercice axé sur l\'activation et le renforcement des Fessiers et des hanches.</string>
+
+    <string name="salto_al_cajon_lateral">Saut Latéral sur Boîte</string>
+    <string name="salto_al_cajon_lateral_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="elevaciones_laterales_de_pierna">Élévations Latérales Jambe</string>
+    <string name="elevaciones_laterales_de_pierna_desc">Exercice axé sur l\'activation et le renforcement des Fessiers et des hanches.</string>
+
+    <string name="zancada_lateral">Fente Latérale</string>
+    <string name="zancada_lateral_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="elevaciones_laterales_banda">Élévations Latérales (Élastique)</string>
+    <string name="elevaciones_laterales_banda_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="elevaciones_laterales_cable">Élévations Latérales (Câble)</string>
+    <string name="elevaciones_laterales_cable_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="elevaciones_laterales_mancuerna">Élévations Latérales (Haltères)</string>
+    <string name="elevaciones_laterales_mancuerna_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="elevaciones_laterales_maquina">Élévations Latérales (Machine)</string>
+    <string name="elevaciones_laterales_maquina_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="sentadilla_lateral">Squat Latéral</string>
+    <string name="sentadilla_lateral_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="extension_pierna">Extension Jambe</string>
+    <string name="extension_pierna_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="press_piernas">Presse à Cuisses</string>
+    <string name="press_piernas_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="pies_a_barra">Ortils à la Barre</string>
+    <string name="pies_a_barra_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="cables_cruzados_bajos">Câbles Croisés Bas</string>
+    <string name="cables_cruzados_bajos_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="remo_bajo_suspension">Rowing Bas (Suspension)</string>
+    <string name="remo_bajo_suspension_desc">Exercice de force ou résistance axé sur le développement du Haut du Dos.</string>
+
+    <string name="zancada">Fente</string>
+    <string name="zancada_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="zancada_barra">Fente (Barre)</string>
+    <string name="zancada_barra_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="zancada_mancuerna">Fente (Haltères)</string>
+    <string name="zancada_mancuerna_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="levantamiento_rodillas_tumbado">Élévation Genoux Allongé</string>
+    <string name="levantamiento_rodillas_tumbado_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="curl_piernas_acostado_maquina">Curl Jambe Allongé (Machine)</string>
+    <string name="curl_piernas_acostado_maquina_desc">Exercice puissant pour renforcer la chaîne postérieure, incluant les Ischio-jambiers et le bas du dos.</string>
+
+    <string name="levantamiento_piernas_tumbado">Élévation Jambes Allongé</string>
+    <string name="levantamiento_piernas_tumbado_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="flexiones_cuello_acostado">Flexion Cou Allongé</string>
+    <string name="flexiones_cuello_acostado_desc">Exercice de force ou résistance axé sur le développement du Cou.</string>
+
+    <string name="flexiones_cuello_acostado_con_peso">Flexion Cou Allongé (Pondéré)</string>
+    <string name="flexiones_cuello_acostado_con_peso_desc">Exercice de force ou résistance axé sur le développement du Cou.</string>
+
+    <string name="extension_cuello_acostado">Extension Cou Allongé</string>
+    <string name="extension_cuello_acostado_desc">Exercice de force ou résistance axé sur le développement du Cou.</string>
+
+    <string name="extension_cuello_acostado_con_peso">Extension Cou Allongé (Pondéré)</string>
+    <string name="extension_cuello_acostado_con_peso_desc">Exercice de force ou résistance axé sur le développement du Cou.</string>
+
+    <string name="remos_meadows_barra">Meadows Row (Barre)</string>
+    <string name="remos_meadows_barra_desc">Exercice de force ou résistance axé sur le développement du Haut du Dos.</string>
+
+    <string name="escaladores">Mountain Climbers</string>
+    <string name="escaladores_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="muscle_up">Muscle Up</string>
+    <string name="muscle_up_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="dominada_negativa">Traction Négative</string>
+    <string name="dominada_negativa_desc">Excellent mouvement de tirage vertical pour développer les Dorsaux et le haut du dos.</string>
+
+    <string name="curls_nordicos_isquiotibiales">Nordic Hamstring Curls</string>
+    <string name="curls_nordicos_isquiotibiales_desc">Exercice puissant pour renforcer la chaîne postérieure, incluant les Ischio-jambiers et le bas du dos.</string>
+
+    <string name="abdominales_cortos_oblicuos">Crunchs Obliques</string>
+    <string name="abdominales_cortos_oblicuos_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="flexión_a_una_mano">Pompe à un Bras</string>
+    <string name="flexión_a_una_mano_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="curl_sobre_cabeza_cable">Curl au-dessus de la tête (Câble)</string>
+    <string name="curl_sobre_cabeza_cable_desc">Exercice d\'isolation pour concentrer le travail sur les Biceps, axé sur la flexion du coude.</string>
+
+    <string name="extensiones_muñeca_mancuerna">Extension Poignet (Haltères)</string>
+    <string name="extensiones_muñeca_mancuerna_desc">Exercice de force ou résistance axé sur le développement des Avant-bras.</string>
+
+    <string name="curls_muñeca_mancuerna">Curl Poignet (Haltères)</string>
+    <string name="curls_muñeca_mancuerna_desc">Exercice de force ou résistance axé sur le développement des Avant-bras.</string>
+
+    <string name="curl_inverso_muñeca_barra">Curl Inversé Poignet (Barre)</string>
+    <string name="curl_inverso_muñeca_barra_desc">Exercice de force ou résistance axé sur le développement des Avant-bras.</string>
+
+    <string name="peso_muerto_romano_barra">Soulevé de Terre Roumain (Barre)</string>
+    <string name="peso_muerto_romano_barra_desc">Exercice puissant pour renforcer la chaîne postérieure, incluant les Ischio-jambiers et le bas du dos.</string>
+
+    <string name="peso_muerto_romano_mancuerna">Soulevé de Terre Roumain (Haltères)</string>
+    <string name="peso_muerto_romano_mancuerna_desc">Exercice puissant pour renforcer la chaîne postérieure, incluant les Ischio-jambiers et le bas du dos.</string>
+
+    <string name="rotacion_muñeca_mancuerna">Rotation Poignet (Haltères)</string>
+    <string name="rotacion_muñeca_mancuerna_desc">Exercice de force ou résistance axé sur le développement des Avant-bras.</string>
+
+    <string name="press_hombros_barra">Développé Épaules (Barre)</string>
+    <string name="press_hombros_barra_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="press_hombros_maquina">Développé Épaules (Machine)</string>
+    <string name="press_hombros_maquina_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="press_hombros_mancuerna">Développé Épaules (Haltères)</string>
+    <string name="press_hombros_mancuerna_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="press_hombros_maquina_smith">Développé Épaules (Machine Smith)</string>
+    <string name="press_hombros_maquina_smith_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="sentadilla_barra">Squat (Barre)</string>
+    <string name="sentadilla_barra_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="sentadilla_cuerpo">Squat (Poids de Corps)</string>
+    <string name="sentadilla_cuerpo_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="sentadilla_mancuerna">Squat (Haltères)</string>
+    <string name="sentadilla_mancuerna_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="sentadilla_maquina_smith">Squat (Machine Smith)</string>
+    <string name="sentadilla_maquina_smith_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="paso_lateral_con_polea_baja">Pas Latéral (Poulie Basse)</string>
+    <string name="paso_lateral_con_polea_baja_desc">Exercice axé sur l\'activation et le renforcement des Fessiers et des hanches.</string>
+
+    <string name="desplantes_con_barra">Fentes (Barre)</string>
+    <string name="desplantes_con_barra_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="desplantes_con_mancuerna">Fentes (Haltères)</string>
+    <string name="desplantes_con_mancuerna_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="zancadas_inversas">Fentes Inversées</string>
+    <string name="zancadas_inversas_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="press_militar">Développé Militaire</string>
+    <string name="press_militar_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="press_push_barra">Push Press (Barre)</string>
+    <string name="press_push_barra_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="flexiones">Pompes</string>
+    <string name="flexiones_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="flexiones_con_apoyo">Pompes Assistées</string>
+    <string name="flexiones_con_apoyo_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="flexiones_con_las_manos_elevadas">Pompes (Mains Surélevées)</string>
+    <string name="flexiones_con_las_manos_elevadas_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="flexiones_con_peso_añadido">Pompes (Pondérées)</string>
+    <string name="flexiones_con_peso_añadido_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="flexiones_maquina_smith">Pompes (Machine Smith)</string>
+    <string name="flexiones_maquina_smith_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="flexiones_pies_elevados">Pompes (Pieds Surélevés)</string>
+    <string name="flexiones_pies_elevados_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="rotacion_rodillas_tumbado">Rotation Genoux Allongé</string>
+    <string name="rotacion_rodillas_tumbado_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="jalon_invertido_barra">Rowing Inversé (Barre)</string>
+    <string name="jalon_invertido_barra_desc">Exercice de force ou résistance axé sur le développement du Haut du Dos.</string>
+
+    <string name="jalon_invertido_maquina_smith">Rowing Inversé (Machine Smith)</string>
+    <string name="jalon_invertido_maquina_smith_desc">Exercice de force ou résistance axé sur le développement du Haut du Dos.</string>
+
+    <string name="jalon_invertido_suspension">Rowing Inversé (Suspension)</string>
+    <string name="jalon_invertido_suspension_desc">Exercice de force ou résistance axé sur le développement du Haut du Dos.</string>
+
+    <string name="remo_con_agarres_a_mano_sentado">Rowing Assis (Poignées)</string>
+    <string name="remo_con_agarres_a_mano_sentado_desc">Exercice de force ou résistance axé sur le développement du Haut du Dos.</string>
+
+    <string name="remo_con_agarres_a_mano_tumbado">Rowing Allongé (Poignées)</string>
+    <string name="remo_con_agarres_a_mano_tumbado_desc">Exercice de force ou résistance axé sur le développement du Haut du Dos.</string>
+
+    <string name="elevacion_gemelos_de_pie">Élévation Mollets Debout</string>
+    <string name="elevacion_gemelos_de_pie_desc">Exercice pour isoler et développer les Mollets, axé sur la flexion plantaire.</string>
+
+    <string name="elevacion_gemelos_sentado">Élévation Mollets Assis</string>
+    <string name="elevacion_gemelos_sentado_desc">Exercice pour isoler et développer les Mollets, axé sur la flexion plantaire.</string>
+
+    <string name="remo_sentado_cable">Rowing Assis (Câble)</string>
+    <string name="remo_sentado_cable_desc">Exercice de force ou résistance axé sur le développement du Haut du Dos.</string>
+
+    <string name="remo_sentado_maquina">Rowing Assis (Machine)</string>
+    <string name="remo_sentado_maquina_desc">Exercice de force ou résistance axé sur le développement du Haut du Dos.</string>
+
+    <string name="press_sentado_maquina">Développé Assis (Machine)</string>
+    <string name="press_sentado_maquina_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="press_sentado_maquina_smith">Développé Assis (Machine Smith)</string>
+    <string name="press_sentado_maquina_smith_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="press_hombros_sentado_barra">Développé Épaules Assis (Barre)</string>
+    <string name="press_hombros_sentado_barra_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="press_hombros_sentado_mancuerna">Développé Épaules Assis (Haltères)</string>
+    <string name="press_hombros_sentado_mancuerna_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="press_hombros_sentado_maquina">Développé Épaules Assis (Machine)</string>
+    <string name="press_hombros_sentado_maquina_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="remo_sentado_con_agarres_a_mano_cable">Rowing Assis (Poignées Câble)</string>
+    <string name="remo_sentado_con_agarres_a_mano_cable_desc">Exercice de force ou résistance axé sur le développement du Haut du Dos.</string>
+
+    <string name="curl_piernas_sentado">Curl Jambe Assis</string>
+    <string name="curl_piernas_sentado_desc">Exercice puissant pour renforcer la chaîne postérieure, incluant les Ischio-jambiers et le bas du dos.</string>
+
+    <string name="encogimiento_hombros_barra">Shrug (Barre)</string>
+    <string name="encogimiento_hombros_barra_desc">Exercice de force ou résistance axé sur le développement des Trapèzes.</string>
+
+    <string name="encogimiento_hombros_cable">Shrug (Câble)</string>
+    <string name="encogimiento_hombros_cable_desc">Exercice de force ou résistance axé sur le développement des Trapèzes.</string>
+
+    <string name="encogimiento_hombros_mancuerna">Shrug (Haltères)</string>
+    <string name="encogimiento_hombros_mancuerna_desc">Exercice de force ou résistance axé sur le développement des Trapèzes.</string>
+
+    <string name="sizor_jump">Saut en Ciseaux</string>
+    <string name="sizor_jump_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="extension_lateral_cuello_con_peso">Extension Latérale Cou (Pondéré)</string>
+    <string name="extension_lateral_cuello_con_peso_desc">Exercice de force ou résistance axé sur le développement du Cou.</string>
+
+    <string name="extension_lateral_cuello_tumbado">Extension Latérale Cou Allongé</string>
+    <string name="extension_lateral_cuello_tumbado_desc">Exercice de force ou résistance axé sur le développement du Cou.</string>
+
+    <string name="extension_lateral_cuello_tumbado_con_peso">Extension Latérale Cou Allongé (Pondéré)</string>
+    <string name="extension_lateral_cuello_tumbado_con_peso_desc">Exercice de force ou résistance axé sur le développement du Cou.</string>
+
+    <string name="press_hombros_con_split_jerk">Split Jerk</string>
+    <string name="press_hombros_con_split_jerk_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="press_push_con_split_jerk">Push Press avec Split Jerk</string>
+    <string name="press_push_con_split_jerk_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="snatch">Snatch</string>
+    <string name="snatch_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="squat_clean">Squat Clean</string>
+    <string name="squat_clean_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="squat_jerk">Squat Jerk</string>
+    <string name="squat_jerk_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="squat_snatch">Squat Snatch</string>
+    <string name="squat_snatch_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="squat_thruster">Squat Thruster</string>
+    <string name="squat_thruster_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="step_up">Step Up</string>
+    <string name="step_up_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="step_up_mancuerna">Step Up (Haltères)</string>
+    <string name="step_up_mancuerna_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="stiff_leg_deadlift_barra">Soulevé de Terre Jambes Raides (Barre)</string>
+    <string name="stiff_leg_deadlift_barra_desc">Exercice puissant pour renforcer la chaîne postérieure, incluant les Ischio-jambiers et le bas du dos.</string>
+
+    <string name="stiff_leg_deadlift_mancuerna">Soulevé de Terre Jambes Raides (Haltères)</string>
+    <string name="stiff_leg_deadlift_mancuerna_desc">Exercice puissant pour renforcer la chaîne postérieure, incluant les Ischio-jambiers et le bas du dos.</string>
+
+    <string name="stiff_leg_deadlift_maquina_smith">Soulevé de Terre Jambes Raides (Machine Smith)</string>
+    <string name="stiff_leg_deadlift_maquina_smith_desc">Exercice puissant pour renforcer la chaîne postérieure, incluant les Ischio-jambiers et le bas du dos.</string>
+
+    <string name="estiramiento">Étirements</string>
+    <string name="estiramiento_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="extensiones_triceps_banda">Extension Triceps (Élastique)</string>
+    <string name="extensiones_triceps_banda_desc">Exercice axé sur l\'extension des bras pour travailler les Triceps.</string>
+
+    <string name="extensiones_triceps_cable">Extension Triceps (Câble)</string>
+    <string name="extensiones_triceps_cable_desc">Exercice axé sur l\'extension des bras pour travailler les Triceps.</string>
+
+    <string name="extensiones_triceps_mancuerna">Extension Triceps (Haltères)</string>
+    <string name="extensiones_triceps_mancuerna_desc">Exercice axé sur l\'extension des bras pour travailler les Triceps.</string>
+
+    <string name="extensiones_triceps_maquina">Extension Triceps (Machine)</string>
+    <string name="extensiones_triceps_maquina_desc">Exercice axé sur l\'extension des bras pour travailler les Triceps.</string>
+
+    <string name="extensiones_triceps_suspension">Extension Triceps (Suspension)</string>
+    <string name="extensiones_triceps_suspension_desc">Exercice axé sur l\'extension des bras pour travailler les Triceps.</string>
+
+    <string name="caminadora">Tapis Roulant</string>
+    <string name="caminadora_desc">Exercice aérobique qui augmente le rythme cardiaque et brûle des calories. Idéal pour améliorer l\'endurance cardiovasculaire.</string>
+
+    <string name="tirones_barra">Tirages (Barre)</string>
+    <string name="tirones_barra_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="tirones_mancuerna">Tirages (Haltères)</string>
+    <string name="tirones_mancuerna_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="press_triceps">Développé Triceps</string>
+    <string name="press_triceps_desc">Exercice axé sur l\'extension des bras pour travailler les Triceps.</string>
+
+    <string name="press_triceps_con_rotacion">Développé Triceps avec Rotation</string>
+    <string name="press_triceps_con_rotacion_desc">Exercice axé sur l\'extension des bras pour travailler les Triceps.</string>
+
+    <string name="v_up">V-Up</string>
+    <string name="v_up_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="sentadilla_v_up">Squat V-Up</string>
+    <string name="sentadilla_v_up_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="extension_pierna_vertical">Extension Jambe Verticale</string>
+    <string name="extension_pierna_vertical_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="prensa_piernas_vertical">Presse à Cuisses Verticale</string>
+    <string name="prensa_piernas_vertical_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="caminata">Marche</string>
+    <string name="caminata_desc">Exercice aérobique qui augmente le rythme cardiaque et brûle des calories. Idéal pour améliorer l\'endurance cardiovasculaire.</string>
+
+    <string name="remo_con_mancuerna_tumbado">Rowing Haltère Allongé</string>
+    <string name="remo_con_mancuerna_tumbado_desc">Exercice de force ou résistance axé sur le développement du Haut du Dos.</string>
+
+    <string name="remo_con_mancuerna_en_inclinacion">Rowing Haltère Incliné</string>
+    <string name="remo_con_mancuerna_en_inclinacion_desc">Exercice de force ou résistance axé sur le développement du Haut du Dos.</string>
+
+    <string name="remo_con_mancuerna_sentado">Rowing Haltère Assis</string>
+    <string name="remo_con_mancuerna_sentado_desc">Exercice de force ou résistance axé sur le développement du Haut du Dos.</string>
+
+    <string name="v_sit">V-Sit</string>
+    <string name="v_sit_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="plancha_en_pared">Planche Murale</string>
+    <string name="plancha_en_pared_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="elevaciones_laterales_en_pared">Élévations Latérales au Mur</string>
+    <string name="elevaciones_laterales_en_pared_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="press_hombros_en_pared">Développé Épaules au Mur</string>
+    <string name="press_hombros_en_pared_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="jalon_invertido_en_pared">Rowing Inversé au Mur</string>
+    <string name="jalon_invertido_en_pared_desc">Exercice de force ou résistance axé sur le développement du Haut du Dos.</string>
+
+    <string name="rotacion_muñeca_barra">Rotation Poignet (Barre)</string>
+    <string name="rotacion_muñeca_barra_desc">Exercice de force ou résistance axé sur le développement des Avant-bras.</string>
+
+    <string name="flexiones_muñeca_barra">Curl Poignet (Barre)</string>
+    <string name="flexiones_muñeca_barra_desc">Exercice de force ou résistance axé sur le développement des Avant-bras.</string>
+
+    <string name="flexiones_muñeca_mancuerna">Curl Poignet (Haltères)</string>
+    <string name="flexiones_muñeca_mancuerna_desc">Exercice de force ou résistance axé sur le développement des Avant-bras.</string>
+
+    <string name="zancadas">Fentes</string>
+    <string name="zancadas_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="zancadas_barra">Fentes (Barre)</string>
+    <string name="zancadas_barra_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="zancadas_mancuerna">Fentes (Haltères)</string>
+    <string name="zancadas_mancuerna_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="zancadas_maquina_smith">Fentes (Machine Smith)</string>
+    <string name="zancadas_maquina_smith_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="zancadas_inversas_barra">Fentes Inversées (Barre)</string>
+    <string name="zancadas_inversas_barra_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="zancadas_inversas_mancuerna">Fentes Inversées (Haltères)</string>
+    <string name="zancadas_inversas_mancuerna_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="zancadas_laterales_barra">Fentes Latérales (Barre)</string>
+    <string name="zancadas_laterales_barra_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="zancadas_laterales_mancuerna">Fentes Latérales (Haltères)</string>
+    <string name="zancadas_laterales_mancuerna_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="zancadas_laterales_maquina_smith">Fentes Latérales (Machine Smith)</string>
+    <string name="zancadas_laterales_maquina_smith_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="zancadas_laterales_cuerpo">Fentes Latérales (Poids du corps)</string>
+    <string name="zancadas_laterales_cuerpo_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="zancadas_bulgaras_mancuerna">Bulgarian Split Squats (Haltères)</string>
+    <string name="zancadas_bulgaras_mancuerna_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="zancadas_bulgaras_maquina_smith">Bulgarian Split Squats (Machine Smith)</string>
+    <string name="zancadas_bulgaras_maquina_smith_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="elevacion_gemelos_de_pie_con_barra">Élévation Mollets Debout (Barre)</string>
+    <string name="elevacion_gemelos_de_pie_con_barra_desc">Exercice pour isoler et développer les Mollets, axé sur la flexion plantaire.</string>
+
+    <string name="elevacion_gemelos_de_pie_con_mancuerna">Élévation Mollets Debout (Haltères)</string>
+    <string name="elevacion_gemelos_de_pie_con_mancuerna_desc">Exercice pour isoler et développer les Mollets, axé sur la flexion plantaire.</string>
+
+    <string name="elevacion_gemelos_de_pie_maquina_smith">Élévation Mollets Debout (Machine Smith)</string>
+    <string name="elevacion_gemelos_de_pie_maquina_smith_desc">Exercice pour isoler et développer les Mollets, axé sur la flexion plantaire.</string>
+
+    <string name="elevacion_gemelos_prensa_piernas">Élévation Mollets (Presse à Cuisses)</string>
+    <string name="elevacion_gemelos_prensa_piernas_desc">Exercice pour isoler et développer les Mollets, axé sur la flexion plantaire.</string>
+
+    <string name="elevacion_gemelos_burro">Donkey Calf Raise</string>
+    <string name="elevacion_gemelos_burro_desc">Exercice pour isoler et développer les Mollets, axé sur la flexion plantaire.</string>
+
+    <string name="press_banca_pesa_rusa">Développé Couché (Kettlebell)</string>
+    <string name="press_banca_pesa_rusa_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="abdominal_corto_con_pesa_rusa">Crunch (Kettlebell)</string>
+    <string name="abdominal_corto_con_pesa_rusa_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="elevacion_rodillas_pesa_rusa">Élévation Genoux (Kettlebell)</string>
+    <string name="elevacion_rodillas_pesa_rusa_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="extension_triceps_pesa_rusa">Extension Triceps (Kettlebell)</string>
+    <string name="extension_triceps_pesa_rusa_desc">Exercice axé sur l\'extension des bras pour travailler les Triceps.</string>
+
+    <string name="peso_muerto_pesa_rusa">Soulevé de Terre (Kettlebell)</string>
+    <string name="peso_muerto_pesa_rusa_desc">Exercice puissant pour renforcer la chaîne postérieure, incluant les Ischio-jambiers et le bas du dos.</string>
+
+    <string name="remo_con_pesa_rusa_sentado">Rowing Assis (Kettlebell)</string>
+    <string name="remo_con_pesa_rusa_sentado_desc">Exercice de force ou résistance axé sur le développement du Haut du Dos.</string>
+
+    <string name="peso_muerto_romano_pesa_rusa">Soulevé de Terre Roumain (Kettlebell)</string>
+    <string name="peso_muerto_romano_pesa_rusa_desc">Exercice puissant pour renforcer la chaîne postérieure, incluant les Ischio-jambiers et le bas du dos.</string>
+
+    <string name="encogimiento_hombros_pesa_rusa">Shrug (Kettlebell)</string>
+    <string name="encogimiento_hombros_pesa_rusa_desc">Exercice de force ou résistance axé sur le développement des Trapèzes.</string>
+
+    <string name="remo_con_pesa_rusa_tumbado">Rowing Allongé (Kettlebell)</string>
+    <string name="remo_con_pesa_rusa_tumbado_desc">Exercice de force ou résistance axé sur le développement du Haut du Dos.</string>
+
+    <string name="zancada_pesa_rusa">Fente (Kettlebell)</string>
+    <string name="zancada_pesa_rusa_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="zancada_inversa_pesa_rusa">Fente Inversée (Kettlebell)</string>
+    <string name="zancada_inversa_pesa_rusa_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="zancada_lateral_pesa_rusa">Fente Latérale (Kettlebell)</string>
+    <string name="zancada_lateral_pesa_rusa_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="zancada_bulgara_pesa_rusa">Bulgarian Split Squat (Kettlebell)</string>
+    <string name="zancada_bulgara_pesa_rusa_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="step_up_pesa_rusa">Step Up (Kettlebell)</string>
+    <string name="step_up_pesa_rusa_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="extension_pierna_tumbado">Extension Jambe Allongé</string>
+    <string name="extension_pierna_tumbado_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="sentadilla_sissy_barra">Sissy Squat (Barre)</string>
+    <string name="sentadilla_sissy_barra_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="sentadilla_sissy_mancuerna">Sissy Squat (Haltères)</string>
+    <string name="sentadilla_sissy_mancuerna_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="sentadilla_sissy_maquina">Sissy Squat (Machine)</string>
+    <string name="sentadilla_sissy_maquina_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="abdominal_corto_vertical">Crunch Vertical</string>
+    <string name="abdominal_corto_vertical_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="abdominales_bicicleta_vertical">Crunch Bicyclette Vertical</string>
+    <string name="abdominales_bicicleta_vertical_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="curl_biceps_vertical">Curl Biceps Vertical</string>
+    <string name="curl_biceps_vertical_desc">Exercice d\'isolation pour concentrer le travail sur les Biceps, axé sur la flexion du coude.</string>
+
+    <string name="extension_triceps_vertical">Extension Triceps Verticale</string>
+    <string name="extension_triceps_vertical_desc">Exercice axé sur l\'extension des bras pour travailler les Triceps.</string>
+
+    <string name="press_banca_vertical">Développé Couché Vertical</string>
+    <string name="press_banca_vertical_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="remo_vertical_cable">Rowing Vertical (Câble)</string>
+    <string name="remo_vertical_cable_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="remo_vertical_barra">Rowing Vertical (Barre)</string>
+    <string name="remo_vertical_barra_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="remo_vertical_mancuerna">Rowing Vertical (Haltères)</string>
+    <string name="remo_vertical_mancuerna_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="remo_vertical_pesa_rusa">Rowing Vertical (Kettlebell)</string>
+    <string name="remo_vertical_pesa_rusa_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="press_hombros_vertical_mancuerna">Développé Épaules Vertical (Haltères)</string>
+    <string name="press_hombros_vertical_mancuerna_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="elevacion_gemelos_vertical">Élévation Mollets Verticale</string>
+    <string name="elevacion_gemelos_vertical_desc">Exercice pour isoler et développer les Mollets, axé sur la flexion plantaire.</string>
+
+    <string name="zancadas_verticales">Fentes Verticales</string>
+    <string name="zancadas_verticales_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="elevacion_talones_con_banda">Élévation Talons (Élastique)</string>
+    <string name="elevacion_talones_con_banda_desc">Exercice pour isoler et développer les Mollets, axé sur la flexion plantaire.</string>
+
+    <string name="elevacion_talones_con_mancuerna">Élévation Talons (Haltères)</string>
+    <string name="elevacion_talones_con_mancuerna_desc">Exercice pour isoler et développer les Mollets, axé sur la flexion plantaire.</string>
+
+    <string name="elevacion_talones_sentado">Élévation Talons Assis</string>
+    <string name="elevacion_talones_sentado_desc">Exercice pour isoler et développer les Mollets, axé sur la flexion plantaire.</string>
+
+    <string name="paseo_del_granjero_pesa_rusa">Farmers Walk (Kettlebell)</string>
+    <string name="paseo_del_granjero_pesa_rusa_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="caminata_sentadilla_banda">Marche en Squat (Élastique)</string>
+    <string name="caminata_sentadilla_banda_desc">Exercice axé sur l\'activation et le renforcement des Fessiers et des hanches.</string>
+
+    <string name="sentadilla_sumo_barra">Squat Sumo (Barre)</string>
+    <string name="sentadilla_sumo_barra_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="sentadilla_sumo_mancuerna">Squat Sumo (Haltères)</string>
+    <string name="sentadilla_sumo_mancuerna_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="peso_muerto_sumo_barra">Soulevé de Terre Sumo (Barre)</string>
+    <string name="peso_muerto_sumo_barra_desc">Exercice puissant pour renforcer la chaîne postérieure, incluant les Ischio-jambiers et le bas du dos.</string>
+
+    <string name="peso_muerto_sumo_mancuerna">Soulevé de Terre Sumo (Haltères)</string>
+    <string name="peso_muerto_sumo_mancuerna_desc">Exercice puissant pour renforcer la chaîne postérieure, incluant les Ischio-jambiers et le bas du dos.</string>
+
+    <string name="inmersion_en_bicicleta">Spinning</string>
+    <string name="inmersion_en_bicicleta_desc">Exercice aérobique qui augmente le rythme cardiaque et brûle des calories. Idéal pour améliorer l\'endurance cardiovasculaire.</string>
+
+    <string name="rotacion_torso_maquina">Rotation Tronc (Machine)</string>
+    <string name="rotacion_torso_maquina_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="rotacion_torso_sentado">Rotation Tronc Assis</string>
+    <string name="rotacion_torso_sentado_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="rotacion_torso_tumbado">Rotation Tronc Allongé</string>
+    <string name="rotacion_torso_tumbado_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="sentadilla_al_banco_barra">Squat au Banc (Barre)</string>
+    <string name="sentadilla_al_banco_barra_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="sentadilla_al_banco_mancuerna">Squat au Banc (Haltères)</string>
+    <string name="sentadilla_al_banco_mancuerna_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="sentadilla_al_banco_maquina_smith">Squat au Banc (Machine Smith)</string>
+    <string name="sentadilla_al_banco_maquina_smith_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="press_triceps_cable">Développé Triceps (Câble)</string>
+    <string name="press_triceps_cable_desc">Exercice axé sur l\'extension des bras pour travailler les Triceps.</string>
+
+    <string name="press_triceps_mancuerna">Développé Triceps (Haltères)</string>
+    <string name="press_triceps_mancuerna_desc">Exercice axé sur l\'extension des bras pour travailler les Triceps.</string>
+
+    <string name="press_triceps_maquina">Développé Triceps (Machine)</string>
+    <string name="press_triceps_maquina_desc">Exercice axé sur l\'extension des bras pour travailler les Triceps.</string>
+
+    <string name="peso_muerto_a_una_pierna_mancuerna">Soulevé de Terre une Jambe (Haltères)</string>
+    <string name="peso_muerto_a_una_pierna_mancuerna_desc">Exercice puissant pour renforcer la chaîne postérieure, incluant les Ischio-jambiers et le bas du dos.</string>
+
+    <string name="peso_muerto_a_una_pierna_pesa_rusa">Soulevé de Terre une Jambe (Kettlebell)</string>
+    <string name="peso_muerto_a_una_pierna_pesa_rusa_desc">Exercice puissant pour renforcer la chaîne postérieure, incluant les Ischio-jambiers et le bas du dos.</string>
+
+    <string name="press_overhead_barra">Développé Nuque (Barre)</string>
+    <string name="press_overhead_barra_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="press_overhead_maquina_smith">Développé Nuque (Machine Smith)</string>
+    <string name="press_overhead_maquina_smith_desc">Exercice de poussée ou d\'élévation pour développer les deltoïdes, axé sur les Épaules.</string>
+
+    <string name="extensiones_muñeca_barra">Extension Poignet (Barre)</string>
+    <string name="extensiones_muñeca_barra_desc">Exercice de force ou résistance axé sur le développement des Avant-bras.</string>
+
+    <string name="extensiones_muñeca_cable">Extension Poignet (Câble)</string>
+    <string name="extensiones_muñeca_cable_desc">Exercice de force ou résistance axé sur le développement des Avant-bras.</string>
+
+    <string name="curl_inverso_muñeca_cable">Curl Inversé Poignet (Câble)</string>
+    <string name="curl_inverso_muñeca_cable_desc">Exercice de force ou résistance axé sur le développement des Avant-bras.</string>
+
+    <string name="flexiones_muñeca_cable">Curl Poignet (Câble)</string>
+    <string name="flexiones_muñeca_cable_desc">Exercice de force ou résistance axé sur le développement des Avant-bras.</string>
+
+    <string name="press_pecho_cable">Développé Poitrine (Câble)</string>
+    <string name="press_pecho_cable_desc">Mouvement de poussée fondamental pour développer la force et le volume des Pectoraux.</string>
+
+    <string name="rotacion_torso_cable">Rotation Tronc (Câble)</string>
+    <string name="rotacion_torso_cable_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="rotacion_torso_mancuerna">Rotation Tronc (Haltères)</string>
+    <string name="rotacion_torso_mancuerna_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="remo_con_maquina_t">Rowing T-Bar (Machine)</string>
+    <string name="remo_con_maquina_t_desc">Exercice de force ou résistance axé sur le développement du Haut du Dos.</string>
+
+    <string name="remo_con_maquina_t_sentado">Rowing T-Bar Assis (Machine)</string>
+    <string name="remo_con_maquina_t_sentado_desc">Exercice de force ou résistance axé sur le développement du Haut du Dos.</string>
+
+    <string name="remo_con_barra_t">Rowing T-Bar (Barre)</string>
+    <string name="remo_con_barra_t_desc">Exercice de force ou résistance axé sur le développement du Haut du Dos.</string>
+
+    <string name="extension_triceps_barra_ez">Extension Triceps (Barre EZ)</string>
+    <string name="extension_triceps_barra_ez_desc">Exercice axé sur l\'extension des bras pour travailler les Triceps.</string>
+
+    <string name="remo_triceps_cable">Pushdown Triceps (Câble)</string>
+    <string name="remo_triceps_cable_desc">Exercice axé sur l\'extension des bras pour travailler les Triceps.</string>
+
+    <string name="press_frances_barra_ez">French Press (Barre EZ)</string>
+    <string name="press_frances_barra_ez_desc">Exercice axé sur l\'extension des bras pour travailler les Triceps.</string>
+
+    <string name="press_frances_mancuerna">French Press (Haltères)</string>
+    <string name="press_frances_mancuerna_desc">Exercice axé sur l\'extension des bras pour travailler les Triceps.</string>
+
+    <string name="rotacion_torso_barra">Rotation Tronc (Barre)</string>
+    <string name="rotacion_torso_barra_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="abdominales">Crunchs</string>
+    <string name="abdominales_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="abdominales_con_peso">Crunchs (Pondérés)</string>
+    <string name="abdominales_con_peso_desc">Exercice de gainage pour renforcer les Abdominaux, axé sur la stabilité et l\'endurance.</string>
+
+    <string name="curl_zottman_cable">Zottman Curl (Câble)</string>
+    <string name="curl_zottman_cable_desc">Exercice d\'isolation pour concentrer le travail sur les Biceps, axé sur la flexion du coude.</string>
+
+    <string name="zancadas_caminando">Fentes Marchées</string>
+    <string name="zancadas_caminando_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="zancadas_caminando_mancuerna">Fentes Marchées (Haltères)</string>
+    <string name="zancadas_caminando_mancuerna_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="lanzamientos_balon">Wall Ball Shots</string>
+    <string name="lanzamientos_balon_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="sentadilla_en_pared">Squat au Mur</string>
+    <string name="sentadilla_en_pared_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="calentamiento">Échauffement</string>
+    <string name="calentamiento_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="dominada_abierta">Traction Prise Large</string>
+    <string name="dominada_abierta_desc">Excellent mouvement de tirage vertical pour développer les Dorsaux et le haut du dos.</string>
+
+    <string name="rodillo_antebrazos">Rouleau à Poignet</string>
+    <string name="rodillo_antebrazos_desc">Exercice de force ou résistance axé sur le développement des Avant-bras.</string>
+
+    <string name="yoga">Yoga</string>
+    <string name="yoga_desc">Mouvement fonctionnel et dynamique sollicitant plusieurs groupes musculaires simultanément.</string>
+
+    <string name="sentadilla_zercher">Zercher Squat</string>
+    <string name="sentadilla_zercher_desc">Mouvement composé pour travailler principalement les Quadriceps et fessiers. Essentiel pour la force du bas du corps.</string>
+
+    <string name="curl_zottman_mancuerna">Zottman Curl (Haltères)</string>
+    <string name="curl_zottman_mancuerna_desc">Exercice d\'isolation pour concentrer le travail sur les Biceps, axé sur la flexion du coude.</string>
+
+    <string name="month_january">Janvier</string>
+    <string name="month_february">Février</string>
+    <string name="month_march">Mars</string>
+    <string name="month_april">Avril</string>
+    <string name="month_may">Mai</string>
+    <string name="month_june">Juin</string>
+    <string name="month_july">Juillet</string>
+    <string name="month_august">Août</string>
+    <string name="month_september">Septembre</string>
+    <string name="month_october">Octobre</string>
+    <string name="month_november">Novembre</string>
+    <string name="month_december">Décembre</string>
+
+    <string name="no_tienes_medidas_disponibles">Aucune mesure disponible</string>
+    <string name="a_adir_medida">Ajouter mesure</string>
+    <string name="historial">Historique</string>
+
+    <string name="titulo_nueva_medida">Nouvelle Mesure</string>
+    <string name="hint_fecha">Date</string>
+    <string name="hint_valor_ejemplo">Valeur (ex. 75.5)</string>
+    <string name="accion_guardar">Enregistrer</string>
+
+    <string name="titulo_dietas">Régime</string>
+
+    <string name="formato_calorias_total">%1$d / %2$d kcal</string>
+    <string name="macro_proteinas">Protéines</string>
+    <string name="macro_carbohidratos">Glucides</string>
+    <string name="macro_grasas">Lipides</string>
+    <string name="formato_macro_gramos">%1$d / %2$d g</string>
+
+    <string name="seccion_desayuno">Petit-déjeuner</string>
+    <string name="seccion_comida">Déjeuner</string>
+    <string name="seccion_cena">Dîner</string>
+    <string name="seccion_snacks">Collations</string>
+
+    <string name="btn_agregar_desayuno">+ Ajouter Petit-déjeuner</string>
+    <string name="btn_agregar_comida">+ Ajouter Déjeuner</string>
+    <string name="btn_agregar_cena">+ Ajouter Dîner</string>
+    <string name="btn_agregar_snack">+ Ajouter Collation</string>
+
+    <string name="formato_resumen_comida">%1$d kcal | %2$d P | %3$d G | %4$d L</string>
+
+    <string name="desc_perfil">Profil</string>
+    <string name="desc_entrenamiento">Entraînement</string>
+    <string name="desc_calorias">Calories</string>
+
+    <string name="crear_alimento">Créer Aliment</string>
+    <string name="nombre_y_marca">Nom et Marque</string>
+    <string name="marca">Marque</string>
+    <string name="nombre">Nom *</string>
+    <string name="categor_a">Catégorie *</string>
+    <string name="informaci_n_nutricional">Informations Nutritionnelles</string>
+    <string name="s_lido_100g">Solide (100g)</string>
+    <string name="l_quido_100ml">Liquide (100ml)</string>
+    <string name="valor_energ_tico_por_100g">Valeur Énergétique (pour 100g) *</string>
+    <string name="grasas_por_100g">Lipides (pour 100g) *</string>
+    <string name="carbohidratos_por_100g">Glucides (pour 100g) *</string>
+    <string name="prote_nas_por_100g">Protéines (pour 100g) *</string>
+    <string name="imagen_del_alimento">Image de l\'Aliment</string>
+    <string name="galer_a">Galerie</string>
+    <string name="c_mara">Appareil Photo</string>
+    <string name="datos_por_100g">Données pour 100g</string>
+    <string name="kcal">kcal</string>
+    <string name="prote_nas">protéines</string>
+    <string name="carbs">glucides</string>
+    <string name="grasas">lipides</string>
+    <string name="cantidad">Quantité</string>
+    <string name="ingresar_a_desayuno">Ajouter au Petit-déjeuner</string>
+    <string name="alimentos">Aliments</string>
+    <string name="busca_un_alimento">Rechercher un aliment</string>
+    <string name="buscar">Rechercher</string>
+    <string name="mis_alimentos">Mes Aliments</string>
+    <string name="a_adir_alimento_nuevo">Ajouter un Aliment</string>
+    <string name="dialog_eliminar_titulo">Supprimer l\'Aliment</string>
+    <string name="dialog_eliminar_mensaje">Voulez-vous supprimer \'%1$s\' de vos aliments ?</string>
+    <string name="btn_eliminar">Supprimer</string>
+    <string name="msg_eliminado_ok">Supprimé avec succès</string>
+    <string name="msg_error_eliminar">Erreur de suppression</string>
+    <string name="hint_calorias_dinamico">Valeur Énergétique (par %1$s) *</string>
+    <string name="hint_grasas_dinamico">Lipides (par %1$s) *</string>
+    <string name="hint_carbohidratos_dinamico">Glucides (par %1$s) *</string>
+    <string name="hint_proteinas_dinamico">Protéines (par %1$s) *</string>
+
+    <string name="error_nombre_req">Le nom est requis</string>
+    <string name="error_categoria_req">Sélectionnez une catégorie valide</string>
+    <string name="obligatorio">Requis</string>
+    <string name="error_campos_obligatorios">Veuillez remplir tous les champs requis</string>
+
+    <string name="guardando">Enregistrement...</string>
+    <string name="msg_alimento_guardado">Aliment enregistré avec succès</string>
+    <string name="btn_crear_alimento">Créer Aliment</string>
+    <string name="error">Erreur</string>
+    <string name="btn_ingresar_a">Ajouter au %1$s</string>
+    <string name="datos_por_100">Données par %1$s</string>
+    <string name="msg_anadido_a">Ajouté au %1$s</string>
+    <string name="titulo_cerrarsesion">Déconnexion</string>
+    <string name="mensaje_confirmacion_cerrarsesion">Êtes-vous sûr de vouloir vous déconnecter ?</string>
+    <string name="boton_si_cerrarsesion">Oui</string>
+    <string name="boton_no_cerrarsesion">Non</string>
+    <string name="sesion_cerrada_cerrarsesion">Déconnexion réussie</string>
+    <string name="error_cerrar_sesion_cerrarsesion">Erreur de déconnexion</string>
+
+    <string name="cat_frutos_secos">Fruits à Coque &amp; Graines</string>
+    <string name="cat_snacks">Snacks</string>
+    <string name="cat_dulces">Sucreries &amp; Confiseries</string>
+    <string name="cat_lacteos">Produits Laitiers &amp; Fromages</string>
+    <string name="cat_panaderia">Boulangerie</string>
+    <string name="cat_carnes">Viandes</string>
+    <string name="cat_pescados">Poissons &amp; Fruits de Mer</string>
+    <string name="cat_cereales">Céréales &amp; Grains</string>
+    <string name="cat_vegetal">Fruits &amp; Légumes</string>
+    <string name="cat_bebidas">Boissons</string>
+    <string name="cat_salsas">Sauces &amp; Huiles</string>
+
+    <string name="seguidos">%1$d Abonnements</string>
+    <string name="seguidores">%1$d Abonnés</string>
+    <string name="seguidoress">Abonnés</string>
+
+    <string name="back">Retour</string>
+    <string name="followers">Abonnés</string>
+    <string name="following">Abonnements</string>
+
+    <string name="titulo_seguidores_notificacion">Activité Abonnés</string>
+    <string name="seguidor_nuevo_notificacion">%1$s a commencé à vous suivre</string>
+    <string name="seguidor_perdido_notificacion">%1$s ne vous suit plus</string>
+    <string name="canal_seguidores_nombre_notificacion">Abonnés</string>
+    <string name="nuevos_seguidores_notificaciones">Nouveaux abonnés</string>
+    <string name="nuevos_seguidores_descripcion_notificaciones">Me notifier quand quelqu\'un commence ou arrête de me suivre.</string>
+
+    <string name="dificultad">Difficulté</string>
+    <string name="dia">Jour %1$d - %2$s</string>
+
+    <string name="copiar_rutina">Copier routine</string>
+    <string name="copiada">%1$s (Copie)</string>
+    <string name="rutina_a_adida_a_tus_entrenamientos">Routine ajoutée à vos entraînements</string>
+    <string name="error_al_copiar_rutina">Erreur lors de la copie de la routine</string>
+    <string name="a_adir_serie">Ajouter série</string>
+    <string name="serie">Série</string>
+
+    <string name="unidad_peso_kg">kg</string>
+    <string name="unidad_peso_lbs">lbs</string>
+    <string name="hint_peso_con_unidad">Poids (%s)</string>
+
+    <string name="error_apellidos_req">Le nom de famille est requis</string>
+    <string name="error_edad_valida">Veuillez entrer un âge valide (1-120)</string>
+    <string name="error_seleccionar_genero">Veuillez sélectionner un genre</string>
+
+    <string name="error_seleccionar_estilo">Veuillez sélectionner un mode de vie</string>
+    <string name="error_seleccionar_objetivo">Veuillez sélectionner un objectif</string>
+
+    <string name="enhorabuena">Félicitations ! 🎉</string>
+    <string name="mensaje_finalizar">Vous avez terminé votre routine en :</string>
+    <string name="aceptar">Super</string>
+
+    <string name="empezar_entrenamiento">Commencer l\'Entraînement</string>
+    <string name="seleccionar_dias">Sélectionner jours</string>
+    <string name="valor_invalido">Valeur invalide</string>
+
+    <string name="formato_grupo_muscular">Groupe musculaire : %1$s</string>
+    <string name="formato_dificultad">Difficulté : %1$s</string>
+
+    <string name="notificaciones_generales">Notifications générales</string>
+    <string name="activar_o_desactivar_todas">Activer ou désactiver tout</string>
+    <string name="recordatorio_entreno">Rappel d\'entraînement</string>
+    <string name="toca_para_configurar">Touchez pour configurer...</string>
+    <string name="resumen_semanal">Résumé hebdomadaire</string>
+    <string name="recordatorio_de_foto">Rappel photo</string>
+
+    <string name="catalan_idioma">Catalan</string>
+    <string name="japones_idioma">Japonais</string>
+
+    <string name="error_cargar_datos_formato">Erreur de chargement des données : %s</string>
+    <string name="formato_fecha_grafico">dd/MM</string>
+    <string name="grafico_etiqueta_peso_con_unidad">Poids (%s)</string>
+    <string name="grafico_etiqueta_volumen_con_unidad">Volume (%s)</string>
+    <string name="etiqueta_semana_con_numero">Sem. %d</string>
+    <string name="grafico_titulo_volumen">Volume</string>
+    <string name="grafico_titulo_peso">Poids</string>
+    <string name="toast_subiendo_imagen">Téléchargement de l\'image...</string>
+    <string name="toast_error_subida_foto">Erreur lors du téléchargement de la photo</string>
+
+    <string name="mensaje_borrar_rutina">Supprimer \'%1$s\'?</string>
+
+    <string name="altura">Hauteur</string>
+
+    <string name="formato_resumen_entreno">%1$s à %2$s</string>
+
+    <string name="notif_entreno_titulo">C\'est l\'heure de s\'entraîner !</string>
+    <string name="notif_entreno_mensaje">Ne brisez pas votre série, donnez tout aujourd\'hui.</string>
+    <string name="notif_foto_titulo">L\'heure de votre photo hebdomadaire !</string>
+    <string name="notif_foto_mensaje">7 jours se sont écoulés depuis votre dernier enregistrement. Mettez à jour vos progrès !</string>
+    <string name="canal_entreno_nombre">Rappels d\'entraînement</string>
+    <string name="canal_foto_nombre">Rappels de progrès</string>
+</resources>

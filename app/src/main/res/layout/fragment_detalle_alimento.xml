@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/background"
+    android:paddingBottom="24dp">
+
+    <View
+        android:id="@+id/drag_handle"
+        android:layout_width="40dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/shape_drag_handle"
+        android:backgroundTint="@color/grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        app:cardBackgroundColor="@color/image_placeholder_bg"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/drag_handle">
+
+        <ImageView
+            android:id="@+id/ivDetalleImagen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_foreground"
+            app:tint="@null"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvDetalleNombre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="24dp"
+        android:text="Nombre Alimento"
+        android:textColor="?attr/android:textColor"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cardImage"
+        app:layout_constraintTop_toTopOf="@+id/cardImage" />
+
+    <TextView
+        android:id="@+id/tvDetalleMarca"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Marca"
+        android:textColor="@color/textSecondary"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvDetalleNombre"
+        app:layout_constraintStart_toStartOf="@+id/tvDetalleNombre"
+        app:layout_constraintTop_toBottomOf="@+id/tvDetalleNombre" />
+
+    <TextView
+        android:id="@+id/tvLabel100g"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/datos_por_100g"
+        android:textColor="@color/textSecondary"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardImage" />
+
+    <LinearLayout
+        android:id="@+id/layoutMacros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        app:layout_constraintTop_toBottomOf="@+id/tvLabel100g">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_macro_box"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingVertical="16dp">
+
+            <TextView
+                android:id="@+id/tvDetalleCalorias"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="?attr/android:textColor"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/kcal"
+                android:textColor="@color/textSecondary"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_macro_box"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingVertical="16dp">
+
+            <TextView
+                android:id="@+id/tvDetalleProteinas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 g"
+                android:textColor="?attr/android:textColor"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/prote_nas"
+                android:textColor="@color/textSecondary"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_macro_box"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingVertical="16dp">
+
+            <TextView
+                android:id="@+id/tvDetalleCarbos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 g"
+                android:textColor="?attr/android:textColor"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/carbs"
+                android:textColor="@color/textSecondary"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_macro_box"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingVertical="16dp">
+
+            <TextView
+                android:id="@+id/tvDetalleGrasas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 g"
+                android:textColor="?attr/android:textColor"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/grasas"
+                android:textColor="@color/textSecondary"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvLabelCantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/cantidad"
+        android:textColor="?attr/android:textColor"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutMacros" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilCantidad"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="8dp"
+        android:textColorHint="@color/textSecondary"
+        app:boxStrokeColor="?attr/android:textColor"
+        app:boxStrokeWidth="1dp"
+        app:hintEnabled="false"
+        app:hintTextColor="#2196F3"
+        app:layout_constraintTop_toBottomOf="@+id/tvLabelCantidad">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etCantidadGram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="Ej: 100"
+            android:inputType="numberDecimal"
+            android:text="100"
+            android:textColor="?attr/android:textColor"
+            android:textColorHint="@color/textSecondary" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tvUnidadInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="g"
+        android:textColor="@color/textSecondary"
+        android:layout_marginEnd="16dp"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="@+id/tilCantidad"
+        app:layout_constraintBottom_toBottomOf="@+id/tilCantidad"
+        app:layout_constraintTop_toTopOf="@+id/tilCantidad"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnIngresarComida"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="?attr/android:textColor"
+        android:text="@string/ingresar_a_desayuno"
+        android:textAllCaps="false"
+        android:textColor="?attr/background"
+        android:textSize="16sp"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tilCantidad" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:gravity="center_vertical"
+    android:background="?android:attr/selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/ivAvatarSocial"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/imagen_default_persona"
+        android:scaleType="centerCrop"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/tvUsernameSocial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre Usuario"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginStart="16dp"/>
+
+</LinearLayout>

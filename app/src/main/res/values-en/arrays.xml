@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dias_entrenamiento_array">
+        <item>1 day</item>
+        <item>2 days</item>
+        <item>3 days</item>
+        <item>4 days</item>
+        <item>5 days</item>
+        <item>6 days</item>
+        <item>7 days</item>
+    </string-array>
+
+    <string-array name="objetivos_array">
+        <item>Hypertrophy (Muscle gain)</item>
+        <item>Maximum strength</item>
+        <item>Endurance</item>
+        <item>Fat loss</item>
+    </string-array>
+
+    <string-array name="experiencia_array">
+        <item>Beginner (0–6 months)</item>
+        <item>Intermediate (6 months-2 years)</item>
+        <item>Advanced (+2 years)</item>
+    </string-array>
+
+    <string-array name="month_names_short">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+
+    <string-array name="array_estilo_vida">
+        <item>Select your lifestyle</item>
+        <item>Sedentary</item>
+        <item>Lightly Active</item>
+        <item>Moderately Active</item>
+        <item>Active</item>
+    </string-array>
+
+    <string-array name="array_objetivos">
+        <item>Select your goal</item>
+        <item>Maintain weight</item>
+        <item>Lose weight</item>
+        <item>Build muscle</item>
+    </string-array>
+
+    <string-array name="array_sexo">
+        <item>Select your gender</item>
+        <item>Man</item>
+        <item>Women</item>
+    </string-array>
+
+    <string-array name="categorias_alimentos_array">
+        <item>Select category</item>
+        <item>Meats</item>
+        <item>Fish &amp; Seafood</item>
+        <item>Eggs</item>
+        <item>Dairy &amp; Cheese</item>
+        <item>Cereals, Pasta &amp; Bread</item>
+        <item>Legumes</item>
+        <item>Fruits</item>
+        <item>Vegetables</item>
+        <item>Nuts</item>
+        <item>Sweets &amp; Desserts</item>
+        <item>Oils &amp; Fats</item>
+        <item>Drinks</item>
+        <item>Prepared Meals</item>
+        <item>Sauces &amp; Condiments</item>
+        <item>Spices &amp; Herbs</item>
+        <item>Seeds</item>
+        <item>Sports Supplements</item>
+        <item>Pastries &amp; Bakery</item>
+        <item>Alcohol</item>
+        <item>Vegan (Tofu/Seitan)</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="dias_semana">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    <string-array name="dias_semana_short">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
+</resources>

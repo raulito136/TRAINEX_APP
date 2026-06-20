@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:id="@+id/headerProfile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:padding="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/tvBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Atrás"
+            android:textColor="@color/link"
+            android:textSize="16sp"
+            android:drawableStart="@drawable/ic_arrow_back"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="end"
+                android:layout_marginEnd="12dp">
+
+                <TextView
+                    android:id="@+id/tvUserName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_name_default"
+                    android:textStyle="bold"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="4dp">
+
+                    <TextView
+                        android:id="@+id/tvSeguidores"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0 Seguidores"
+                        android:textSize="11sp"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_marginEnd="8dp"/>
+
+                    <TextView
+                        android:id="@+id/tvSeguidos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0 Seguidos"
+                        android:textSize="11sp"
+                        android:textColor="@android:color/darker_gray"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivUserAvatar"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/imagen_default_persona"
+                android:scaleType="centerCrop" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollContent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@id/headerProfile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSeguir"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Seguir"
+                android:textSize="14sp"
+                app:cornerRadius="8dp"
+                android:layout_marginBottom="24dp"
+                android:visibility="visible"
+                android:backgroundTint="@color/link"
+                android:fontFamily="sans-serif-medium"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:id="@+id/tvWeight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/weight_format"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="5dp"/>
+
+                <TextView
+                    android:id="@+id/tvHeight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/height_format"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="5dp"/>
+
+                <TextView
+                    android:id="@+id/tvAge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/age_format"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="5dp"/>
+
+                <TextView
+                    android:id="@+id/tvBMI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bmi_format"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="16dp">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnCalendarioPublico"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/button_calendar"
+                    android:textColor="?attr/secondary"
+                    android:singleLine="true"
+                    android:textSize="12sp"
+                    app:strokeWidth="1dp"
+                    app:strokeColor="?attr/secondary"
+                    android:layout_marginEnd="4dp"
+                    android:textAllCaps="false"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnMedidasPublico"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/button_measures"
+                    android:textColor="?attr/secondary"
+                    android:singleLine="true"
+                    android:textSize="12sp"
+                    app:strokeWidth="1dp"
+                    app:strokeColor="?attr/secondary"
+                    android:layout_marginEnd="4dp"
+                    android:textAllCaps="false"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnEjerciciosPublico"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/button_exercises"
+                    android:textColor="?attr/secondary"
+                    android:singleLine="true"
+                    android:textSize="12sp"
+                    app:strokeWidth="1dp"
+                    app:strokeColor="?attr/secondary"
+                    android:textAllCaps="false"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/section_weekly_photos"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvFotosProgreso"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?attr/separator"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/section_evolution_2025"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginBottom="8dp"/>
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabLayoutCharts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                app:tabIndicatorColor="?attr/secondary"
+                app:tabSelectedTextColor="?attr/secondary"
+                app:tabTextColor="@android:color/darker_gray"
+                app:tabMode="fixed"
+                app:tabGravity="fill"/>
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/vpCharts"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginBottom="16dp"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "386622060382",
+    "project_id": "trainex-c2471",
+    "storage_bucket": "trainex-c2471.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386622060382:android:b117ce402136d073fe41cf",
+        "android_client_info": {
+          "package_name": "com.example.trainex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386622060382-j9lin3lrdgio7h8818pjurue856faek8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trainex",
+            "certificate_hash": "189de1287a1888848831d7b27c3170b74115fe99"
+          }
+        },
+        {
+          "client_id": "386622060382-053ikuojfe4ilku0p25vg31esgjcdkon.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrfixe5pPvGzSL4Mo9Yfmc1wAu3bgDiC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386622060382-053ikuojfe4ilku0p25vg31esgjcdkon.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

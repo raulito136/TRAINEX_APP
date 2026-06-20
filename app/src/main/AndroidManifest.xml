@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Trainex"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".perfil.seguidos_seguidores.SeguidosSeguidoresActivity"
+            android:exported="false" />
+        <activity
+            android:name=".dietas.AlimentosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".dietas.CrearAlimentoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".perfil.ajustes.DatosPersonalesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".perfil.ajustes.NotificacionesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".perfil.ajustes.EditarPerfilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".perfil.ajustes.CambiarContrasenaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".perfil.ajustes.UnidadesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".perfil.ajustes.CambiarEmailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".perfil.ajustes.CambiarNombreUsuarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".perfil.ajustes.CuentaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".perfil.ajustes.IdiomaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".perfil.ajustes.ModoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".dietas.DietasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".perfil.buscador.BuscadorUsuariosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".perfil.buscador.PerfilPublicoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".perfil.medidas.DetalleMedidaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".perfil.medidas.MedidasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".perfil.calendario.HistorialCalendarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".perfil.ejercicios.DetalleHistorialActivity"
+            android:exported="false" />
+        <activity
+            android:name=".historial.HistorialActivity"
+            android:exported="false" />
+        <activity
+            android:name=".formulario.registro.FormulariosRegistroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PerfilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".rutinas.RutinaEjerciciosActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+        <activity
+            android:name=".rutinas.GenerarRutinaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".agregarEjercicios.AgregarEjercicioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".crearRutinas.CrearRutinaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".rutinas.Entrenamiento"
+            android:exported="true" />
+        <activity
+            android:name=".login.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".login.RecuperarContrasenaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ejercicio.DetalleEjercicioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".iniciarRutina.EntrenamientoTablasActivity"
+            android:exported="false" />
+        <activity android:name=".perfil.ajustes.AjustesActivity" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>
